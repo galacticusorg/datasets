@@ -312,11 +312,11 @@
       <distanceM31 value="0.7571564" uncertainty="0.018339549"/>
       <massStellar value="6900" uncertainty="1900"/>
       <massDynamicalHalfLightRadius reference="Kirby, Simon, &amp; Cohen (arXiv:1506.01021)" referenceURL="http://arxiv.org/abs/1506.01021">
-        <limit confidenceLevel="90%" type="upper">0.79</limit>
-        <limit confidenceLevel="95%" type="upper">1.26</limit>
+        <limit confidenceLevel="90%" type="upper">0.79e6</limit>
+        <limit confidenceLevel="95%" type="upper">1.26e6</limit>
       </massDynamicalHalfLightRadius>
       <massNeutralHydrogen reference="Janzen et al. (arXiv:1511.05069)" referenceURL="http://arxiv.org/abs/1511.05069">
-        <limit confidenceLevel="99.999971%" type="upper">0.000210</limit>
+        <limit confidenceLevel="99.999971%" type="upper">2.10e2</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="6.6e-05" uncertaintyLow="9e-06" uncertaintyHigh="1.2e-05"/>
       <ellipticityProjected value="0.01" uncertaintyLow="0.01" uncertaintyHigh="0.19"/>
@@ -350,8 +350,8 @@
       <distanceM31 value="0.75457976" uncertainty="0.017524594"/>
       <massStellar value="440" uncertainty="200"/>
       <massDynamicalHalfLightRadius reference="Kirby et al. (2017; arXiv:1703.02978)" referenceURL="http://adsabs.harvard.edu/abs/2017arXiv170302978K">
-        <limit confidenceLevel="90.0" type="upper">0.37</limit>
-        <limit confidenceLevel="95.0" type="upper">0.56</limit>
+        <limit confidenceLevel="90.0" type="upper">0.37e6</limit>
+        <limit confidenceLevel="95.0" type="upper">0.56e6</limit>
       </massDynamicalHalfLightRadius>
       <radiusHalfLight value="3.4e-05" uncertaintyLow="8e-06" uncertaintyHigh="9e-06"/>
       <ellipticityProjected value="0.21" uncertaintyLow="0.21" uncertaintyHigh="0.17"/>
@@ -363,7 +363,7 @@
       <velocityRadialHeliocentric value="-381.7" uncertainty="1.1" reference="Kirby et al. (2017; arXiv:1703.02978)" referenceURL="http://adsabs.harvard.edu/abs/2017arXiv170302978K"/>
       <velocityDispersionStellar reference="Kirby et al. (2017; arXiv:1703.02978)" referenceURL="http://adsabs.harvard.edu/abs/2017arXiv170302978K">
         <limit confidenceLevel="90.0" type="upper">3.4</limit>
-        <limit confidenceLevel="95.0" type="upper">4.2</limit>
+        <limit confidenceLevel="95.0" type="upper">4.3</limit>
       </velocityDispersionStellar>
       <positionAngle value="56" uncertaintyLow="16" uncertaintyHigh="16"/>
       <metallicityStellar value="-2.24" uncertainty="0.05" reference="Kirby et al. (2017; arXiv:1703.02978)" referenceURL="http://adsabs.harvard.edu/abs/2017arXiv170302978K" technique="High resolution spectroscopy"/>
@@ -384,7 +384,7 @@
       <distanceM31 value="0.79010981"/>
       <massStellar value="1000"/>
       <massNeutralHydrogen reference="Westmeier et al. (arXiv:1507.03661)" referenceURL="http://arxiv.org/abs/1507.03661">
-        <limit confidenceLevel="99.999971%" type="upper">0.0001549</limit>
+        <limit confidenceLevel="99.999971%" type="upper">1.549e2</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="3.2e-05" uncertainty="1e-06"/>
       <ellipticityProjected value="0.58" uncertaintyLow="0.03" uncertaintyHigh="0.03"/>
@@ -409,7 +409,7 @@
       <massStellar value="36300"/>
       <massDynamicalHalfLightRadius value="12000000" uncertaintyLow="3000000" uncertaintyHigh="4000000" reference="Li et al. (2016; arXiv:1611.05052)" referenceURL="http://adsabs.harvard.edu/abs/2016arXiv161105052L"/>
       <massNeutralHydrogen reference="Westmeier et al. (arXiv:1507.03661)" referenceURL="http://arxiv.org/abs/1507.03661">
-        <limit confidenceLevel="99.999971%" type="upper">0.02570</limit>
+        <limit confidenceLevel="99.999971%" type="upper">2..570e4</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="0.000277" uncertainty="1.4e-05" reference="Crnojevic et al. (2016; ApJ; 824; 14)" referenceURL="http://adsabs.harvard.edu/abs/2016ApJ...824L..14C"/>
       <ellipticityProjected value="0.48" uncertainty="0.04" reference="Crnojevic et al. (2016; ApJ; 824; 14)" referenceURL="http://adsabs.harvard.edu/abs/2016ApJ...824L..14C"/>
@@ -438,7 +438,7 @@
       <distanceM31 value="0.7999018"/>
       <massStellar value="1910"/>
       <massNeutralHydrogen reference="Westmeier et al. (arXiv:1507.03661)" referenceURL="http://arxiv.org/abs/1507.03661">
-        <limit confidenceLevel="99.999971%" type="upper">0.001175</limit>
+        <limit confidenceLevel="99.999971%" type="upper">1.175e3</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="3e-05" uncertainty="3e-06"/>
       <ellipticityProjected value="0.16" uncertainty="0.12"/>
@@ -462,7 +462,7 @@
       <distanceM31 value="0.82089575"/>
       <massStellar value="1450"/>
       <massNeutralHydrogen reference="Westmeier et al. (arXiv:1507.03661)" referenceURL="http://arxiv.org/abs/1507.03661">
-        <limit confidenceLevel="99.999971%" type="upper">0.003162</limit>
+        <limit confidenceLevel="99.999971%" type="upper">3.162e3</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="3.1e-05" uncertainty="7e-06"/>
       <ellipticityProjected value="0.39" uncertaintyLow="0.22" uncertaintyHigh="0.19"/>
@@ -510,7 +510,7 @@
       <distanceM31 value="0.79683726"/>
       <massStellar value="1100"/>
       <massNeutralHydrogen reference="Westmeier et al. (arXiv:1507.03661)" referenceURL="http://arxiv.org/abs/1507.03661">
-        <limit confidenceLevel="99.999971%" type="upper">0.001585</limit>
+        <limit confidenceLevel="99.999971%" type="upper">1.585e3</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="2.7e-05" uncertainty="5e-06"/>
       <ellipticityProjected value="0.38" uncertaintyLow="0.19" uncertaintyHigh="0.18"/>
@@ -534,7 +534,7 @@
       <distanceM31 value="0.81217435"/>
       <massStellar value="2090"/>
       <massNeutralHydrogen reference="Westmeier et al. (arXiv:1507.03661)" referenceURL="http://arxiv.org/abs/1507.03661">
-        <limit confidenceLevel="99.999971%" type="upper">0.001660</limit>
+        <limit confidenceLevel="99.999971%" type="upper">1.660e3</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="3.9e-05" uncertainty="1.1e-05"/>
       <ellipticityProjected value="0.22" uncertainty="0.16"/>
@@ -558,22 +558,18 @@
       <distanceM31 value="0.80106172"/>
       <massStellar value="1910"/>
       <massDynamicalHalfLightRadius reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296">
-        <limit confidenceLevel="?" type="upper">2.5</limit>
+        <limit confidenceLevel="?" type="upper">2.5e6</limit>
       </massDynamicalHalfLightRadius>
       <massNeutralHydrogen reference="Westmeier et al. (arXiv:1507.03661)" referenceURL="http://arxiv.org/abs/1507.03661">
-        <limit confidenceLevel="99.999971%" type="upper">0.003020</limit>
+        <limit confidenceLevel="99.999971%" type="upper">3.020e3</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="7e-05" uncertainty="2.3e-05"/>
       <ellipticityProjected value="0.37" uncertaintyLow="0.25" uncertaintyHigh="0.24"/>
       <magnitudeAbsoluteV value="-3.4" uncertainty="0.3"/>
       <radiusHalfLightAngular value="1.6" uncertainty="0.6"/>
       <velocityRadialHeliocentric value="-140.5" uncertaintyLow="1.6" uncertaintyHigh="2.4" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
-      <velocityDispersionStellar reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296">
-        <limit confidenceLevel="?" type="upper">9.8</limit>
-      </velocityDispersionStellar>
-      <metallicityDispersionStellar reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296">
-        <limit confidenceLevel="?" type="upper">0.9</limit>
-      </metallicityDispersionStellar>
+      <velocityDispersionStellar value="2.9" uncertaintyLow="2.1" uncertaintyHigh="6.9" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
+      <metallicityDispersionStellar value="0.41" uncertaintyLow="0.23" uncertaintyHigh="0.49" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
       <positionAngle value="48" uncertainty="60"/>
       <metallicityStellar value="-1.42" uncertaintyLow="0.42" uncertaintyHigh="0.55" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
       <referencePrimary reference="Koposov et al. (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302079K"/>
@@ -592,7 +588,7 @@
       <distanceM31 value="0.79685145"/>
       <massStellar value="525"/>
       <massNeutralHydrogen reference="Westmeier et al. (arXiv:1507.03661)" referenceURL="http://arxiv.org/abs/1507.03661">
-        <limit confidenceLevel="99.999971%" type="upper">0.001778</limit>
+        <limit confidenceLevel="99.999971%" type="upper">1.778e3</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="1.8e-05" uncertainty="8e-06"/>
       <ellipticityProjected value="0.34" uncertainty="0.23"/>
@@ -617,7 +613,7 @@
       <massStellar value="4790"/>
       <massDynamicalHalfLightRadius value="2700000" uncertaintyLow="1300000" uncertaintyHigh="3100000" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
       <massNeutralHydrogen reference="Westmeier et al. (arXiv:1507.03661)" referenceURL="http://arxiv.org/abs/1507.03661">
-        <limit confidenceLevel="99.999971%" type="upper">0.0006918</limit>
+        <limit confidenceLevel="99.999971%" type="upper">6.918e2</limit>
       </massNeutralHydrogen>
       <radiusHalfLight value="0.000199" uncertainty="2.8e-05"/>
       <ellipticityProjected value="0.31" uncertaintyLow="0.17" uncertaintyHigh="0.16"/>
@@ -625,9 +621,7 @@
       <radiusHalfLightAngular value="9.9" uncertainty="1.4"/>
       <velocityRadialHeliocentric value="-129.1" uncertainty="3.5" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
       <velocityDispersionStellar value="8.6" uncertaintyLow="0.26" uncertaintyHigh="0.48" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
-      <metallicityDispersionStellar reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296">
-        <limit confidenceLevel="?" type="upper">0.4</limit>
-      </metallicityDispersionStellar>
+      <metallicityDispersionStellar value="0.23" uncertaintyLow="0.13" uncertaintyHigh="0.18" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
       <positionAngle value="106" uncertainty="22"/>
       <detectionEfficiencyHalfLight value="1.00" reference="The DES Collaboration (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302584T"/>
       <metallicityStellar value="-2.23" uncertaintyLow="0.12" uncertaintyHigh="0.18" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
