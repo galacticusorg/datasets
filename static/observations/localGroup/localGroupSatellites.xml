@@ -2887,7 +2887,7 @@
       <rightAscensionDecimal value="40.453278688525"/>
       <positionHeliocentricCartesian value="0.29142952 0.24849362 -0.80005547" uncertainty="0.016099263 0.013727381 0.044196976"/>
       <massStellar value="560000"/>
-      <massDynamicalHalfLightRadius value="41000000"/>
+      <massDynamicalHalfLightRadius value="2.9e7" uncertaintyLow="0.9e7" uncertaintyHigh="1.3e7" reference="Gregory et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2010G" comment="Accounts for measured rotation velocity."/>
       <massNeutralHydrogen value="0"/>
       <radiusHalfLight value="0.284" uncertainty="0.054"/>
       <ellipticityProjected value="0.48" uncertaintyLow="0.03" uncertaintyHigh="0.03"/>
@@ -2895,8 +2895,9 @@
       <radiusHalfLightAngular value="1.10" uncertaintyLow="0.20" uncertaintyHigh="0.20"/>
       <latitudeGalactic value="-47.4"/>
       <longitudeGalactic value="322.9"/>
-      <velocityRadialHeliocentric value="194.0" uncertaintyLow="4.3" uncertaintyHigh="4.3" reference="Fraternali et al. 2009" comment="Stellar velocity gradient of ~16 km s-1 over ~2 rh; unlikely associated with nearby HI cloud"/>
-      <velocityDispersionStellar value="15.8" uncertaintyLow="3.1" uncertaintyHigh="4.1"/>
+      <velocityRadialHeliocentric value="215.2" uncertaintyLow="2.7" uncertaintyHigh="2.7" reference="Gregory et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2010G" comment="Accounts for measured rotation velocity."/>
+      <velocityDispersionStellar value="13.3" uncertaintyLow="2.3" uncertaintyHigh="2.7" reference="Gregory et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2010G" comment="Accounts for measured rotation velocity."/>
+      <velocityRotation value="2.2" uncertainty="1.2" reference="Gregory et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2010G"/>
       <magnitudeApparentV value="15.2" uncertaintyLow="0.2" uncertaintyHigh="0.2"/>
       <distanceLocalGroup value="1.076"/>
       <positionAngle value="97.0" uncertaintyLow="2.0" uncertaintyHigh="2.0"/>
