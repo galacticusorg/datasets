@@ -1,0 +1,8 @@
+# Survey geometry for a simple Zone of Avoidance. Excludes the region within 10 degrees of the Galactic equator.
+circle 0 1
+unit d
+# RA/Dec in degrees
+#  RA       Dec     Angle
+   192.8583 +27.1283 80.0
+   12.8583  -27.1283 80.0
+   
