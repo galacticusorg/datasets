@@ -72,6 +72,12 @@
       <alias value="Grus II"/>
       <alias value="Gru II"/>
       <classification value="galaxy"/>
+      <properMotionRightAscension value="43.0" uncertaintyLow="8.0" uncertaintyHigh="9.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="0.24"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-145.0" uncertaintyLow="15.0" uncertaintyHigh="11.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.24"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="DES J2356-5935">
       <discoverySurvey value="DES"/>
@@ -106,6 +112,12 @@
       <alias value="Tucana III"/>
       <alias value="Tuc III"/>
       <classification value="galaxy"/>
+      <properMotionRightAscension value="-3.0" uncertaintyLow="4.0" uncertaintyHigh="4.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.38"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-165.0" uncertaintyLow="4.0" uncertaintyHigh="4.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.38"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="DES J0531-2801">
       <discoverySurvey value="DES"/>
@@ -131,6 +143,12 @@
       <alias value="Columba I"/>
       <alias value="Col I"/>
       <classification value="galaxy"/>
+      <properMotionRightAscension value="-2.0" uncertaintyLow="27.0" uncertaintyHigh="24.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.22"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-4.0" uncertaintyLow="30.0" uncertaintyHigh="30.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.22"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="DES J0002-6051">
       <discoverySurvey value="DES"/>
@@ -157,6 +175,12 @@
       <alias value="Tucana IV"/>
       <alias value="Tuc IV"/>
       <classification value="galaxy"/>
+      <properMotionRightAscension value="63.0" uncertaintyLow="22.0" uncertaintyHigh="25.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.30"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-171.0" uncertaintyLow="24.0" uncertaintyHigh="20.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.30"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="DES J0345-6026">
       <discoverySurvey value="DES"/>
@@ -182,6 +206,12 @@
       <alias value="Reticulum III"/>
       <alias value="Ret III"/>
       <classification value="galaxy"/>
+     <properMotionRightAscension value="-102.0" uncertaintyLow="30.0" uncertaintyHigh="32.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="0.39"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-123.0" uncertaintyLow="36.0" uncertaintyHigh="40.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.39"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="DES J2337-6316">
       <discoverySurvey value="DES"/>
@@ -286,6 +316,12 @@
       <positionHeliocentricCartesian value="0.33400312E-01   0.38576213E-01  -0.60833009E-01"/>
       <distanceMilkyWay value="0.74828006E-01"/>
       <distanceM31 value="0.79698273E+00"/>
+      <properMotionRightAscension value="82.0" uncertaintyLow="40.0" uncertaintyHigh="45.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="0.07"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-4.0" uncertaintyLow="71.0" uncertaintyHigh="62.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.07"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="Pegasus III">
       <discoverySurvey value="SDSS"/>
@@ -412,6 +448,12 @@
       <referencePrimary reference="Koposov et al. (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302079K"/>
       <alias value="RetII"/>
       <classification value="galaxy"/>
+      <properMotionRightAscension value="236.0" uncertaintyLow="5.0" uncertaintyHigh="5.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="0.18"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-132.0" uncertaintyLow="6.0" uncertaintyHigh="6.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.18"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="Eriadnus II">
       <discoverySurvey value="DES"/>
@@ -440,6 +482,12 @@
       <velocityMilkyWay value="-66.6" reference="Li et al. (2016; arXiv:1611.05052)" referenceURL="http://adsabs.harvard.edu/abs/2016arXiv161105052L"/>
       <detectionEfficiencyHalfLight value="1.00" reference="The DES Collaboration (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302584T"/>
       <metallicityStellar value="-2.38" uncertainty="0.13" reference="Li et al. (2016; arXiv:1611.05052)" referenceURL="http://adsabs.harvard.edu/abs/2016arXiv161105052L" technique="High resolution spectroscopy"/>
+      <properMotionRightAscension value="16.0" uncertaintyLow="24.0" uncertaintyHigh="24.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.27"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="15.0" uncertaintyLow="26.0" uncertaintyHigh="26.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.27"/>
+      </properMotionDeclination>
       <referencePrimary reference="Koposov et al. (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302079K"/>
       <alias value="EriII"/>
       <classification value="galaxy"/>
@@ -473,6 +521,12 @@
       <positionHeliocentricCartesian value="0.28732348E-01   0.27616919E-01  -0.55097713E-01"/>
       <distanceMilkyWay value="0.63851412E-01"/>
       <distanceM31 value="0.79709913E+00"/>
+      <properMotionRightAscension value="95.0" uncertaintyLow="7.0" uncertaintyHigh="7.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="0.29"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-55.0" uncertaintyLow="6.0" uncertaintyHigh="6.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.29"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="Pictoris I">
       <discoverySurvey value="DES"/>
@@ -503,6 +557,12 @@
       <positionHeliocentricCartesian value="0.22946103E-01   0.66433397E-01  -0.84617257E-01" uncertainty="0.83440373E-03   0.24157599E-02   0.30769912E-02"/>
       <distanceMilkyWay value="0.10380363E+00" uncertainty="0.27761708E-02"/>
       <distanceM31 value="0.81948696E+00" uncertainty="0.17559906E-01"/>
+      <properMotionRightAscension value="1.0" uncertaintyLow="19.0" uncertaintyHigh="19.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.20"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="20.0" uncertaintyLow="25.0" uncertaintyHigh="26.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.20"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="Pictoris II">
       <declinationDecimal value="-59.90"/>
@@ -558,6 +618,12 @@
       <positionHeliocentricCartesian value="0.46969223E-01  -0.41180768E-02  -0.65862990E-01"/>
       <distanceMilkyWay value="0.80353413E-01"/>
       <distanceM31 value="0.79640048E+00"/>
+      <properMotionRightAscension value="49.0" uncertaintyLow="10.0" uncertaintyHigh="11.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.48"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-103.0" uncertaintyLow="12.0" uncertaintyHigh="12.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.48"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="Indus I">
       <discoverySurvey value="DES"/>
@@ -618,6 +684,12 @@
       <positionHeliocentricCartesian value="0.70873048E-01  -0.20098862E-01  -0.88306550E-01" uncertainty="0.36977243E-02   0.10486363E-02   0.46072983E-02"/>
       <distanceMilkyWay value="0.11533311E+00" uncertainty="0.41285636E-02"/>
       <distanceM31 value="0.79996164E+00" uncertainty="0.17623408E-01"/>
+      <properMotionRightAscension value="-25.0" uncertaintyLow="16.0" uncertaintyHigh="16.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="0.35"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-47.0" uncertaintyLow="23.0" uncertaintyHigh="23.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.35"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="Eriadnus III">
       <discoverySurvey value="DES"/>
@@ -648,6 +720,12 @@
       <positionHeliocentricCartesian value="0.45215325E-01   0.32473345E-01  -0.71986500E-01" uncertainty="0.19874868E-02   0.14273998E-02   0.31642418E-02"/>
       <distanceMilkyWay value="0.87416139E-01" uncertainty="0.27297992E-02"/>
       <distanceM31 value="0.79771209E+00" uncertainty="0.17538100E-01"/>
+      <properMotionRightAscension value="106.0" uncertaintyLow="24.0" uncertaintyHigh="24.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.12"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-48.0" uncertaintyLow="24.0" uncertaintyHigh="24.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.12"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="Tucana II">
       <discoverySurvey value="DES"/>
@@ -678,6 +756,12 @@
       <referencePrimary reference="Koposov et al. (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302079K"/>
       <alias value="TucII"/>
       <classification value="galaxy"/>
+      <properMotionRightAscension value="91.0" uncertaintyLow="6.0" uncertaintyHigh="6.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.42"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-116.0" uncertaintyLow="8.0" uncertaintyHigh="8.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
+	<uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.42"/>
+      </properMotionDeclination>
     </galaxy>
     <galaxy name="IC 3104">
       <discoverySurvey value="classical"/>
@@ -4802,6 +4886,8 @@
     <property name="properMotionLongitude" description="Proper motion in Galactic longitude." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
     <property name="properMotionNorth" description="Proper motion in North direction." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
     <property name="properMotionWest" description="Proper motion in West directoin." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
+    <property name="properMotionDeclination" description="Proper motion in declination direction." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
+    <property name="properMotionRightAscension" description="Proper motion in right ascension directoin." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
     <property name="publication" description="Discovery publication."/>
     <property name="radiusHalfLight" description="Half light radius." units="Mpc" unitsInSI="3.08567758e+22"/>
     <property name="radiusHalfLightAngular" description="Half-light radius measured on major axis, rh(arcmins)" units="arcminutes" unitsInSI="0.000290888212962963"/>
