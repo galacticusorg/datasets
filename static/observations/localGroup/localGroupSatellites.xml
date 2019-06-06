@@ -5159,28 +5159,34 @@
     </galaxy>
     <galaxy name="Sagittarius II">
       <alias value="Laevens V"/>
-      <rightAscensionSexagesimal hours="19" minutes="52" seconds="40.5" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <declinationSexagesimal degrees="-22" arcminutes="04" arcseconds="05" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <longitudeGalactic value="18.9" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <latitudeGalactic value="-22.9" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <distanceHeliocentric value="67.0e-3" uncertainty="5.0e-3" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <magnitudeAbsoluteV value="-5.2" uncertainty="0.4" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <metallicityStellar value="-2.2" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <ageStellar value="12.0" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
+      <longitudeGalactic value="18.93203283" uncertainty="0.0008" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <latitudeGalactic value="-22.89360512" uncertainty="0.0008" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <distanceHeliocentric value="73.1e-3" uncertaintyLow="0.7e-3" uncertaintyHigh="1.1" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <magnitudeAbsoluteV value="-5.7" uncertainty="0.1" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <metallicityStellar value="-2.28" uncertainty="0.03" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <velocityRadialHeliocentric value="-177.3" uncertainty="1.2" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <velocityDispersionStellar value="2.7" uncertaintyLow="1.0" uncertaintyHigh="1.3" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <ageStellar value="12.0" uncertainty="0.5" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
       <reddening value="0.097" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <ellipticity value="0.23" uncertaintyLow="0.23" uncertaintyHigh="0.17" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <positionAngle value="72.0" uncertaintyLow="20" uncertaintyHigh="28" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <radiusHalfLightAngular value="2.0" uncertaintyLow="0.3" uncertaintyHigh="0.4" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <radiusHalfLight value="38.0e-6" uncertaintyLow="7.0e-6" uncertaintyHigh="8.0e-6" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
+      <ellipticity reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L">
+        <limit confidenceLevel="95%" type="upper">0.12</limit>
+      </ellipticity>
+      <positionAngle value="103.0" uncertaintyLow="17" uncertaintyHigh="28" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <radiusHalfLightAngular value="1.7" uncertainty="0.05" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <radiusHalfLight value="35.5e-6" uncertaintyLow="1.2e-6" uncertaintyHigh="1.4e-6" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
       <classification value="galaxy"/>
       <referencePrimary reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
       <discoverySurvey value="Pan-STARRS"/>
-      <declinationDecimal value="-22.068055555556"/>
-      <rightAscensionDecimal value="298.165983606557"/>
-      <distanceModulus value="19.130374013504" uncertainty="0.162050179815"/>
-      <positionHeliocentricCartesian value="0.29308875E-01  -0.54738830E-01  -0.25172411E-01" uncertainty="0.21872295E-02   0.40849873E-02   0.18785382E-02"/>
-      <distanceMilkyWay value="0.72486134E-01" uncertainty="0.36303987E-02"/>
-      <distanceM31 value="0.78842979E+00" uncertainty="0.17288178E-01"/>
+      <declinationDecimal value="-22.89632528" uncertainty="0.0008" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <rightAscensionDecimal value="298.166284027" uncertainty="0.0008" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <properMotionRightAscension value="-65.0" uncertaintyLow="10.0" uncertaintyHigh="0.08" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <properMotionDeclination value="-88.0" uncertainty="12.0" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <declinationSexagesimal degrees="-22.000000000000" arcminutes="53.000000000000" arcseconds="46.771007999997"/>
+      <rightAscensionSexagesimal hours="19.000000000000" minutes="52.000000000000" seconds="40.573302588004"/>
+      <distanceModulus value="19.319586884789" uncertaintyLow="0.020793853443" uncertaintyHigh="32.676055409957"/>
+      <positionHeliocentricCartesian value="0.31786865E-01  -0.59366111E-01  -0.28440642E-01" uncertaintyLow="0.30438859E-03   0.56848533E-03   0.27234541E-03" uncertaintyHigh="0.47832492E+00   0.89333409E+00   0.42797136E+00"/>
+      <distanceMilkyWay value="0.78476673E-01"/>
+      <distanceM31 value="0.78993376E+00"/>
     </galaxy>
   </galaxies>
   <properties>
