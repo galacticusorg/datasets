@@ -5188,6 +5188,126 @@
       <distanceMilkyWay value="0.78476673E-01"/>
       <distanceM31 value="0.78993376E+00"/>
     </galaxy>
+    <galaxy name="AGC 198606">
+      <distanceHeliocentric value="880.0e-3" uncertainty="20.0e-3" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <massNeutralHydrogen value="1.26e6" uncertaintyLow="2.59e5" uncertaintyHigh="3.26e5" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <magnitudeAbsoluteV reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">-6.7</limit>
+        <limit type="upper">-4.0</limit>
+      </magnitudeAbsoluteV>
+      <metallicityStellar reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">6.31e3</limit>
+        <limit type="upper">3.16e5</limit>
+      </metallicityStellar>
+      <velocityHeliocentric value="53.0" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <classification value="galaxy"/>
+      <referencePrimary reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <discoverySurvey value="ALFAFLA"/>
+      <declinationSexagesimal degrees="16" arcminutes="39" arcseconds="03" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <rightAscensionSexagesimal hours="9" minutes="30" seconds="5.5" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <declinationDecimal value="16.650833333333"/>
+      <rightAscensionDecimal value="142.522540983607"/>
+      <distanceModulus value="24.722413360751" uncertainty="0.049351645671"/>
+      <positionHeliocentricCartesian value="-0.66907845E+00   0.51298387E+00   0.25215387E+00" uncertainty="0.15206328E-01   0.11658724E-01   0.57307697E-02"/>
+      <distanceMilkyWay value="0.87494519E+00" uncertainty="0.13501641E-01"/>
+      <distanceM31 value="0.13375353E+01" uncertainty="0.22870633E-01"/>
+    </galaxy>
+    <galaxy name="AGC 215417">
+      <distanceHeliocentric value="350.0e-3" uncertainty="20.0e-3" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <massNeutralHydrogen value="2.00e4" uncertaintyLow="4.10e3" uncertaintyHigh="5.17e3" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <magnitudeAbsoluteV reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">-5.2</limit>
+        <limit type="upper">-1.4</limit>
+      </magnitudeAbsoluteV>
+      <metallicityStellar reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">3.98e2</limit>
+        <limit type="upper">1.00e4</limit>
+      </metallicityStellar>
+      <velocityHeliocentric value="216.0" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <classification value="galaxy"/>
+      <referencePrimary reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <discoverySurvey value="ALFAFLA"/>
+      <declinationSexagesimal degrees="15" arcminutes="6" arcseconds="44" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <rightAscensionSexagesimal hours="11" minutes="40" seconds="8.1" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <declinationDecimal value="15.112222222222"/>
+      <rightAscensionDecimal value="175.033196721311"/>
+      <distanceModulus value="22.720340221751" uncertainty="0.124084137687"/>
+      <positionHeliocentricCartesian value="-0.33662717E+00   0.29254539E-01   0.91248659E-01" uncertainty="0.19235838E-01   0.16716880E-02   0.52142091E-02"/>
+      <distanceMilkyWay value="0.34749547E+00" uncertainty="0.18511593E-01"/>
+      <distanceM31 value="0.10120820E+01" uncertainty="0.25178129E-01"/>
+    </galaxy>
+    <galaxy name="AGC 219656">
+      <distanceHeliocentric value="900.0e-3" uncertainty="200.0e-3" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <massNeutralHydrogen value="1.58e5" uncertaintyLow="5.85e4" uncertaintyHigh="9.27e4" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <magnitudeAbsoluteV reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">-7.0</limit>
+        <limit type="upper">-3.9</limit>
+      </magnitudeAbsoluteV>
+      <metallicityStellar reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">3.98e3</limit>
+        <limit type="upper">5.01e4</limit>
+      </metallicityStellar>
+      <velocityHeliocentric value="192.0" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <classification value="galaxy"/>
+      <referencePrimary reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <discoverySurvey value="ALFAFLA"/>
+      <declinationSexagesimal degrees="20" arcminutes="32" arcseconds="20" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <rightAscensionSexagesimal hours="11" minutes="51" seconds="24.3" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <declinationDecimal value="20.538888888889"/>
+      <rightAscensionDecimal value="177.849590163934"/>
+      <distanceModulus value="24.771212547197" uncertainty="0.482549424337"/>
+      <positionHeliocentricCartesian value="-0.84219733E+00   0.31623974E-01   0.31575875E+00" uncertainty="0.18715496E+00   0.70275499E-02   0.70168611E-01"/>
+      <distanceMilkyWay value="0.89820270E+00" uncertainty="0.17659014E+00"/>
+      <distanceM31 value="0.14367160E+01" uncertainty="0.18621622E+00"/>
+    </galaxy>
+    <galaxy name="AGC 249525">
+      <distanceHeliocentric value="1600.0e-3" uncertainty="450.0e-3" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <massNeutralHydrogen value="3.16e6" uncertaintyLow="1.58e6" uncertaintyHigh="3.15e6" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <magnitudeAbsoluteV reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">-7.1</limit>
+        <limit type="upper">-4.5</limit>
+      </magnitudeAbsoluteV>
+      <metallicityStellar reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">2.00e4</limit>
+        <limit type="upper">3.98e5</limit>
+      </metallicityStellar>
+      <velocityHeliocentric value="48.0" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <classification value="galaxy"/>
+      <referencePrimary reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <discoverySurvey value="ALFAFLA"/>
+      <declinationSexagesimal degrees="17" arcminutes="32" arcseconds="52" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <rightAscensionSexagesimal hours="14" minutes="17" seconds="50.1" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <declinationDecimal value="17.547777777778"/>
+      <rightAscensionDecimal value="214.455327868852"/>
+      <distanceModulus value="26.020599913280" uncertainty="0.610726615176"/>
+      <positionHeliocentricCartesian value="-0.12579152E+01  -0.86309792E+00   0.48240157E+00" uncertainty="0.35378866E+00   0.24274629E+00   0.13567544E+00"/>
+      <distanceMilkyWay value="0.16021963E+01" uncertainty="0.30953830E+00"/>
+      <distanceM31 value="0.20779930E+01" uncertainty="0.33302848E+00"/>
+    </galaxy>
+    <galaxy name="AGC 268069">
+      <distanceHeliocentric value="700.0e-3" uncertainty="100.0e-3" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <massNeutralHydrogen value="1.26e5" uncertaintyLow="2.59e4" uncertaintyHigh="3.26e4" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <magnitudeAbsoluteV reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">-6.9</limit>
+        <limit type="upper">-2.8</limit>
+      </magnitudeAbsoluteV>
+      <metallicityStellar reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J">
+        <limit type="lower">2.51e3</limit>
+        <limit type="upper">1.58e6</limit>
+      </metallicityStellar>
+      <velocityHeliocentric value="132.0" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <classification value="galaxy"/>
+      <referencePrimary reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <discoverySurvey value="ALFAFLA"/>
+      <declinationSexagesimal degrees="14" arcminutes="59" arcseconds="20" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <rightAscensionSexagesimal hours="16" minutes="5" seconds="32.6" reference="Janesh et a. (2019)" referenceURL="http://adsabs.harvard.edu/abs/2019AJ....157..183J"/>
+      <declinationDecimal value="14.988888888889"/>
+      <rightAscensionDecimal value="241.383606557377"/>
+      <distanceModulus value="24.225490200071" uncertainty="0.310210344217"/>
+      <positionHeliocentricCartesian value="-0.32385324E+00  -0.59358470E+00   0.18104221E+00" uncertainty="0.46264749E-01   0.84797814E-01   0.25863172E-01"/>
+      <distanceMilkyWay value="0.70507810E+00" uncertainty="0.75478816E-01"/>
+      <distanceM31 value="0.11917071E+01" uncertainty="0.63251884E-01"/>
+    </galaxy>
   </galaxies>
   <properties>
     <property name="age" description="Age of stellar population." units="Gyr" unitsInSI="3.15576e16"/>
