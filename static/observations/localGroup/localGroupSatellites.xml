@@ -5308,6 +5308,28 @@
       <distanceMilkyWay value="0.70507810E+00" uncertainty="0.75478816E-01"/>
       <distanceM31 value="0.11917071E+01" uncertainty="0.63251884E-01"/>
     </galaxy>
+    <galaxy name="Bootes IV">
+      <distanceHeliocentric value="209.0e-3" uncertaintyLow="18.0e-3" uncertaintyHigh="20.0e-3" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <classification value="galaxy"/>
+      <referencePrimary reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <discoverySurvey value="HSC-SSP" URL="https://www.naoj.org/Projects/HSC/surveyplan.html"/>
+      <declinationDecimal value="43.726" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <rightAscensionDecimal value="233.689" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <longitudeGalactic value="70.682" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <latitudeGalactic value="53.305" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <positionAngle value="3.0" uncertaintyLow="4.0" uncertaintyHigh="4.0" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <ellipticityProjected value="0.64" uncertaintyLow="0.05" uncertaintyHigh="0.05" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <radiusHalfLightAngular value="7.6" uncertaintyLow="0.8" uncertaintyHigh="0.8" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <extinctionV value="0.067" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <magnitudeAbsoluteV value="-4.53" uncertaintyLow="0.21" uncertaintyHigh="0.23" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <radiusHalfLight value="462.0e-6" uncertaintyLow="84.0e-6" uncertaintyHigh="98.0e-6" reference="Homma et al. (2019)" referenceURL="https://arxiv.org/abs/1906.07332"/>
+      <declinationSexagesimal degrees="43.000000000000" arcminutes="43.000000000000" arcseconds="33.599999999997"/>
+      <rightAscensionSexagesimal hours="15.000000000000" minutes="34.000000000000" seconds="46.115999999998"/>
+      <distanceModulus value="21.600731430555" uncertaintyLow="0.187016762542" uncertaintyHigh="0.207796402825"/>
+      <positionHeliocentricCartesian value="-0.89437838E-01  -0.12170588E+00   0.14446298E+00" uncertaintyLow="0.77027803E-02   0.10481846E-01   0.12441787E-01" uncertaintyHigh="0.85586447E-02   0.11646496E-01   0.13824208E-01"/>
+      <distanceMilkyWay value="0.21427097E+00"/>
+      <distanceM31 value="0.79846679E+00"/>
+    </galaxy>
   </galaxies>
   <properties>
     <property name="age" description="Age of stellar population." units="Gyr" unitsInSI="3.15576e16"/>
