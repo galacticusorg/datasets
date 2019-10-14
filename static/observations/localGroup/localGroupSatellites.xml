@@ -1201,7 +1201,7 @@
       <magnitudeApparentg value="17.52" uncertainty="0.09"/>
       <magnitudeApparentr value="17.35" uncertainty="0.05"/>
       <referencePrimary reference="Tollerud et al. (2014); http://adsabs.harvard.edu/abs/2014arXiv1411.5019T"/>
-      <comment value="Distance based quantities are the mean of those derived assuming the 'Hubble flow' and 'Nearby' methods."/>
+      <comment value="Distance based quantities are the mean of those derived assuming the &apos;Hubble flow&apos; and &apos;Nearby&apos; methods."/>
       <classification value="galaxy"/>
     </galaxy>
     <galaxy name="IC 5152">
@@ -2575,7 +2575,7 @@
       <referencePrimary reference="Barnard (1884)"/>
       <alias value="IC 4895"/>
       <alias value="DDO 209"/>
-      <alias value="Barnard's Galaxy"/>
+      <alias value="Barnard&apos;s Galaxy"/>
       <comment value="Polar ring morph."/>
       <classification value="galaxy"/>
     </galaxy>
@@ -3927,7 +3927,7 @@
       <membership value="N"/>
       <rotationVelocityMaximumNeutralHydrogen value="31.2" uncertaintyLow="2.3" uncertaintyHigh="2.3"/>
       <metallicityStellar value="-1.91" uncertaintyLow="0.19" uncertaintyHigh="0.19" technique="Color of red giant branch"/>
-      <referencePrimary reference="Vorontsov-Vel'Yaminov &amp; Krasnogorskaya (1962)"/>
+      <referencePrimary reference="Vorontsov-Vel&apos;Yaminov &amp; Krasnogorskaya (1962)"/>
       <classification value="galaxy"/>
     </galaxy>
     <galaxy name="Bootes II">
@@ -4174,7 +4174,7 @@
       <magnitudeApparentg value="17.45" uncertainty="0.12"/>
       <magnitudeApparentr value="17.18" uncertainty="0.07"/>
       <referencePrimary reference="Tollerud et al. (2014); http://adsabs.harvard.edu/abs/2014arXiv1411.5019T"/>
-      <comment value="Distance based quantities are the mean of those derived assuming the 'Hubble flow' and 'Nearby' methods."/>
+      <comment value="Distance based quantities are the mean of those derived assuming the &apos;Hubble flow&apos; and &apos;Nearby&apos; methods."/>
       <classification value="galaxy"/>
     </galaxy>
     <galaxy name="DDO 99">
@@ -5058,11 +5058,12 @@
     <galaxy name="Hydrus I">
       <alias value="Hyi I"/>
       <rightAscensionDecimal value="37.389" uncertainty="0.031" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
-      <decinationDecimal value="-79.3089" uncertainty="0.0045" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
+      <declinationDecimal value="-79.3089" uncertainty="0.0045" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <distanceHeliocentric value="27.6e-3" uncertainty="0.5e-3" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <radiusHalfLightAngular value="53.3" uncertainty="3.6" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <positionAngle value="97.0" uncertainty="14.0" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <magnitudeAbsoluteV value="-4.71" uncertainty="0.08" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
+      <massStellar value="4926" uncertaintyLow="350" uncertaintyHigh="377"/>
       <velocityRadialHeliocentric value="80.4" uncertainty="0.6" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <metallicityStellar value="-2.52" uncertainty="0.09" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <massDynamicalHalfLightRadius value="" uncertaintyLow="" uncertaintyHigh="" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
@@ -5073,6 +5074,10 @@
       <properMotionDeclination value="-158.1" uncertainty="3.0" reference="Kallivayalil et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...867...19K"/>
       <rightAscensionSexagesimal hours="2.000000000000" minutes="29.000000000000" seconds="33.916000000001"/>
       <distanceModulus value="17.204545410326" uncertainty="0.039338268288"/>
+      <declinationSexagesimal degrees="-79.000000000000" arcminutes="18.000000000000" arcseconds="32.039999999979"/>
+      <positionHeliocentricCartesian value="0.40681475E-02   0.31090962E-02  -0.27120909E-01" uncertainty="0.73698324E-04   0.56324207E-04   0.49132081E-03"/>
+      <distanceMilkyWay value="0.24462395E-01" uncertainty="0.47030975E-03"/>
+      <distanceM31 value="0.79779763E+00" uncertainty="0.17413103E-01"/>
     </galaxy>
     <galaxy name="Carina II">
       <alias value="Car II"/>
