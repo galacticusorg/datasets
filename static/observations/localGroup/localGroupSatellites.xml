@@ -1483,7 +1483,7 @@
       <rightAscensionDecimal value="4.891393442623"/>
       <positionHeliocentricCartesian value="0.76106906 0.065131473 0.5357432" uncertainty="0.045680458 0.0039092846 0.032156076"/>
       <massStellar value="430000"/>
-      <massDynamicalHalfLightRadius value="27000000" uncertaintyLow="12000000" uncertaintyHigh="19000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
+      <massDynamicalHalfLightRadius value="1.1e8" uncertainty="0.5e8" reference="Collins et al. (2019; arXiv:1910.12879)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv191012879C"/>
       <radiusHalfLight value="3.065e-3" uncertaintyLow="1.065e-3" uncertaintyHigh="0.935e-3" reference="Martin et al. (2016; arXiv:1610.01158)" referenceURL="https://arxiv.org/abs/1610.01158"/>
       <ellipticityProjected value="0.58" uncertaintyLow="0.1" uncertaintyHigh="0.05" reference="Martin et al. (2016; arXiv:1610.01158)" referenceURL="https://arxiv.org/abs/1610.01158"/>
       <extinctionV value="0.062"/>
@@ -1491,8 +1491,8 @@
       <radiusHalfLightAngular value="14.2" uncertaintyLow="1.9" uncertaintyHigh="3.4" reference="Martin et al. (2016; arXiv:1610.01158)" referenceURL="https://arxiv.org/abs/1610.01158"/>
       <latitudeGalactic value="-27.4"/>
       <longitudeGalactic value="115.6"/>
-      <velocityRadialHeliocentric value="-111.6" uncertaintyLow="1.4" uncertaintyHigh="1.6"/>
-      <velocityDispersionStellar value="4.7" uncertaintyLow="1.4" uncertaintyHigh="1.6"/>
+      <velocityRadialHeliocentric value="-109.0" uncertainty="1.6" reference="Collins et al. (2019; arXiv:1910.12879)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv191012879C"/>
+      <velocityDispersionStellar value="7.8" uncertaintyLow="1.5" uncertaintyHigh="1.7" reference="Collins et al. (2019; arXiv:1910.12879)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv191012879C"/>
       <magnitudeApparentV value="14.5" uncertainty="0.3" reference="Martin et al. (2016; arXiv:1610.01158)" referenceURL="https://arxiv.org/abs/1610.01158"/>
       <distanceLocalGroup value="0.548"/>
       <positionAngle value="34" uncertainty="5" reference="Martin et al. (2016; arXiv:1610.01158)" referenceURL="https://arxiv.org/abs/1610.01158"/>
@@ -1502,7 +1502,7 @@
       <rotationVelocityMaximumStellar value="7.4" uncertaintyLow="3.8" uncertaintyHigh="6.6" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
-      <metallicityStellar value="-1.80" uncertaintyLow="0.30" uncertaintyHigh="0.30" technique="CaT calibration"/>
+      <metallicityStellar value="-2.07" uncertainty="0.02" technique="CaT calibration" reference="Collins et al. (2019; arXiv:1910.12879)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv191012879C"/>
       <referencePrimary reference="McConnachie et al. (2008)"/>
       <alias value="And XIX"/>
       <classification value="galaxy"/>
