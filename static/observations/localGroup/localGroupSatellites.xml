@@ -60,16 +60,29 @@
       <distanceMilkyWay value="0.05481355" uncertainty="0.0030751812"/>
       <distanceM31 value="0.78897188" uncertainty="0.017585177"/>
       <massStellar value="3400" uncertaintyLow="400" uncertaintyHigh="300"/>
-      <radiusHalfLight value="9.3e-05" uncertainty="1.4e-05"/>
-      <ellipticityProjected>
-        <limit confidenceLevel="84%" type="upper">0.2</limit>
+      <radiusHalfLight value="94.0e-06" uncertainty="9.0e-06" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <ellipticityProjected reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493">
+        <limit confidenceLevel="95.5%" type="upper">0.21</limit>
       </ellipticityProjected>
-      <magnitudeAbsoluteV value="-3.9" uncertainty="0.22"/>
-      <radiusHalfLightAngular value="6.0" uncertaintyLow="0.5" uncertaintyHigh="0.9"/>
+      <magnitudeAbsoluteV value="-3.5" uncertainty="0.3" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <radiusHalfLightAngular value="5.9" uncertainty="0.5" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
       <ageStellar value="12.5"/>
       <latitudeGalactic value="-51.94"/>
       <longitudeGalactic value="351.15"/>
-      <metallicityStellar value="0.0002" technique="CMD modelling"/>
+      <metallicityStellar value="-2.51" uncertainty="0.11" technique="High resolution spectroscopy" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+       <metallicityDispersionStellar reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493">
+        <limit confidenceLevel="95.5%" type="upper">0.45</limit>
+      </metallicityDispersionStellar>
+      <velocityRadialHeliocentric value="-110.0" uncertainty="0.5" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <velocityDispersionStellar reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493">
+        <limit confidenceLevel="90.0%" type="upper">1.9</limit>
+        <limit confidenceLevel="95.5%" type="upper">2.0</limit>
+      </velocityDispersionStellar>
+      <massDynamicalHalfLightRadius reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493">
+	<limit confidenceLevel="95.5%" type="upper">3.5e5</limit>
+      </massDynamicalHalfLightRadius>
+      <properMotionRightAscension value="45.0" uncertainty="8.0" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <properMotionDeclination value="-146.0" uncertainty="9.0" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
       <referencePrimary reference="DES Collaboration (Drlica-Wagner et al.; 2015; arXiv:1508.03622)" referenceURL="http://arxiv.org/abs/1508.03622"/>
       <alias value="Grus II"/>
       <alias value="Gru II"/>
@@ -166,25 +179,27 @@
       <distanceMilkyWay value="0.046719372" uncertainty="0.0030444625"/>
       <distanceM31 value="0.79472551" uncertainty="0.017566623"/>
       <massStellar value="2200" uncertaintyLow="300" uncertaintyHigh="400"/>
-      <radiusHalfLight value="0.000127" uncertainty="2.4e-05"/>
-      <ellipticityProjected value="0.4" uncertaintyLow="0.1" uncertaintyHigh="0.1"/>
-      <magnitudeAbsoluteV value="-3.5" uncertainty="0.28"/>
-      <radiusHalfLightAngular value="9.1" uncertaintyLow="1.4" uncertaintyHigh="1.7"/>
+      <radiusHalfLight value="127.0e-6" uncertaintyLow="16.0e-6" uncertaintyHigh="22.0e-6" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <ellipticityProjected value="0.39" uncertaintyLow="0.10" uncertaintyHigh="0.07" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <magnitudeAbsoluteV value="-3.0" uncertaintyLow="0.4" uncertaintyHigh="0.3" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <radiusHalfLightAngular value="9.3" uncertaintyLow="0.9" uncertaintyHigh="1.4" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
       <ageStellar value="11.6"/>
       <latitudeGalactic value="-55.29"/>
       <longitudeGalactic value="313.29"/>
-      <positionAngle value="11" uncertainty="9"/>
-      <metallicityStellar value="0.0001" technique="CMD modelling"/>
+      <positionAngle value="27" uncertaintyLow="8" uncertaintyHigh="9" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <metallicityStellar value="-2.49" uncertaintyLow="0.16" uncertaintyHigh="0.15" technique="High resolution spectroscopy" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <metallicityDispersionStellar reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493">
+        <limit confidenceLevel="95.5%" type="upper">0.64</limit>
+      </metallicityDispersionStellar>
+      <velocityRadialHeliocentric value="15.9" uncertaintyLow="1.7" uncertaintyHigh="1.8" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <velocityDispersionStellar value="4.3" uncertaintyLow="1.0" uncertaintyHigh="1.7" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <massDynamicalHalfLightRadius value="2.2e6" uncertaintyLow="1.1e6" uncertaintyHigh="1.8e6" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <properMotionRightAscension value="51.0" uncertainty="14.0" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <properMotionDeclination value="-164.0" uncertainty="13.0" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
       <referencePrimary reference="DES Collaboration (Drlica-Wagner et al.; 2015; arXiv:1508.03622)" referenceURL="http://arxiv.org/abs/1508.03622"/>
       <alias value="Tucana IV"/>
       <alias value="Tuc IV"/>
       <classification value="galaxy"/>
-      <properMotionRightAscension value="63.0" uncertaintyLow="22.0" uncertaintyHigh="25.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
-        <uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.30"/>
-      </properMotionRightAscension>
-      <properMotionDeclination value="-171.0" uncertaintyLow="24.0" uncertaintyHigh="20.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
-        <uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.30"/>
-      </properMotionDeclination>
     </galaxy>
     <galaxy name="DES J0345-6026">
       <discoverySurvey value="DES"/>
@@ -231,15 +246,27 @@
       <distanceMilkyWay value="0.053752106" uncertainty="0.0070614155"/>
       <distanceM31 value="0.7993193" uncertainty="0.018442567"/>
       <massStellar value="500" uncertaintyLow="100" uncertaintyHigh="100"/>
-      <radiusHalfLight value="1.7e-05" uncertainty="6e-06"/>
-      <ellipticityProjected value="0.7" uncertaintyLow="0.2" uncertaintyHigh="0.1"/>
-      <magnitudeAbsoluteV value="-1.6" uncertainty="0.49"/>
-      <radiusHalfLightAngular value="1.0" uncertaintyLow="0.3" uncertaintyHigh="0.3"/>
+      <radiusHalfLight value="34.0e-6" uncertaintyLow="8.0e-6" uncertaintyHigh="11.0e-6" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <ellipticityProjected value="0.51" uncertaintyLow="0.18" uncertaintyHigh="0.09" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <magnitudeAbsoluteV value="-1.1" uncertaintyLow="0.6" uncertaintyHigh="0.5" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <radiusHalfLightAngular value="2.1" uncertaintyLow="0.4" uncertaintyHigh="0.6" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
       <ageStellar value="10.9"/>
       <latitudeGalactic value="-51.89"/>
       <longitudeGalactic value="316.31"/>
-      <positionAngle value="30" uncertainty="5"/>
-      <metallicityStellar value="0.0003" technique="CMD modelling"/>
+      <positionAngle value="29" uncertainty="11" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <metallicityStellar value="-2.17" uncertainty="0.23" technique="High resolution spectroscopy" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <metallicityDispersionStellar reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493">
+        <limit confidenceLevel="95.5%" type="upper">0.64</limit>
+      </metallicityDispersionStellar>
+      <velocityRadialHeliocentric value="-36.2" uncertaintyLow="2.2" uncertaintyHigh="2.5" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <velocityDispersionStellar reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493">
+        <limit confidenceLevel="95.5%" type="upper">7.4</limit>
+      </velocityDispersionStellar>
+      <massDynamicalHalfLightRadius reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493">
+	<limit confidenceLevel="95.5%" type="upper">1.7e6</limit>
+      </massDynamicalHalfLightRadius>
+      <properMotionRightAscension value="-62.0" uncertainty="31.0" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
+      <properMotionDeclination value="-88.0" uncertainty="35.0" reference="Simon et al. (2019; arXiv:1911.08493)" referenceURL="https://arxiv.org/abs/1911.08493"/>
       <referencePrimary reference="DES Collaboration (Drlica-Wagner et al.; 2015; arXiv:1508.03622)" referenceURL="http://arxiv.org/abs/1508.03622"/>
       <alias value="Tucana V"/>
       <alias value="Tuc V"/>
