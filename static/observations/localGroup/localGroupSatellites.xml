@@ -2808,8 +2808,8 @@
       <radiusHalfLightAngular value="8.60" uncertaintyLow="1.10" uncertaintyHigh="1.80"/>
       <latitudeGalactic value="+36.9"/>
       <longitudeGalactic value="28.7"/>
-      <velocityRadialHeliocentric value="45.2" uncertaintyLow="1.1" uncertaintyHigh="1.1" reference="Aden et al. 2009a"/>
-      <velocityDispersionStellar value="3.7" uncertaintyLow="0.9" uncertaintyHigh="0.9"/>
+      <velocityRadialHeliocentric value="46.4" uncertainty="1.3" reference="Gregory et al. (2019; arXiv:1912.00156)" referenceURL="https://arxiv.org/abs/1912.00156"/>
+      <velocityDispersionStellar value="4.4" uncertaintyLow="1.2" uncertaintyHigh="1.4" reference="Gregory et al. (2019; arXiv:1912.00156)" referenceURL="https://arxiv.org/abs/1912.00156"/>
       <magnitudeApparentV value="14.0" uncertaintyLow="0.3" uncertaintyHigh="0.3"/>
       <distanceLocalGroup value="0.444"/>
       <positionAngle value="102.0" uncertaintyLow="4.0" uncertaintyHigh="4.0"/>
@@ -2823,15 +2823,16 @@
       <membership value="G"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
-      <metallicityStellar value="-2.41" uncertaintyLow="0.04" uncertaintyHigh="0.04" technique="Spectral synthesis"/>
+      <metallicityStellar value="-2.48" uncertainty="0.19" technique="High resolution spectroscopy" reference="Gregory et al. (2019; arXiv:1912.00156)" referenceURL="https://arxiv.org/abs/1912.00156"/>
+      <metallicityDispersionStellar value="0.63" uncertaintyLow="0.13" uncertaintyHigh="0.18" reference="Gregory et al. (2019; arXiv:1912.00156)" referenceURL="https://arxiv.org/abs/1912.00156"/>
       <referencePrimary reference="Belokurov et al. (2007)"/>
       <comment value="Tidally disrupting? Remnant? Cluster?"/>
       <classification value="galaxy"/>
-      <properMotionRightAscension value="-29.7" uncertainty="11.8" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
-        <uncertaintyCorrelation with="properMotionDeclination" coefficient="0.136"/>
+      <properMotionRightAscension value="-15.3" uncertainty="6.5" uncertaintySystematic="3.5" reference="Gregory et al. (2019; arXiv:1912.00156)" referenceURL="https://arxiv.org/abs/1912.00156">
+        <uncertaintyCorrelation with="properMotionDeclination" coefficient="0.104"/>
       </properMotionRightAscension>
-      <properMotionDeclination value="-32.9" uncertainty="9.4" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
-        <uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.136"/>
+      <properMotionDeclination value="-39.7" uncertainty="5.2" uncertaintySystematic="3.5" reference="Gregory et al. (2019; arXiv:1912.00156)" referenceURL="https://arxiv.org/abs/1912.00156">
+        <uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.104"/>
       </properMotionDeclination>
     </galaxy>
     <galaxy name="HIZSS 3(A)">
