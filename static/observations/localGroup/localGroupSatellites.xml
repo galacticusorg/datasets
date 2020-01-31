@@ -3229,8 +3229,8 @@
       <radiusHalfLightAngular value="1.10" uncertaintyLow="0.20" uncertaintyHigh="0.20"/>
       <latitudeGalactic value="-47.4"/>
       <longitudeGalactic value="322.9"/>
-      <velocityRadialHeliocentric value="215.2" uncertaintyLow="2.7" uncertaintyHigh="2.7" reference="Gregory et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2010G" comment="Accounts for measured rotation velocity."/>
-      <velocityDispersionStellar value="13.3" uncertaintyLow="2.3" uncertaintyHigh="2.7" reference="Gregory et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2010G" comment="Accounts for measured rotation velocity."/>
+      <velocityRadialHeliocentric value="180.0" uncertainty="1.3" reference="Taibi et al. (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200111410T"/>
+      <velocityDispersionStellar value="6.2" uncertaintyLow="1.3" uncertaintyHigh="1.6" reference="Taibi et al. (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200111410T"/>
       <velocityRotation value="2.2" uncertainty="1.2" reference="Gregory et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.485.2010G"/>
       <magnitudeApparentV value="15.2" uncertaintyLow="0.2" uncertaintyHigh="0.2"/>
       <distanceLocalGroup value="1.076"/>
@@ -3245,7 +3245,8 @@
       <membership value="L"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
-      <metallicityStellar value="-1.95" uncertaintyLow="0.15" uncertaintyHigh="0.15" technique="CaT calibration"/>
+      <metallicityStellar value="-1.58" technique="high resolution spectroscopy" reference="Taibi et al. (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200111410T"/>
+      <metallicityDispersionStellar value="0.39" technique="high resolution spectroscopy" reference="Taibi et al. (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200111410T"/>
       <referencePrimary reference="Lavery (1990)c"/>
       <comment value="Isolated dSph; defines RLG"/>
       <classification value="galaxy"/>
