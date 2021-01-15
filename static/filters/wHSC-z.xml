@@ -3,85 +3,83 @@
   <description>HyperSuprimeCam (HSC) z filter transmission function</description>
   <name>HSCz</name>
   <origin>https://www.subarutelescope.org/Observing/Instruments/HSC/txt/wHSC-z.txt</origin>
-  <note>This is the transmission function (response per photon) for the HSC z filter (including quantum efficiency [https://www.subarutelescope.org/Observing/Instruments/HSC/txt/qe_ccd_HSC.txt], transmittance of the dewar window [https://www.subarutelescope.org/Observing/Instruments/HSC/txt/throughput_win.txt], transmittance of the Primary Focus Unit of the HSC (POpt2) [https://www.subarutelescope.org/Observing/Instruments/HSC/txt/throughput_popt2.txt], and the area-weighted mean filter transmission). Note that the reflectivity of the primary mirror is not included.</note>
+  <note>This is the transmission function (response per photon) for the HSC z filter (including quantum efficiency [https://www.subarutelescope.org/Observing/Instruments/HSC/txt/qe_ccd_HSC.txt], transmittance of the dewar window [https://www.subarutelescope.org/Observing/Instruments/HSC/txt/throughput_win.txt], transmittance of the Primary Focus Unit of the HSC (POpt2) [https://www.subarutelescope.org/Observing/Instruments/HSC/txt/throughput_popt2.txt], the reflectivity of the M1, M2 (Cassegrain, optical), and M3 mirrors, the sky transmission at Mauna Kea (at 1.0 airmass, and 1.0mm water vapor column), and the area-weighted mean filter transmission).</note>
   <response>
-    <datum>8160 0.005866365816216</datum>
-    <datum>8180 0.005860374506064</datum>
-    <datum>8200 0.00411975252</datum>
-    <datum>8220 0.0020888664947584</datum>
+    <datum>8160 0.00290695408062014</datum>
+    <datum>8180 0.00290808486225894</datum>
+    <datum>8200 0.0020410510516342</datum>
+    <datum>8220 0.00103879686561491</datum>
     <datum>8240 0</datum>
     <datum>8260 0</datum>
     <datum>8280 0</datum>
-    <datum>8300 0.000994629888</datum>
-    <datum>8320 0.0022625427761664</datum>
-    <datum>8340 0.0034478701687584</datum>
-    <datum>8360 0.0068625184344192</datum>
-    <datum>8380 0.0109409319002496</datum>
-    <datum>8400 0.02760129801</datum>
-    <datum>8420 0.045912714664752</datum>
-    <datum>8440 0.070740377948064</datum>
-    <datum>8460 0.11179185875316</datum>
-    <datum>8480 0.165893673457008</datum>
-    <datum>8500 0.2359491748112</datum>
-    <datum>8520 0.317232187509821</datum>
-    <datum>8540 0.401927143092278</datum>
-    <datum>8560 0.480626002173184</datum>
-    <datum>8580 0.548902765832682</datum>
-    <datum>8600 0.59880088125</datum>
-    <datum>8620 0.634705964932558</datum>
-    <datum>8640 0.655911245160371</datum>
-    <datum>8660 0.665287768531008</datum>
-    <datum>8680 0.671997375247162</datum>
-    <datum>8700 0.6732365018076</datum>
-    <datum>8720 0.673150118754686</datum>
-    <datum>8740 0.674154836149766</datum>
-    <datum>8760 0.67358792217817</datum>
-    <datum>8780 0.673906633878773</datum>
-    <datum>8800 0.672929862705</datum>
-    <datum>8820 0.66976276645152</datum>
-    <datum>8840 0.66713243719296</datum>
-    <datum>8860 0.66550444542774</datum>
-    <datum>8880 0.66305583699156</datum>
-    <datum>8900 0.6600629544705</datum>
-    <datum>8920 0.656628865103534</datum>
-    <datum>8940 0.652530563517749</datum>
-    <datum>8960 0.650220064541443</datum>
-    <datum>8980 0.648162597515993</datum>
-    <datum>9000 0.64583080146</datum>
-    <datum>9020 0.644747066411232</datum>
-    <datum>9040 0.640398812942824</datum>
-    <datum>9060 0.636644270142144</datum>
-    <datum>9080 0.634572230114592</datum>
-    <datum>9100 0.62986080395</datum>
-    <datum>9120 0.62714861746614</datum>
-    <datum>9140 0.622777441448752</datum>
-    <datum>9160 0.615242211358016</datum>
-    <datum>9180 0.60495828530688</datum>
-    <datum>9200 0.58849196003</datum>
-    <datum>9220 0.56154493352724</datum>
-    <datum>9240 0.523634786190432</datum>
-    <datum>9260 0.473129157180056</datum>
-    <datum>9280 0.409979781577828</datum>
-    <datum>9300 0.3392083192137</datum>
-    <datum>9320 0.264922399458624</datum>
-    <datum>9340 0.195156751227512</datum>
-    <datum>9360 0.134967576273192</datum>
-    <datum>9380 0.0873654442839</datum>
-    <datum>9400 0.05356137955</datum>
-    <datum>9420 0.031408890736608</datum>
-    <datum>9440 0.0181805494595296</datum>
-    <datum>9460 0.0109248698646528</datum>
-    <datum>9480 0.0071457247510416</datum>
-    <datum>9500 0.0043390572108</datum>
-    <datum>9520 0.0028583339588128</datum>
-    <datum>9540 0.0017377835618304</datum>
-    <datum>9560 0.000536422646848</datum>
-    <datum>9580 0.0003178652716896</datum>
+    <datum>8300 0.000497596757376693</datum>
+    <datum>8320 0.00113390734900842</datum>
+    <datum>8340 0.00173571764812638</datum>
+    <datum>8360 0.00347227618648827</datum>
+    <datum>8380 0.00555418110469119</datum>
+    <datum>8400 0.0140108393610405</datum>
+    <datum>8420 0.0234689903795432</datum>
+    <datum>8440 0.0362751827200143</datum>
+    <datum>8460 0.0576351685317964</datum>
+    <datum>8480 0.0855613208184347</datum>
+    <datum>8500 0.12245441412368</datum>
+    <datum>8520 0.165730244028242</datum>
+    <datum>8540 0.211171040959229</datum>
+    <datum>8560 0.253730759300238</datum>
+    <datum>8580 0.292287447023558</datum>
+    <datum>8600 0.320250120963092</datum>
+    <datum>8620 0.340941754245252</datum>
+    <datum>8640 0.356388434247847</datum>
+    <datum>8660 0.364216489720761</datum>
+    <datum>8680 0.370571795692313</datum>
+    <datum>8700 0.372833611671271</datum>
+    <datum>8720 0.375488699273157</datum>
+    <datum>8740 0.376983370686291</datum>
+    <datum>8760 0.379578027199255</datum>
+    <datum>8780 0.382351478091656</datum>
+    <datum>8800 0.383644472308942</datum>
+    <datum>8820 0.385538691101101</datum>
+    <datum>8840 0.387543080768145</datum>
+    <datum>8860 0.388318205504586</datum>
+    <datum>8880 0.390619409190624</datum>
+    <datum>8900 0.39116870713607</datum>
+    <datum>8920 0.392203934829079</datum>
+    <datum>8940 0.391310027382265</datum>
+    <datum>8960 0.392185747916436</datum>
+    <datum>8980 0.394887176568195</datum>
+    <datum>9000 0.390346604610877</datum>
+    <datum>9020 0.384644750221788</datum>
+    <datum>9040 0.392949119492563</datum>
+    <datum>9060 0.394191912332825</datum>
+    <datum>9080 0.383251852741728</datum>
+    <datum>9100 0.387389849047045</datum>
+    <datum>9120 0.388752361249697</datum>
+    <datum>9140 0.384094332706017</datum>
+    <datum>9160 0.382524658164644</datum>
+    <datum>9180 0.377938947648282</datum>
+    <datum>9200 0.374917239469038</datum>
+    <datum>9220 0.358937063884234</datum>
+    <datum>9240 0.335110314598215</datum>
+    <datum>9260 0.304268181904901</datum>
+    <datum>9280 0.26214264710967</datum>
+    <datum>9300 0.213207211391513</datum>
+    <datum>9320 0.152218816193208</datum>
+    <datum>9340 0.106821118887422</datum>
+    <datum>9360 0.0772519130989483</datum>
+    <datum>9380 0.0491921607122706</datum>
+    <datum>9400 0.0344471037842378</datum>
+    <datum>9420 0.0192909440598977</datum>
+    <datum>9440 0.0104579872863663</datum>
+    <datum>9460 0.00666263738683981</datum>
+    <datum>9480 0.00439492694237466</datum>
+    <datum>9500 0.00261867774825225</datum>
+    <datum>9520 0.00178339052668651</datum>
+    <datum>9540 0.0010930031088795</datum>
+    <datum>9560 0.000337641523587129</datum>
+    <datum>9580 0.000208440627036609</datum>
     <datum>9600 0</datum>
     <datum>9620 0</datum>
     <datum>9640 0</datum>
     <datum>9660 0</datum>
   </response>
-  <effectiveWavelength>8907.79313899291</effectiveWavelength>
-  <vegaOffset>-0.525281585353673</vegaOffset>
 </filter>
