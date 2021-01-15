@@ -1,0 +1,2570 @@
+<?xml version="1.0"?>
+<filter>
+  <description>WISE W4 filter transmission function</description>
+  <name>WISEW4</name>
+  <origin>http://www.astro.ucla.edu/~wright/WISE/RSR-W4.txt</origin>
+  <note>This is the transmission function (response per photon) for the WISE W4 filter (quantum efficiency times the transmission of the optics, beamsplitters and filters).</note>
+  <response>
+    <datum> 25300.0 7.003E-17</datum>
+    <datum> 25400.0 1.522E-16</datum>
+    <datum> 25500.0 1.844E-13</datum>
+    <datum> 25600.0 9.997E-14</datum>
+    <datum> 25700.0 7.625E-15</datum>
+    <datum> 25800.0 3.118E-33</datum>
+    <datum> 25900.0 1.462E-42</datum>
+    <datum> 26000.0 5.623E-31</datum>
+    <datum> 26100.0 3.098E-31</datum>
+    <datum> 26200.0 3.176E-31</datum>
+    <datum> 26300.0 2.180E-29</datum>
+    <datum> 26400.0 1.787E-31</datum>
+    <datum> 26500.0 2.700E-29</datum>
+    <datum> 26600.0 2.247E-36</datum>
+    <datum> 26700.0 2.359E-15</datum>
+    <datum> 26800.0 3.207E-15</datum>
+    <datum> 26900.0 1.199E-14</datum>
+    <datum> 27000.0 1.202E-14</datum>
+    <datum> 27100.0 8.765E-15</datum>
+    <datum> 27200.0 1.952E-14</datum>
+    <datum> 27300.0 1.035E-13</datum>
+    <datum> 27400.0 7.126E-15</datum>
+    <datum> 27500.0 1.393E-15</datum>
+    <datum> 27600.0 4.985E-25</datum>
+    <datum> 27700.0 5.091E-16</datum>
+    <datum> 27800.0 9.944E-15</datum>
+    <datum> 27900.0 8.070E-16</datum>
+    <datum> 28000.0 1.143E-15</datum>
+    <datum> 28100.0 2.040E-16</datum>
+    <datum> 28200.0 5.719E-15</datum>
+    <datum> 28300.0 5.992E-15</datum>
+    <datum> 28400.0 4.627E-14</datum>
+    <datum> 28500.0 1.741E-14</datum>
+    <datum> 28600.0 5.682E-29</datum>
+    <datum> 28700.0 3.797E-29</datum>
+    <datum> 28800.0 6.839E-32</datum>
+    <datum> 28900.0 2.240E-15</datum>
+    <datum> 29000.0 1.127E-14</datum>
+    <datum> 29100.0 8.233E-14</datum>
+    <datum> 29200.0 1.135E-15</datum>
+    <datum> 29300.0 7.364E-14</datum>
+    <datum> 29400.0 6.407E-14</datum>
+    <datum> 29500.0 9.980E-14</datum>
+    <datum> 29600.0 1.153E-14</datum>
+    <datum> 29700.0 7.823E-15</datum>
+    <datum> 29800.0 7.042E-16</datum>
+    <datum> 29900.0 7.271E-15</datum>
+    <datum> 30000.0 4.592E-14</datum>
+    <datum> 30100.0 1.052E-14</datum>
+    <datum> 30200.0 2.544E-13</datum>
+    <datum> 30300.0 1.169E-13</datum>
+    <datum> 30400.0 1.287E-14</datum>
+    <datum> 30500.0 6.288E-14</datum>
+    <datum> 30600.0 4.588E-34</datum>
+    <datum> 30700.0 7.799E-27</datum>
+    <datum> 30800.0 2.492E-25</datum>
+    <datum> 30900.0 1.711E-25</datum>
+    <datum> 31000.0 7.617E-30</datum>
+    <datum> 31100.0 4.472E-28</datum>
+    <datum> 31200.0 1.129E-29</datum>
+    <datum> 31300.0 5.430E-37</datum>
+    <datum> 31400.0 1.119E-30</datum>
+    <datum> 31500.0 8.334E-16</datum>
+    <datum> 31600.0 1.481E-14</datum>
+    <datum> 31700.0 3.623E-14</datum>
+    <datum> 31800.0 3.962E-14</datum>
+    <datum> 31900.0 3.184E-15</datum>
+    <datum> 32000.0 4.850E-15</datum>
+    <datum> 32100.0 6.317E-16</datum>
+    <datum> 32200.0 1.508E-13</datum>
+    <datum> 32300.0 1.131E-14</datum>
+    <datum> 32400.0 1.418E-13</datum>
+    <datum> 32500.0 3.207E-13</datum>
+    <datum> 32600.0 1.923E-14</datum>
+    <datum> 32700.0 7.169E-14</datum>
+    <datum> 32800.0 1.065E-14</datum>
+    <datum> 32900.0 1.643E-14</datum>
+    <datum> 33000.0 2.745E-13</datum>
+    <datum> 33100.0 8.683E-15</datum>
+    <datum> 33200.0 1.327E-13</datum>
+    <datum> 33300.0 7.677E-30</datum>
+    <datum> 33400.0 1.092E-34</datum>
+    <datum> 33500.0 2.184E-32</datum>
+    <datum> 33600.0 1.886E-40</datum>
+    <datum> 33700.0 2.685E-29</datum>
+    <datum> 33800.0 1.030E-36</datum>
+    <datum> 33900.0 4.031E-38</datum>
+    <datum> 34000.0 3.135E-35</datum>
+    <datum> 34100.0 9.475E-33</datum>
+    <datum> 34200.0 3.356E-34</datum>
+    <datum> 34300.0 1.000E-30</datum>
+    <datum> 34400.0 9.762E-16</datum>
+    <datum> 34500.0 3.061E-15</datum>
+    <datum> 34600.0 8.835E-16</datum>
+    <datum> 34700.0 5.740E-16</datum>
+    <datum> 34800.0 5.497E-27</datum>
+    <datum> 34900.0 2.261E-33</datum>
+    <datum> 35000.0 3.028E-28</datum>
+    <datum> 35100.0 5.412E-27</datum>
+    <datum> 35200.0 1.672E-29</datum>
+    <datum> 35300.0 8.001E-24</datum>
+    <datum> 35400.0 1.517E-30</datum>
+    <datum> 35500.0 5.463E-26</datum>
+    <datum> 35600.0 1.279E-32</datum>
+    <datum> 35700.0 1.354E-15</datum>
+    <datum> 35800.0 3.866E-14</datum>
+    <datum> 35900.0 3.600E-15</datum>
+    <datum> 36000.0 1.940E-13</datum>
+    <datum> 36100.0 3.370E-14</datum>
+    <datum> 36200.0 8.353E-14</datum>
+    <datum> 36300.0 4.401E-14</datum>
+    <datum> 36400.0 2.862E-14</datum>
+    <datum> 36500.0 1.129E-13</datum>
+    <datum> 36600.0 3.563E-14</datum>
+    <datum> 36700.0 6.793E-14</datum>
+    <datum> 36800.0 3.571E-13</datum>
+    <datum> 36900.0 6.577E-14</datum>
+    <datum> 37000.0 3.803E-15</datum>
+    <datum> 37100.0 2.195E-14</datum>
+    <datum> 37200.0 8.083E-15</datum>
+    <datum> 37300.0 3.639E-14</datum>
+    <datum> 37400.0 2.004E-14</datum>
+    <datum> 37500.0 7.980E-15</datum>
+    <datum> 37600.0 7.014E-15</datum>
+    <datum> 37700.0 3.612E-14</datum>
+    <datum> 37800.0 1.260E-14</datum>
+    <datum> 37900.0 4.077E-14</datum>
+    <datum> 38000.0 2.721E-13</datum>
+    <datum> 38100.0 9.825E-14</datum>
+    <datum> 38200.0 8.635E-14</datum>
+    <datum> 38300.0 4.495E-15</datum>
+    <datum> 38400.0 1.041E-13</datum>
+    <datum> 38500.0 2.350E-13</datum>
+    <datum> 38600.0 4.299E-14</datum>
+    <datum> 38700.0 9.742E-14</datum>
+    <datum> 38800.0 2.212E-13</datum>
+    <datum> 38900.0 7.684E-14</datum>
+    <datum> 39000.0 1.506E-13</datum>
+    <datum> 39100.0 6.299E-14</datum>
+    <datum> 39200.0 8.508E-14</datum>
+    <datum> 39300.0 8.040E-14</datum>
+    <datum> 39400.0 2.333E-13</datum>
+    <datum> 39500.0 6.671E-14</datum>
+    <datum> 39600.0 1.143E-13</datum>
+    <datum> 39700.0 8.496E-14</datum>
+    <datum> 39800.0 4.521E-14</datum>
+    <datum> 39900.0 1.230E-13</datum>
+    <datum> 40000.0 2.355E-26</datum>
+    <datum> 40100.0 4.851E-33</datum>
+    <datum> 40200.0 6.732E-31</datum>
+    <datum> 40300.0 1.567E-36</datum>
+    <datum> 40400.0 1.869E-25</datum>
+    <datum> 40500.0 1.062E-36</datum>
+    <datum> 40600.0 3.267E-25</datum>
+    <datum> 40700.0 1.180E-30</datum>
+    <datum> 40800.0 1.675E-33</datum>
+    <datum> 40900.0 6.418E-30</datum>
+    <datum> 41000.0 9.451E-30</datum>
+    <datum> 41100.0 8.343E-32</datum>
+    <datum> 41200.0 3.188E-13</datum>
+    <datum> 41300.0 2.321E-14</datum>
+    <datum> 41400.0 5.444E-13</datum>
+    <datum> 41500.0 1.374E-14</datum>
+    <datum> 41600.0 3.263E-13</datum>
+    <datum> 41700.0 7.631E-13</datum>
+    <datum> 41800.0 1.428E-12</datum>
+    <datum> 41900.0 1.390E-12</datum>
+    <datum> 42000.0 3.024E-14</datum>
+    <datum> 42100.0 3.258E-14</datum>
+    <datum> 42200.0 5.389E-13</datum>
+    <datum> 42300.0 1.207E-30</datum>
+    <datum> 42400.0 1.867E-33</datum>
+    <datum> 42500.0 1.622E-28</datum>
+    <datum> 42600.0 6.215E-28</datum>
+    <datum> 42700.0 2.794E-26</datum>
+    <datum> 42800.0 1.467E-30</datum>
+    <datum> 42900.0 1.387E-27</datum>
+    <datum> 43000.0 2.035E-28</datum>
+    <datum> 43100.0 5.902E-25</datum>
+    <datum> 43200.0 1.200E-27</datum>
+    <datum> 43300.0 2.152E-36</datum>
+    <datum> 43400.0 1.414E-36</datum>
+    <datum> 43500.0 8.046E-14</datum>
+    <datum> 43600.0 1.822E-13</datum>
+    <datum> 43700.0 5.063E-13</datum>
+    <datum> 43800.0 3.473E-14</datum>
+    <datum> 43900.0 3.065E-13</datum>
+    <datum> 44000.0 3.936E-13</datum>
+    <datum> 44100.0 1.187E-13</datum>
+    <datum> 44200.0 1.034E-12</datum>
+    <datum> 44300.0 5.295E-14</datum>
+    <datum> 44400.0 2.867E-13</datum>
+    <datum> 44500.0 3.803E-13</datum>
+    <datum> 44600.0 1.657E-13</datum>
+    <datum> 44700.0 1.105E-13</datum>
+    <datum> 44800.0 3.283E-14</datum>
+    <datum> 44900.0 6.248E-14</datum>
+    <datum> 45000.0 5.167E-14</datum>
+    <datum> 45100.0 2.985E-14</datum>
+    <datum> 45200.0 6.420E-15</datum>
+    <datum> 45300.0 4.063E-29</datum>
+    <datum> 45400.0 1.163E-32</datum>
+    <datum> 45500.0 1.723E-15</datum>
+    <datum> 45600.0 5.467E-14</datum>
+    <datum> 45700.0 1.951E-13</datum>
+    <datum> 45800.0 2.222E-13</datum>
+    <datum> 45900.0 2.167E-13</datum>
+    <datum> 46000.0 4.682E-13</datum>
+    <datum> 46100.0 4.249E-13</datum>
+    <datum> 46200.0 1.316E-12</datum>
+    <datum> 46300.0 4.466E-13</datum>
+    <datum> 46400.0 1.212E-12</datum>
+    <datum> 46500.0 9.130E-14</datum>
+    <datum> 46600.0 9.380E-15</datum>
+    <datum> 46700.0 9.552E-14</datum>
+    <datum> 46800.0 5.174E-13</datum>
+    <datum> 46900.0 4.066E-13</datum>
+    <datum> 47000.0 5.190E-13</datum>
+    <datum> 47100.0 4.064E-13</datum>
+    <datum> 47200.0 1.709E-13</datum>
+    <datum> 47300.0 1.877E-13</datum>
+    <datum> 47400.0 5.081E-14</datum>
+    <datum> 47500.0 6.988E-14</datum>
+    <datum> 47600.0 3.161E-12</datum>
+    <datum> 47700.0 4.618E-14</datum>
+    <datum> 47800.0 6.916E-14</datum>
+    <datum> 47900.0 8.404E-14</datum>
+    <datum> 48000.0 7.265E-14</datum>
+    <datum> 48100.0 5.175E-14</datum>
+    <datum> 48200.0 1.714E-13</datum>
+    <datum> 48300.0 5.213E-13</datum>
+    <datum> 48400.0 2.211E-14</datum>
+    <datum> 48500.0 3.920E-12</datum>
+    <datum> 48600.0 3.511E-12</datum>
+    <datum> 48700.0 3.284E-12</datum>
+    <datum> 48800.0 5.006E-12</datum>
+    <datum> 48900.0 3.836E-13</datum>
+    <datum> 49000.0 6.567E-14</datum>
+    <datum> 49100.0 1.050E-13</datum>
+    <datum> 49200.0 9.771E-14</datum>
+    <datum> 49300.0 4.556E-13</datum>
+    <datum> 49400.0 2.782E-13</datum>
+    <datum> 49500.0 7.550E-12</datum>
+    <datum> 49600.0 7.499E-13</datum>
+    <datum> 49700.0 2.017E-11</datum>
+    <datum> 49800.0 1.224E-11</datum>
+    <datum> 49900.0 6.818E-12</datum>
+    <datum> 50000.0 1.348E-11</datum>
+    <datum> 50100.0 4.330E-09</datum>
+    <datum> 50200.0 3.090E-09</datum>
+    <datum> 50300.0 5.489E-09</datum>
+    <datum> 50400.0 5.372E-09</datum>
+    <datum> 50500.0 8.352E-09</datum>
+    <datum> 50600.0 1.034E-08</datum>
+    <datum> 50700.0 9.649E-09</datum>
+    <datum> 50800.0 1.205E-08</datum>
+    <datum> 50900.0 1.278E-08</datum>
+    <datum> 51000.0 1.772E-08</datum>
+    <datum> 51100.0 1.840E-08</datum>
+    <datum> 51200.0 1.859E-08</datum>
+    <datum> 51300.0 2.042E-08</datum>
+    <datum> 51400.0 1.622E-08</datum>
+    <datum> 51500.0 2.051E-08</datum>
+    <datum> 51600.0 1.950E-08</datum>
+    <datum> 51700.0 1.429E-08</datum>
+    <datum> 51800.0 1.404E-08</datum>
+    <datum> 51900.0 1.895E-08</datum>
+    <datum> 52000.0 1.777E-08</datum>
+    <datum> 52100.0 1.774E-08</datum>
+    <datum> 52200.0 1.199E-08</datum>
+    <datum> 52300.0 1.490E-08</datum>
+    <datum> 52400.0 1.082E-08</datum>
+    <datum> 52500.0 1.025E-08</datum>
+    <datum> 52600.0 1.041E-08</datum>
+    <datum> 52700.0 9.064E-09</datum>
+    <datum> 52800.0 9.638E-09</datum>
+    <datum> 52900.0 5.348E-09</datum>
+    <datum> 53000.0 5.432E-09</datum>
+    <datum> 53100.0 2.636E-09</datum>
+    <datum> 53200.0 3.687E-09</datum>
+    <datum> 53300.0 5.263E-09</datum>
+    <datum> 53400.0 7.018E-09</datum>
+    <datum> 53500.0 8.591E-09</datum>
+    <datum> 53600.0 7.167E-09</datum>
+    <datum> 53700.0 1.202E-08</datum>
+    <datum> 53800.0 1.064E-08</datum>
+    <datum> 53900.0 1.286E-08</datum>
+    <datum> 54000.0 1.775E-08</datum>
+    <datum> 54100.0 1.987E-08</datum>
+    <datum> 54200.0 2.158E-08</datum>
+    <datum> 54300.0 2.241E-08</datum>
+    <datum> 54400.0 2.758E-08</datum>
+    <datum> 54500.0 2.736E-08</datum>
+    <datum> 54600.0 3.102E-08</datum>
+    <datum> 54700.0 3.642E-08</datum>
+    <datum> 54800.0 3.922E-08</datum>
+    <datum> 54900.0 3.887E-08</datum>
+    <datum> 55000.0 4.014E-08</datum>
+    <datum> 55100.0 3.958E-08</datum>
+    <datum> 55200.0 4.112E-08</datum>
+    <datum> 55300.0 4.177E-08</datum>
+    <datum> 55400.0 4.199E-08</datum>
+    <datum> 55500.0 4.122E-08</datum>
+    <datum> 55600.0 3.950E-08</datum>
+    <datum> 55700.0 3.917E-08</datum>
+    <datum> 55800.0 3.767E-08</datum>
+    <datum> 55900.0 3.560E-08</datum>
+    <datum> 56000.0 3.187E-08</datum>
+    <datum> 56100.0 2.817E-08</datum>
+    <datum> 56200.0 2.427E-08</datum>
+    <datum> 56300.0 2.093E-08</datum>
+    <datum> 56400.0 1.972E-08</datum>
+    <datum> 56500.0 2.134E-08</datum>
+    <datum> 56600.0 2.226E-08</datum>
+    <datum> 56700.0 2.315E-08</datum>
+    <datum> 56800.0 2.367E-08</datum>
+    <datum> 56900.0 3.266E-08</datum>
+    <datum> 57000.0 4.691E-08</datum>
+    <datum> 57100.0 6.091E-08</datum>
+    <datum> 57200.0 7.606E-08</datum>
+    <datum> 57300.0 9.471E-08</datum>
+    <datum> 57400.0 1.113E-07</datum>
+    <datum> 57500.0 1.409E-07</datum>
+    <datum> 57600.0 1.594E-07</datum>
+    <datum> 57700.0 1.880E-07</datum>
+    <datum> 57800.0 2.118E-07</datum>
+    <datum> 57900.0 2.248E-07</datum>
+    <datum> 58000.0 2.449E-07</datum>
+    <datum> 58100.0 2.743E-07</datum>
+    <datum> 58200.0 2.954E-07</datum>
+    <datum> 58300.0 3.119E-07</datum>
+    <datum> 58400.0 3.140E-07</datum>
+    <datum> 58500.0 3.299E-07</datum>
+    <datum> 58600.0 3.289E-07</datum>
+    <datum> 58700.0 3.260E-07</datum>
+    <datum> 58800.0 3.331E-07</datum>
+    <datum> 58900.0 3.572E-07</datum>
+    <datum> 59000.0 3.427E-07</datum>
+    <datum> 59100.0 3.295E-07</datum>
+    <datum> 59200.0 3.129E-07</datum>
+    <datum> 59300.0 3.047E-07</datum>
+    <datum> 59400.0 2.916E-07</datum>
+    <datum> 59500.0 2.823E-07</datum>
+    <datum> 59600.0 2.660E-07</datum>
+    <datum> 59700.0 2.439E-07</datum>
+    <datum> 59800.0 2.227E-07</datum>
+    <datum> 59900.0 2.030E-07</datum>
+    <datum> 60000.0 1.930E-07</datum>
+    <datum> 60100.0 1.748E-07</datum>
+    <datum> 60200.0 1.568E-07</datum>
+    <datum> 60300.0 1.396E-07</datum>
+    <datum> 60400.0 1.205E-07</datum>
+    <datum> 60500.0 1.030E-07</datum>
+    <datum> 60600.0 8.367E-08</datum>
+    <datum> 60700.0 7.468E-08</datum>
+    <datum> 60800.0 6.432E-08</datum>
+    <datum> 60900.0 5.261E-08</datum>
+    <datum> 61000.0 4.281E-08</datum>
+    <datum> 61100.0 3.336E-08</datum>
+    <datum> 61200.0 3.159E-08</datum>
+    <datum> 61300.0 3.527E-08</datum>
+    <datum> 61400.0 4.128E-08</datum>
+    <datum> 61500.0 4.977E-08</datum>
+    <datum> 61600.0 5.969E-08</datum>
+    <datum> 61700.0 7.211E-08</datum>
+    <datum> 61800.0 1.068E-07</datum>
+    <datum> 61900.0 1.557E-07</datum>
+    <datum> 62000.0 2.283E-07</datum>
+    <datum> 62100.0 3.423E-07</datum>
+    <datum> 62200.0 7.282E-07</datum>
+    <datum> 62300.0 6.293E-07</datum>
+    <datum> 62400.0 8.193E-07</datum>
+    <datum> 62500.0 1.099E-06</datum>
+    <datum> 62600.0 9.497E-07</datum>
+    <datum> 62700.0 2.039E-06</datum>
+    <datum> 62800.0 1.783E-06</datum>
+    <datum> 62900.0 9.839E-07</datum>
+    <datum> 63000.0 7.465E-07</datum>
+    <datum> 63100.0 2.597E-07</datum>
+    <datum> 63200.0 2.561E-07</datum>
+    <datum> 63300.0 2.336E-07</datum>
+    <datum> 63400.0 2.242E-07</datum>
+    <datum> 63500.0 1.989E-07</datum>
+    <datum> 63600.0 1.741E-07</datum>
+    <datum> 63700.0 1.449E-07</datum>
+    <datum> 63800.0 1.187E-07</datum>
+    <datum> 63900.0 1.022E-07</datum>
+    <datum> 64000.0 8.034E-08</datum>
+    <datum> 64100.0 6.634E-08</datum>
+    <datum> 64200.0 5.700E-08</datum>
+    <datum> 64300.0 5.779E-08</datum>
+    <datum> 64400.0 7.140E-08</datum>
+    <datum> 64500.0 9.287E-08</datum>
+    <datum> 64600.0 1.178E-07</datum>
+    <datum> 64700.0 1.354E-07</datum>
+    <datum> 64800.0 1.606E-07</datum>
+    <datum> 64900.0 1.868E-07</datum>
+    <datum> 65000.0 2.239E-07</datum>
+    <datum> 65100.0 2.513E-07</datum>
+    <datum> 65200.0 2.861E-07</datum>
+    <datum> 65300.0 3.199E-07</datum>
+    <datum> 65400.0 3.572E-07</datum>
+    <datum> 65500.0 3.985E-07</datum>
+    <datum> 65600.0 4.113E-07</datum>
+    <datum> 65700.0 4.484E-07</datum>
+    <datum> 65800.0 4.876E-07</datum>
+    <datum> 65900.0 5.635E-07</datum>
+    <datum> 66000.0 6.300E-07</datum>
+    <datum> 66100.0 6.942E-07</datum>
+    <datum> 66200.0 7.282E-07</datum>
+    <datum> 66300.0 8.376E-07</datum>
+    <datum> 66400.0 9.090E-07</datum>
+    <datum> 66500.0 9.935E-07</datum>
+    <datum> 66600.0 1.062E-06</datum>
+    <datum> 66700.0 1.132E-06</datum>
+    <datum> 66800.0 1.202E-06</datum>
+    <datum> 66900.0 1.188E-06</datum>
+    <datum> 67000.0 1.196E-06</datum>
+    <datum> 67100.0 1.209E-06</datum>
+    <datum> 67200.0 1.163E-06</datum>
+    <datum> 67300.0 1.091E-06</datum>
+    <datum> 67400.0 1.005E-06</datum>
+    <datum> 67500.0 8.506E-07</datum>
+    <datum> 67600.0 7.316E-07</datum>
+    <datum> 67700.0 6.582E-07</datum>
+    <datum> 67800.0 5.425E-07</datum>
+    <datum> 67900.0 5.197E-07</datum>
+    <datum> 68000.0 5.644E-07</datum>
+    <datum> 68100.0 6.812E-07</datum>
+    <datum> 68200.0 8.074E-07</datum>
+    <datum> 68300.0 9.473E-07</datum>
+    <datum> 68400.0 1.044E-06</datum>
+    <datum> 68500.0 1.200E-06</datum>
+    <datum> 68600.0 1.357E-06</datum>
+    <datum> 68700.0 1.507E-06</datum>
+    <datum> 68800.0 1.681E-06</datum>
+    <datum> 68900.0 1.908E-06</datum>
+    <datum> 69000.0 2.223E-06</datum>
+    <datum> 69100.0 2.399E-06</datum>
+    <datum> 69200.0 2.614E-06</datum>
+    <datum> 69300.0 2.888E-06</datum>
+    <datum> 69400.0 2.918E-06</datum>
+    <datum> 69500.0 3.040E-06</datum>
+    <datum> 69600.0 3.116E-06</datum>
+    <datum> 69700.0 3.177E-06</datum>
+    <datum> 69800.0 3.318E-06</datum>
+    <datum> 69900.0 3.210E-06</datum>
+    <datum> 70000.0 3.231E-06</datum>
+    <datum> 70100.0 3.346E-06</datum>
+    <datum> 70200.0 3.328E-06</datum>
+    <datum> 70300.0 3.247E-06</datum>
+    <datum> 70400.0 3.132E-06</datum>
+    <datum> 70500.0 2.919E-06</datum>
+    <datum> 70600.0 2.793E-06</datum>
+    <datum> 70700.0 2.791E-06</datum>
+    <datum> 70800.0 2.601E-06</datum>
+    <datum> 70900.0 2.611E-06</datum>
+    <datum> 71000.0 2.518E-06</datum>
+    <datum> 71100.0 2.373E-06</datum>
+    <datum> 71200.0 2.358E-06</datum>
+    <datum> 71300.0 2.177E-06</datum>
+    <datum> 71400.0 2.067E-06</datum>
+    <datum> 71500.0 1.945E-06</datum>
+    <datum> 71600.0 1.858E-06</datum>
+    <datum> 71700.0 1.678E-06</datum>
+    <datum> 71800.0 1.599E-06</datum>
+    <datum> 71900.0 1.449E-06</datum>
+    <datum> 72000.0 1.355E-06</datum>
+    <datum> 72100.0 1.242E-06</datum>
+    <datum> 72200.0 1.108E-06</datum>
+    <datum> 72300.0 1.047E-06</datum>
+    <datum> 72400.0 9.309E-07</datum>
+    <datum> 72500.0 8.795E-07</datum>
+    <datum> 72600.0 7.980E-07</datum>
+    <datum> 72700.0 7.143E-07</datum>
+    <datum> 72800.0 6.593E-07</datum>
+    <datum> 72900.0 5.935E-07</datum>
+    <datum> 73000.0 5.389E-07</datum>
+    <datum> 73100.0 4.867E-07</datum>
+    <datum> 73200.0 4.347E-07</datum>
+    <datum> 73300.0 3.788E-07</datum>
+    <datum> 73400.0 3.218E-07</datum>
+    <datum> 73500.0 2.631E-07</datum>
+    <datum> 73600.0 2.105E-07</datum>
+    <datum> 73700.0 1.600E-07</datum>
+    <datum> 73800.0 1.140E-07</datum>
+    <datum> 73900.0 1.117E-07</datum>
+    <datum> 74000.0 1.345E-07</datum>
+    <datum> 74100.0 1.704E-07</datum>
+    <datum> 74200.0 2.138E-07</datum>
+    <datum> 74300.0 2.711E-07</datum>
+    <datum> 74400.0 3.137E-07</datum>
+    <datum> 74500.0 3.571E-07</datum>
+    <datum> 74600.0 3.775E-07</datum>
+    <datum> 74700.0 3.938E-07</datum>
+    <datum> 74800.0 3.904E-07</datum>
+    <datum> 74900.0 3.995E-07</datum>
+    <datum> 75000.0 3.856E-07</datum>
+    <datum> 75100.0 3.602E-07</datum>
+    <datum> 75200.0 3.503E-07</datum>
+    <datum> 75300.0 3.236E-07</datum>
+    <datum> 75400.0 2.978E-07</datum>
+    <datum> 75500.0 2.691E-07</datum>
+    <datum> 75600.0 2.327E-07</datum>
+    <datum> 75700.0 2.077E-07</datum>
+    <datum> 75800.0 1.733E-07</datum>
+    <datum> 75900.0 1.516E-07</datum>
+    <datum> 76000.0 1.204E-07</datum>
+    <datum> 76100.0 1.085E-07</datum>
+    <datum> 76200.0 9.045E-08</datum>
+    <datum> 76300.0 8.352E-08</datum>
+    <datum> 76400.0 8.265E-08</datum>
+    <datum> 76500.0 8.278E-08</datum>
+    <datum> 76600.0 8.139E-08</datum>
+    <datum> 76700.0 8.317E-08</datum>
+    <datum> 76800.0 9.054E-08</datum>
+    <datum> 76900.0 9.450E-08</datum>
+    <datum> 77000.0 1.004E-07</datum>
+    <datum> 77100.0 1.020E-07</datum>
+    <datum> 77200.0 1.085E-07</datum>
+    <datum> 77300.0 1.183E-07</datum>
+    <datum> 77400.0 1.230E-07</datum>
+    <datum> 77500.0 1.307E-07</datum>
+    <datum> 77600.0 1.421E-07</datum>
+    <datum> 77700.0 1.459E-07</datum>
+    <datum> 77800.0 1.579E-07</datum>
+    <datum> 77900.0 1.641E-07</datum>
+    <datum> 78000.0 1.660E-07</datum>
+    <datum> 78100.0 1.727E-07</datum>
+    <datum> 78200.0 1.844E-07</datum>
+    <datum> 78300.0 1.934E-07</datum>
+    <datum> 78400.0 1.911E-07</datum>
+    <datum> 78500.0 1.941E-07</datum>
+    <datum> 78600.0 2.043E-07</datum>
+    <datum> 78700.0 2.003E-07</datum>
+    <datum> 78800.0 2.104E-07</datum>
+    <datum> 78900.0 2.169E-07</datum>
+    <datum> 79000.0 2.168E-07</datum>
+    <datum> 79100.0 2.261E-07</datum>
+    <datum> 79200.0 2.356E-07</datum>
+    <datum> 79300.0 2.462E-07</datum>
+    <datum> 79400.0 2.653E-07</datum>
+    <datum> 79500.0 2.767E-07</datum>
+    <datum> 79600.0 2.806E-07</datum>
+    <datum> 79700.0 3.066E-07</datum>
+    <datum> 79800.0 3.097E-07</datum>
+    <datum> 79900.0 3.236E-07</datum>
+    <datum> 80000.0 3.378E-07</datum>
+    <datum> 80100.0 3.393E-07</datum>
+    <datum> 80200.0 3.399E-07</datum>
+    <datum> 80300.0 3.471E-07</datum>
+    <datum> 80400.0 3.327E-07</datum>
+    <datum> 80500.0 3.321E-07</datum>
+    <datum> 80600.0 3.144E-07</datum>
+    <datum> 80700.0 3.058E-07</datum>
+    <datum> 80800.0 2.943E-07</datum>
+    <datum> 80900.0 2.773E-07</datum>
+    <datum> 81000.0 2.773E-07</datum>
+    <datum> 81100.0 2.733E-07</datum>
+    <datum> 81200.0 2.590E-07</datum>
+    <datum> 81300.0 2.574E-07</datum>
+    <datum> 81400.0 2.732E-07</datum>
+    <datum> 81500.0 2.640E-07</datum>
+    <datum> 81600.0 2.732E-07</datum>
+    <datum> 81700.0 2.861E-07</datum>
+    <datum> 81800.0 3.023E-07</datum>
+    <datum> 81900.0 3.227E-07</datum>
+    <datum> 82000.0 3.462E-07</datum>
+    <datum> 82100.0 3.789E-07</datum>
+    <datum> 82200.0 4.236E-07</datum>
+    <datum> 82300.0 4.805E-07</datum>
+    <datum> 82400.0 5.784E-07</datum>
+    <datum> 82500.0 6.442E-07</datum>
+    <datum> 82600.0 7.581E-07</datum>
+    <datum> 82700.0 9.414E-07</datum>
+    <datum> 82800.0 1.010E-06</datum>
+    <datum> 82900.0 1.199E-06</datum>
+    <datum> 83000.0 1.465E-06</datum>
+    <datum> 83100.0 9.788E-08</datum>
+    <datum> 83200.0 8.156E-08</datum>
+    <datum> 83300.0 7.693E-08</datum>
+    <datum> 83400.0 6.748E-08</datum>
+    <datum> 83500.0 6.590E-08</datum>
+    <datum> 83600.0 6.708E-08</datum>
+    <datum> 83700.0 6.291E-08</datum>
+    <datum> 83800.0 6.179E-08</datum>
+    <datum> 83900.0 6.280E-08</datum>
+    <datum> 84000.0 5.972E-08</datum>
+    <datum> 84100.0 5.438E-08</datum>
+    <datum> 84200.0 5.155E-08</datum>
+    <datum> 84300.0 4.837E-08</datum>
+    <datum> 84400.0 4.732E-08</datum>
+    <datum> 84500.0 4.504E-08</datum>
+    <datum> 84600.0 4.131E-08</datum>
+    <datum> 84700.0 3.957E-08</datum>
+    <datum> 84800.0 3.882E-08</datum>
+    <datum> 84900.0 3.827E-08</datum>
+    <datum> 85000.0 3.783E-08</datum>
+    <datum> 85100.0 3.798E-08</datum>
+    <datum> 85200.0 3.933E-08</datum>
+    <datum> 85300.0 3.842E-08</datum>
+    <datum> 85400.0 4.065E-08</datum>
+    <datum> 85500.0 3.997E-08</datum>
+    <datum> 85600.0 4.201E-08</datum>
+    <datum> 85700.0 4.137E-08</datum>
+    <datum> 85800.0 4.199E-08</datum>
+    <datum> 85900.0 4.281E-08</datum>
+    <datum> 86000.0 4.354E-08</datum>
+    <datum> 86100.0 4.438E-08</datum>
+    <datum> 86200.0 4.647E-08</datum>
+    <datum> 86300.0 4.711E-08</datum>
+    <datum> 86400.0 4.757E-08</datum>
+    <datum> 86500.0 4.705E-08</datum>
+    <datum> 86600.0 4.866E-08</datum>
+    <datum> 86700.0 4.980E-08</datum>
+    <datum> 86800.0 5.080E-08</datum>
+    <datum> 86900.0 5.187E-08</datum>
+    <datum> 87000.0 5.273E-08</datum>
+    <datum> 87100.0 5.314E-08</datum>
+    <datum> 87200.0 5.399E-08</datum>
+    <datum> 87300.0 5.461E-08</datum>
+    <datum> 87400.0 5.296E-08</datum>
+    <datum> 87500.0 5.432E-08</datum>
+    <datum> 87600.0 5.489E-08</datum>
+    <datum> 87700.0 5.433E-08</datum>
+    <datum> 87800.0 5.554E-08</datum>
+    <datum> 87900.0 5.681E-08</datum>
+    <datum> 88000.0 5.856E-08</datum>
+    <datum> 88100.0 6.181E-08</datum>
+    <datum> 88200.0 6.357E-08</datum>
+    <datum> 88300.0 6.380E-08</datum>
+    <datum> 88400.0 6.494E-08</datum>
+    <datum> 88500.0 6.808E-08</datum>
+    <datum> 88600.0 6.811E-08</datum>
+    <datum> 88700.0 6.995E-08</datum>
+    <datum> 88800.0 7.189E-08</datum>
+    <datum> 88900.0 7.434E-08</datum>
+    <datum> 89000.0 7.918E-08</datum>
+    <datum> 89100.0 8.123E-08</datum>
+    <datum> 89200.0 8.514E-08</datum>
+    <datum> 89300.0 8.804E-08</datum>
+    <datum> 89400.0 9.019E-08</datum>
+    <datum> 89500.0 9.390E-08</datum>
+    <datum> 89600.0 9.614E-08</datum>
+    <datum> 89700.0 9.898E-08</datum>
+    <datum> 89800.0 1.010E-07</datum>
+    <datum> 89900.0 1.019E-07</datum>
+    <datum> 90000.0 1.004E-07</datum>
+    <datum> 90100.0 1.043E-07</datum>
+    <datum> 90200.0 1.080E-07</datum>
+    <datum> 90300.0 1.088E-07</datum>
+    <datum> 90400.0 1.077E-07</datum>
+    <datum> 90500.0 1.110E-07</datum>
+    <datum> 90600.0 1.126E-07</datum>
+    <datum> 90700.0 1.141E-07</datum>
+    <datum> 90800.0 1.149E-07</datum>
+    <datum> 90900.0 1.158E-07</datum>
+    <datum> 91000.0 1.162E-07</datum>
+    <datum> 91100.0 1.158E-07</datum>
+    <datum> 91200.0 1.151E-07</datum>
+    <datum> 91300.0 1.162E-07</datum>
+    <datum> 91400.0 1.128E-07</datum>
+    <datum> 91500.0 1.120E-07</datum>
+    <datum> 91600.0 1.122E-07</datum>
+    <datum> 91700.0 1.114E-07</datum>
+    <datum> 91800.0 1.117E-07</datum>
+    <datum> 91900.0 1.095E-07</datum>
+    <datum> 92000.0 1.061E-07</datum>
+    <datum> 92100.0 1.002E-07</datum>
+    <datum> 92200.0 9.912E-08</datum>
+    <datum> 92300.0 9.508E-08</datum>
+    <datum> 92400.0 8.822E-08</datum>
+    <datum> 92500.0 8.416E-08</datum>
+    <datum> 92600.0 8.156E-08</datum>
+    <datum> 92700.0 7.926E-08</datum>
+    <datum> 92800.0 7.475E-08</datum>
+    <datum> 92900.0 7.310E-08</datum>
+    <datum> 93000.0 7.218E-08</datum>
+    <datum> 93100.0 7.035E-08</datum>
+    <datum> 93200.0 6.856E-08</datum>
+    <datum> 93300.0 6.598E-08</datum>
+    <datum> 93400.0 6.600E-08</datum>
+    <datum> 93500.0 6.514E-08</datum>
+    <datum> 93600.0 6.326E-08</datum>
+    <datum> 93700.0 6.190E-08</datum>
+    <datum> 93800.0 6.121E-08</datum>
+    <datum> 93900.0 6.056E-08</datum>
+    <datum> 94000.0 5.991E-08</datum>
+    <datum> 94100.0 5.928E-08</datum>
+    <datum> 94200.0 5.868E-08</datum>
+    <datum> 94300.0 5.809E-08</datum>
+    <datum> 94400.0 5.759E-08</datum>
+    <datum> 94500.0 5.715E-08</datum>
+    <datum> 94600.0 5.633E-08</datum>
+    <datum> 94700.0 5.573E-08</datum>
+    <datum> 94800.0 5.489E-08</datum>
+    <datum> 94900.0 5.421E-08</datum>
+    <datum> 95000.0 5.333E-08</datum>
+    <datum> 95100.0 5.278E-08</datum>
+    <datum> 95200.0 5.212E-08</datum>
+    <datum> 95300.0 5.134E-08</datum>
+    <datum> 95400.0 5.096E-08</datum>
+    <datum> 95500.0 5.050E-08</datum>
+    <datum> 95600.0 5.015E-08</datum>
+    <datum> 95700.0 4.905E-08</datum>
+    <datum> 95800.0 5.007E-08</datum>
+    <datum> 95900.0 4.980E-08</datum>
+    <datum> 96000.0 4.880E-08</datum>
+    <datum> 96100.0 4.853E-08</datum>
+    <datum> 96200.0 4.819E-08</datum>
+    <datum> 96300.0 4.796E-08</datum>
+    <datum> 96400.0 4.816E-08</datum>
+    <datum> 96500.0 4.780E-08</datum>
+    <datum> 96600.0 4.869E-08</datum>
+    <datum> 96700.0 4.902E-08</datum>
+    <datum> 96800.0 4.892E-08</datum>
+    <datum> 96900.0 4.817E-08</datum>
+    <datum> 97000.0 4.787E-08</datum>
+    <datum> 97100.0 4.828E-08</datum>
+    <datum> 97200.0 4.763E-08</datum>
+    <datum> 97300.0 4.694E-08</datum>
+    <datum> 97400.0 4.662E-08</datum>
+    <datum> 97500.0 4.641E-08</datum>
+    <datum> 97600.0 4.703E-08</datum>
+    <datum> 97700.0 4.710E-08</datum>
+    <datum> 97800.0 4.675E-08</datum>
+    <datum> 97900.0 4.675E-08</datum>
+    <datum> 98000.0 4.681E-08</datum>
+    <datum> 98100.0 4.666E-08</datum>
+    <datum> 98200.0 4.657E-08</datum>
+    <datum> 98300.0 4.647E-08</datum>
+    <datum> 98400.0 4.666E-08</datum>
+    <datum> 98500.0 4.681E-08</datum>
+    <datum> 98600.0 4.671E-08</datum>
+    <datum> 98700.0 4.615E-08</datum>
+    <datum> 98800.0 4.608E-08</datum>
+    <datum> 98900.0 4.638E-08</datum>
+    <datum> 99000.0 4.610E-08</datum>
+    <datum> 99100.0 4.573E-08</datum>
+    <datum> 99200.0 4.655E-08</datum>
+    <datum> 99300.0 4.646E-08</datum>
+    <datum> 99400.0 4.645E-08</datum>
+    <datum> 99500.0 4.637E-08</datum>
+    <datum> 99600.0 4.661E-08</datum>
+    <datum> 99700.0 4.669E-08</datum>
+    <datum> 99800.0 4.664E-08</datum>
+    <datum> 99900.0 4.633E-08</datum>
+    <datum>100000.0 4.639E-08</datum>
+    <datum>100100.0 4.647E-08</datum>
+    <datum>100200.0 4.666E-08</datum>
+    <datum>100300.0 4.677E-08</datum>
+    <datum>100400.0 4.698E-08</datum>
+    <datum>100500.0 4.720E-08</datum>
+    <datum>100600.0 4.712E-08</datum>
+    <datum>100700.0 4.712E-08</datum>
+    <datum>100800.0 4.699E-08</datum>
+    <datum>100900.0 4.611E-08</datum>
+    <datum>101000.0 4.696E-08</datum>
+    <datum>101100.0 4.649E-08</datum>
+    <datum>101200.0 4.630E-08</datum>
+    <datum>101300.0 4.605E-08</datum>
+    <datum>101400.0 4.584E-08</datum>
+    <datum>101500.0 4.572E-08</datum>
+    <datum>101600.0 4.537E-08</datum>
+    <datum>101700.0 4.509E-08</datum>
+    <datum>101800.0 4.491E-08</datum>
+    <datum>101900.0 4.482E-08</datum>
+    <datum>102000.0 4.459E-08</datum>
+    <datum>102100.0 4.448E-08</datum>
+    <datum>102200.0 4.427E-08</datum>
+    <datum>102300.0 4.438E-08</datum>
+    <datum>102400.0 4.394E-08</datum>
+    <datum>102500.0 4.382E-08</datum>
+    <datum>102600.0 4.382E-08</datum>
+    <datum>102700.0 4.335E-08</datum>
+    <datum>102800.0 4.318E-08</datum>
+    <datum>102900.0 4.299E-08</datum>
+    <datum>103000.0 4.320E-08</datum>
+    <datum>103100.0 4.349E-08</datum>
+    <datum>103200.0 4.369E-08</datum>
+    <datum>103300.0 4.388E-08</datum>
+    <datum>103400.0 4.408E-08</datum>
+    <datum>103500.0 4.428E-08</datum>
+    <datum>103600.0 4.505E-08</datum>
+    <datum>103700.0 4.555E-08</datum>
+    <datum>103800.0 4.542E-08</datum>
+    <datum>103900.0 4.516E-08</datum>
+    <datum>104000.0 4.465E-08</datum>
+    <datum>104100.0 4.444E-08</datum>
+    <datum>104200.0 4.454E-08</datum>
+    <datum>104300.0 4.438E-08</datum>
+    <datum>104400.0 4.413E-08</datum>
+    <datum>104500.0 4.394E-08</datum>
+    <datum>104600.0 4.404E-08</datum>
+    <datum>104700.0 4.404E-08</datum>
+    <datum>104800.0 4.324E-08</datum>
+    <datum>104900.0 4.386E-08</datum>
+    <datum>105000.0 4.434E-08</datum>
+    <datum>105100.0 4.444E-08</datum>
+    <datum>105200.0 4.466E-08</datum>
+    <datum>105300.0 4.514E-08</datum>
+    <datum>105400.0 4.544E-08</datum>
+    <datum>105500.0 4.568E-08</datum>
+    <datum>105600.0 4.534E-08</datum>
+    <datum>105700.0 4.504E-08</datum>
+    <datum>105800.0 4.506E-08</datum>
+    <datum>105900.0 4.498E-08</datum>
+    <datum>106000.0 4.481E-08</datum>
+    <datum>106100.0 4.474E-08</datum>
+    <datum>106200.0 4.457E-08</datum>
+    <datum>106300.0 4.438E-08</datum>
+    <datum>106400.0 4.472E-08</datum>
+    <datum>106500.0 4.441E-08</datum>
+    <datum>106600.0 4.409E-08</datum>
+    <datum>106700.0 4.385E-08</datum>
+    <datum>106800.0 4.371E-08</datum>
+    <datum>106900.0 4.344E-08</datum>
+    <datum>107000.0 4.325E-08</datum>
+    <datum>107100.0 4.301E-08</datum>
+    <datum>107200.0 4.273E-08</datum>
+    <datum>107300.0 4.267E-08</datum>
+    <datum>107400.0 4.268E-08</datum>
+    <datum>107500.0 4.269E-08</datum>
+    <datum>107600.0 4.229E-08</datum>
+    <datum>107700.0 4.196E-08</datum>
+    <datum>107800.0 4.232E-08</datum>
+    <datum>107900.0 4.232E-08</datum>
+    <datum>108000.0 4.220E-08</datum>
+    <datum>108100.0 4.202E-08</datum>
+    <datum>108200.0 4.192E-08</datum>
+    <datum>108300.0 4.144E-08</datum>
+    <datum>108400.0 4.154E-08</datum>
+    <datum>108500.0 4.181E-08</datum>
+    <datum>108600.0 4.204E-08</datum>
+    <datum>108700.0 4.208E-08</datum>
+    <datum>108800.0 4.197E-08</datum>
+    <datum>108900.0 4.200E-08</datum>
+    <datum>109000.0 4.208E-08</datum>
+    <datum>109100.0 4.277E-08</datum>
+    <datum>109200.0 4.306E-08</datum>
+    <datum>109300.0 4.324E-08</datum>
+    <datum>109400.0 4.362E-08</datum>
+    <datum>109500.0 4.412E-08</datum>
+    <datum>109600.0 4.456E-08</datum>
+    <datum>109700.0 4.503E-08</datum>
+    <datum>109800.0 4.555E-08</datum>
+    <datum>109900.0 4.625E-08</datum>
+    <datum>110000.0 4.730E-08</datum>
+    <datum>110100.0 4.849E-08</datum>
+    <datum>110200.0 4.969E-08</datum>
+    <datum>110300.0 5.088E-08</datum>
+    <datum>110400.0 5.297E-08</datum>
+    <datum>110500.0 5.553E-08</datum>
+    <datum>110600.0 5.827E-08</datum>
+    <datum>110700.0 6.148E-08</datum>
+    <datum>110800.0 6.501E-08</datum>
+    <datum>110900.0 6.963E-08</datum>
+    <datum>111000.0 7.481E-08</datum>
+    <datum>111100.0 4.757E-08</datum>
+    <datum>111200.0 4.302E-08</datum>
+    <datum>111300.0 3.848E-08</datum>
+    <datum>111400.0 3.302E-08</datum>
+    <datum>111500.0 2.952E-08</datum>
+    <datum>111600.0 2.642E-08</datum>
+    <datum>111700.0 2.377E-08</datum>
+    <datum>111800.0 2.112E-08</datum>
+    <datum>111900.0 1.896E-08</datum>
+    <datum>112000.0 1.750E-08</datum>
+    <datum>112100.0 1.614E-08</datum>
+    <datum>112200.0 1.493E-08</datum>
+    <datum>112300.0 1.392E-08</datum>
+    <datum>112400.0 1.321E-08</datum>
+    <datum>112500.0 1.243E-08</datum>
+    <datum>112600.0 1.178E-08</datum>
+    <datum>112700.0 1.103E-08</datum>
+    <datum>112800.0 1.065E-08</datum>
+    <datum>112900.0 1.055E-08</datum>
+    <datum>113000.0 1.027E-08</datum>
+    <datum>113100.0 1.003E-08</datum>
+    <datum>113200.0 9.637E-09</datum>
+    <datum>113300.0 9.575E-09</datum>
+    <datum>113400.0 9.545E-09</datum>
+    <datum>113500.0 9.629E-09</datum>
+    <datum>113600.0 9.669E-09</datum>
+    <datum>113700.0 9.652E-09</datum>
+    <datum>113800.0 9.525E-09</datum>
+    <datum>113900.0 9.730E-09</datum>
+    <datum>114000.0 9.911E-09</datum>
+    <datum>114100.0 9.989E-09</datum>
+    <datum>114200.0 1.017E-08</datum>
+    <datum>114300.0 1.026E-08</datum>
+    <datum>114400.0 1.044E-08</datum>
+    <datum>114500.0 1.052E-08</datum>
+    <datum>114600.0 1.074E-08</datum>
+    <datum>114700.0 1.097E-08</datum>
+    <datum>114800.0 1.107E-08</datum>
+    <datum>114900.0 1.117E-08</datum>
+    <datum>115000.0 1.136E-08</datum>
+    <datum>115100.0 1.161E-08</datum>
+    <datum>115200.0 1.182E-08</datum>
+    <datum>115300.0 1.200E-08</datum>
+    <datum>115400.0 1.209E-08</datum>
+    <datum>115500.0 1.230E-08</datum>
+    <datum>115600.0 1.241E-08</datum>
+    <datum>115700.0 1.251E-08</datum>
+    <datum>115800.0 1.281E-08</datum>
+    <datum>115900.0 1.298E-08</datum>
+    <datum>116000.0 1.316E-08</datum>
+    <datum>116100.0 1.335E-08</datum>
+    <datum>116200.0 1.358E-08</datum>
+    <datum>116300.0 1.386E-08</datum>
+    <datum>116400.0 1.400E-08</datum>
+    <datum>116500.0 1.431E-08</datum>
+    <datum>116600.0 1.468E-08</datum>
+    <datum>116700.0 1.494E-08</datum>
+    <datum>116800.0 1.526E-08</datum>
+    <datum>116900.0 1.554E-08</datum>
+    <datum>117000.0 1.587E-08</datum>
+    <datum>117100.0 1.624E-08</datum>
+    <datum>117200.0 1.662E-08</datum>
+    <datum>117300.0 1.693E-08</datum>
+    <datum>117400.0 1.715E-08</datum>
+    <datum>117500.0 1.753E-08</datum>
+    <datum>117600.0 1.788E-08</datum>
+    <datum>117700.0 1.808E-08</datum>
+    <datum>117800.0 1.838E-08</datum>
+    <datum>117900.0 1.877E-08</datum>
+    <datum>118000.0 1.915E-08</datum>
+    <datum>118100.0 1.971E-08</datum>
+    <datum>118200.0 2.004E-08</datum>
+    <datum>118300.0 2.048E-08</datum>
+    <datum>118400.0 2.090E-08</datum>
+    <datum>118500.0 2.129E-08</datum>
+    <datum>118600.0 2.162E-08</datum>
+    <datum>118700.0 2.182E-08</datum>
+    <datum>118800.0 2.244E-08</datum>
+    <datum>118900.0 2.309E-08</datum>
+    <datum>119000.0 2.345E-08</datum>
+    <datum>119100.0 2.378E-08</datum>
+    <datum>119200.0 2.419E-08</datum>
+    <datum>119300.0 2.443E-08</datum>
+    <datum>119400.0 2.436E-08</datum>
+    <datum>119500.0 2.467E-08</datum>
+    <datum>119600.0 2.499E-08</datum>
+    <datum>119700.0 2.530E-08</datum>
+    <datum>119800.0 2.552E-08</datum>
+    <datum>119900.0 2.584E-08</datum>
+    <datum>120000.0 2.607E-08</datum>
+    <datum>120100.0 2.671E-08</datum>
+    <datum>120200.0 2.687E-08</datum>
+    <datum>120300.0 2.687E-08</datum>
+    <datum>120400.0 2.629E-08</datum>
+    <datum>120500.0 2.642E-08</datum>
+    <datum>120600.0 2.645E-08</datum>
+    <datum>120700.0 2.658E-08</datum>
+    <datum>120800.0 2.670E-08</datum>
+    <datum>120900.0 2.681E-08</datum>
+    <datum>121000.0 2.690E-08</datum>
+    <datum>121100.0 2.698E-08</datum>
+    <datum>121200.0 2.696E-08</datum>
+    <datum>121300.0 2.705E-08</datum>
+    <datum>121400.0 2.714E-08</datum>
+    <datum>121500.0 2.724E-08</datum>
+    <datum>121600.0 2.734E-08</datum>
+    <datum>121700.0 2.815E-08</datum>
+    <datum>121800.0 2.833E-08</datum>
+    <datum>121900.0 2.826E-08</datum>
+    <datum>122000.0 2.776E-08</datum>
+    <datum>122100.0 2.797E-08</datum>
+    <datum>122200.0 2.806E-08</datum>
+    <datum>122300.0 2.861E-08</datum>
+    <datum>122400.0 2.873E-08</datum>
+    <datum>122500.0 2.867E-08</datum>
+    <datum>122600.0 2.857E-08</datum>
+    <datum>122700.0 2.845E-08</datum>
+    <datum>122800.0 2.827E-08</datum>
+    <datum>122900.0 2.798E-08</datum>
+    <datum>123000.0 2.732E-08</datum>
+    <datum>123100.0 2.711E-08</datum>
+    <datum>123200.0 2.700E-08</datum>
+    <datum>123300.0 2.680E-08</datum>
+    <datum>123400.0 2.718E-08</datum>
+    <datum>123500.0 2.703E-08</datum>
+    <datum>123600.0 2.665E-08</datum>
+    <datum>123700.0 2.571E-08</datum>
+    <datum>123800.0 2.543E-08</datum>
+    <datum>123900.0 2.514E-08</datum>
+    <datum>124000.0 2.485E-08</datum>
+    <datum>124100.0 2.490E-08</datum>
+    <datum>124200.0 2.476E-08</datum>
+    <datum>124300.0 2.444E-08</datum>
+    <datum>124400.0 2.390E-08</datum>
+    <datum>124500.0 2.345E-08</datum>
+    <datum>124600.0 2.316E-08</datum>
+    <datum>124700.0 2.316E-08</datum>
+    <datum>124800.0 2.288E-08</datum>
+    <datum>124900.0 2.251E-08</datum>
+    <datum>125000.0 2.219E-08</datum>
+    <datum>125100.0 2.171E-08</datum>
+    <datum>125200.0 2.087E-08</datum>
+    <datum>125300.0 2.055E-08</datum>
+    <datum>125400.0 2.024E-08</datum>
+    <datum>125500.0 2.026E-08</datum>
+    <datum>125600.0 1.997E-08</datum>
+    <datum>125700.0 1.964E-08</datum>
+    <datum>125800.0 1.930E-08</datum>
+    <datum>125900.0 1.893E-08</datum>
+    <datum>126000.0 1.846E-08</datum>
+    <datum>126100.0 1.818E-08</datum>
+    <datum>126200.0 1.801E-08</datum>
+    <datum>126300.0 1.776E-08</datum>
+    <datum>126400.0 1.747E-08</datum>
+    <datum>126500.0 1.716E-08</datum>
+    <datum>126600.0 1.681E-08</datum>
+    <datum>126700.0 1.616E-08</datum>
+    <datum>126800.0 1.586E-08</datum>
+    <datum>126900.0 1.556E-08</datum>
+    <datum>127000.0 1.516E-08</datum>
+    <datum>127100.0 1.497E-08</datum>
+    <datum>127200.0 1.486E-08</datum>
+    <datum>127300.0 1.486E-08</datum>
+    <datum>127400.0 1.476E-08</datum>
+    <datum>127500.0 1.466E-08</datum>
+    <datum>127600.0 1.466E-08</datum>
+    <datum>127700.0 1.456E-08</datum>
+    <datum>127800.0 1.486E-08</datum>
+    <datum>127900.0 1.515E-08</datum>
+    <datum>128000.0 1.555E-08</datum>
+    <datum>128100.0 1.594E-08</datum>
+    <datum>128200.0 1.643E-08</datum>
+    <datum>128300.0 1.692E-08</datum>
+    <datum>128400.0 1.791E-08</datum>
+    <datum>128500.0 1.924E-08</datum>
+    <datum>128600.0 2.085E-08</datum>
+    <datum>128700.0 2.268E-08</datum>
+    <datum>128800.0 2.478E-08</datum>
+    <datum>128900.0 2.728E-08</datum>
+    <datum>129000.0 3.026E-08</datum>
+    <datum>129100.0 3.303E-08</datum>
+    <datum>129200.0 3.618E-08</datum>
+    <datum>129300.0 4.007E-08</datum>
+    <datum>129400.0 4.488E-08</datum>
+    <datum>129500.0 5.096E-08</datum>
+    <datum>129600.0 5.941E-08</datum>
+    <datum>129700.0 6.789E-08</datum>
+    <datum>129800.0 7.598E-08</datum>
+    <datum>129900.0 8.587E-08</datum>
+    <datum>130000.0 9.815E-08</datum>
+    <datum>130100.0 1.149E-07</datum>
+    <datum>130200.0 1.368E-07</datum>
+    <datum>130300.0 1.665E-07</datum>
+    <datum>130400.0 1.820E-07</datum>
+    <datum>130500.0 1.990E-07</datum>
+    <datum>130600.0 2.194E-07</datum>
+    <datum>130700.0 2.435E-07</datum>
+    <datum>130800.0 2.744E-07</datum>
+    <datum>130900.0 3.172E-07</datum>
+    <datum>131000.0 2.930E-07</datum>
+    <datum>131100.0 3.437E-07</datum>
+    <datum>131200.0 3.403E-07</datum>
+    <datum>131300.0 3.385E-07</datum>
+    <datum>131400.0 3.342E-07</datum>
+    <datum>131500.0 3.288E-07</datum>
+    <datum>131600.0 3.222E-07</datum>
+    <datum>131700.0 3.097E-07</datum>
+    <datum>131800.0 2.959E-07</datum>
+    <datum>131900.0 2.829E-07</datum>
+    <datum>132000.0 1.918E-07</datum>
+    <datum>132100.0 5.065E-07</datum>
+    <datum>132200.0 5.094E-07</datum>
+    <datum>132300.0 5.139E-07</datum>
+    <datum>132400.0 5.159E-07</datum>
+    <datum>132500.0 5.180E-07</datum>
+    <datum>132600.0 5.197E-07</datum>
+    <datum>132700.0 5.197E-07</datum>
+    <datum>132800.0 5.189E-07</datum>
+    <datum>132900.0 5.193E-07</datum>
+    <datum>133000.0 5.193E-07</datum>
+    <datum>133100.0 5.195E-07</datum>
+    <datum>133200.0 5.191E-07</datum>
+    <datum>133300.0 5.177E-07</datum>
+    <datum>133400.0 5.149E-07</datum>
+    <datum>133500.0 4.972E-07</datum>
+    <datum>133600.0 5.259E-07</datum>
+    <datum>133700.0 5.249E-07</datum>
+    <datum>133800.0 5.058E-07</datum>
+    <datum>133900.0 5.091E-07</datum>
+    <datum>134000.0 5.060E-07</datum>
+    <datum>134100.0 5.185E-07</datum>
+    <datum>134200.0 5.179E-07</datum>
+    <datum>134300.0 5.161E-07</datum>
+    <datum>134400.0 4.968E-07</datum>
+    <datum>134500.0 4.999E-07</datum>
+    <datum>134600.0 5.179E-07</datum>
+    <datum>134700.0 5.181E-07</datum>
+    <datum>134800.0 5.196E-07</datum>
+    <datum>134900.0 5.199E-07</datum>
+    <datum>135000.0 5.205E-07</datum>
+    <datum>135100.0 5.230E-07</datum>
+    <datum>135200.0 5.246E-07</datum>
+    <datum>135300.0 5.272E-07</datum>
+    <datum>135400.0 5.289E-07</datum>
+    <datum>135500.0 5.317E-07</datum>
+    <datum>135600.0 5.346E-07</datum>
+    <datum>135700.0 5.364E-07</datum>
+    <datum>135800.0 5.225E-07</datum>
+    <datum>135900.0 5.301E-07</datum>
+    <datum>136000.0 5.316E-07</datum>
+    <datum>136100.0 5.298E-07</datum>
+    <datum>136200.0 5.423E-07</datum>
+    <datum>136300.0 5.431E-07</datum>
+    <datum>136400.0 5.428E-07</datum>
+    <datum>136500.0 5.288E-07</datum>
+    <datum>136600.0 5.322E-07</datum>
+    <datum>136700.0 5.333E-07</datum>
+    <datum>136800.0 5.336E-07</datum>
+    <datum>136900.0 5.334E-07</datum>
+    <datum>137000.0 5.327E-07</datum>
+    <datum>137100.0 5.314E-07</datum>
+    <datum>137200.0 5.318E-07</datum>
+    <datum>137300.0 5.346E-07</datum>
+    <datum>137400.0 5.367E-07</datum>
+    <datum>137500.0 5.375E-07</datum>
+    <datum>137600.0 5.374E-07</datum>
+    <datum>137700.0 5.306E-07</datum>
+    <datum>137800.0 5.394E-07</datum>
+    <datum>137900.0 5.390E-07</datum>
+    <datum>138000.0 5.397E-07</datum>
+    <datum>138100.0 5.404E-07</datum>
+    <datum>138200.0 5.422E-07</datum>
+    <datum>138300.0 5.428E-07</datum>
+    <datum>138400.0 5.435E-07</datum>
+    <datum>138500.0 5.450E-07</datum>
+    <datum>138600.0 5.454E-07</datum>
+    <datum>138700.0 5.466E-07</datum>
+    <datum>138800.0 5.476E-07</datum>
+    <datum>138900.0 5.484E-07</datum>
+    <datum>139000.0 5.493E-07</datum>
+    <datum>139100.0 5.501E-07</datum>
+    <datum>139200.0 5.429E-07</datum>
+    <datum>139300.0 5.466E-07</datum>
+    <datum>139400.0 5.470E-07</datum>
+    <datum>139500.0 5.390E-07</datum>
+    <datum>139600.0 5.538E-07</datum>
+    <datum>139700.0 5.538E-07</datum>
+    <datum>139800.0 5.550E-07</datum>
+    <datum>139900.0 5.553E-07</datum>
+    <datum>140000.0 5.557E-07</datum>
+    <datum>140100.0 5.504E-07</datum>
+    <datum>140200.0 5.539E-07</datum>
+    <datum>140300.0 5.529E-07</datum>
+    <datum>140400.0 5.569E-07</datum>
+    <datum>140500.0 5.574E-07</datum>
+    <datum>140600.0 5.583E-07</datum>
+    <datum>140700.0 5.598E-07</datum>
+    <datum>140800.0 5.512E-07</datum>
+    <datum>140900.0 5.537E-07</datum>
+    <datum>141000.0 5.591E-07</datum>
+    <datum>141100.0 5.556E-07</datum>
+    <datum>141200.0 5.525E-07</datum>
+    <datum>141300.0 5.497E-07</datum>
+    <datum>141400.0 5.413E-07</datum>
+    <datum>141500.0 5.423E-07</datum>
+    <datum>141600.0 5.412E-07</datum>
+    <datum>141700.0 5.386E-07</datum>
+    <datum>141800.0 5.300E-07</datum>
+    <datum>141900.0 5.373E-07</datum>
+    <datum>142000.0 5.358E-07</datum>
+    <datum>142100.0 5.259E-07</datum>
+    <datum>142200.0 5.287E-07</datum>
+    <datum>142300.0 5.287E-07</datum>
+    <datum>142400.0 5.282E-07</datum>
+    <datum>142500.0 5.284E-07</datum>
+    <datum>142600.0 5.298E-07</datum>
+    <datum>142700.0 5.307E-07</datum>
+    <datum>142800.0 5.308E-07</datum>
+    <datum>142900.0 5.289E-07</datum>
+    <datum>143000.0 5.273E-07</datum>
+    <datum>143100.0 5.260E-07</datum>
+    <datum>143200.0 5.265E-07</datum>
+    <datum>143300.0 5.283E-07</datum>
+    <datum>143400.0 5.291E-07</datum>
+    <datum>143500.0 5.295E-07</datum>
+    <datum>143600.0 5.264E-07</datum>
+    <datum>143700.0 5.332E-07</datum>
+    <datum>143800.0 5.351E-07</datum>
+    <datum>143900.0 5.359E-07</datum>
+    <datum>144000.0 5.375E-07</datum>
+    <datum>144100.0 5.392E-07</datum>
+    <datum>144200.0 5.407E-07</datum>
+    <datum>144300.0 5.433E-07</datum>
+    <datum>144400.0 5.283E-07</datum>
+    <datum>144500.0 5.397E-07</datum>
+    <datum>144600.0 5.490E-07</datum>
+    <datum>144700.0 5.506E-07</datum>
+    <datum>144800.0 5.532E-07</datum>
+    <datum>144900.0 5.558E-07</datum>
+    <datum>145000.0 5.545E-07</datum>
+    <datum>145100.0 5.617E-07</datum>
+    <datum>145200.0 5.654E-07</datum>
+    <datum>145300.0 5.693E-07</datum>
+    <datum>145400.0 5.718E-07</datum>
+    <datum>145500.0 5.663E-07</datum>
+    <datum>145600.0 5.782E-07</datum>
+    <datum>145700.0 5.820E-07</datum>
+    <datum>145800.0 5.822E-07</datum>
+    <datum>145900.0 5.924E-07</datum>
+    <datum>146000.0 5.989E-07</datum>
+    <datum>146100.0 6.021E-07</datum>
+    <datum>146200.0 6.046E-07</datum>
+    <datum>146300.0 6.041E-07</datum>
+    <datum>146400.0 6.072E-07</datum>
+    <datum>146500.0 6.171E-07</datum>
+    <datum>146600.0 6.228E-07</datum>
+    <datum>146700.0 6.282E-07</datum>
+    <datum>146800.0 6.326E-07</datum>
+    <datum>146900.0 6.339E-07</datum>
+    <datum>147000.0 6.356E-07</datum>
+    <datum>147100.0 6.388E-07</datum>
+    <datum>147200.0 6.430E-07</datum>
+    <datum>147300.0 6.473E-07</datum>
+    <datum>147400.0 6.496E-07</datum>
+    <datum>147500.0 6.520E-07</datum>
+    <datum>147600.0 6.555E-07</datum>
+    <datum>147700.0 6.522E-07</datum>
+    <datum>147800.0 6.604E-07</datum>
+    <datum>147900.0 6.629E-07</datum>
+    <datum>148000.0 6.653E-07</datum>
+    <datum>148100.0 6.676E-07</datum>
+    <datum>148200.0 6.701E-07</datum>
+    <datum>148300.0 6.702E-07</datum>
+    <datum>148400.0 6.714E-07</datum>
+    <datum>148500.0 6.698E-07</datum>
+    <datum>148600.0 6.795E-07</datum>
+    <datum>148700.0 6.820E-07</datum>
+    <datum>148800.0 6.825E-07</datum>
+    <datum>148900.0 6.805E-07</datum>
+    <datum>149000.0 6.773E-07</datum>
+    <datum>149100.0 6.732E-07</datum>
+    <datum>149200.0 6.737E-07</datum>
+    <datum>149300.0 6.733E-07</datum>
+    <datum>149400.0 6.644E-07</datum>
+    <datum>149500.0 6.785E-07</datum>
+    <datum>149600.0 6.804E-07</datum>
+    <datum>149700.0 6.817E-07</datum>
+    <datum>149800.0 6.808E-07</datum>
+    <datum>149900.0 6.801E-07</datum>
+    <datum>150000.0 6.789E-07</datum>
+    <datum>150100.0 6.787E-07</datum>
+    <datum>150200.0 6.800E-07</datum>
+    <datum>150300.0 6.818E-07</datum>
+    <datum>150400.0 6.829E-07</datum>
+    <datum>150500.0 6.837E-07</datum>
+    <datum>150600.0 6.842E-07</datum>
+    <datum>150700.0 6.850E-07</datum>
+    <datum>150800.0 6.844E-07</datum>
+    <datum>150900.0 6.820E-07</datum>
+    <datum>151000.0 6.791E-07</datum>
+    <datum>151100.0 6.700E-07</datum>
+    <datum>151200.0 6.764E-07</datum>
+    <datum>151300.0 6.675E-07</datum>
+    <datum>151400.0 6.744E-07</datum>
+    <datum>151500.0 6.748E-07</datum>
+    <datum>151600.0 6.734E-07</datum>
+    <datum>151700.0 6.717E-07</datum>
+    <datum>151800.0 6.676E-07</datum>
+    <datum>151900.0 6.597E-07</datum>
+    <datum>152000.0 6.679E-07</datum>
+    <datum>152100.0 6.667E-07</datum>
+    <datum>152200.0 6.655E-07</datum>
+    <datum>152300.0 6.652E-07</datum>
+    <datum>152400.0 6.641E-07</datum>
+    <datum>152500.0 6.629E-07</datum>
+    <datum>152600.0 6.627E-07</datum>
+    <datum>152700.0 6.626E-07</datum>
+    <datum>152800.0 6.623E-07</datum>
+    <datum>152900.0 6.622E-07</datum>
+    <datum>153000.0 6.621E-07</datum>
+    <datum>153100.0 6.533E-07</datum>
+    <datum>153200.0 6.555E-07</datum>
+    <datum>153300.0 6.543E-07</datum>
+    <datum>153400.0 6.461E-07</datum>
+    <datum>153500.0 6.623E-07</datum>
+    <datum>153600.0 6.623E-07</datum>
+    <datum>153700.0 6.634E-07</datum>
+    <datum>153800.0 6.514E-07</datum>
+    <datum>153900.0 6.546E-07</datum>
+    <datum>154000.0 6.537E-07</datum>
+    <datum>154100.0 6.512E-07</datum>
+    <datum>154200.0 6.524E-07</datum>
+    <datum>154300.0 6.556E-07</datum>
+    <datum>154400.0 6.598E-07</datum>
+    <datum>154500.0 6.627E-07</datum>
+    <datum>154600.0 6.653E-07</datum>
+    <datum>154700.0 6.652E-07</datum>
+    <datum>154800.0 6.604E-07</datum>
+    <datum>154900.0 6.819E-07</datum>
+    <datum>155000.0 6.843E-07</datum>
+    <datum>155100.0 6.868E-07</datum>
+    <datum>155200.0 6.748E-07</datum>
+    <datum>155300.0 6.822E-07</datum>
+    <datum>155400.0 6.893E-07</datum>
+    <datum>155500.0 6.965E-07</datum>
+    <datum>155600.0 7.014E-07</datum>
+    <datum>155700.0 7.050E-07</datum>
+    <datum>155800.0 7.057E-07</datum>
+    <datum>155900.0 7.272E-07</datum>
+    <datum>156000.0 7.322E-07</datum>
+    <datum>156100.0 7.370E-07</datum>
+    <datum>156200.0 7.427E-07</datum>
+    <datum>156300.0 7.474E-07</datum>
+    <datum>156400.0 7.528E-07</datum>
+    <datum>156500.0 7.458E-07</datum>
+    <datum>156600.0 7.534E-07</datum>
+    <datum>156700.0 7.586E-07</datum>
+    <datum>156800.0 7.630E-07</datum>
+    <datum>156900.0 7.675E-07</datum>
+    <datum>157000.0 7.733E-07</datum>
+    <datum>157100.0 7.798E-07</datum>
+    <datum>157200.0 7.851E-07</datum>
+    <datum>157300.0 7.890E-07</datum>
+    <datum>157400.0 7.923E-07</datum>
+    <datum>157500.0 7.951E-07</datum>
+    <datum>157600.0 7.965E-07</datum>
+    <datum>157700.0 7.933E-07</datum>
+    <datum>157800.0 8.149E-07</datum>
+    <datum>157900.0 8.185E-07</datum>
+    <datum>158000.0 8.218E-07</datum>
+    <datum>158100.0 8.263E-07</datum>
+    <datum>158200.0 8.050E-07</datum>
+    <datum>158300.0 8.152E-07</datum>
+    <datum>158400.0 8.161E-07</datum>
+    <datum>158500.0 8.394E-07</datum>
+    <datum>158600.0 8.428E-07</datum>
+    <datum>158700.0 8.460E-07</datum>
+    <datum>158800.0 8.494E-07</datum>
+    <datum>158900.0 8.526E-07</datum>
+    <datum>159000.0 8.560E-07</datum>
+    <datum>159100.0 8.592E-07</datum>
+    <datum>159200.0 8.437E-07</datum>
+    <datum>159300.0 8.513E-07</datum>
+    <datum>159400.0 8.531E-07</datum>
+    <datum>159500.0 8.487E-07</datum>
+    <datum>159600.0 8.751E-07</datum>
+    <datum>159700.0 8.788E-07</datum>
+    <datum>159800.0 8.823E-07</datum>
+    <datum>159900.0 8.858E-07</datum>
+    <datum>160000.0 8.893E-07</datum>
+    <datum>160100.0 8.943E-07</datum>
+    <datum>160200.0 8.981E-07</datum>
+    <datum>160300.0 9.022E-07</datum>
+    <datum>160400.0 9.061E-07</datum>
+    <datum>160500.0 9.103E-07</datum>
+    <datum>160600.0 9.144E-07</datum>
+    <datum>160700.0 9.186E-07</datum>
+    <datum>160800.0 9.230E-07</datum>
+    <datum>160900.0 9.142E-07</datum>
+    <datum>161000.0 9.249E-07</datum>
+    <datum>161100.0 9.293E-07</datum>
+    <datum>161200.0 9.420E-07</datum>
+    <datum>161300.0 9.431E-07</datum>
+    <datum>161400.0 9.438E-07</datum>
+    <datum>161500.0 9.544E-07</datum>
+    <datum>161600.0 9.539E-07</datum>
+    <datum>161700.0 9.529E-07</datum>
+    <datum>161800.0 9.619E-07</datum>
+    <datum>161900.0 9.605E-07</datum>
+    <datum>162000.0 9.613E-07</datum>
+    <datum>162100.0 9.644E-07</datum>
+    <datum>162200.0 9.785E-07</datum>
+    <datum>162300.0 9.818E-07</datum>
+    <datum>162400.0 9.845E-07</datum>
+    <datum>162500.0 9.862E-07</datum>
+    <datum>162600.0 9.871E-07</datum>
+    <datum>162700.0 9.971E-07</datum>
+    <datum>162800.0 9.959E-07</datum>
+    <datum>162900.0 9.933E-07</datum>
+    <datum>163000.0 9.887E-07</datum>
+    <datum>163100.0 9.758E-07</datum>
+    <datum>163200.0 9.896E-07</datum>
+    <datum>163300.0 9.895E-07</datum>
+    <datum>163400.0 9.894E-07</datum>
+    <datum>163500.0 9.832E-07</datum>
+    <datum>163600.0 9.900E-07</datum>
+    <datum>163700.0 9.914E-07</datum>
+    <datum>163800.0 9.870E-07</datum>
+    <datum>163900.0 9.900E-07</datum>
+    <datum>164000.0 9.905E-07</datum>
+    <datum>164100.0 9.909E-07</datum>
+    <datum>164200.0 9.913E-07</datum>
+    <datum>164300.0 1.002E-06</datum>
+    <datum>164400.0 1.003E-06</datum>
+    <datum>164500.0 1.003E-06</datum>
+    <datum>164600.0 1.004E-06</datum>
+    <datum>164700.0 1.004E-06</datum>
+    <datum>164800.0 1.005E-06</datum>
+    <datum>164900.0 1.005E-06</datum>
+    <datum>165000.0 1.016E-06</datum>
+    <datum>165100.0 1.016E-06</datum>
+    <datum>165200.0 1.016E-06</datum>
+    <datum>165300.0 1.016E-06</datum>
+    <datum>165400.0 1.027E-06</datum>
+    <datum>165500.0 1.027E-06</datum>
+    <datum>165600.0 1.037E-06</datum>
+    <datum>165700.0 1.037E-06</datum>
+    <datum>165800.0 1.036E-06</datum>
+    <datum>165900.0 1.050E-06</datum>
+    <datum>166000.0 1.055E-06</datum>
+    <datum>166100.0 1.064E-06</datum>
+    <datum>166200.0 1.060E-06</datum>
+    <datum>166300.0 1.057E-06</datum>
+    <datum>166400.0 1.072E-06</datum>
+    <datum>166500.0 1.081E-06</datum>
+    <datum>166600.0 1.075E-06</datum>
+    <datum>166700.0 1.088E-06</datum>
+    <datum>166800.0 1.090E-06</datum>
+    <datum>166900.0 1.107E-06</datum>
+    <datum>167000.0 1.116E-06</datum>
+    <datum>167100.0 1.124E-06</datum>
+    <datum>167200.0 1.133E-06</datum>
+    <datum>167300.0 1.142E-06</datum>
+    <datum>167400.0 1.150E-06</datum>
+    <datum>167500.0 1.159E-06</datum>
+    <datum>167600.0 1.168E-06</datum>
+    <datum>167700.0 1.177E-06</datum>
+    <datum>167800.0 1.186E-06</datum>
+    <datum>167900.0 1.194E-06</datum>
+    <datum>168000.0 1.210E-06</datum>
+    <datum>168100.0 1.220E-06</datum>
+    <datum>168200.0 1.217E-06</datum>
+    <datum>168300.0 1.240E-06</datum>
+    <datum>168400.0 1.260E-06</datum>
+    <datum>168500.0 1.269E-06</datum>
+    <datum>168600.0 1.277E-06</datum>
+    <datum>168700.0 1.297E-06</datum>
+    <datum>168800.0 1.305E-06</datum>
+    <datum>168900.0 1.314E-06</datum>
+    <datum>169000.0 1.340E-06</datum>
+    <datum>169100.0 1.358E-06</datum>
+    <datum>169200.0 1.379E-06</datum>
+    <datum>169300.0 1.388E-06</datum>
+    <datum>169400.0 1.396E-06</datum>
+    <datum>169500.0 1.413E-06</datum>
+    <datum>169600.0 1.420E-06</datum>
+    <datum>169700.0 1.441E-06</datum>
+    <datum>169800.0 1.463E-06</datum>
+    <datum>169900.0 1.475E-06</datum>
+    <datum>170000.0 1.497E-06</datum>
+    <datum>170100.0 1.508E-06</datum>
+    <datum>170200.0 1.528E-06</datum>
+    <datum>170300.0 1.547E-06</datum>
+    <datum>170400.0 1.554E-06</datum>
+    <datum>170500.0 1.571E-06</datum>
+    <datum>170600.0 1.586E-06</datum>
+    <datum>170700.0 1.602E-06</datum>
+    <datum>170800.0 1.613E-06</datum>
+    <datum>170900.0 1.639E-06</datum>
+    <datum>171000.0 1.665E-06</datum>
+    <datum>171100.0 1.688E-06</datum>
+    <datum>171200.0 1.705E-06</datum>
+    <datum>171300.0 1.710E-06</datum>
+    <datum>171400.0 1.714E-06</datum>
+    <datum>171500.0 1.724E-06</datum>
+    <datum>171600.0 1.744E-06</datum>
+    <datum>171700.0 1.763E-06</datum>
+    <datum>171800.0 1.822E-06</datum>
+    <datum>171900.0 1.848E-06</datum>
+    <datum>172000.0 1.877E-06</datum>
+    <datum>172100.0 1.891E-06</datum>
+    <datum>172200.0 1.902E-06</datum>
+    <datum>172300.0 1.921E-06</datum>
+    <datum>172400.0 1.922E-06</datum>
+    <datum>172500.0 1.887E-06</datum>
+    <datum>172600.0 1.898E-06</datum>
+    <datum>172700.0 1.908E-06</datum>
+    <datum>172800.0 1.929E-06</datum>
+    <datum>172900.0 1.940E-06</datum>
+    <datum>173000.0 1.951E-06</datum>
+    <datum>173100.0 2.006E-06</datum>
+    <datum>173200.0 2.055E-06</datum>
+    <datum>173300.0 2.073E-06</datum>
+    <datum>173400.0 2.078E-06</datum>
+    <datum>173500.0 2.065E-06</datum>
+    <datum>173600.0 2.038E-06</datum>
+    <datum>173700.0 2.049E-06</datum>
+    <datum>173800.0 2.060E-06</datum>
+    <datum>173900.0 2.081E-06</datum>
+    <datum>174000.0 2.147E-06</datum>
+    <datum>174100.0 2.185E-06</datum>
+    <datum>174200.0 2.201E-06</datum>
+    <datum>174300.0 2.177E-06</datum>
+    <datum>174400.0 2.164E-06</datum>
+    <datum>174500.0 2.185E-06</datum>
+    <datum>174600.0 2.251E-06</datum>
+    <datum>174700.0 2.316E-06</datum>
+    <datum>174800.0 2.353E-06</datum>
+    <datum>174900.0 2.383E-06</datum>
+    <datum>175000.0 2.407E-06</datum>
+    <datum>175100.0 2.426E-06</datum>
+    <datum>175200.0 2.452E-06</datum>
+    <datum>175300.0 2.485E-06</datum>
+    <datum>175400.0 2.511E-06</datum>
+    <datum>175500.0 2.536E-06</datum>
+    <datum>175600.0 2.495E-06</datum>
+    <datum>175700.0 2.533E-06</datum>
+    <datum>175800.0 2.580E-06</datum>
+    <datum>175900.0 2.628E-06</datum>
+    <datum>176000.0 2.702E-06</datum>
+    <datum>176100.0 2.804E-06</datum>
+    <datum>176200.0 2.867E-06</datum>
+    <datum>176300.0 2.929E-06</datum>
+    <datum>176400.0 2.974E-06</datum>
+    <datum>176500.0 3.034E-06</datum>
+    <datum>176600.0 3.088E-06</datum>
+    <datum>176700.0 3.140E-06</datum>
+    <datum>176800.0 3.210E-06</datum>
+    <datum>176900.0 3.275E-06</datum>
+    <datum>177000.0 3.349E-06</datum>
+    <datum>177100.0 3.404E-06</datum>
+    <datum>177200.0 3.433E-06</datum>
+    <datum>177300.0 3.517E-06</datum>
+    <datum>177400.0 3.602E-06</datum>
+    <datum>177500.0 3.695E-06</datum>
+    <datum>177600.0 3.789E-06</datum>
+    <datum>177700.0 3.911E-06</datum>
+    <datum>177800.0 4.110E-06</datum>
+    <datum>177900.0 4.283E-06</datum>
+    <datum>178000.0 4.443E-06</datum>
+    <datum>178100.0 4.588E-06</datum>
+    <datum>178200.0 4.735E-06</datum>
+    <datum>178300.0 4.873E-06</datum>
+    <datum>178400.0 5.029E-06</datum>
+    <datum>178500.0 5.200E-06</datum>
+    <datum>178600.0 5.382E-06</datum>
+    <datum>178700.0 5.589E-06</datum>
+    <datum>178800.0 5.812E-06</datum>
+    <datum>178900.0 6.073E-06</datum>
+    <datum>179000.0 6.358E-06</datum>
+    <datum>179100.0 6.650E-06</datum>
+    <datum>179200.0 6.916E-06</datum>
+    <datum>179300.0 7.275E-06</datum>
+    <datum>179400.0 7.701E-06</datum>
+    <datum>179500.0 8.134E-06</datum>
+    <datum>179600.0 8.779E-06</datum>
+    <datum>179700.0 9.430E-06</datum>
+    <datum>179800.0 1.011E-05</datum>
+    <datum>179900.0 1.095E-05</datum>
+    <datum>180000.0 1.177E-05</datum>
+    <datum>180100.0 1.265E-05</datum>
+    <datum>180200.0 1.338E-05</datum>
+    <datum>180300.0 1.408E-05</datum>
+    <datum>180400.0 1.529E-05</datum>
+    <datum>180500.0 1.649E-05</datum>
+    <datum>180600.0 1.785E-05</datum>
+    <datum>180700.0 1.945E-05</datum>
+    <datum>180800.0 2.127E-05</datum>
+    <datum>180900.0 2.360E-05</datum>
+    <datum>181000.0 2.601E-05</datum>
+    <datum>181100.0 2.983E-05</datum>
+    <datum>181200.0 3.436E-05</datum>
+    <datum>181300.0 4.017E-05</datum>
+    <datum>181400.0 4.016E-05</datum>
+    <datum>181500.0 4.141E-05</datum>
+    <datum>181600.0 4.061E-05</datum>
+    <datum>181700.0 3.966E-05</datum>
+    <datum>181800.0 3.841E-05</datum>
+    <datum>181900.0 3.708E-05</datum>
+    <datum>182000.0 3.547E-05</datum>
+    <datum>182100.0 3.404E-05</datum>
+    <datum>182200.0 2.441E-05</datum>
+    <datum>182300.0 2.955E-05</datum>
+    <datum>182400.0 3.169E-05</datum>
+    <datum>182500.0 3.265E-05</datum>
+    <datum>182600.0 3.249E-05</datum>
+    <datum>182700.0 2.369E-05</datum>
+    <datum>182800.0 1.165E-05</datum>
+    <datum>182900.0 1.430E-05</datum>
+    <datum>183000.0 1.122E-05</datum>
+    <datum>183100.0 8.964E-06</datum>
+    <datum>183200.0 7.249E-06</datum>
+    <datum>183300.0 5.916E-06</datum>
+    <datum>183400.0 4.949E-06</datum>
+    <datum>183500.0 4.201E-06</datum>
+    <datum>183600.0 3.617E-06</datum>
+    <datum>183700.0 3.174E-06</datum>
+    <datum>183800.0 2.233E-06</datum>
+    <datum>183900.0 2.671E-06</datum>
+    <datum>184000.0 1.955E-06</datum>
+    <datum>184100.0 2.225E-06</datum>
+    <datum>184200.0 2.554E-06</datum>
+    <datum>184300.0 2.774E-06</datum>
+    <datum>184400.0 2.849E-06</datum>
+    <datum>184500.0 2.705E-06</datum>
+    <datum>184600.0 2.323E-06</datum>
+    <datum>184700.0 1.770E-06</datum>
+    <datum>184800.0 1.198E-06</datum>
+    <datum>184900.0 1.283E-06</datum>
+    <datum>185000.0 2.265E-06</datum>
+    <datum>185100.0 3.362E-06</datum>
+    <datum>185200.0 4.284E-06</datum>
+    <datum>185300.0 4.884E-06</datum>
+    <datum>185400.0 4.898E-06</datum>
+    <datum>185500.0 4.002E-06</datum>
+    <datum>185600.0 8.544E-07</datum>
+    <datum>185700.0 4.137E-07</datum>
+    <datum>185800.0 4.415E-07</datum>
+    <datum>185900.0 4.735E-07</datum>
+    <datum>186000.0 5.061E-07</datum>
+    <datum>186100.0 5.440E-07</datum>
+    <datum>186200.0 4.724E-06</datum>
+    <datum>186300.0 7.168E-06</datum>
+    <datum>186400.0 8.232E-06</datum>
+    <datum>186500.0 7.953E-06</datum>
+    <datum>186600.0 6.348E-06</datum>
+    <datum>186700.0 2.625E-06</datum>
+    <datum>186800.0 8.805E-07</datum>
+    <datum>186900.0 9.245E-07</datum>
+    <datum>187000.0 9.588E-07</datum>
+    <datum>187100.0 2.220E-06</datum>
+    <datum>187200.0 7.044E-06</datum>
+    <datum>187300.0 1.023E-05</datum>
+    <datum>187400.0 1.267E-05</datum>
+    <datum>187500.0 1.451E-05</datum>
+    <datum>187600.0 1.591E-05</datum>
+    <datum>187700.0 1.695E-05</datum>
+    <datum>187800.0 1.761E-05</datum>
+    <datum>187900.0 1.794E-05</datum>
+    <datum>188000.0 1.795E-05</datum>
+    <datum>188100.0 1.773E-05</datum>
+    <datum>188200.0 1.735E-05</datum>
+    <datum>188300.0 1.695E-05</datum>
+    <datum>188400.0 1.690E-05</datum>
+    <datum>188500.0 1.731E-05</datum>
+    <datum>188600.0 1.810E-05</datum>
+    <datum>188700.0 1.927E-05</datum>
+    <datum>188800.0 2.076E-05</datum>
+    <datum>188900.0 2.221E-05</datum>
+    <datum>189000.0 2.389E-05</datum>
+    <datum>189100.0 2.564E-05</datum>
+    <datum>189200.0 2.752E-05</datum>
+    <datum>189300.0 2.925E-05</datum>
+    <datum>189400.0 3.092E-05</datum>
+    <datum>189500.0 3.242E-05</datum>
+    <datum>189600.0 3.345E-05</datum>
+    <datum>189700.0 3.398E-05</datum>
+    <datum>189800.0 3.323E-05</datum>
+    <datum>189900.0 3.075E-05</datum>
+    <datum>190000.0 2.578E-05</datum>
+    <datum>190100.0 1.673E-05</datum>
+    <datum>190200.0 8.603E-06</datum>
+    <datum>190300.0 9.360E-06</datum>
+    <datum>190400.0 1.019E-05</datum>
+    <datum>190500.0 1.842E-05</datum>
+    <datum>190600.0 3.458E-05</datum>
+    <datum>190700.0 1.154E-04</datum>
+    <datum>190800.0 2.706E-04</datum>
+    <datum>190900.0 5.038E-04</datum>
+    <datum>191000.0 6.935E-04</datum>
+    <datum>191100.0 8.426E-04</datum>
+    <datum>191200.0 8.877E-04</datum>
+    <datum>191300.0 9.056E-04</datum>
+    <datum>191400.0 8.691E-04</datum>
+    <datum>191500.0 8.133E-04</datum>
+    <datum>191600.0 7.175E-04</datum>
+    <datum>191700.0 5.891E-04</datum>
+    <datum>191800.0 4.340E-04</datum>
+    <datum>191900.0 2.360E-04</datum>
+    <datum>192000.0 1.031E-04</datum>
+    <datum>192100.0 5.896E-05</datum>
+    <datum>192200.0 2.267E-05</datum>
+    <datum>192300.0 5.489E-05</datum>
+    <datum>192400.0 6.015E-05</datum>
+    <datum>192500.0 5.460E-05</datum>
+    <datum>192600.0 1.003E-04</datum>
+    <datum>192700.0 1.423E-04</datum>
+    <datum>192800.0 1.819E-04</datum>
+    <datum>192900.0 2.180E-04</datum>
+    <datum>193000.0 5.022E-05</datum>
+    <datum>193100.0 2.479E-04</datum>
+    <datum>193200.0 2.711E-04</datum>
+    <datum>193300.0 3.065E-04</datum>
+    <datum>193400.0 3.496E-04</datum>
+    <datum>193500.0 4.070E-04</datum>
+    <datum>193600.0 4.653E-04</datum>
+    <datum>193700.0 5.888E-04</datum>
+    <datum>193800.0 7.319E-04</datum>
+    <datum>193900.0 9.816E-04</datum>
+    <datum>194000.0 1.280E-03</datum>
+    <datum>194100.0 1.585E-03</datum>
+    <datum>194200.0 1.863E-03</datum>
+    <datum>194300.0 2.095E-03</datum>
+    <datum>194400.0 2.263E-03</datum>
+    <datum>194500.0 2.415E-03</datum>
+    <datum>194600.0 2.524E-03</datum>
+    <datum>194700.0 2.631E-03</datum>
+    <datum>194800.0 2.714E-03</datum>
+    <datum>194900.0 2.796E-03</datum>
+    <datum>195000.0 2.916E-03</datum>
+    <datum>195100.0 3.063E-03</datum>
+    <datum>195200.0 3.287E-03</datum>
+    <datum>195300.0 3.589E-03</datum>
+    <datum>195400.0 3.970E-03</datum>
+    <datum>195500.0 4.483E-03</datum>
+    <datum>195600.0 5.060E-03</datum>
+    <datum>195700.0 5.869E-03</datum>
+    <datum>195800.0 6.723E-03</datum>
+    <datum>195900.0 7.881E-03</datum>
+    <datum>196000.0 9.100E-03</datum>
+    <datum>196100.0 1.064E-02</datum>
+    <datum>196200.0 1.223E-02</datum>
+    <datum>196300.0 1.402E-02</datum>
+    <datum>196400.0 1.601E-02</datum>
+    <datum>196500.0 1.830E-02</datum>
+    <datum>196600.0 2.079E-02</datum>
+    <datum>196700.0 2.348E-02</datum>
+    <datum>196800.0 2.657E-02</datum>
+    <datum>196900.0 2.986E-02</datum>
+    <datum>197000.0 3.394E-02</datum>
+    <datum>197100.0 3.812E-02</datum>
+    <datum>197200.0 4.318E-02</datum>
+    <datum>197300.0 4.845E-02</datum>
+    <datum>197400.0 5.460E-02</datum>
+    <datum>197500.0 6.084E-02</datum>
+    <datum>197600.0 6.778E-02</datum>
+    <datum>197700.0 7.513E-02</datum>
+    <datum>197800.0 8.297E-02</datum>
+    <datum>197900.0 9.151E-02</datum>
+    <datum>198000.0 1.003E-01</datum>
+    <datum>198100.0 1.113E-01</datum>
+    <datum>198200.0 1.222E-01</datum>
+    <datum>198300.0 1.342E-01</datum>
+    <datum>198400.0 1.461E-01</datum>
+    <datum>198500.0 1.581E-01</datum>
+    <datum>198600.0 1.701E-01</datum>
+    <datum>198700.0 1.801E-01</datum>
+    <datum>198800.0 1.901E-01</datum>
+    <datum>198900.0 1.992E-01</datum>
+    <datum>199000.0 2.073E-01</datum>
+    <datum>199100.0 2.144E-01</datum>
+    <datum>199200.0 2.215E-01</datum>
+    <datum>199300.0 2.275E-01</datum>
+    <datum>199400.0 2.336E-01</datum>
+    <datum>199500.0 2.386E-01</datum>
+    <datum>199600.0 2.427E-01</datum>
+    <datum>199700.0 2.447E-01</datum>
+    <datum>199800.0 2.468E-01</datum>
+    <datum>199900.0 2.468E-01</datum>
+    <datum>200000.0 2.469E-01</datum>
+    <datum>200100.0 2.459E-01</datum>
+    <datum>200200.0 2.459E-01</datum>
+    <datum>200300.0 2.460E-01</datum>
+    <datum>200400.0 2.460E-01</datum>
+    <datum>200500.0 2.470E-01</datum>
+    <datum>200600.0 2.481E-01</datum>
+    <datum>200700.0 2.491E-01</datum>
+    <datum>200800.0 2.501E-01</datum>
+    <datum>200900.0 2.511E-01</datum>
+    <datum>201000.0 2.511E-01</datum>
+    <datum>201100.0 2.512E-01</datum>
+    <datum>201200.0 2.522E-01</datum>
+    <datum>201300.0 2.542E-01</datum>
+    <datum>201400.0 2.572E-01</datum>
+    <datum>201500.0 2.602E-01</datum>
+    <datum>201600.0 2.642E-01</datum>
+    <datum>201700.0 2.672E-01</datum>
+    <datum>201800.0 2.701E-01</datum>
+    <datum>201900.0 2.721E-01</datum>
+    <datum>202000.0 2.721E-01</datum>
+    <datum>202100.0 2.731E-01</datum>
+    <datum>202200.0 2.721E-01</datum>
+    <datum>202300.0 2.721E-01</datum>
+    <datum>202400.0 2.711E-01</datum>
+    <datum>202500.0 2.701E-01</datum>
+    <datum>202600.0 2.692E-01</datum>
+    <datum>202700.0 2.692E-01</datum>
+    <datum>202800.0 2.672E-01</datum>
+    <datum>202900.0 2.652E-01</datum>
+    <datum>203000.0 2.632E-01</datum>
+    <datum>203100.0 2.612E-01</datum>
+    <datum>203200.0 2.592E-01</datum>
+    <datum>203300.0 2.582E-01</datum>
+    <datum>203400.0 2.582E-01</datum>
+    <datum>203500.0 2.582E-01</datum>
+    <datum>203600.0 2.601E-01</datum>
+    <datum>203700.0 2.621E-01</datum>
+    <datum>203800.0 2.651E-01</datum>
+    <datum>203900.0 2.671E-01</datum>
+    <datum>204000.0 2.691E-01</datum>
+    <datum>204100.0 2.701E-01</datum>
+    <datum>204200.0 2.711E-01</datum>
+    <datum>204300.0 2.721E-01</datum>
+    <datum>204400.0 2.731E-01</datum>
+    <datum>204500.0 2.751E-01</datum>
+    <datum>204600.0 2.771E-01</datum>
+    <datum>204700.0 2.801E-01</datum>
+    <datum>204800.0 2.821E-01</datum>
+    <datum>204900.0 2.851E-01</datum>
+    <datum>205000.0 2.851E-01</datum>
+    <datum>205100.0 2.861E-01</datum>
+    <datum>205200.0 2.851E-01</datum>
+    <datum>205300.0 2.841E-01</datum>
+    <datum>205400.0 2.821E-01</datum>
+    <datum>205500.0 2.811E-01</datum>
+    <datum>205600.0 2.801E-01</datum>
+    <datum>205700.0 2.791E-01</datum>
+    <datum>205800.0 2.791E-01</datum>
+    <datum>205900.0 2.791E-01</datum>
+    <datum>206000.0 2.781E-01</datum>
+    <datum>206100.0 2.771E-01</datum>
+    <datum>206200.0 2.761E-01</datum>
+    <datum>206300.0 2.741E-01</datum>
+    <datum>206400.0 2.731E-01</datum>
+    <datum>206500.0 2.711E-01</datum>
+    <datum>206600.0 2.711E-01</datum>
+    <datum>206700.0 2.721E-01</datum>
+    <datum>206800.0 2.741E-01</datum>
+    <datum>206900.0 2.771E-01</datum>
+    <datum>207000.0 2.791E-01</datum>
+    <datum>207100.0 2.811E-01</datum>
+    <datum>207200.0 2.821E-01</datum>
+    <datum>207300.0 2.821E-01</datum>
+    <datum>207400.0 2.811E-01</datum>
+    <datum>207500.0 2.791E-01</datum>
+    <datum>207600.0 2.771E-01</datum>
+    <datum>207700.0 2.751E-01</datum>
+    <datum>207800.0 2.731E-01</datum>
+    <datum>207900.0 2.731E-01</datum>
+    <datum>208000.0 2.731E-01</datum>
+    <datum>208100.0 2.741E-01</datum>
+    <datum>208200.0 2.741E-01</datum>
+    <datum>208300.0 2.751E-01</datum>
+    <datum>208400.0 2.761E-01</datum>
+    <datum>208500.0 2.761E-01</datum>
+    <datum>208600.0 2.751E-01</datum>
+    <datum>208700.0 2.751E-01</datum>
+    <datum>208800.0 2.751E-01</datum>
+    <datum>208900.0 2.751E-01</datum>
+    <datum>209000.0 2.761E-01</datum>
+    <datum>209100.0 2.761E-01</datum>
+    <datum>209200.0 2.771E-01</datum>
+    <datum>209300.0 2.771E-01</datum>
+    <datum>209400.0 2.771E-01</datum>
+    <datum>209500.0 2.751E-01</datum>
+    <datum>209600.0 2.731E-01</datum>
+    <datum>209700.0 2.711E-01</datum>
+    <datum>209800.0 2.681E-01</datum>
+    <datum>209900.0 2.651E-01</datum>
+    <datum>210000.0 2.641E-01</datum>
+    <datum>210100.0 2.621E-01</datum>
+    <datum>210200.0 2.631E-01</datum>
+    <datum>210300.0 2.631E-01</datum>
+    <datum>210400.0 2.651E-01</datum>
+    <datum>210500.0 2.671E-01</datum>
+    <datum>210600.0 2.681E-01</datum>
+    <datum>210700.0 2.701E-01</datum>
+    <datum>210800.0 2.721E-01</datum>
+    <datum>210900.0 2.731E-01</datum>
+    <datum>211000.0 2.751E-01</datum>
+    <datum>211100.0 2.771E-01</datum>
+    <datum>211200.0 2.791E-01</datum>
+    <datum>211300.0 2.821E-01</datum>
+    <datum>211400.0 2.851E-01</datum>
+    <datum>211500.0 2.880E-01</datum>
+    <datum>211600.0 2.910E-01</datum>
+    <datum>211700.0 2.930E-01</datum>
+    <datum>211800.0 2.950E-01</datum>
+    <datum>211900.0 2.950E-01</datum>
+    <datum>212000.0 2.950E-01</datum>
+    <datum>212100.0 2.950E-01</datum>
+    <datum>212200.0 2.950E-01</datum>
+    <datum>212300.0 2.960E-01</datum>
+    <datum>212400.0 2.960E-01</datum>
+    <datum>212500.0 2.970E-01</datum>
+    <datum>212600.0 2.990E-01</datum>
+    <datum>212700.0 3.000E-01</datum>
+    <datum>212800.0 3.000E-01</datum>
+    <datum>212900.0 3.000E-01</datum>
+    <datum>213000.0 2.980E-01</datum>
+    <datum>213100.0 2.960E-01</datum>
+    <datum>213200.0 2.930E-01</datum>
+    <datum>213300.0 2.890E-01</datum>
+    <datum>213400.0 2.870E-01</datum>
+    <datum>213500.0 2.840E-01</datum>
+    <datum>213600.0 2.820E-01</datum>
+    <datum>213700.0 2.810E-01</datum>
+    <datum>213800.0 2.800E-01</datum>
+    <datum>213900.0 2.790E-01</datum>
+    <datum>214000.0 2.780E-01</datum>
+    <datum>214100.0 2.770E-01</datum>
+    <datum>214200.0 2.760E-01</datum>
+    <datum>214300.0 2.740E-01</datum>
+    <datum>214400.0 2.730E-01</datum>
+    <datum>214500.0 2.720E-01</datum>
+    <datum>214600.0 2.720E-01</datum>
+    <datum>214700.0 2.740E-01</datum>
+    <datum>214800.0 2.760E-01</datum>
+    <datum>214900.0 2.790E-01</datum>
+    <datum>215000.0 2.830E-01</datum>
+    <datum>215100.0 2.870E-01</datum>
+    <datum>215200.0 2.900E-01</datum>
+    <datum>215300.0 2.930E-01</datum>
+    <datum>215400.0 2.950E-01</datum>
+    <datum>215500.0 2.960E-01</datum>
+    <datum>215600.0 2.970E-01</datum>
+    <datum>215700.0 2.970E-01</datum>
+    <datum>215800.0 2.970E-01</datum>
+    <datum>215900.0 2.970E-01</datum>
+    <datum>216000.0 2.970E-01</datum>
+    <datum>216100.0 2.970E-01</datum>
+    <datum>216200.0 2.970E-01</datum>
+    <datum>216300.0 2.950E-01</datum>
+    <datum>216400.0 2.940E-01</datum>
+    <datum>216500.0 2.910E-01</datum>
+    <datum>216600.0 2.870E-01</datum>
+    <datum>216700.0 2.830E-01</datum>
+    <datum>216800.0 2.780E-01</datum>
+    <datum>216900.0 2.730E-01</datum>
+    <datum>217000.0 2.690E-01</datum>
+    <datum>217100.0 2.660E-01</datum>
+    <datum>217200.0 2.640E-01</datum>
+    <datum>217300.0 2.620E-01</datum>
+    <datum>217400.0 2.620E-01</datum>
+    <datum>217500.0 2.620E-01</datum>
+    <datum>217600.0 2.620E-01</datum>
+    <datum>217700.0 2.630E-01</datum>
+    <datum>217800.0 2.630E-01</datum>
+    <datum>217900.0 2.630E-01</datum>
+    <datum>218000.0 2.630E-01</datum>
+    <datum>218100.0 2.640E-01</datum>
+    <datum>218200.0 2.660E-01</datum>
+    <datum>218300.0 2.680E-01</datum>
+    <datum>218400.0 2.720E-01</datum>
+    <datum>218500.0 2.750E-01</datum>
+    <datum>218600.0 2.799E-01</datum>
+    <datum>218700.0 2.849E-01</datum>
+    <datum>218800.0 2.879E-01</datum>
+    <datum>218900.0 2.909E-01</datum>
+    <datum>219000.0 2.929E-01</datum>
+    <datum>219100.0 2.919E-01</datum>
+    <datum>219200.0 2.909E-01</datum>
+    <datum>219300.0 2.889E-01</datum>
+    <datum>219400.0 2.859E-01</datum>
+    <datum>219500.0 2.839E-01</datum>
+    <datum>219600.0 2.819E-01</datum>
+    <datum>219700.0 2.799E-01</datum>
+    <datum>219800.0 2.789E-01</datum>
+    <datum>219900.0 2.779E-01</datum>
+    <datum>220000.0 2.769E-01</datum>
+    <datum>220100.0 2.769E-01</datum>
+    <datum>220200.0 2.759E-01</datum>
+    <datum>220300.0 2.749E-01</datum>
+    <datum>220400.0 2.729E-01</datum>
+    <datum>220500.0 2.719E-01</datum>
+    <datum>220600.0 2.699E-01</datum>
+    <datum>220700.0 2.679E-01</datum>
+    <datum>220800.0 2.670E-01</datum>
+    <datum>220900.0 2.660E-01</datum>
+    <datum>221000.0 2.650E-01</datum>
+    <datum>221100.0 2.650E-01</datum>
+    <datum>221200.0 2.640E-01</datum>
+    <datum>221300.0 2.640E-01</datum>
+    <datum>221400.0 2.630E-01</datum>
+    <datum>221500.0 2.610E-01</datum>
+    <datum>221600.0 2.600E-01</datum>
+    <datum>221700.0 2.580E-01</datum>
+    <datum>221800.0 2.560E-01</datum>
+    <datum>221900.0 2.550E-01</datum>
+    <datum>222000.0 2.530E-01</datum>
+    <datum>222100.0 2.520E-01</datum>
+    <datum>222200.0 2.520E-01</datum>
+    <datum>222300.0 2.520E-01</datum>
+    <datum>222400.0 2.520E-01</datum>
+    <datum>222500.0 2.520E-01</datum>
+    <datum>222600.0 2.510E-01</datum>
+    <datum>222700.0 2.500E-01</datum>
+    <datum>222800.0 2.490E-01</datum>
+    <datum>222900.0 2.470E-01</datum>
+    <datum>223000.0 2.450E-01</datum>
+    <datum>223100.0 2.430E-01</datum>
+    <datum>223200.0 2.400E-01</datum>
+    <datum>223300.0 2.390E-01</datum>
+    <datum>223400.0 2.370E-01</datum>
+    <datum>223500.0 2.360E-01</datum>
+    <datum>223600.0 2.360E-01</datum>
+    <datum>223700.0 2.350E-01</datum>
+    <datum>223800.0 2.340E-01</datum>
+    <datum>223900.0 2.330E-01</datum>
+    <datum>224000.0 2.310E-01</datum>
+    <datum>224100.0 2.290E-01</datum>
+    <datum>224200.0 2.260E-01</datum>
+    <datum>224300.0 2.220E-01</datum>
+    <datum>224400.0 2.180E-01</datum>
+    <datum>224500.0 2.140E-01</datum>
+    <datum>224600.0 2.100E-01</datum>
+    <datum>224700.0 2.070E-01</datum>
+    <datum>224800.0 2.050E-01</datum>
+    <datum>224900.0 2.030E-01</datum>
+    <datum>225000.0 2.020E-01</datum>
+    <datum>225100.0 2.020E-01</datum>
+    <datum>225200.0 2.010E-01</datum>
+    <datum>225300.0 2.000E-01</datum>
+    <datum>225400.0 1.990E-01</datum>
+    <datum>225500.0 1.980E-01</datum>
+    <datum>225600.0 1.960E-01</datum>
+    <datum>225700.0 1.950E-01</datum>
+    <datum>225800.0 1.940E-01</datum>
+    <datum>225900.0 1.930E-01</datum>
+    <datum>226000.0 1.930E-01</datum>
+    <datum>226100.0 1.930E-01</datum>
+    <datum>226200.0 1.950E-01</datum>
+    <datum>226300.0 1.960E-01</datum>
+    <datum>226400.0 1.980E-01</datum>
+    <datum>226500.0 1.990E-01</datum>
+    <datum>226600.0 2.010E-01</datum>
+    <datum>226700.0 2.010E-01</datum>
+    <datum>226800.0 2.010E-01</datum>
+    <datum>226900.0 2.010E-01</datum>
+    <datum>227000.0 2.000E-01</datum>
+    <datum>227100.0 1.990E-01</datum>
+    <datum>227200.0 1.990E-01</datum>
+    <datum>227300.0 1.990E-01</datum>
+    <datum>227400.0 1.990E-01</datum>
+    <datum>227500.0 2.000E-01</datum>
+    <datum>227600.0 2.010E-01</datum>
+    <datum>227700.0 2.020E-01</datum>
+    <datum>227800.0 2.030E-01</datum>
+    <datum>227900.0 2.030E-01</datum>
+    <datum>228000.0 2.020E-01</datum>
+    <datum>228100.0 2.020E-01</datum>
+    <datum>228200.0 2.000E-01</datum>
+    <datum>228300.0 1.980E-01</datum>
+    <datum>228400.0 1.950E-01</datum>
+    <datum>228500.0 1.930E-01</datum>
+    <datum>228600.0 1.910E-01</datum>
+    <datum>228700.0 1.900E-01</datum>
+    <datum>228800.0 1.890E-01</datum>
+    <datum>228900.0 1.890E-01</datum>
+    <datum>229000.0 1.890E-01</datum>
+    <datum>229100.0 1.900E-01</datum>
+    <datum>229200.0 1.900E-01</datum>
+    <datum>229300.0 1.910E-01</datum>
+    <datum>229400.0 1.920E-01</datum>
+    <datum>229500.0 1.919E-01</datum>
+    <datum>229600.0 1.919E-01</datum>
+    <datum>229700.0 1.919E-01</datum>
+    <datum>229800.0 1.929E-01</datum>
+    <datum>229900.0 1.929E-01</datum>
+    <datum>230000.0 1.949E-01</datum>
+    <datum>230100.0 1.959E-01</datum>
+    <datum>230200.0 1.979E-01</datum>
+    <datum>230300.0 1.999E-01</datum>
+    <datum>230400.0 2.019E-01</datum>
+    <datum>230500.0 2.029E-01</datum>
+    <datum>230600.0 2.039E-01</datum>
+    <datum>230700.0 2.039E-01</datum>
+    <datum>230800.0 2.029E-01</datum>
+    <datum>230900.0 2.029E-01</datum>
+    <datum>231000.0 2.019E-01</datum>
+    <datum>231100.0 1.999E-01</datum>
+    <datum>231200.0 1.989E-01</datum>
+    <datum>231300.0 1.979E-01</datum>
+    <datum>231400.0 1.970E-01</datum>
+    <datum>231500.0 1.960E-01</datum>
+    <datum>231600.0 1.960E-01</datum>
+    <datum>231700.0 1.950E-01</datum>
+    <datum>231800.0 1.930E-01</datum>
+    <datum>231900.0 1.920E-01</datum>
+    <datum>232000.0 1.900E-01</datum>
+    <datum>232100.0 1.870E-01</datum>
+    <datum>232200.0 1.850E-01</datum>
+    <datum>232300.0 1.810E-01</datum>
+    <datum>232400.0 1.770E-01</datum>
+    <datum>232500.0 1.740E-01</datum>
+    <datum>232600.0 1.700E-01</datum>
+    <datum>232700.0 1.670E-01</datum>
+    <datum>232800.0 1.640E-01</datum>
+    <datum>232900.0 1.620E-01</datum>
+    <datum>233000.0 1.600E-01</datum>
+    <datum>233100.0 1.590E-01</datum>
+    <datum>233200.0 1.570E-01</datum>
+    <datum>233300.0 1.550E-01</datum>
+    <datum>233400.0 1.540E-01</datum>
+    <datum>233500.0 1.520E-01</datum>
+    <datum>233600.0 1.500E-01</datum>
+    <datum>233700.0 1.480E-01</datum>
+    <datum>233800.0 1.460E-01</datum>
+    <datum>233900.0 1.440E-01</datum>
+    <datum>234000.0 1.420E-01</datum>
+    <datum>234100.0 1.410E-01</datum>
+    <datum>234200.0 1.400E-01</datum>
+    <datum>234300.0 1.390E-01</datum>
+    <datum>234400.0 1.380E-01</datum>
+    <datum>234500.0 1.380E-01</datum>
+    <datum>234600.0 1.370E-01</datum>
+    <datum>234700.0 1.360E-01</datum>
+    <datum>234800.0 1.350E-01</datum>
+    <datum>234900.0 1.330E-01</datum>
+    <datum>235000.0 1.310E-01</datum>
+    <datum>235100.0 1.290E-01</datum>
+    <datum>235200.0 1.270E-01</datum>
+    <datum>235300.0 1.240E-01</datum>
+    <datum>235400.0 1.220E-01</datum>
+    <datum>235500.0 1.210E-01</datum>
+    <datum>235600.0 1.190E-01</datum>
+    <datum>235700.0 1.180E-01</datum>
+    <datum>235800.0 1.180E-01</datum>
+    <datum>235900.0 1.170E-01</datum>
+    <datum>236000.0 1.170E-01</datum>
+    <datum>236100.0 1.180E-01</datum>
+    <datum>236200.0 1.180E-01</datum>
+    <datum>236300.0 1.180E-01</datum>
+    <datum>236400.0 1.180E-01</datum>
+    <datum>236500.0 1.180E-01</datum>
+    <datum>236600.0 1.180E-01</datum>
+    <datum>236700.0 1.180E-01</datum>
+    <datum>236800.0 1.180E-01</datum>
+    <datum>236900.0 1.180E-01</datum>
+    <datum>237000.0 1.190E-01</datum>
+    <datum>237100.0 1.190E-01</datum>
+    <datum>237200.0 1.200E-01</datum>
+    <datum>237300.0 1.210E-01</datum>
+    <datum>237400.0 1.220E-01</datum>
+    <datum>237500.0 1.220E-01</datum>
+    <datum>237600.0 1.220E-01</datum>
+    <datum>237700.0 1.220E-01</datum>
+    <datum>237800.0 1.220E-01</datum>
+    <datum>237900.0 1.210E-01</datum>
+    <datum>238000.0 1.210E-01</datum>
+    <datum>238100.0 1.200E-01</datum>
+    <datum>238200.0 1.200E-01</datum>
+    <datum>238300.0 1.190E-01</datum>
+    <datum>238400.0 1.190E-01</datum>
+    <datum>238500.0 1.200E-01</datum>
+    <datum>238600.0 1.200E-01</datum>
+    <datum>238700.0 1.210E-01</datum>
+    <datum>238800.0 1.230E-01</datum>
+    <datum>238900.0 1.240E-01</datum>
+    <datum>239000.0 1.260E-01</datum>
+    <datum>239100.0 1.270E-01</datum>
+    <datum>239200.0 1.280E-01</datum>
+    <datum>239300.0 1.290E-01</datum>
+    <datum>239400.0 1.300E-01</datum>
+    <datum>239500.0 1.310E-01</datum>
+    <datum>239600.0 1.320E-01</datum>
+    <datum>239700.0 1.320E-01</datum>
+    <datum>239800.0 1.330E-01</datum>
+    <datum>239900.0 1.340E-01</datum>
+    <datum>240000.0 1.350E-01</datum>
+    <datum>240100.0 1.360E-01</datum>
+    <datum>240200.0 1.380E-01</datum>
+    <datum>240300.0 1.390E-01</datum>
+    <datum>240400.0 1.410E-01</datum>
+    <datum>240500.0 1.430E-01</datum>
+    <datum>240600.0 1.440E-01</datum>
+    <datum>240700.0 1.450E-01</datum>
+    <datum>240800.0 1.450E-01</datum>
+    <datum>240900.0 1.460E-01</datum>
+    <datum>241000.0 1.460E-01</datum>
+    <datum>241100.0 1.460E-01</datum>
+    <datum>241200.0 1.460E-01</datum>
+    <datum>241300.0 1.460E-01</datum>
+    <datum>241400.0 1.460E-01</datum>
+    <datum>241500.0 1.460E-01</datum>
+    <datum>241600.0 1.470E-01</datum>
+    <datum>241700.0 1.480E-01</datum>
+    <datum>241800.0 1.490E-01</datum>
+    <datum>241900.0 1.500E-01</datum>
+    <datum>242000.0 1.510E-01</datum>
+    <datum>242100.0 1.510E-01</datum>
+    <datum>242200.0 1.510E-01</datum>
+    <datum>242300.0 1.510E-01</datum>
+    <datum>242400.0 1.500E-01</datum>
+    <datum>242500.0 1.500E-01</datum>
+    <datum>242600.0 1.490E-01</datum>
+    <datum>242700.0 1.480E-01</datum>
+    <datum>242800.0 1.470E-01</datum>
+    <datum>242900.0 1.470E-01</datum>
+    <datum>243000.0 1.460E-01</datum>
+    <datum>243100.0 1.460E-01</datum>
+    <datum>243200.0 1.470E-01</datum>
+    <datum>243300.0 1.480E-01</datum>
+    <datum>243400.0 1.480E-01</datum>
+    <datum>243500.0 1.490E-01</datum>
+    <datum>243600.0 1.490E-01</datum>
+    <datum>243700.0 1.500E-01</datum>
+    <datum>243800.0 1.500E-01</datum>
+    <datum>243900.0 1.500E-01</datum>
+    <datum>244000.0 1.500E-01</datum>
+    <datum>244100.0 1.490E-01</datum>
+    <datum>244200.0 1.490E-01</datum>
+    <datum>244300.0 1.480E-01</datum>
+    <datum>244400.0 1.480E-01</datum>
+    <datum>244500.0 1.480E-01</datum>
+    <datum>244600.0 1.470E-01</datum>
+    <datum>244700.0 1.470E-01</datum>
+    <datum>244800.0 1.470E-01</datum>
+    <datum>244900.0 1.460E-01</datum>
+    <datum>245000.0 1.460E-01</datum>
+    <datum>245100.0 1.450E-01</datum>
+    <datum>245200.0 1.440E-01</datum>
+    <datum>245300.0 1.421E-01</datum>
+    <datum>245400.0 1.411E-01</datum>
+    <datum>245500.0 1.391E-01</datum>
+    <datum>245600.0 1.371E-01</datum>
+    <datum>245700.0 1.351E-01</datum>
+    <datum>245800.0 1.331E-01</datum>
+    <datum>245900.0 1.311E-01</datum>
+    <datum>246000.0 1.291E-01</datum>
+    <datum>246100.0 1.281E-01</datum>
+    <datum>246200.0 1.271E-01</datum>
+    <datum>246300.0 1.261E-01</datum>
+    <datum>246400.0 1.261E-01</datum>
+    <datum>246500.0 1.261E-01</datum>
+    <datum>246600.0 1.251E-01</datum>
+    <datum>246700.0 1.251E-01</datum>
+    <datum>246800.0 1.251E-01</datum>
+    <datum>246900.0 1.241E-01</datum>
+    <datum>247000.0 1.231E-01</datum>
+    <datum>247100.0 1.231E-01</datum>
+    <datum>247200.0 1.221E-01</datum>
+    <datum>247300.0 1.201E-01</datum>
+    <datum>247400.0 1.191E-01</datum>
+    <datum>247500.0 1.181E-01</datum>
+    <datum>247600.0 1.171E-01</datum>
+    <datum>247700.0 1.171E-01</datum>
+    <datum>247800.0 1.161E-01</datum>
+    <datum>247900.0 1.161E-01</datum>
+    <datum>248000.0 1.161E-01</datum>
+    <datum>248100.0 1.161E-01</datum>
+    <datum>248200.0 1.161E-01</datum>
+    <datum>248300.0 1.151E-01</datum>
+    <datum>248400.0 1.151E-01</datum>
+    <datum>248500.0 1.141E-01</datum>
+    <datum>248600.0 1.131E-01</datum>
+    <datum>248700.0 1.121E-01</datum>
+    <datum>248800.0 1.101E-01</datum>
+    <datum>248900.0 1.091E-01</datum>
+    <datum>249000.0 1.081E-01</datum>
+    <datum>249100.0 1.071E-01</datum>
+    <datum>249200.0 1.061E-01</datum>
+    <datum>249300.0 1.051E-01</datum>
+    <datum>249400.0 1.051E-01</datum>
+    <datum>249500.0 1.041E-01</datum>
+    <datum>249600.0 1.031E-01</datum>
+    <datum>249700.0 1.031E-01</datum>
+    <datum>249800.0 1.021E-01</datum>
+    <datum>249900.0 1.011E-01</datum>
+    <datum>250000.0 1.000E-01</datum>
+    <datum>250100.0 9.892E-02</datum>
+    <datum>250200.0 9.732E-02</datum>
+    <datum>250300.0 9.563E-02</datum>
+    <datum>250400.0 9.393E-02</datum>
+    <datum>250500.0 9.214E-02</datum>
+    <datum>250600.0 9.035E-02</datum>
+    <datum>250700.0 8.855E-02</datum>
+    <datum>250800.0 8.706E-02</datum>
+    <datum>250900.0 8.577E-02</datum>
+    <datum>251000.0 8.448E-02</datum>
+    <datum>251100.0 8.348E-02</datum>
+    <datum>251200.0 8.268E-02</datum>
+    <datum>251300.0 8.188E-02</datum>
+    <datum>251400.0 8.117E-02</datum>
+    <datum>251500.0 8.056E-02</datum>
+    <datum>251600.0 7.995E-02</datum>
+    <datum>251700.0 7.934E-02</datum>
+    <datum>251800.0 7.884E-02</datum>
+    <datum>251900.0 7.824E-02</datum>
+    <datum>252000.0 7.774E-02</datum>
+    <datum>252100.0 7.725E-02</datum>
+    <datum>252200.0 7.686E-02</datum>
+    <datum>252300.0 7.647E-02</datum>
+    <datum>252400.0 7.628E-02</datum>
+    <datum>252500.0 7.609E-02</datum>
+    <datum>252600.0 7.600E-02</datum>
+    <datum>252700.0 7.610E-02</datum>
+    <datum>252800.0 7.620E-02</datum>
+    <datum>252900.0 7.620E-02</datum>
+    <datum>253000.0 7.620E-02</datum>
+    <datum>253100.0 7.620E-02</datum>
+    <datum>253200.0 7.610E-02</datum>
+    <datum>253300.0 7.560E-02</datum>
+    <datum>253400.0 7.519E-02</datum>
+    <datum>253500.0 7.459E-02</datum>
+    <datum>253600.0 7.379E-02</datum>
+    <datum>253700.0 7.298E-02</datum>
+    <datum>253800.0 7.218E-02</datum>
+    <datum>253900.0 7.138E-02</datum>
+    <datum>254000.0 7.057E-02</datum>
+    <datum>254100.0 6.987E-02</datum>
+    <datum>254200.0 6.927E-02</datum>
+    <datum>254300.0 6.867E-02</datum>
+    <datum>254400.0 6.807E-02</datum>
+    <datum>254500.0 6.747E-02</datum>
+    <datum>254600.0 6.668E-02</datum>
+    <datum>254700.0 6.598E-02</datum>
+    <datum>254800.0 6.489E-02</datum>
+    <datum>254900.0 6.360E-02</datum>
+    <datum>255000.0 6.240E-02</datum>
+    <datum>255100.0 6.091E-02</datum>
+    <datum>255200.0 5.922E-02</datum>
+    <datum>255300.0 5.763E-02</datum>
+    <datum>255400.0 5.604E-02</datum>
+    <datum>255500.0 5.465E-02</datum>
+    <datum>255600.0 5.326E-02</datum>
+    <datum>255700.0 5.206E-02</datum>
+    <datum>255800.0 5.127E-02</datum>
+    <datum>255900.0 5.057E-02</datum>
+    <datum>256000.0 4.988E-02</datum>
+    <datum>256100.0 4.938E-02</datum>
+    <datum>256200.0 4.888E-02</datum>
+    <datum>256300.0 4.839E-02</datum>
+    <datum>256400.0 4.759E-02</datum>
+    <datum>256500.0 4.660E-02</datum>
+    <datum>256600.0 4.571E-02</datum>
+    <datum>256700.0 4.442E-02</datum>
+    <datum>256800.0 4.294E-02</datum>
+    <datum>256900.0 4.136E-02</datum>
+    <datum>257000.0 3.977E-02</datum>
+    <datum>257100.0 3.808E-02</datum>
+    <datum>257200.0 3.640E-02</datum>
+    <datum>257300.0 3.481E-02</datum>
+    <datum>257400.0 3.361E-02</datum>
+    <datum>257500.0 3.231E-02</datum>
+    <datum>257600.0 3.121E-02</datum>
+    <datum>257700.0 3.073E-02</datum>
+    <datum>257800.0 3.024E-02</datum>
+    <datum>257900.0 2.976E-02</datum>
+    <datum>258000.0 2.978E-02</datum>
+    <datum>258100.0 2.981E-02</datum>
+    <datum>258200.0 2.993E-02</datum>
+    <datum>258300.0 3.015E-02</datum>
+    <datum>258400.0 3.046E-02</datum>
+    <datum>258500.0 3.088E-02</datum>
+    <datum>258600.0 3.119E-02</datum>
+    <datum>258700.0 3.168E-02</datum>
+    <datum>258800.0 3.208E-02</datum>
+    <datum>258900.0 3.257E-02</datum>
+    <datum>259000.0 3.305E-02</datum>
+    <datum>259100.0 3.353E-02</datum>
+    <datum>259200.0 3.402E-02</datum>
+    <datum>259300.0 3.431E-02</datum>
+    <datum>259400.0 3.470E-02</datum>
+    <datum>259500.0 3.500E-02</datum>
+    <datum>259600.0 3.510E-02</datum>
+    <datum>259700.0 3.519E-02</datum>
+    <datum>259800.0 3.520E-02</datum>
+    <datum>259900.0 3.510E-02</datum>
+    <datum>260000.0 3.481E-02</datum>
+    <datum>260100.0 3.442E-02</datum>
+    <datum>260200.0 3.404E-02</datum>
+    <datum>260300.0 3.345E-02</datum>
+    <datum>260400.0 3.287E-02</datum>
+    <datum>260500.0 3.229E-02</datum>
+    <datum>260600.0 3.162E-02</datum>
+    <datum>260700.0 3.094E-02</datum>
+    <datum>260800.0 3.027E-02</datum>
+    <datum>260900.0 2.970E-02</datum>
+    <datum>261000.0 2.913E-02</datum>
+    <datum>261100.0 2.857E-02</datum>
+    <datum>261200.0 2.801E-02</datum>
+    <datum>261300.0 2.746E-02</datum>
+    <datum>261400.0 2.699E-02</datum>
+    <datum>261500.0 2.642E-02</datum>
+    <datum>261600.0 2.585E-02</datum>
+    <datum>261700.0 2.527E-02</datum>
+    <datum>261800.0 2.461E-02</datum>
+    <datum>261900.0 2.383E-02</datum>
+    <datum>262000.0 2.303E-02</datum>
+    <datum>262100.0 2.225E-02</datum>
+    <datum>262200.0 2.145E-02</datum>
+    <datum>262300.0 2.073E-02</datum>
+    <datum>262400.0 2.001E-02</datum>
+    <datum>262500.0 1.938E-02</datum>
+    <datum>262600.0 1.904E-02</datum>
+    <datum>262700.0 1.878E-02</datum>
+    <datum>262800.0 1.844E-02</datum>
+    <datum>262900.0 1.860E-02</datum>
+    <datum>263000.0 1.868E-02</datum>
+    <datum>263100.0 1.885E-02</datum>
+    <datum>263200.0 1.905E-02</datum>
+    <datum>263300.0 1.926E-02</datum>
+    <datum>263400.0 1.947E-02</datum>
+    <datum>263500.0 1.958E-02</datum>
+    <datum>263600.0 1.968E-02</datum>
+    <datum>263700.0 1.969E-02</datum>
+    <datum>263800.0 1.970E-02</datum>
+    <datum>263900.0 1.970E-02</datum>
+    <datum>264000.0 1.961E-02</datum>
+    <datum>264100.0 1.951E-02</datum>
+    <datum>264200.0 1.952E-02</datum>
+    <datum>264300.0 1.952E-02</datum>
+    <datum>264400.0 1.952E-02</datum>
+    <datum>264500.0 1.953E-02</datum>
+    <datum>264600.0 1.955E-02</datum>
+    <datum>264700.0 1.957E-02</datum>
+    <datum>264800.0 1.958E-02</datum>
+    <datum>264900.0 1.931E-02</datum>
+    <datum>265000.0 1.905E-02</datum>
+    <datum>265100.0 1.878E-02</datum>
+    <datum>265200.0 1.834E-02</datum>
+    <datum>265300.0 1.769E-02</datum>
+    <datum>265400.0 1.704E-02</datum>
+    <datum>265500.0 1.640E-02</datum>
+    <datum>265600.0 1.574E-02</datum>
+    <datum>265700.0 1.499E-02</datum>
+    <datum>265800.0 1.432E-02</datum>
+    <datum>265900.0 1.356E-02</datum>
+    <datum>266000.0 1.295E-02</datum>
+    <datum>266100.0 1.227E-02</datum>
+    <datum>266200.0 1.160E-02</datum>
+    <datum>266300.0 1.092E-02</datum>
+    <datum>266400.0 1.025E-02</datum>
+    <datum>266500.0 9.570E-03</datum>
+    <datum>266600.0 8.922E-03</datum>
+    <datum>266700.0 8.275E-03</datum>
+    <datum>266800.0 7.610E-03</datum>
+    <datum>266900.0 7.119E-03</datum>
+    <datum>267000.0 7.046E-03</datum>
+    <datum>267100.0 6.893E-03</datum>
+    <datum>267200.0 6.626E-03</datum>
+    <datum>267300.0 2.397E-02</datum>
+    <datum>267400.0 2.668E-02</datum>
+    <datum>267500.0 2.662E-02</datum>
+    <datum>267600.0 2.690E-02</datum>
+    <datum>267700.0 2.601E-02</datum>
+    <datum>267800.0 2.512E-02</datum>
+    <datum>267900.0 2.432E-02</datum>
+    <datum>268000.0 2.352E-02</datum>
+    <datum>268100.0 2.272E-02</datum>
+    <datum>268200.0 2.194E-02</datum>
+    <datum>268300.0 2.105E-02</datum>
+    <datum>268400.0 2.012E-02</datum>
+    <datum>268500.0 1.923E-02</datum>
+    <datum>268600.0 1.838E-02</datum>
+    <datum>268700.0 1.756E-02</datum>
+    <datum>268800.0 1.680E-02</datum>
+    <datum>268900.0 1.606E-02</datum>
+    <datum>269000.0 1.535E-02</datum>
+    <datum>269100.0 1.469E-02</datum>
+    <datum>269200.0 1.405E-02</datum>
+    <datum>269300.0 1.344E-02</datum>
+    <datum>269400.0 1.286E-02</datum>
+    <datum>269500.0 1.228E-02</datum>
+    <datum>269600.0 1.173E-02</datum>
+    <datum>269700.0 1.121E-02</datum>
+    <datum>269800.0 1.070E-02</datum>
+    <datum>269900.0 1.020E-02</datum>
+    <datum>270000.0 9.597E-03</datum>
+    <datum>270100.0 8.902E-03</datum>
+    <datum>270200.0 8.212E-03</datum>
+    <datum>270300.0 7.197E-03</datum>
+    <datum>270400.0 4.399E-03</datum>
+    <datum>270500.0 4.714E-03</datum>
+    <datum>270600.0 5.076E-03</datum>
+    <datum>270700.0 5.503E-03</datum>
+    <datum>270800.0 5.816E-03</datum>
+    <datum>270900.0 6.134E-03</datum>
+    <datum>271000.0 6.456E-03</datum>
+    <datum>271100.0 6.676E-03</datum>
+    <datum>271200.0 6.791E-03</datum>
+    <datum>271300.0 6.884E-03</datum>
+    <datum>271400.0 6.983E-03</datum>
+    <datum>271500.0 6.949E-03</datum>
+    <datum>271600.0 6.919E-03</datum>
+    <datum>271700.0 6.884E-03</datum>
+    <datum>271800.0 6.815E-03</datum>
+    <datum>271900.0 6.726E-03</datum>
+    <datum>272000.0 6.648E-03</datum>
+    <datum>272100.0 6.575E-03</datum>
+    <datum>272200.0 6.435E-03</datum>
+    <datum>272300.0 6.261E-03</datum>
+    <datum>272400.0 6.106E-03</datum>
+    <datum>272500.0 5.894E-03</datum>
+    <datum>272600.0 5.476E-03</datum>
+    <datum>272700.0 5.061E-03</datum>
+    <datum>272800.0 4.671E-03</datum>
+    <datum>272900.0 4.110E-03</datum>
+    <datum>273000.0 3.495E-03</datum>
+    <datum>273100.0 2.938E-03</datum>
+    <datum>273200.0 2.394E-03</datum>
+    <datum>273300.0 1.428E-03</datum>
+    <datum>273400.0 8.487E-04</datum>
+    <datum>273500.0 5.143E-04</datum>
+    <datum>273600.0 3.977E-04</datum>
+    <datum>273700.0 6.263E-05</datum>
+    <datum>273800.0 1.042E-04</datum>
+    <datum>273900.0 8.780E-05</datum>
+    <datum>274000.0 7.378E-05</datum>
+    <datum>274100.0 6.233E-05</datum>
+    <datum>274200.0 5.235E-05</datum>
+    <datum>274300.0 4.419E-05</datum>
+    <datum>274400.0 3.732E-05</datum>
+    <datum>274500.0 3.132E-05</datum>
+    <datum>274600.0 2.633E-05</datum>
+    <datum>274700.0 2.214E-05</datum>
+    <datum>274800.0 1.861E-05</datum>
+    <datum>274900.0 1.562E-05</datum>
+    <datum>275000.0 1.315E-05</datum>
+    <datum>275100.0 1.105E-05</datum>
+    <datum>275200.0 9.278E-06</datum>
+    <datum>275300.0 7.795E-06</datum>
+    <datum>275400.0 7.077E-06</datum>
+    <datum>275500.0 6.625E-06</datum>
+    <datum>275600.0 6.192E-06</datum>
+    <datum>275700.0 5.796E-06</datum>
+    <datum>275800.0 5.401E-06</datum>
+    <datum>275900.0 5.060E-06</datum>
+    <datum>276000.0 4.737E-06</datum>
+    <datum>276100.0 4.432E-06</datum>
+    <datum>276200.0 4.146E-06</datum>
+    <datum>276300.0 3.878E-06</datum>
+    <datum>276400.0 3.628E-06</datum>
+    <datum>276500.0 3.378E-06</datum>
+    <datum>276600.0 3.159E-06</datum>
+    <datum>276700.0 2.953E-06</datum>
+    <datum>276800.0 2.763E-06</datum>
+    <datum>276900.0 2.577E-06</datum>
+    <datum>277000.0 2.404E-06</datum>
+    <datum>277100.0 2.249E-06</datum>
+    <datum>277200.0 4.774E-06</datum>
+    <datum>277300.0 7.185E-06</datum>
+    <datum>277400.0 1.730E-05</datum>
+    <datum>277500.0 8.755E-05</datum>
+    <datum>277600.0 8.030E-04</datum>
+    <datum>277700.0 1.069E-03</datum>
+    <datum>277800.0 1.401E-03</datum>
+    <datum>277900.0 1.799E-03</datum>
+    <datum>278000.0 2.105E-03</datum>
+    <datum>278100.0 2.185E-03</datum>
+    <datum>278200.0 2.243E-03</datum>
+    <datum>278300.0 2.323E-03</datum>
+    <datum>278400.0 2.347E-03</datum>
+    <datum>278500.0 2.352E-03</datum>
+    <datum>278600.0 2.359E-03</datum>
+    <datum>278700.0 2.369E-03</datum>
+    <datum>278800.0 2.355E-03</datum>
+    <datum>278900.0 2.352E-03</datum>
+    <datum>279000.0 2.351E-03</datum>
+    <datum>279100.0 2.314E-03</datum>
+    <datum>279200.0 2.129E-03</datum>
+    <datum>279300.0 1.970E-03</datum>
+    <datum>279400.0 1.816E-03</datum>
+    <datum>279500.0 1.518E-03</datum>
+    <datum>279600.0 1.113E-03</datum>
+    <datum>279700.0 8.091E-04</datum>
+    <datum>279800.0 5.917E-04</datum>
+    <datum>279900.0 1.311E-04</datum>
+    <datum>280000.0 3.660E-05</datum>
+    <datum>280500.0 8.797E-06</datum>
+    <datum>281000.0 1.064E-05</datum>
+    <datum>281500.0 1.148E-05</datum>
+    <datum>282000.0 1.242E-05</datum>
+    <datum>282500.0 1.351E-05</datum>
+    <datum>283000.0 1.417E-05</datum>
+    <datum>283500.0 1.390E-05</datum>
+    <datum>284000.0 1.378E-05</datum>
+    <datum>284500.0 1.371E-05</datum>
+    <datum>285000.0 1.266E-05</datum>
+    <datum>285500.0 1.089E-05</datum>
+  </response>
+  <effectiveWavelength>222532.059801413</effectiveWavelength>
+  <vegaOffset>-6.35263298994488</vegaOffset>
+</filter>

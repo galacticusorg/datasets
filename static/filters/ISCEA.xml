@@ -1,0 +1,14 @@
+<filter>
+  <description>ISCEA</description>
+  <name>ISCEA</name>
+  <origin>definition</origin>
+  <note>This is a top-hat filter matched to the expected bandpass for ISCEA (https://www.ipac.caltech.edu/project/iscea).</note>
+  <response>
+    <datum>10500.0 0.0</datum>
+    <datum>10501.0 1.0</datum>
+    <datum>20999.0 1.0</datum>
+    <datum>21000.0 0.0</datum>
+  </response>
+  <effectiveWavelength>15750</effectiveWavelength>
+  <vegaOffset>-1.11473340351929</vegaOffset>
+</filter>
