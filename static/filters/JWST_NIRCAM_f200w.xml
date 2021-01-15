@@ -679,4 +679,6 @@
 <datum>23303.9990234 1.14640555447e-05</datum>
 <datum>23313.9990234 1.05548292997e-05</datum>
 </response>
+  <effectiveWavelength>19933.9251554171</effectiveWavelength>
+  <vegaOffset>-1.69620351023345</vegaOffset>
 </filter>
