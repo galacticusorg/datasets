@@ -82,4 +82,6 @@
     <datum>9640 0</datum>
     <datum>9660 0</datum>
   </response>
+  <effectiveWavelength>8920.83129392707</effectiveWavelength>
+  <vegaOffset>-0.524712709862141</vegaOffset>
 </filter>

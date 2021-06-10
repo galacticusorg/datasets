@@ -107,4 +107,6 @@
     <datum>10980 -9.99275118664237e-05</datum>
     <datum>11000 -9.29331022636631e-05</datum>
   </response>
+  <effectiveWavelength>9772.95542367553</effectiveWavelength>
+  <vegaOffset>-0.562300080071618</vegaOffset>
 </filter>
