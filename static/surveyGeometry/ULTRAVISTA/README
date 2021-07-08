@@ -1,0 +1,13 @@
+The files:
+
+Mstar_redshift_completeness_emp_uvista_v4.1_95.dat
+Mstar_redshift_completeness_emp_uvista_v4.1_100.dat
+
+define the completeness of the ULTRAVISTA survey in terms of stellar mass. They were used in the calculations of Benson (2019; MNRAS; 482; 1062; https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.1062B) the results of which are incorporated into the "muzzin2013ULTRAVISTA" survey geometry class in Galacticus.
+
+They were originally hosted at:
+
+http://www.strw.leidenuniv.nl/galaxyevolution/ULTRAVISTA/Mstar_redshift_completeness_emp_uvista_v4.1_95.dat
+http://www.strw.leidenuniv.nl/galaxyevolution/ULTRAVISTA/Mstar_redshift_completeness_emp_uvista_v4.1_100.dat
+
+but that site no longer exists. The files are therefore preserved here for reference.
