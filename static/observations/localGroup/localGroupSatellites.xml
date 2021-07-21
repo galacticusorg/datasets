@@ -630,6 +630,33 @@
       <properMotionRightAscension value="21" uncertainty="9" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-5" uncertainty="11" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
     </galaxy>
+    <galaxy name="Eridanus IV">
+      <discoverySurvey value="DELVE"/>
+      <declinationDecimal reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C" value="-9.515" uncertaintyLow="0.007" uncertaintyHigh="0.006"/>
+      <rightAscensionDecimal reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C" value="76.438" uncertaintyLow="0.008" uncertaintyHigh="0.012"/>
+      <radiusHalfLightAngular value="3.3" uncertaintyLow="0.6" uncertaintyHigh="0.7" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+     <radiusHalfLight value="75.0e-6" uncertaintyLow="13.0e-6" uncertaintyHigh="16.0e-6" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <ellipticityProjected value="0.54" uncertaintyLow="0.14" uncertaintyHigh="0.10" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <positionAngle value="65.0" uncertaintyLow="8.0" uncertaintyHigh="9.0" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <distanceModulus value="19.42" uncertaintyLow="0.08" uncertaintyHigh="0.01" uncertaintySystematic="0.1" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <distanceHeliocentric value="76.7e-3" uncertaintyLow="6.1e-3" uncertaintyHigh="4.0e-3" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <ageStellar value="13.0" uncertaintyLow="1.0" uncertaintyHigh="0.1" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <metallicityStellar reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C" technique="CMD modelling">
+        <limit confidenceLevel="95.0" type="upper">-2.08</limit>
+      </metallicityStellar>
+      <magnitudeAbsoluteV value="-4.7" uncertainty="0.2" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <surfaceBrightnessEffectiveV value="28.2" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <massStellar value="6519.0" uncertainityLow="1111.0" uncertaintyHigh="1038.0" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <reddening value="0.107" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <latitudeGalactic value="-27.772" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <longitudeGalactic value="209.499" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <properMotionRightAscension value="25.0" uncertainty="6.0" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <properMotionDeclination value="-10.0" uncertainty="5.0" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <referencePrimary reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
+      <alias value="EriIV"/>
+      <alias value="DELVE J0505−0931"/>
+      <classification value="galaxy"/>
+    </galaxy>
     <galaxy name="Horologium I">
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-54" arcminutes="7" arcseconds="17" uncertaintyArcseconds="5" reference="Jerjen et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
@@ -5957,7 +5984,7 @@
     <property name="properMotionNorth" description="Proper motion in North direction." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
     <property name="properMotionWest" description="Proper motion in West directoin." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
     <property name="properMotionDeclination" description="Proper motion in declination direction." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
-    <property name="properMotionRightAscension" description="Proper motion in right ascension directoin." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
+    <property name="properMotionRightAscension" description="Proper motion in right ascension direction." units="milliarcseconds per century" unitsInSI="1.536e-18"/>
     <property name="publication" description="Discovery publication."/>
     <property name="radiusHalfLight" description="Half light radius." units="Mpc" unitsInSI="3.08567758e+22"/>
     <property name="radiusHalfLightAngular" description="Half-light radius measured on major axis, rh(arcmins)" units="arcminutes" unitsInSI="0.000290888212962963"/>
