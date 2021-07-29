@@ -654,7 +654,7 @@
       <properMotionDeclination value="-10.0" uncertainty="5.0" reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
       <referencePrimary reference="Cerny et al. (2021; arXiv:2017.09080)" referenceURL="https://ui.adsabs.harvard.edu/abs/2021arXiv210709080C"/>
       <alias value="EriIV"/>
-      <alias value="DELVE J0505−0931"/>
+      <alias value="DELVE J0505-0931"/>
       <classification value="galaxy"/>
     </galaxy>
     <galaxy name="Horologium I">
