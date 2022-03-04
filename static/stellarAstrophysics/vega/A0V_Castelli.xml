@@ -1216,10 +1216,10 @@
   <datum>400000	1.8813125e-19</datum>
   <datum>600000	3.67972222222222e-20</datum>
   <datum>800000	1.154046875e-20</datum>
-  <datum>29979250000000	5.21999627536465e-36</datum>
-  <datum>24982710000000	5.186531529639e-36</datum>
-  <datum>21413750000000	5.15757662470964e-36</datum>
   <datum>18737030000000	5.13250263487951e-36</datum>
+  <datum>21413750000000	5.15757662470964e-36</datum>
+  <datum>24982710000000	5.186531529639e-36</datum>
+  <datum>29979250000000	5.21999627536465e-36</datum>
   <description>Model spectrum of A0V stars from Castelli &amp; Kurucz (2004).</description>
   <origin>http://wwwuser.oat.ts.astro.it/castelli/grids/gridp00k2odfnew/fp00t9500g40k2odfnew.dat</origin>
   <units>wavelengths: Angstroms</units>
