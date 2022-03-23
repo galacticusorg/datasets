@@ -454,6 +454,44 @@
       <properMotionRightAscension value="6" uncertainty="10" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-20" uncertainty="10" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
     </galaxy>
+    <galaxy name="Pegasus IV">
+      <discoverySurvey value="DECam Local Volume Exploration Survey"/>
+      <rightAscensionDecimal value="328.539" uncertaintyLow="0.004" uncertaintyHigh="0.003" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <declinationDecimal value="26.620" uncertaintyLow="0.003" uncertaintyHigh="0.003" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <radiusHalfLight value="41.0e-6" uncertaintyLow="6.0e-6" uncertaintyHigh="8.0e-6" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <radiusHalfLightAngular value="1.55" uncertaintyLow="0.24" uncertaintyHigh="0.29" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <ellipticityProjected reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C">
+        <limit confidenceLevel="95.0%" type="upper">0.41</limit>
+      </ellipticityProjected>
+      <positionAngle value="115" uncertaintyLow="41" uncertaintyHigh="27" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <distanceModulus value="19.77" uncertaintyLow="0.03" uncertaintyHigh="0.03" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <distanceHeliocentric value="90.0e-3" uncertaintyLow="6.0e-3" uncertaintyHigh="4.0e-3" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <ageStellar reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C">
+        <limit confidenceLevel="95.0%" type="lower">12.5</limit>
+      </ageStellar>
+      <magnitudeAbsoluteV value="-4.25" uncertainty="0.2" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <massStellar value="4400.0" uncertaintyLow="600.0" uncertaintyHigh="800.0" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <reddening value="0.06" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <velocityRadialHeliocentric value="-273.6" uncertaintyLow="1.5" uncertaintyHigh="1.6" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <velocityMilkyWay value="-53.8" uncertainity="1.5" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <velocityDispersionStellar value="3.3" uncertaintyLow="1.1" uncertaintyHigh="1.7" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <massDynamicalHalfLightRadius value="4.0e5" uncertaintyLow="2.3e5" uncertaintyHigh="5.1e5" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <metallicityStellar value="-2.67" uncertaintyLow="0.29" uncertainityHigh="0.25" technique="spectroscopic" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <metallicityDispersionStellar value="0.46" uncertaintyLow="0.17" uncertaintyHigh="0.29" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <properMotionRightAscension value="33" uncertainty="7" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <properMotionDeclination value="-21" uncertainty="8" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <distanceMilkyWay value="89.0e-3" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <distanceOrbitalApocenter value="94.0e-3" uncertaintyLow="7.0e-3" uncertaintyHigh="8.0e-3" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <distanceOrbitalPericenter value="32.0e-3" uncertaintyLow="14.0e-3" uncertaintyHigh="18.0e-3" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <eccentricityOrbital value="0.49" uncertaintyLow="0.16" uncertaintyHigh="0.17" reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <referencePrimary reference="Cerny et al. (2022; arXiv:2203.11788)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220311788C"/>
+      <alias value="PegIV"/>
+      <classification value="galaxy"/>
+      <declinationSexagesimal degrees="26.000000000000" arcminutes="37.000000000000" arcseconds="12.000000000003"/>
+      <rightAscensionSexagesimal hours="21.000000000000" minutes="54.000000000000" seconds="9.515999999997"/>
+      <positionHeliocentricCartesian value="0.68631865E-01  -0.41993429E-01   0.40326406E-01" uncertaintyLow="0.45754577E-02   0.27995619E-02   0.26884271E-02" uncertaintyHigh="0.30503051E-02   0.18663746E-02   0.17922847E-02"/>
+      <distanceM31 value="0.71366219E+00"/>
+    </galaxy>
     <galaxy name="Hydra II">
       <discoverySurvey value="ASH-ATLAS" reference="Nidever et al. (2017)" URL="https://ui.adsabs.harvard.edu/abs/2017AJ....154..199N/abstract" DOI="doi:10.3847/1538-3881/aa8d1c"/>
       <declinationSexagesimal degrees="-31" arcminutes="59" arcseconds="7"/>
@@ -656,7 +694,7 @@
       <alias value="EriIV"/>
       <alias value="DELVE J0505-0931"/>
       <classification value="galaxy"/>
-    </galaxy>
+    <declinationSexagesimal degrees="-9.000000000000" arcminutes="30.000000000000" arcseconds="54.000000000002"/><rightAscensionSexagesimal hours="5.000000000000" minutes="5.000000000000" seconds="45.872000000001"/><positionHeliocentricCartesian value="0.17738509E-01   0.73535565E-01  -0.12678956E-01" uncertaintyLow="0.14107549E-02   0.58483305E-02   0.10083654E-02" uncertaintyHigh="0.92508520E-03   0.38349708E-02   0.66122324E-03"/><distanceMilkyWay value="0.70782113E-01"/><distanceM31 value="0.77169195E+00"/></galaxy>
     <galaxy name="Horologium I">
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-54" arcminutes="7" arcseconds="17" uncertaintyArcseconds="5" reference="Jerjen et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
@@ -1440,7 +1478,7 @@
       <magnitudeApparentg value="17.52" uncertainty="0.09"/>
       <magnitudeApparentr value="17.35" uncertainty="0.05"/>
       <referencePrimary reference="Tollerud et al. (2014); http://adsabs.harvard.edu/abs/2014arXiv1411.5019T"/>
-      <comment value="Distance based quantities are the mean of those derived assuming the 'Hubble flow' and 'Nearby' methods."/>
+      <comment value="Distance based quantities are the mean of those derived assuming the &apos;Hubble flow&apos; and &apos;Nearby&apos; methods."/>
       <classification value="galaxy"/>
     </galaxy>
     <galaxy name="IC 5152">
@@ -2919,7 +2957,7 @@
       <referencePrimary reference="Barnard (1884)"/>
       <alias value="IC 4895"/>
       <alias value="DDO 209"/>
-      <alias value="Barnard's Galaxy"/>
+      <alias value="Barnard&apos;s Galaxy"/>
       <comment value="Polar ring morph."/>
       <classification value="galaxy"/>
     </galaxy>
@@ -4351,7 +4389,7 @@
       <membership value="N"/>
       <rotationVelocityMaximumNeutralHydrogen value="31.2" uncertaintyLow="2.3" uncertaintyHigh="2.3"/>
       <metallicityStellar value="-1.91" uncertaintyLow="0.19" uncertaintyHigh="0.19" technique="Color of red giant branch"/>
-      <referencePrimary reference="Vorontsov-Vel'Yaminov &amp; Krasnogorskaya (1962)"/>
+      <referencePrimary reference="Vorontsov-Vel&apos;Yaminov &amp; Krasnogorskaya (1962)"/>
       <classification value="galaxy"/>
     </galaxy>
     <galaxy name="Bootes II">
@@ -4614,7 +4652,7 @@
       <magnitudeApparentg value="17.45" uncertainty="0.12"/>
       <magnitudeApparentr value="17.18" uncertainty="0.07"/>
       <referencePrimary reference="Tollerud et al. (2014); http://adsabs.harvard.edu/abs/2014arXiv1411.5019T"/>
-      <comment value="Distance based quantities are the mean of those derived assuming the 'Hubble flow' and 'Nearby' methods."/>
+      <comment value="Distance based quantities are the mean of those derived assuming the &apos;Hubble flow&apos; and &apos;Nearby&apos; methods."/>
       <classification value="galaxy"/>
     </galaxy>
     <galaxy name="DDO 99">
@@ -5962,6 +6000,9 @@
     <property name="distanceM31" description="Distance from M31 center." units="Mpc" unitsInSI="3.08567758e+22"/>
     <property name="distanceMilkyWay" description="Distance from Milky Way center." units="Mpc" unitsInSI="3.08567758e+22"/>
     <property name="distanceModulus" description="Distance modulus" units="magnitudes"/>
+    <property name="distanceOrbitalPericenter" description="Distance to orbital pericenter." units="Mpc" unitsInSI="3.08567758e+22"/>
+    <property name="distanceOrbitalApocenter" description="Distance to orbital apocenter." units="Mpc" unitsInSI="3.08567758e+22"/>
+    <property name="eccentricityOrbital" description="Orbital eccentricity."/>
     <property name="ellipticityProjected" description="Projected ellipticity, e=1-b/a"/>
     <property name="reddening" description="Foreground reddening, E(B-V), measured directly from the Schlegel et al 1998 maps (they do not include the recalibration by Schlafly &amp; Finbiener 2011)"/>
     <property name="extinctionV" description="Extinction in the V-band."/>
