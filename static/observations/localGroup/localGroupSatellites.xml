@@ -142,7 +142,6 @@
       <metallicityDispersionStellar reference="Simon et al. (arXiv:1610.05301)" referenceURL="https://arxiv.org/abs/1610.05301">
         <limit confidenceLevel="95.5%" type="upper">0.19</limit>
       </metallicityDispersionStellar>
-      <metallicityStellar value="0.0001" technique="CMD modelling"/>
       <metallicityStellar value="-2.42" uncertaintyLow="0.08" uncertaintyHigh="0.07" reference="Simon et al. (arXiv:1610.05301)" referenceURL="https://arxiv.org/abs/1610.05301" technique="High resolution spectroscopy"/>
       <referencePrimary reference="DES Collaboration (Drlica-Wagner et al.; 2015; arXiv:1508.03622)" referenceURL="http://arxiv.org/abs/1508.03622"/>
       <alias value="Tucana III"/>
@@ -2792,8 +2791,6 @@
       <velocityMilkyWay value="-45"/>
       <morphology value="Sc"/>
       <membership value="A"/>
-      <metallicityStellar value="8.88" uncertaintyLow="8.88" uncertaintyHigh="8.88" technique="9"/>
-      <referencePrimary reference="a"/>
       <alias value="M33"/>
       <alias value="NGC 598"/>
       <alias value="UGC 1117"/>
