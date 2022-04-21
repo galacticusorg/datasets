@@ -491,6 +491,27 @@
       <positionHeliocentricCartesian value="0.68631865E-01  -0.41993429E-01   0.40326406E-01" uncertaintyLow="0.45754577E-02   0.27995619E-02   0.26884271E-02" uncertaintyHigh="0.30503051E-02   0.18663746E-02   0.17922847E-02"/>
       <distanceM31 value="0.71366219E+00"/>
     </galaxy>
+    <galaxy name="Pegasus V">
+      <discoverySurvey value="DESI Legacy Imaging Surveys"/>
+      <referencePrimary reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <rightAscensionSexagesimal hours="23.0" minutes="18.0" seconds="27.8" uncertainty="0.1" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <declinationSexagesimal degrees="33.0" arcminutes="21.0" arcseconds="32.0" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <radiusHalfLight value="87.0e-6" uncertaintyLow="54.0e-6" uncertaintyHigh="40.0e-6" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <radiusHalfLightAngular value="0.4" uncertaintyLow="0.1" uncertaintyHigh="0.2" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <distanceHeliocentric value="692.0e-3" uncertaintyLow="31.0e-3" uncertaintyHigh="33.0e-3" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <distanceM31 value="242.0e-3" uncertaintyLow="11.0e-3" uncertaintyHigh="12.0e-3" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <magnitudeAbsoluteV value="-6.3" uncertainty="0.2" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <surfaceBrightnessEffectiveV value="26.3" uncertainty="0.3" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <ellipticityProjected value="0.01" uncertainty="0.01" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <positionAngle value="96" uncertaintyLow="57" uncertaintyHigh="48" reference="Collins et al. (2022; arXiv:2203.09068)" referenceURL="https://ui.adsabs.harvard.edu/abs/2022arXiv220409068C"/>
+      <alias value="PegV"/>
+      <classification value="galaxy"/>
+      <declinationDecimal value="33.358888888889"/>
+      <rightAscensionDecimal value="349.613934426229"/>
+      <distanceModulus value="24.200530472284" uncertaintyLow="0.097276943201" uncertaintyHigh="0.103552875020"/>
+      <positionHeliocentricCartesian value="0.56851777E+00  -0.10419962E+00   0.38051805E+00" uncertaintyLow="0.25468282E-01   0.46679021E-02   0.17046329E-01" uncertaintyHigh="0.27111396E-01   0.49690570E-02   0.18146092E-01"/>
+      <distanceMilkyWay value="0.69785569E+00"/>
+    </galaxy>
     <galaxy name="Hydra II">
       <discoverySurvey value="ASH-ATLAS" reference="Nidever et al. (2017)" URL="https://ui.adsabs.harvard.edu/abs/2017AJ....154..199N/abstract" DOI="doi:10.3847/1538-3881/aa8d1c"/>
       <declinationSexagesimal degrees="-31" arcminutes="59" arcseconds="7"/>
