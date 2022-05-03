@@ -134,7 +134,7 @@
       <latitudeGalactic value="-56.19"/>
       <longitudeGalactic value="315.38"/>
       <velocityRadialHeliocentric value="-102.3" uncertainty="0.4" reference="Simon et al. (arXiv:1610.05301)" referenceURL="https://arxiv.org/abs/1610.05301"/>
-      <velocityDispersionStellar value="0.1" uncertaintyLow="0.1" uncertaintyHigh="0.7" reference="Simon et al. (arXiv:1610.05301)" referenceURL="https://arxiv.org/abs/1610.05301">
+      <velocityDispersionStellar reference="Simon et al. (arXiv:1610.05301)" referenceURL="https://arxiv.org/abs/1610.05301">
         <limit confidenceLevel="90.0%" type="upper">1.2</limit>
         <limit confidenceLevel="95.5%" type="upper">1.5</limit>
         <limit confidenceLevel="99.7%" type="upper">2.3</limit>
@@ -1124,7 +1124,7 @@
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit confidenceLevel="99.999971%" type="upper">1.6000e+03</limit>
       </massNeutralHydrogen>
-      <massDynamicalHalfLightRadius value="6.2" uncertaintyLow="0.2" uncertaintyHigh="0.3" reference="Kirby, Simon, &amp; Cohen (arXiv:1506.01021)" referenceURL="http://arxiv.org/abs/1506.01021"/>
+      <massDynamicalHalfLightRadius value="1.58e6" uncertaintyLow="0.58e6" uncertaintyHigh="1.57e6" reference="Kirby, Simon, &amp; Cohen (arXiv:1506.01021)" referenceURL="http://arxiv.org/abs/1506.01021"/>
       <radiusHalfLight value="0.058e-3" uncertainty="0.007e-3"/>
       <ellipticityProjected value="0.40" uncertaintyLow="0.10" uncertaintyHigh="0.10"/>
       <extinctionV value="0.065"/>
@@ -5602,7 +5602,7 @@
       </massNeutralHydrogen>
      <velocityRadialHeliocentric value="80.4" uncertainty="0.6" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <metallicityStellar value="-2.52" uncertainty="0.09" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
-      <massDynamicalHalfLightRadius value="" uncertaintyLow="" uncertaintyHigh="" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
+      <massDynamicalHalfLightRadius value="2.23e5" uncertaintyLow="0.66e5" uncertaintyHigh="0.95e5" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <classification value="galaxy"/>
       <referencePrimary reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <discoverySurvey value="DES" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
