@@ -1387,7 +1387,7 @@
       <positionHeliocentricCartesian value="1.4941097 0.097134887 -1.2209935" uncertainty="0.082748309 0.0053796237 0.067622311"/>
       <massStellar value="2200000000"/>
       <massNeutralHydrogen value="1300000000"/>
-      <radiusHalfLight value="2.9"/>
+      <radiusHalfLight value="2.9e-3"/>
       <ellipticityProjected value="0.83e-3" uncertaintyLow="0.01e-3" uncertaintyHigh="0.01e-3"/>
       <extinctionV value="0.013"/>
       <radiusHalfLightAngular value="5.16"/>
