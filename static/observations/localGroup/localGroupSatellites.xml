@@ -1349,6 +1349,7 @@
       <declinationDecimal value="-69.756111111111"/>
       <rightAscensionDecimal value="80.891393442623"/>
       <positionHeliocentricCartesian value="0.0027936117 0.01742434 -0.047849641" uncertainty="0.0001095534 0.00068330746 0.0018764565"/>
+      <radiusHalfLight value="2697.0e-6" uncertainty="115.0e-6" reference="McConnachie (2012)" referenceURL="https://ui.adsabs.harvard.edu/abs/2012AJ....144....4M"/>
       <massStellar value="1500000000"/>
       <massNeutralHydrogen value="4.6000e+08" uncertainty="4.0000e+07" reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809"/>
       <extinctionV value="0.926"/>
@@ -1565,7 +1566,7 @@
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit confidenceLevel="99.999971%" type="upper">1.2600e+02</limit>
       </massNeutralHydrogen>
-      <radiusHalfLight value="2.58e-37" uncertainty="0.219e-3"/>
+      <radiusHalfLight value="2.58e-3" uncertainty="0.219e-3" reference="McConnachie (2012)" referenceURL="https://ui.adsabs.harvard.edu/abs/2012AJ....144....4M"/>
       <ellipticityProjected value="0.64" uncertaintyLow="0.02" uncertaintyHigh="0.02"/>
       <extinctionV value="0.153"/>
       <radiusHalfLightAngular value="342.00" uncertaintyLow="12.00" uncertaintyHigh="12.00"/>
@@ -5257,6 +5258,7 @@
       <declinationDecimal value="-72.828611111111"/>
       <rightAscensionDecimal value="13.183606557377"/>
       <positionHeliocentricCartesian value="0.018396796 0.0043093767 -0.061147258" uncertainty="0.0011497998 0.00026933604 0.0038217036"/>
+      <radiusHalfLight value="1106.0e-6" uncertainty="77.0e-6" reference="McConnachie (2012)" referenceURL="https://ui.adsabs.harvard.edu/abs/2012AJ....144....4M"/>
       <massStellar value="460000000"/>
       <massNeutralHydrogen value="4.6000e+08" uncertainty="5.0000e+07" reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809"/>
       <extinctionV value="0.419"/>
