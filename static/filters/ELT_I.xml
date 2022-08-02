@@ -1,0 +1,38 @@
+<filter>
+  <description>I Johnson filter</description>
+  <name>ELT Johnson I</name>
+  <origin>http://www.eso.org/sci/facilities/eelt/science/drm/tech_data/data/filter_curves/I.dat</origin>
+  <source>Johnson (1965, ApJ, 141, 923) </source>
+  <url>https://ui.adsabs.harvard.edu/abs/1965ApJ...141..923J/abstract</url>
+  <response>
+    <datum>6800 0.00</datum>
+    <datum>7000 0.01</datum>
+    <datum>7200 0.17</datum>
+    <datum>7400 0.36</datum>
+    <datum>7600 0.56</datum>
+    <datum>7800 0.76</datum>
+    <datum>8000 0.96</datum>
+    <datum>8200 0.98</datum>
+    <datum>8400 0.99</datum>
+    <datum>8600 1.00</datum>
+    <datum>8800 0.98</datum>
+    <datum>9000 0.93</datum>
+    <datum>9200 0.84</datum>
+    <datum>9400 0.71</datum>
+    <datum>9600 0.58</datum>
+    <datum>9800 0.47</datum>
+    <datum>10000 0.36</datum>
+    <datum>10200 0.28</datum>
+    <datum>10400 0.20</datum>
+    <datum>10600 0.15</datum>
+    <datum>10800 0.10</datum>
+    <datum>11000 0.08</datum>
+    <datum>11200 0.05</datum>
+    <datum>11400 0.03</datum>
+    <datum>11600 0.02</datum>
+    <datum>12000 0.00</datum>
+  </response>
+  <effectiveWavelength>8778.21953327571</effectiveWavelength>
+  <vegaOffset>-0.491286177419074</vegaOffset>
+</filter>
+

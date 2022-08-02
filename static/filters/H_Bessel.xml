@@ -1,0 +1,32 @@
+<filter>
+  <description>Response curve for the H Bessel</description>
+  <name>Bessel H</name>
+  <origin>http://www.eso.org/sci/facilities/eelt/science/drm/tech_data/data/filter_curves/H.dat</origin>
+  <source>Bessel and Brett (1988, PASP, 100, 1134)</source>
+  <url>https://ui.adsabs.harvard.edu/abs/1988PASP..100.1134B</url>
+  <response>
+    <datum>1460 0.000</datum>
+    <datum>1480 0.152</datum>
+    <datum>1500 0.444</datum>
+    <datum>1520 0.869</datum>
+    <datum>1540 0.949</datum>
+    <datum>1560 0.990</datum>
+    <datum>1580 0.960</datum>
+    <datum>1600 1.000</datum>
+    <datum>1620 1.000</datum>
+    <datum>1640 1.000</datum>
+    <datum>1660 1.000</datum>
+    <datum>1680 1.000</datum>
+    <datum>1700 1.000</datum>
+    <datum>1720 0.960</datum>
+    <datum>1740 0.879</datum>
+    <datum>1760 0.848</datum>
+    <datum>1780 0.717</datum>
+    <datum>1800 0.525</datum>
+    <datum>1820 0.020</datum>
+    <datum>1840 0.000</datum>
+  </response>
+  <effectiveWavelength>1646.42632571788</effectiveWavelength>
+  <vegaOffset>-2.26960665875311</vegaOffset>
+</filter>
+

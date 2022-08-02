@@ -1,0 +1,54 @@
+<filter>
+  <description>ELT I Cousins/Bessel filter</description>
+  <name>ELT Bessel I_c</name>
+  <origin>http://www.eso.org/sci/facilities/eelt/science/drm/tech_data/data/filter_curves/Ic.dat</origin>
+  <source>Cousins (1976, MNRAS, 81, 25) and Bessel (2005, Annu.Rev. A and A, 43, 293)</source>
+  <url>https://ui.adsabs.harvard.edu/abs/1990PASP..102.1181B/abstract</url>
+  <response>
+    <datum>7000 0.000</datum>
+    <datum>7050 0.005</datum>
+    <datum>7100 0.020</datum>
+    <datum>7150 0.050</datum>
+    <datum>7200 0.101</datum>
+    <datum>7250 0.171</datum>
+    <datum>7300 0.332</datum>
+    <datum>7350 0.704</datum>
+    <datum>7400 0.825</datum>
+    <datum>7450 0.905</datum>
+    <datum>7500 0.956</datum>
+    <datum>7550 0.986</datum>
+    <datum>7600 0.996</datum>
+    <datum>7650 1.000</datum>
+    <datum>7700 0.986</datum>
+    <datum>7750 0.956</datum>
+    <datum>7800 0.919</datum>
+    <datum>7850 0.875</datum>
+    <datum>7900 0.835</datum>
+    <datum>7950 0.795</datum>
+    <datum>8000 0.755</datum>
+    <datum>8050 0.714</datum>
+    <datum>8100 0.677</datum>
+    <datum>8150 0.654</datum>
+    <datum>8200 0.634</datum>
+    <datum>8250 0.614</datum>
+    <datum>8300 0.584</datum>
+    <datum>8350 0.553</datum>
+    <datum>8400 0.513</datum>
+    <datum>8450 0.473</datum>
+    <datum>8500 0.407</datum>
+    <datum>8550 0.332</datum>
+    <datum>8600 0.252</datum>
+    <datum>8650 0.181</datum>
+    <datum>8700 0.141</datum>
+    <datum>8750 0.111</datum>
+    <datum>8800 0.080</datum>
+    <datum>8850 0.060</datum>
+    <datum>8900 0.035</datum>
+    <datum>8950 0.020</datum>
+    <datum>9000 0.010</datum>
+    <datum>9050 0.005</datum>
+    <datum>9100 0.000</datum>
+  </response>
+  <effectiveWavelength>7885.57017110078</effectiveWavelength>
+  <vegaOffset>-0.422500368813995</vegaOffset>
+</filter>

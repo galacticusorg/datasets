@@ -1,0 +1,36 @@
+<filter>
+  <description>ELT U Bessel filter</description>
+  <name>ELT Bessel U</name>
+  <origin>http://www.eso.org/sci/facilities/eelt/science/drm/tech_data/data/filter_curves/U.dat</origin>
+  <source>Bessel (1990, PASP 102, 1181) and Bessel (2005, Annu.Rev. A andA, 43, 293)</source>
+  <url>https://ui.adsabs.harvard.edu/abs/1990PASP..102.1181B/abstract</url>
+  <response>
+    <datum>3000 0.000</datum>
+    <datum>3050 0.016</datum>
+    <datum>3100 0.068</datum>
+    <datum>3150 0.167</datum>
+    <datum>3200 0.287</datum>
+    <datum>3250 0.423</datum>
+    <datum>3300 0.560</datum>
+    <datum>3350 0.673</datum>
+    <datum>3400 0.772</datum>
+    <datum>3450 0.841</datum>
+    <datum>3500 0.905</datum>
+    <datum>3550 0.943</datum>
+    <datum>3600 0.981</datum>
+    <datum>3650 0.993</datum>
+    <datum>3700 1.000</datum>
+    <datum>3750 0.989</datum>
+    <datum>3800 0.916</datum>
+    <datum>3850 0.804</datum>
+    <datum>3900 0.625</datum>
+    <datum>3950 0.423</datum>
+    <datum>4000 0.238</datum>
+    <datum>4050 0.114</datum>
+    <datum>4100 0.051</datum>
+    <datum>4150 0.019</datum>
+    <datum>4200 0.000</datum>
+  </response>
+  <effectiveWavelength>3605.07104934416</effectiveWavelength>
+  <vegaOffset>-0.771442356093919</vegaOffset>
+</filter>
