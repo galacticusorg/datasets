@@ -1,0 +1,34 @@
+<filter>
+  <description>R Johnson filter</description>
+  <name>ELT Johnson R</name>
+  <origin>http://www.eso.org/sci/facilities/eelt/science/drm/tech_data/data/filter_curves/R.dat</origin>
+  <source>Johnson (1965, ApJ, 141, 923) </source>
+  <url>https://ui.adsabs.harvard.edu/abs/1965ApJ...141..923J/abstract</url>
+  <response>
+    <datum>5200 0.000</datum>
+    <datum>5400 0.060</datum>
+    <datum>5600 0.280</datum>
+    <datum>5800 0.500</datum>
+    <datum>6000 0.690</datum>
+    <datum>6200 0.790</datum>
+    <datum>6400 0.880</datum>
+    <datum>6600 0.940</datum>
+    <datum>6800 0.980</datum>
+    <datum>7000 1.000</datum>
+    <datum>7200 0.940</datum>
+    <datum>7400 0.850</datum>
+    <datum>7600 0.730</datum>
+    <datum>7800 0.570</datum>
+    <datum>8000 0.420</datum>
+    <datum>8200 0.310</datum>
+    <datum>8400 0.170</datum>
+    <datum>8600 0.110</datum>
+    <datum>8800 0.060</datum>
+    <datum>9000 0.040</datum>
+    <datum>9200 0.020</datum>
+    <datum>9400 0.010</datum>
+    <datum>9600 0.000</datum>
+  </response>
+  <effectiveWavelength>6939.51690821256</effectiveWavelength>
+  <vegaOffset>-0.23867794819835</vegaOffset>
+</filter>

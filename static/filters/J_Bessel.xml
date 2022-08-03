@@ -1,0 +1,32 @@
+<filter>
+  <description>Response curve for the J Bessel filter</description>
+  <name>Bessel J</name>
+  <origin>http://www.eso.org/sci/facilities/eelt/science/drm/tech_data/data/filter_curves/J.dat</origin>
+  <source>Bessel and Brett (1988, PASP, 100, 1134)</source>
+  <url>https://ui.adsabs.harvard.edu/abs/1988PASP..100.1134B</url>
+  <response>
+    <datum>1040 0.000</datum>
+    <datum>1060 0.021</datum>
+    <datum>1080 0.117</datum>
+    <datum>1100 0.447</datum>
+    <datum>1120 0.340</datum>
+    <datum>1140 0.500</datum>
+    <datum>1160 0.670</datum>
+    <datum>1180 0.777</datum>
+    <datum>1200 0.819</datum>
+    <datum>1220 0.862</datum>
+    <datum>1240 0.883</datum>
+    <datum>1260 0.936</datum>
+    <datum>1280 1.000</datum>
+    <datum>1300 0.968</datum>
+    <datum>1320 0.840</datum>
+    <datum>1340 0.723</datum>
+    <datum>1360 0.043</datum>
+    <datum>1380 0.117</datum>
+    <datum>1400 0.074</datum>
+    <datum>1420 0.032</datum>
+    <datum>1440 0.000</datum>
+  </response>
+  <effectiveWavelength>1236.98495427279</effectiveWavelength>
+  <vegaOffset>-5.15500194221697</vegaOffset>
+</filter>
