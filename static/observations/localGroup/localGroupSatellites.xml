@@ -2909,7 +2909,7 @@
       <metallicityStellar value="-0.50" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="CMD modelling" comment="Based primarily on MS stars"/>
       <referencePrimary reference="Martin et al. (2004a)"/>
       <comment value="MW disk substructure?"/>
-      <classification value="galaxy"/>
+      <classification value="overdensity" reference="Mateu et al. (2009; AJ; 137; 4412)" referenceURL="https://ui.adsabs.harvard.edu/abs/2009AJ....137.4412M"/>
     </galaxy>
     <galaxy name="Andromeda XXXI">
       <discoverySurvey value="Pan-STARRS"/>
