@@ -512,6 +512,33 @@
       <positionHeliocentricCartesian value="0.56851777E+00  -0.10419962E+00   0.38051805E+00" uncertaintyLow="0.25468282E-01   0.46679021E-02   0.17046329E-01" uncertaintyHigh="0.27111396E-01   0.49690570E-02   0.18146092E-01"/>
       <distanceMilkyWay value="0.69785569E+00"/>
     </galaxy>
+    <galaxy name="Pegasus W">
+      <discoverySurvey value="DESI Legacy Imaging Surveys"/>
+      <declinationDecimal value="358.31248167" uncertainty="0.00028" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <rightAscensionDecimal value="22.10197022" uncertainty="0.00028" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <positionAngle value="92" uncertainty="3" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <ellipticityProjected value="0.17" uncertaintyLow="0.08" uncertaintyHigh="0.07" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <radiusHalfLightAngular value="23.0" uncertainty="2.0" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <radiusHalfLight value="100.0e-6" uncertaintyLow="13.0e-6" uncertaintyHigh="11.0e-6" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <magnitudeAbsoluteV value="-7.20" uncertaintyLow="0.16" uncertaintyHigh="0.17" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <massStellar value="6.5e4" uncertaintyLow="1.5e4" uncertaintyHigh="1.1e4" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <surfaceBrightnessEffectiveV value="24.81" uncertaintyLow="0.22" uncertaintyHigh="0.14" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <distanceHeliocentric value="0.915" uncertaintyLow="0.091" uncertainityHigh="0.060" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <metallicityStellar value="-1.9" uncertainty="0.1" technique="CMD modelling" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <ageStellar value="7.4" uncertaintyLow="2.6" uncertaintyHigh="2.2" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <extinctionV value="0.315" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <extinctionF606W value="0.284" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <extinctionF814W value="0.175" reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <referencePrimary reference="McQuinn et al. (2023; arXiv:2301.04157)" referenceURL="http://arxiv.org/abs/2301.04157"/>
+      <alias value="PegW"/>
+      <classification value="galaxy"/>
+      <declinationSexagesimal degrees="358.000000000000" arcminutes="18.000000000000" arcseconds="44.934012000040"/>
+      <rightAscensionSexagesimal hours="1.000000000000" minutes="28.000000000000" seconds="24.880733680000"/>
+      <distanceModulus value="24.807105470332" uncertaintyLow="0.215960644007"/>
+      <positionHeliocentricCartesian value="0.84739418E+00   0.34412504E+00  -0.26945371E-01" uncertaintyLow="0.84276361E-01   0.34224458E-01   0.26798129E-02"/>
+      <distanceMilkyWay value="0.91546332E+00"/>
+      <distanceM31 value="0.65033874E+00"/>
+    </galaxy>
     <galaxy name="Hydra II">
       <discoverySurvey value="ASH-ATLAS" reference="Nidever et al. (2017)" URL="https://ui.adsabs.harvard.edu/abs/2017AJ....154..199N/abstract" DOI="doi:10.3847/1538-3881/aa8d1c"/>
       <declinationSexagesimal degrees="-31" arcminutes="59" arcseconds="7"/>
