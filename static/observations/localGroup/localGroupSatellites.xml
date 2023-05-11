@@ -1955,7 +1955,7 @@
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="6.9000e+03" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="2.95e-04" uncertaintyLow="2.80e-05" uncertaintyHigh="2.80e-05" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <radiusHalfLight value="2.95e-04" uncertaintyLow="2.80e-05" uncertaintyHigh="2.80e-05" reference="Okamoto et al. (2008)" referenceURL="https://ui.adsabs.harvard.edu/abs/2008A%2526A...487..103O"/>
       <ellipticityProjected value="0.80" uncertaintyLow="0.04" uncertaintyHigh="0.04"/>
       <extinctionV value="0.020"/>
       <radiusHalfLightAngular value="11.30" uncertaintyLow="1.70" uncertaintyHigh="1.70"/>
@@ -4200,7 +4200,7 @@
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="3.4000e+03" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="7.92e-04" uncertaintyLow="1.80e-05" uncertaintyHigh="1.80e-05" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <radiusHalfLight value="7.92e-04" uncertaintyLow="1.80e-05" uncertaintyHigh="1.80e-05" reference="Battaglia et al. (2006)" referenceURL="https://ui.adsabs.harvard.edu/abs/2006A%2526A...459..423B"/>
       <ellipticityProjected value="0.30" uncertaintyLow="0.01" uncertaintyHigh="0.01"/>
       <extinctionV value="0.021"/>
       <radiusHalfLightAngular value="16.60" uncertaintyLow="1.20" uncertaintyHigh="1.20"/>
