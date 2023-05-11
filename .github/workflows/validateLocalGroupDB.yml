@@ -5,17 +5,17 @@ on:
     types: [opened, reopened, synchronize]
     branches:
       - master
-     paths:
-       - 'static/observations/localGroup/localGroupSatellites.xml'
-       - 'static/observations/localGroup/localGroupSatellites.xsd'
-       - 'static/observations/localGroup/localGroupSatellitesValidate.py'
-   push:
-     branches:
-       - 'master'
-     paths:
-       - 'static/observations/localGroup/localGroupSatellites.xml'
-       - 'static/observations/localGroup/localGroupSatellites.xsd'
-       - 'static/observations/localGroup/localGroupSatellitesValidate.py'
+    paths:
+      - 'static/observations/localGroup/localGroupSatellites.xml'
+      - 'static/observations/localGroup/localGroupSatellites.xsd'
+      - 'static/observations/localGroup/localGroupSatellitesValidate.py'
+  push:
+    branches:
+      - 'master'
+    paths:
+      - 'static/observations/localGroup/localGroupSatellites.xml'
+      - 'static/observations/localGroup/localGroupSatellites.xsd'
+      - 'static/observations/localGroup/localGroupSatellitesValidate.py'
 defaults:
   run:
     shell: bash
