@@ -44,7 +44,8 @@
       <ellipticityProjected>
         <limit value="0.1" confidenceLevel="84%" type="upper"/>
       </ellipticityProjected>
-      <magnitudeAbsoluteV value="-7.8" uncertainty="0.1"/>
+      <magnitudeAbsoluteV value="-8.20" uncertainty="0.10" reference="Torrealba et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016MNRAS.459.2370T"/>
+      <massStellar value="162929.6" uncertaintyLow="14336.0" uncertaintyHigh="15719.2" reference="Torrealba et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016MNRAS.459.2370T" technique="M/L = 1 Msun/Lsun"/>
       <radiusHalfLightAngular value="31.2" uncertainty="2.5"/>
       <latitudeGalactic value="42.027"/>
       <longitudeGalactic value="282.908"/>
@@ -123,12 +124,12 @@
       <positionHeliocentricCartesian value="0.01264943 -0.00018911987 -0.021562842" uncertainty="0.0010119544 1.5129589e-05 0.0017250273"/>
       <distanceMilkyWay value="0.024583501" uncertainty="0.0013957444"/>
       <distanceM31 value="0.78828758" uncertainty="0.017446725"/>
-      <massStellar value="779.8" uncertaintyLow="250.1" uncertaintyHigh="368.4" technique="M/L = 1 Msun/Lsun"/>
+      <magnitudeAbsoluteV value="-1.49" uncertainty="0.20" reference="Mutlu-Pakdil et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...863...25M"/>
+      <massStellar value="337.3" uncertaintyLow="56.7" uncertaintyHigh="68.2" reference="Mutlu-Pakdil et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...863...25M" technique="M/L = 1 Msun/Lsun"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="9.0000e+01" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <radiusHalfLight value="4.4e-05" uncertainty="6e-06"/>
-      <magnitudeAbsoluteV value="-2.4" uncertainty="0.42"/>
       <radiusHalfLightAngular value="6.0" uncertaintyLow="0.6" uncertaintyHigh="0.8"/>
       <ageStellar value="10.9"/>
       <latitudeGalactic value="-56.19"/>
@@ -550,7 +551,8 @@
       <rightAscensionDecimal value="359.147540983607"/>
       <positionHeliocentricCartesian value="0.11364411 -0.0016909464 -0.07097998" uncertainty="0.0084809036 0.00012619003 0.0052970134"/>
       <distanceM31 value="0.7571564" uncertainty="0.018339549"/>
-      <massStellar value="7112.1" uncertaintyLow="1717.0" uncertaintyHigh="2263.5" technique="M/L = 1 Msun/Lsun"/>
+      <magnitudeAbsoluteV value="-4.86" uncertainty="0.37" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="7516.2" uncertaintyLow="2170.6" uncertaintyHigh="3051.9" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius reference="Kirby, Simon, &amp; Cohen (arXiv:1506.01021)" referenceURL="http://arxiv.org/abs/1506.01021">
         <limit value="0.79e6" confidenceLevel="90%" type="upper"/>
         <limit value="1.26e6" confidenceLevel="95%" type="upper"/>
@@ -564,7 +566,6 @@
       <radiusHalfLight value="6.6e-05" uncertaintyLow="9e-06" uncertaintyHigh="1.2e-05"/>
       <ellipticityProjected value="0.01" uncertaintyLow="0.01" uncertaintyHigh="0.19"/>
       <extinctionV value="0.053"/>
-      <magnitudeAbsoluteV value="-4.8" uncertainty="0.3"/>
       <radiusHalfLightAngular value="1.7" uncertaintyLow="0.2" uncertaintyHigh="0.3"/>
       <latitudeGalactic value="295.61"/>
       <longitudeGalactic value="+30.46"/>
@@ -601,7 +602,8 @@
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.0700e+02" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <massStellar value="448.7" uncertaintyLow="165.6" uncertaintyHigh="262.5" technique="M/L = 1 Msun/Lsun"/>
+      <magnitudeAbsoluteV value="-1.60" uncertainty="0.76" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="373.3" uncertaintyLow="187.9" uncertaintyHigh="378.4" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius reference="Kirby et al. (2017; arXiv:1703.02978)" referenceURL="http://adsabs.harvard.edu/abs/2017arXiv170302978K">
         <limit value="0.37e6" confidenceLevel="90.0" type="upper"/>
         <limit value="0.56e6" confidenceLevel="95.0" type="upper"/>
@@ -609,7 +611,6 @@
       <radiusHalfLight value="3.4e-05" uncertaintyLow="8e-06" uncertaintyHigh="9e-06"/>
       <ellipticityProjected value="0.21" uncertaintyLow="0.21" uncertaintyHigh="0.17"/>
       <extinctionV value="0.081"/>
-      <magnitudeAbsoluteV value="-1.8" uncertainty="0.5"/>
       <radiusHalfLightAngular value="3.9" uncertaintyLow="0.9" uncertaintyHigh="1.1"/>
       <latitudeGalactic value="141.4"/>
       <longitudeGalactic value="-23.4"/>
@@ -642,7 +643,8 @@
       <positionHeliocentricCartesian value="0.010261026 0.014082802 -0.024421016"/>
       <distanceMilkyWay value="0.02561039"/>
       <distanceM31 value="0.79010981"/>
-      <massStellar value="1028.0" uncertaintyLow="90.4" uncertaintyHigh="99.2" technique="M/L = 1 Msun/Lsun"/>
+      <magnitudeAbsoluteV value="-3.99" uncertainty="0.38" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="3372.9" uncertaintyLow="996.0" uncertaintyHigh="1413.4" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.4500e+02" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
@@ -651,7 +653,6 @@
       </massNeutralHydrogen>
       <radiusHalfLight value="3.2e-05" uncertainty="1e-06"/>
       <ellipticityProjected value="0.58" uncertaintyLow="0.03" uncertaintyHigh="0.03"/>
-      <magnitudeAbsoluteV value="-2.7" uncertainty="0.1"/>
       <radiusHalfLightAngular value="3.4" uncertainty="0.2"/>
       <positionAngle value="71" uncertainty="1"/>
       <detectionEfficiencyHalfLight value="1.00" reference="The DES Collaboration (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302584T"/>
@@ -680,7 +681,7 @@
       <positionHeliocentricCartesian value="0.14805889 0.22018854 -0.25209437" uncertainty="0.0068770521 0.010227337 0.011709301"/>
       <distanceMilkyWay value="0.36069105" uncertainty="0.010483534"/>
       <distanceM31 value="0.88777956" uncertainty="0.019989162"/>
-      <massStellar value="59156.2" uncertaintyLow="14281.7" uncertaintyHigh="18826.8" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="59156.2" uncertaintyLow="14281.6" uncertaintyHigh="18826.8" reference="Crnojevic et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...823...19C" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="12000000" uncertaintyLow="3000000" uncertaintyHigh="4000000" reference="Li et al. (2016; arXiv:1611.05052)" referenceURL="http://adsabs.harvard.edu/abs/2016arXiv161105052L"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.8000e+04" confidenceLevel="99.999971%" type="upper"/>
@@ -1052,7 +1053,8 @@
       <positionHeliocentricCartesian value="0.03440313 -0.010542584 -0.05887511"/>
       <distanceMilkyWay value="0.068667009"/>
       <distanceM31 value="0.80073203"/>
-      <massStellar value="4920.4" uncertaintyLow="432.9" uncertaintyHigh="474.7" technique="M/L = 1 Msun/Lsun"/>
+      <magnitudeAbsoluteV value="-3.90" uncertainty="0.20" reference="Bechtol et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...807...50B"/>
+      <massStellar value="3104.6" uncertaintyLow="522.3" uncertaintyHigh="627.9" reference="Bechtol et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...807...50B" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="2700000" uncertaintyLow="1300000" uncertaintyHigh="3100000" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="2.1500e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -1062,7 +1064,6 @@
       </massNeutralHydrogen>
       <radiusHalfLight value="0.000199" uncertainty="2.8e-05"/>
       <ellipticityProjected value="0.31" uncertaintyLow="0.17" uncertaintyHigh="0.16"/>
-      <magnitudeAbsoluteV value="-4.4" uncertainty="0.1"/>
       <radiusHalfLightAngular value="9.9" uncertainty="1.4"/>
       <velocityRadialHeliocentric value="-129.1" uncertainty="3.5" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
       <velocityDispersionStellar value="8.6" uncertaintyLow="0.26" uncertaintyHigh="0.48" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
@@ -1173,7 +1174,8 @@
       <declinationDecimal value="5.952500000000"/>
       <rightAscensionDecimal value="44.627049180328"/>
       <positionHeliocentricCartesian value="0.12883001 0.12716366 0.018874117"/>
-      <massStellar value="8600"/>
+      <magnitudeAbsoluteV value="-4.23" uncertainty="0.38" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="4207.3" uncertaintyLow="1242.4" uncertaintyHigh="1763.1" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.6000e+03" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
@@ -1223,7 +1225,8 @@
       <declinationDecimal value="-1.614722222222"/>
       <rightAscensionDecimal value="3.262295081967"/>
       <positionHeliocentricCartesian value="0.085826541 0.0048920613 -0.00242335" uncertainty="0.0039919321 0.00022753773 0.00011271396"/>
-      <massStellar value="440000"/>
+      <magnitudeAbsoluteV value="-8.94" uncertainty="0.06" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="322106.9" uncertaintyLow="17317.4" uncertaintyHigh="18301.3" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="25000000" uncertainty="7100000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="4.7900e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -1351,7 +1354,8 @@
       <declinationDecimal value="16.081944444444"/>
       <rightAscensionDecimal value="1.766393442623"/>
       <positionHeliocentricCartesian value="0.022089428 0.00068121923 0.006371273" uncertainty="0.0019208198 5.9236455e-05 0.00055402374"/>
-      <massStellar value="340"/>
+      <magnitudeAbsoluteV value="-1.30" uncertainty="0.73" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="283.1" uncertaintyLow="138.6" uncertaintyHigh="271.5" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="200000" uncertainty="100000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="4.7000e+01" confidenceLevel="99.999971%" type="upper"/>
@@ -1614,7 +1618,8 @@
       <declinationDecimal value="-30.545277777778"/>
       <rightAscensionDecimal value="133.829918032787"/>
       <positionHeliocentricCartesian value="-0.015506854 0.016153505 -0.013213697" uncertainty="0.0011928349 0.0012425773 0.0010164382"/>
-      <massStellar value="21000000"/>
+      <magnitudeAbsoluteV value="-13.50" uncertainty="0.15" reference="Majewski et al. (2003)" referenceURL="https://ui.adsabs.harvard.edu/abs/2003ApJ...599.1082M"/>
+      <massStellar value="21478304.7" uncertaintyLow="2771483.3" uncertaintyHigh="3182088.6" reference="Majewski et al. (2003)" referenceURL="https://ui.adsabs.harvard.edu/abs/2003ApJ...599.1082M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="190000000"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.2600e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -1897,7 +1902,8 @@
       <declinationDecimal value="17.051388888889"/>
       <rightAscensionDecimal value="143.718852459016"/>
       <positionHeliocentricCartesian value="-0.32137673 0.23591191 0.12227662" uncertainty="0.014643064 0.010748984 0.0055713567"/>
-      <massStellar value="140000"/>
+      <magnitudeAbsoluteV value="-8.00" uncertainty="0.00" reference="de Jong et al. (2008)" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...680.1112D"/>
+      <massStellar value="135518.9" uncertaintyLow="0.0" uncertaintyHigh="0.0" reference="de Jong et al. (2008)" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...680.1112D" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="5800000" uncertainty="2200000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen value="2.8000e+05" uncertainty="4.0000e+04" reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809"/>
       <radiusHalfLight value="0.12e-3" uncertainty="0.009e-3"/>
@@ -1943,7 +1949,8 @@
       <declinationDecimal value="51.920000000000"/>
       <rightAscensionDecimal value="8.716393442623"/>
       <positionHeliocentricCartesian value="0.059134877 0.0090662243 0.076353585" uncertainty="0.0024385516 0.00037386492 0.0031486014"/>
-      <massStellar value="14000"/>
+      <magnitudeAbsoluteV value="-5.13" uncertainty="0.38" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="9638.3" uncertaintyLow="2846.3" uncertaintyHigh="4039.0" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="26000000" uncertaintyLow="11000000" uncertaintyHigh="12000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="6.9000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -2030,7 +2037,8 @@
       <declinationDecimal value="63.130000000000"/>
       <rightAscensionDecimal value="132.872950819672"/>
       <positionHeliocentricCartesian value="-0.0098402403 0.01059939 0.028545098" uncertainty="0.00123003 0.0013249238 0.0035681372"/>
-      <massStellar value="4100"/>
+      <magnitudeAbsoluteV value="-4.43" uncertainty="0.26" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="5058.2" uncertaintyLow="1077.2" uncertaintyHigh="1368.6" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="2600000" uncertainty="1000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.1300e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -2081,7 +2089,8 @@
       <declinationDecimal value="2.222075000000"/>
       <rightAscensionDecimal value="172.786065573770"/>
       <positionHeliocentricCartesian value="-0.1764582 0.022335456 0.0069015591" uncertainty="0.009913382 0.0012548009 0.00038772804"/>
-      <massStellar value="11000"/>
+      <magnitudeAbsoluteV value="-4.29" uncertainty="0.36" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="4446.3" uncertaintyLow="1254.8" uncertaintyHigh="1748.1" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="650000" uncertaintyLow="590000" uncertaintyHigh="-780000" reference="Collins et al.; 2016; arXiv:1608.05710" referenceURL="http://adsabs.harvard.edu/abs/2016arXiv160805710C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="2.9000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -2173,7 +2182,8 @@
       <declinationDecimal value="14.500000000000"/>
       <rightAscensionDecimal value="60.024590163934"/>
       <positionHeliocentricCartesian value="0.03192512 0.055350776 0.01652508" uncertainty="0.00096742787 0.0016772963 0.00050076001"/>
-      <massStellar value="29000"/>
+      <magnitudeAbsoluteV value="-6.02" uncertainty="0.25" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="21877.6" uncertaintyLow="4499.6" uncertaintyHigh="5664.7" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="3000000" uncertaintyLow="600000" uncertaintyHigh="800000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="5.6400e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -2224,7 +2234,8 @@
       <declinationDecimal value="-0.533333333333"/>
       <rightAscensionDecimal value="23.233606557377"/>
       <positionHeliocentricCartesian value="0.1415051 0.060747435 -0.0014334764" uncertainty="0.0055131858 0.0023667832 5.584973e-05"/>
-      <massStellar value="19000"/>
+      <magnitudeAbsoluteV value="-4.99" uncertainty="0.26" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="8472.3" uncertaintyLow="1804.2" uncertaintyHigh="2292.4" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="1300000" uncertainty="1000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="2.3000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -2744,7 +2755,8 @@
       <declinationDecimal value="33.555833333333"/>
       <rightAscensionDecimal value="52.014344262295"/>
       <positionHeliocentricCartesian value="0.11181124 0.14318573 0.12049935" uncertainty="0.0051289558 0.0065681528 0.0055274932"/>
-      <massStellar value="230000"/>
+      <magnitudeAbsoluteV value="-8.73" uncertainty="0.06" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="265460.6" uncertaintyLow="14271.9" uncertaintyHigh="15082.8" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="19000000" uncertainty="2000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="4.8000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -2863,7 +2875,8 @@
       <declinationDecimal value="57.915277777778"/>
       <rightAscensionDecimal value="110.050819672131"/>
       <positionHeliocentricCartesian value="-0.013840695 0.037922306 0.064392033" uncertainty="0.0010926864 0.0029938663 0.0050835815"/>
-      <massStellar value="290000"/>
+      <magnitudeAbsoluteV value="-8.88" uncertainty="0.05" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="304789.5" uncertaintyLow="13717.8" uncertaintyHigh="14364.3" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="9400000" uncertainty="1800000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="5.9200e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -3221,7 +3234,8 @@
       <declinationDecimal value="12.791666666667"/>
       <rightAscensionDecimal value="97.758196721311"/>
       <positionHeliocentricCartesian value="-0.017376794 0.1275457 0.02922568" uncertainty="0.0015797085 0.011595064 0.00265688"/>
-      <massStellar value="37000"/>
+      <magnitudeAbsoluteV value="-5.83" uncertainty="0.17" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="18365.4" uncertaintyLow="2661.8" uncertaintyHigh="3112.9" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="2600000" uncertaintyLow="1000000" uncertaintyHigh="1100000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.5000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -3617,7 +3631,8 @@
       <declinationDecimal value="-33.709166666667"/>
       <rightAscensionDecimal value="15.038524590164"/>
       <positionHeliocentricCartesian value="0.069090273 0.018562482 -0.047728067" uncertainty="0.0048202516 0.0012950569 0.0033298651"/>
-      <massStellar value="2300000"/>
+      <magnitudeAbsoluteV value="-10.82" uncertainty="0.14" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="1819700.9" uncertaintyLow="220142.8" uncertaintyHigh="250440.5" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="13000000" uncertainty="3000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="3.2000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -3789,7 +3804,8 @@
       <declinationDecimal value="67.222500000000"/>
       <rightAscensionDecimal value="77.284836065574"/>
       <positionHeliocentricCartesian value="0.0064762785 0.028702093 0.07007316" uncertainty="0.00025564257 0.0011329773 0.0027660458"/>
-      <massStellar value="290000"/>
+      <magnitudeAbsoluteV value="-9.03" uncertainty="0.05" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="349945.2" uncertaintyLow="15750.1" uncertaintyHigh="16492.4" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="15000000" uncertainty="3000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="6.0100e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -3949,7 +3965,8 @@
       <declinationDecimal value="20.175277777778"/>
       <rightAscensionDecimal value="34.815573770492"/>
       <positionHeliocentricCartesian value="0.02697168 0.018756681 0.012071263" uncertainty="0.0015412389 0.0010718103 0.00068978644"/>
-      <massStellar value="860"/>
+      <magnitudeAbsoluteV value="-1.98" uncertainty="0.88" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="529.7" uncertaintyLow="294.2" uncertaintyHigh="661.6" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="200000" uncertainty="200000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="3.0600e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -3998,7 +4015,8 @@
       <declinationDecimal value="-50.966111111111"/>
       <rightAscensionDecimal value="100.400409836066"/>
       <positionHeliocentricCartesian value="-0.011937636 0.065040441 -0.081561228" uncertainty="0.00068215061 0.0037165966 0.0046606416"/>
-      <massStellar value="380000"/>
+      <magnitudeAbsoluteV value="-9.45" uncertainty="0.05" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="515228.6" uncertaintyLow="23189.1" uncertaintyHigh="24282.0" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="6000000" uncertainty="2000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.1000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -4176,7 +4194,8 @@
       <declinationDecimal value="-34.449166666667"/>
       <rightAscensionDecimal value="39.993032786885"/>
       <positionHeliocentricCartesian value="0.092869667 0.077907661 -0.083154202" uncertainty="0.0075811973 0.0063598091 0.0067880981"/>
-      <massStellar value="20000000"/>
+      <magnitudeAbsoluteV value="-13.34" uncertainty="0.14" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="18535316.2" uncertaintyLow="2242355.9" uncertaintyHigh="2550965.3" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="53000000" uncertainty="6000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="3.4000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -4460,7 +4479,8 @@
       <declinationDecimal value="12.850000000000"/>
       <rightAscensionDecimal value="59.500000000000"/>
       <positionHeliocentricCartesian value="0.02078275 0.035282109 0.0093407744" uncertainty="0.00049482739 0.00084005021 0.00022239939"/>
-      <massStellar value="1000"/>
+      <magnitudeAbsoluteV value="-2.94" uncertainty="0.74" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="1282.3" uncertaintyLow="633.7" uncertaintyHigh="1276.3" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="3300000"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.8500e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -4510,7 +4530,8 @@
       <declinationDecimal value="12.306388888889"/>
       <rightAscensionDecimal value="2.115163934426"/>
       <positionHeliocentricCartesian value="0.24799446 0.0091592672 0.05413739" uncertainty="0.014645342 0.0005409016 0.00319709"/>
-      <massStellar value="5500000"/>
+      <magnitudeAbsoluteV value="-11.78" uncertainty="0.28" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="4405548.6" uncertaintyLow="1001466.7" uncertaintyHigh="1296094.1" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="12000000" uncertainty="3000000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.0000e+04" confidenceLevel="99.999971%" type="upper"/>
@@ -4800,7 +4821,8 @@
       <declinationDecimal value="23.904166666667"/>
       <rightAscensionDecimal value="36.741803278689"/>
       <positionHeliocentricCartesian value="0.032234581 0.024063521 0.017829155" uncertainty="0.0029304164 0.0021875928 0.0016208323"/>
-      <massStellar value="3700"/>
+      <magnitudeAbsoluteV value="-4.28" uncertainty="0.25" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="4405.5" uncertaintyLow="906.1" uncertaintyHigh="1140.7" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="900000" uncertainty="300000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.0500e+02" confidenceLevel="99.999971%" type="upper"/>
@@ -4975,7 +4997,8 @@
       <declinationDecimal value="34.320833333333"/>
       <rightAscensionDecimal value="44.290983606557"/>
       <positionHeliocentricCartesian value="0.09458826 0.092275761 0.090212222" uncertainty="0.0023647065 0.002306894 0.0022553056"/>
-      <massStellar value="7900"/>
+      <magnitudeAbsoluteV value="-5.17" uncertainty="0.32" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="10000.0" uncertaintyLow="2552.7" uncertaintyHigh="3427.6" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="900000" uncertainty="300000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="2.4000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -5144,7 +5167,8 @@
       <declinationDecimal value="22.151666666667"/>
       <rightAscensionDecimal value="18.368032786885"/>
       <positionHeliocentricCartesian value="0.20480735 0.068003446 0.087854889" uncertainty="0.012306021 0.004086044 0.0052788345"/>
-      <massStellar value="740000"/>
+      <magnitudeAbsoluteV value="-9.74" uncertainty="0.04" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="672976.7" uncertaintyLow="24342.2" uncertaintyHigh="25255.7" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="3800000" uncertainty="700000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="4.5000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -5472,7 +5496,8 @@
       <declinationDecimal value="51.050000000000"/>
       <rightAscensionDecimal value="12.336065573770"/>
       <positionHeliocentricCartesian value="0.023336842 0.0051036446 0.029552404" uncertainty="0.004298892 0.00094014506 0.005443864"/>
-      <massStellar value="1000"/>
+      <magnitudeAbsoluteV value="-2.90" uncertainty="0.74" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="1235.9" uncertaintyLow="610.8" uncertaintyHigh="1207.5" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="300000" uncertainty="200000" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="5.2000e+03" confidenceLevel="99.999971%" type="upper"/>
@@ -5633,6 +5658,7 @@
         <limit value="1.8000e+03" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <magnitudeAbsoluteV value="-4.36" uncertainty="0.14" reference="Torrealba et al. (2016)" referenceURL="http://adsabs.harvard.edu/abs/2016MNRAS.463..712T"/>
+      <massStellar value="4742.4" uncertaintyLow="573.7" uncertaintyHigh="652.7" reference="Torrealba et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016MNRAS.463..712T" technique="M/L = 1 Msun/Lsun"/>
       <velocityRadialHeliocentric value="-71.1" uncertainty="2.5" reference="Torrealba et al. (2016)" referenceURL="http://adsabs.harvard.edu/abs/2016MNRAS.463..712T"/>
       <metallicityStellar value="-2.3" uncertainty="0.5" reference="Torrealba et al. (2016)" referenceURL="http://adsabs.harvard.edu/abs/2016MNRAS.463..712T"/>
       <velocityDispersionStellar value="5.4" uncertaintyLow="0.9" uncertaintyHigh="3.4" reference="Torrealba et al. (2016)" referenceURL="http://adsabs.harvard.edu/abs/2016MNRAS.463..712T"/>
@@ -5661,7 +5687,7 @@
       <radiusHalfLightAngular value="53.3" uncertainty="3.6" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <positionAngle value="97.0" uncertainty="14.0" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <magnitudeAbsoluteV value="-4.71" uncertainty="0.08" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
-      <massStellar value="6546.4" uncertaintyLow="465.0" uncertaintyHigh="500.5" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="6546.4" uncertaintyLow="465.0" uncertaintyHigh="500.6" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K" technique="M/L = 1 Msun/Lsun"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="1.2500e+02" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
@@ -5696,7 +5722,8 @@
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="2.2100e+02" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <magnitudeAbsoluteV value="-4.5" uncertainty="0.1" reference="Torrealba et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
+      <magnitudeAbsoluteV value="-4.50" uncertainty="0.10" reference="Torrealba et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
+      <massStellar value="5395.1" uncertaintyLow="474.7" uncertaintyHigh="520.5" reference="Torrealba et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T" technique="M/L = 1 Msun/Lsun"/>
       <metallicityStellar value="-1.8" uncertainty="0.1" reference="Torrealba et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
       <ageStellar value="9.9" uncertainty="0.4" reference="Torrealba et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
       <properMotionRightAscension value="180.2" uncertainty="3.8" reference="Kallivayalil et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...867...19K"/>
@@ -5783,7 +5810,8 @@
         <limit value="5.7000e+01" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="3.16e5" uncertaintyLow="2.37e5" uncertaintyHigh="4.78e5" reference="Martin et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016MNRAS.458L..59M"/>
-      <magnitudeAbsoluteV value="-2.9" uncertainty="0.8" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
+      <magnitudeAbsoluteV value="-0.80" uncertainty="0.40" reference="Longeard et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.2609L"/>
+      <massStellar value="178.6" uncertaintyLow="55.1" uncertaintyHigh="270.1" reference="Longeard et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.2609L" technique="M/L = 1 Msun/Lsun"/>
       <metallicityStellar value="-2.2" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
       <ageStellar value="12.0" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
       <reddening value="0.016" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
