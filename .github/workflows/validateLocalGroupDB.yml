@@ -1,0 +1,33 @@
+name: 'Validate-Local-Group-DB'
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, reopened, synchronize]
+    branches:
+      - master
+     paths:
+       - 'static/observations/localGroup/localGroupSatellites.xml'
+       - 'static/observations/localGroup/localGroupSatellites.xsd'
+       - 'static/observations/localGroup/localGroupSatellitesValidate.py'
+   push:
+     branches:
+       - 'master'
+     paths:
+       - 'static/observations/localGroup/localGroupSatellites.xml'
+       - 'static/observations/localGroup/localGroupSatellites.xsd'
+       - 'static/observations/localGroup/localGroupSatellitesValidate.py'
+defaults:
+  run:
+    shell: bash
+jobs:
+  # Validate Local Group DB
+  Validate-Local-Group-DB:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install xmlschema
+        run: |
+          pip3 install xmlschema
+      - name: Validate the database
+        run: |
+          python3 localGroupSatellitesValidate.py
