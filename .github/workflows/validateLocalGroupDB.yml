@@ -30,4 +30,5 @@ jobs:
           pip3 install xmlschema
       - name: Validate the database
         run: |
+          cd static/observations/localGroup
           python3 localGroupSatellitesValidate.py
