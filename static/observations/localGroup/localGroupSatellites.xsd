@@ -1,0 +1,263 @@
+<?xml version="1.1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!-- Schema used to validate Local Group galaxies file -->
+
+  <xs:complexType name="datum" mixed="true">
+    <xs:all>
+      <xs:element name="limit" minOccurs="0" maxOccurs="unbounded">
+	<xs:complexType>
+	  <xs:attribute name="value" type="xs:float" use="required"/>                                                                                          
+	  <xs:attribute name="confidenceLevel" type="xs:string" use="required"/>                                                                                          
+	  <xs:attribute name="type" use="required">
+	    <xs:simpleType>
+	      <xs:restriction base="xs:string">
+		<xs:enumeration value="upper"/>
+		<xs:enumeration value="lower"/>
+	      </xs:restriction>
+	    </xs:simpleType>
+	  </xs:attribute>
+	</xs:complexType>                                                                                                                          
+      </xs:element>
+      <xs:element name="uncertaintyCorrelation" minOccurs="0" maxOccurs="1">
+	<xs:complexType>
+	  <xs:attribute name="with" type="xs:string" use="required"/>                                                                                          
+	  <xs:attribute name="coefficient" type="xs:float" use="required"/>                                                                                          
+	</xs:complexType>                                                                                                                          
+      </xs:element>
+    </xs:all>
+    <xs:attribute name="value"           type="xs:float" use="optional"/>                                                                                          
+    <xs:attribute name="uncertainty"     type="xs:float" use="optional"/>                                                                                          
+    <xs:attribute name="uncertaintySystematic"     type="xs:float" use="optional"/>                                                                                          
+    <xs:attribute name="uncertaintyLow"  type="xs:float" use="optional"/>                                                                                          
+    <xs:attribute name="uncertaintyHigh" type="xs:float" use="optional"/>                                                                                          
+    <xs:attribute name="comment" type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="reference" type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="referenceURL" type="xs:string" use="optional"/>
+    <xs:attribute name="technique" type="xs:string" use="optional"/>
+   </xs:complexType>
+  
+  <xs:complexType name="datumVector" mixed="true">
+    <xs:attribute name="value"           type="xs:string" use="required"/>                                                                                          
+    <xs:attribute name="uncertainty"     type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="uncertaintySystematic"     type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="uncertaintyLow"  type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="uncertaintyHigh" type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="reference" type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="referenceURL" type="xs:string" use="optional"/>                                                                                          
+   </xs:complexType>
+  
+  <xs:element name="localGroup">
+    <xs:complexType>                                                                                                                                
+      <xs:all>
+	<xs:element name="compiledBy" type="xs:string" minOccurs="0" maxOccurs="1"/>
+	<xs:element name="galaxies"  minOccurs="1" maxOccurs="1">
+	  <xs:complexType>                                                                                                                                
+	    <xs:all>
+	      <xs:element name="galaxy"  minOccurs="1" maxOccurs="unbounded">
+		<xs:complexType>                                                                                                                          
+		  <xs:all>
+		    <xs:element name="discoverySurvey" minOccurs="1" maxOccurs="1">
+		      <xs:complexType>                                                                                                                          
+			<xs:attribute name="value" use="required"/>                                                                                          
+			<xs:attribute name="reference" use="optional"/>                                                                                          
+			<xs:attribute name="referenceURL" use="optional"/>                                                                                          
+			<xs:attribute name="DOI" use="optional"/>                                                                                          
+ 		      </xs:complexType>
+		    </xs:element>
+
+		    <xs:element name="referencePrimary" minOccurs="1" maxOccurs="1">
+		      <xs:complexType>                                                                                                                          
+			<xs:attribute name="reference" use="required"/>                                                                                          
+			<xs:attribute name="referenceURL" use="optional"/>                                                                                          
+ 		      </xs:complexType>
+		    </xs:element>
+
+
+		    <xs:element name="classification" minOccurs="1" maxOccurs="1">
+		      <xs:complexType>
+			<xs:attribute name="reference" use="optional"/>                                                                                          
+			<xs:attribute name="referenceURL" use="optional"/>                                                                                          
+			<xs:attribute name="comment" use="optional"/>                                                                                          
+ 			<xs:attribute name="value" use="required">                                                                                          
+			  <xs:simpleType>
+			    <xs:restriction base="xs:string">
+			      <xs:enumeration value="galaxy"/>
+			      <xs:enumeration value="star cluster"/>
+			      <xs:enumeration value="tidal stream"/>
+			      <xs:enumeration value="overdensity"/>
+			      <xs:enumeration value="false positive"/>
+			    </xs:restriction>
+			  </xs:simpleType>
+			</xs:attribute>
+		      </xs:complexType>
+		    </xs:element>
+
+
+		    <xs:element name="alias" minOccurs="0" maxOccurs="unbounded">
+		      <xs:complexType>
+			<xs:attribute name="value" use="required"/>                                                                                          
+		      </xs:complexType>
+		    </xs:element>
+
+
+
+
+		    <xs:element name="declinationSexagesimal" minOccurs="0" maxOccurs="1">
+		      <xs:complexType>                                                                                                                          
+			<xs:attribute name="degrees"    type="xs:decimal" use="required"/>
+			<xs:attribute name="arcminutes" type="xs:decimal" use="required"/>
+			<xs:attribute name="arcseconds" type="xs:decimal" use="required"/>
+			<xs:attribute name="uncertaintyArcseconds" type="xs:decimal" use="optional"/>
+    <xs:attribute name="reference" type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="referenceURL" type="xs:string" use="optional"/>
+		      </xs:complexType>
+		    </xs:element>
+
+		    <xs:element name="rightAscensionSexagesimal" minOccurs="0" maxOccurs="1">
+		      <xs:complexType>                                                                                                                          
+			<xs:attribute name="hours"    type="xs:decimal" use="required"/>
+			<xs:attribute name="minutes" type="xs:decimal" use="required"/>
+			<xs:attribute name="seconds" type="xs:decimal" use="required"/>
+ 			<xs:attribute name="uncertaintySeconds" type="xs:decimal" use="optional"/>
+   <xs:attribute name="reference" type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="referenceURL" type="xs:string" use="optional"/>
+		      </xs:complexType>
+		    </xs:element>
+
+
+
+		    <xs:element name="starFormationHistoryCumulative" minOccurs="0" maxOccurs="1">
+		      <xs:complexType>                                                                                                                          
+			<xs:all>
+			  <xs:element name="epoch" minOccurs="1" maxOccurs="unbounded">
+			    <xs:complexType>
+			      <xs:attribute name="fraction" type="xs:float"/>
+			      <xs:attribute name="time" type="xs:float"/>
+			    </xs:complexType>
+			  </xs:element>
+			</xs:all>
+			<xs:attribute name="reference" type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="referenceURL" type="xs:string" use="optional"/>
+		      </xs:complexType>
+		    </xs:element>
+
+
+
+
+		    <xs:element name="morphology" minOccurs="0" maxOccurs="1">
+		      <xs:complexType>                                                                                                                          
+			<xs:attribute name="value"    type="xs:string" use="required"/>
+			<xs:attribute name="reference" type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="referenceURL" type="xs:string" use="optional"/>
+		      </xs:complexType>
+		    </xs:element>
+
+		    <xs:element name="membership" minOccurs="0" maxOccurs="1">
+		      <xs:complexType>                                                                                                                          
+			<xs:attribute name="value"    type="xs:string" use="required"/>
+			<xs:attribute name="reference" type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="referenceURL" type="xs:string" use="optional"/>
+		      </xs:complexType>
+		    </xs:element>
+
+		    <xs:element name="comment" minOccurs="0" maxOccurs="1">
+		      <xs:complexType>                                                                                                                          
+			<xs:attribute name="value"    type="xs:string" use="required"/>
+			<xs:attribute name="reference" type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="referenceURL" type="xs:string" use="optional"/>
+		      </xs:complexType>
+		    </xs:element>
+
+		    <xs:element name="distanceHeliocentric" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="distanceModulus" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="declinationDecimal" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="rightAscensionDecimal" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="positionHeliocentricCartesian" type="datumVector" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="distanceMilkyWay" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="distanceM31" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="radiusHalfLight" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="ellipticityProjected" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="extinctionV" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="magnitudeAbsoluteV" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="radiusHalfLightAngular" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="massNeutralHydrogen" type="datum" minOccurs="0" maxOccurs="unbounded"/>
+		    <xs:element name="properMotionRightAscension" type="datum" minOccurs="0" maxOccurs="unbounded"/>
+		    <xs:element name="properMotionDeclination" type="datum" minOccurs="0" maxOccurs="unbounded"/>
+		    <xs:element name="latitudeGalactic" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="longitudeGalactic" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="metallicityStellar" type="datum" minOccurs="0" maxOccurs="unbounded"/>
+		    <xs:element name="massStellar" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="ageStellar" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="metallicityDispersionStellar" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityRadialHeliocentric" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityDispersionStellar" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="massDynamicalHalfLightRadius" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="positionAngle" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityMilkyWay" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="reddening" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="distanceOrbitalApocenter" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="distanceOrbitalPericenter" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="eccentricityOrbital" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="surfaceBrightnessEffectiveV" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="extinctionF606W" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="extinctionF814W" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="extinctiong" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="extinctionr" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="detectionEfficiencyHalfLight" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="magnitudeApparentV" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="distanceLocalGroup" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityLocalGroup" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityM31" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="surfaceBrightnessCentralV" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="rotationVelocityMaximumStellar" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="rotationVelocityMaximumNeutralHydrogen" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityDispersionNeutralHydrogen" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="properMotionNorth" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="properMotionWest" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="magnitudeAbsoluter" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="magnitudeApparentg" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="magnitudeApparentr" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="properMotionLatitude" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="properMotionLongitude" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityAzimuthalMilkyWay" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityRadialMilkyWay" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityVerticalMilkyWay" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="sersicIndex" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="velocityRotation" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="magnitudeApparentI" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="radiusExponentialScaleLengthI" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="radiusExponentialScaleLengthV" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="surfaceBrightnessCentralI" type="datum" minOccurs="0" maxOccurs="1"/>
+		    <xs:element name="magnitudeApparentB" type="datum" minOccurs="0" maxOccurs="1"/>
+		   
+
+
+		  </xs:all>
+		  <xs:attribute name="name" use="required"/>
+		</xs:complexType>
+	      </xs:element>
+	    </xs:all>
+	  </xs:complexType>
+	</xs:element>
+
+	<xs:element name="properties"  minOccurs="1" maxOccurs="1">
+	  <xs:complexType>                                                                                                                                
+	    <xs:all>
+	      <xs:element name="property"  minOccurs="1" maxOccurs="unbounded">
+		<xs:complexType>
+		  <xs:attribute name="name" type="xs:string" use="required"/>
+		  <xs:attribute name="description" type="xs:string" use="required"/>
+		  <xs:attribute name="units" type="xs:string" use="optional"/>
+		  <xs:attribute name="unitsInSI" type="xs:float" use="optional"/>
+		</xs:complexType>
+	      </xs:element>
+	    </xs:all>
+	  </xs:complexType>
+	</xs:element>
+
+
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>
