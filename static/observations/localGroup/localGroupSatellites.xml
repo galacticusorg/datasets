@@ -108,7 +108,7 @@
         <uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.24"/>
       </properMotionDeclination>
       <properMotionRightAscension value="0.48" uncertainty="0.06" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="-1.41" uncertaintyLow="-0.09" uncertaintyHigh="+0.08" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="-1.41" uncertaintyLow="+0.09" uncertaintyHigh="+0.08" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="38" uncertainty="3" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-146" uncertainty="4" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
     </galaxy>
@@ -194,7 +194,7 @@
         <uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.22"/>
       </properMotionDeclination>
       <properMotionRightAscension value="0.21" uncertainty="0.09" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="-0.14" uncertaintyLow="-0.09" uncertaintyHigh="+0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="-0.14" uncertaintyLow="+0.09" uncertaintyHigh="+0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="19" uncertainty="6" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-36" uncertainty="6" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
     </galaxy>
@@ -377,8 +377,8 @@
       <positionHeliocentricCartesian value="0.23659820E-01   0.83612441E-02  -0.78735327E-02" uncertainty="0.10795355E-02   0.38150163E-03   0.35924864E-03"/>
       <distanceMilkyWay value="0.27221337E-01" uncertainty="0.10692177E-02"/>
       <distanceM31 value="0.76988536E+00" uncertainty="0.17434747E-01"/>
-      <properMotionRightAscension value="2.24" uncertaintyLow="-1.05" uncertaintyHigh="+0.63" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="0.37" uncertaintyLow="-0.66" uncertaintyHigh="+0.16" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="2.24" uncertaintyLow="+1.05" uncertaintyHigh="+0.63" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="0.37" uncertaintyLow="+0.66" uncertaintyHigh="+0.16" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="284" uncertaintyLow="5" uncertaintyHigh="-7" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="46" uncertaintyLow="6" uncertaintyHigh="-7" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
     </galaxy>
@@ -416,7 +416,7 @@
       <properMotionDeclination value="-4.0" uncertaintyLow="71.0" uncertaintyHigh="62.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
         <uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.07"/>
       </properMotionDeclination>
-      <properMotionRightAscension value="0.89" uncertaintyLow="-0.23" uncertaintyHigh="+0.22" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="0.89" uncertaintyLow="+0.23" uncertaintyHigh="+0.22" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionDeclination value="-0.21" uncertainty="0.25" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="76" uncertaintyLow="20" uncertaintyHigh="-29" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-41" uncertaintyLow="23" uncertaintyHigh="-21" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
@@ -626,7 +626,7 @@
       <classification value="galaxy"/>
       <properMotionRightAscension value="58.8" uncertainty="18.7" reference="Kallivayalil et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...867...19K"/>
       <properMotionDeclination value="55.4" uncertainty="16.1" reference="Kallivayalil et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...867...19K"/>
-      <properMotionRightAscension value="0.62" uncertaintyLow="-0.15" uncertaintyHigh="+0.13" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="0.62" uncertaintyLow="+0.15" uncertaintyHigh="+0.13" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionDeclination value="0.42" uncertainty="0.11" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="56" uncertainty="5" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="7" uncertainty="6" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
@@ -862,8 +862,8 @@
       <alias value="PicII"/>
       <alias value="MagLiteS J0664-5953"/>
       <classification value="galaxy"/>
-      <properMotionRightAscension value="1.18" uncertaintyLow="-0.47" uncertaintyHigh="+0.14" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="1.15" uncertaintyLow="-0.75" uncertaintyHigh="+0.13" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="1.18" uncertaintyLow="+0.47" uncertaintyHigh="+0.14" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="1.15" uncertaintyLow="+0.75" uncertaintyHigh="+0.13" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="117" uncertaintyLow="10" uncertaintyHigh="-8" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="112" uncertainty="7" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
     </galaxy>
@@ -905,7 +905,7 @@
       <properMotionDeclination value="-103.0" uncertaintyLow="12.0" uncertaintyHigh="12.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
         <uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.48"/>
       </properMotionDeclination>
-      <properMotionRightAscension value="0.44" uncertaintyLow="-0.07" uncertaintyHigh="+0.08" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="0.44" uncertaintyLow="+0.07" uncertaintyHigh="+0.08" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionDeclination value="-1.03" uncertainty="0.09" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="48" uncertainty="4" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-117" uncertainty="5" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
@@ -937,8 +937,8 @@
       <referencePrimary reference="Koposov et al. (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302079K"/>
       <alias value="IndI"/>
       <classification value="galaxy"/>
-      <properMotionRightAscension value="0.21" uncertaintyLow="-0.19" uncertaintyHigh="+0.16" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="-0.72" uncertaintyLow="-0.19" uncertaintyHigh="+0.31" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="0.21" uncertaintyLow="+0.19" uncertaintyHigh="+0.16" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="-0.72" uncertaintyLow="+0.19" uncertaintyHigh="+0.31" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="36" uncertainty="7" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-85" uncertainty="6" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
     </galaxy>
@@ -1386,8 +1386,8 @@
       <properMotionDeclination value="-350.1" uncertainty="17.5" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
         <uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.087"/>
       </properMotionDeclination>
-      <properMotionRightAscension value="-1.59" uncertaintyLow="-0.22" uncertaintyHigh="+0.23" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="-3.5" uncertaintyLow="-0.21" uncertaintyHigh="+0.2" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="-1.59" uncertaintyLow="+0.22" uncertaintyHigh="+0.23" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="-3.5" uncertaintyLow="+0.21" uncertaintyHigh="+0.2" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="-221" uncertainty="6" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-334" uncertainty="5" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
     </galaxy>
@@ -2117,7 +2117,7 @@
       <properMotionDeclination value="-62.8" uncertainty="30.2" uncertaintySystematic="5.7" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
         <uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.047"/>
       </properMotionDeclination>
-      <properMotionRightAscension value="-0.11" uncertaintyLow="-0.11" uncertaintyHigh="+0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="-0.11" uncertaintyLow="+0.11" uncertaintyHigh="+0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionDeclination value="-0.21" uncertainty="0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="-6" uncertainty="9" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-25" uncertaintyLow="9" uncertaintyHigh="-8" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
@@ -3982,7 +3982,7 @@
       <properMotionDeclination value="13.5" uncertainty="10.4" uncertaintySystematic="4.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
         <uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.234"/>
       </properMotionDeclination>
-      <properMotionRightAscension value="1.68" uncertaintyLow="-0.13" uncertaintyHigh="+0.12" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="1.68" uncertaintyLow="+0.13" uncertaintyHigh="+0.12" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionDeclination value="0.12" uncertainty="0.08" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="147" uncertainty="4" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-31" uncertainty="4" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
@@ -4212,7 +4212,7 @@
         <uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.46"/>
       </properMotionDeclination>
       <properMotionRightAscension value="0.380" uncertainty="0.002" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="-0.416" uncertaintyLow="-0.003" uncertaintyHigh="+0.004" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="-0.416" uncertaintyLow="+0.003" uncertaintyHigh="+0.004" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="38.2" uncertainty="0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-35.9" uncertainty="0.2" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
     </galaxy>
@@ -5645,7 +5645,7 @@
       <rightAscensionSexagesimal hours="22.000000000000" minutes="33.000000000000" seconds="56.437199999994"/>
       <distanceModulus value="20.165107223415" uncertainty="0.066412038475"/>
       <properMotionRightAscension value="-0.0" uncertainty="0.16" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="-0.2" uncertaintyLow="-0.15" uncertaintyHigh="+0.16" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="-0.2" uncertaintyLow="+0.15" uncertaintyHigh="+0.16" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="-17" uncertainty="10" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="-43" uncertainty="8" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <declinationSexagesimal degrees="-9.000000000000" arcminutes="19.000000000000" arcseconds="38.640000000003"/>
@@ -5738,7 +5738,7 @@
       <rightAscensionSexagesimal hours="7.000000000000" minutes="38.000000000000" seconds="31.671200000001"/>
       <distanceModulus value="17.220223979590" uncertainty="0.046866310997"/>
       <properMotionRightAscension value="2.99" uncertainty="0.08" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="1.49" uncertaintyLow="-0.09" uncertaintyHigh="+0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="1.49" uncertaintyLow="+0.09" uncertaintyHigh="+0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
       <properMotionRightAscension value="312" uncertainty="5" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <properMotionDeclination value="154" uncertaintyLow="6" uncertaintyHigh="-7" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv201203904M"/>
       <declinationSexagesimal degrees="-57.000000000000" arcminutes="53.000000000000" arcseconds="58.920000000010"/>
@@ -5787,7 +5787,7 @@
       <metallicityStellar value="-2.2" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
       <ageStellar value="12.0" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
       <reddening value="0.016" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
-      <ellipticityProjected value="0.24" uncertaintyLow="-0.24" uncertaintyHigh="0.27" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
+      <ellipticityProjected value="0.24" uncertaintyLow="+0.24" uncertaintyHigh="0.27" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
       <positionAngle value="70.0" uncertainty="28.0" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
       <radiusHalfLightAngular value="2.7" uncertaintyLow="0.8" uncertaintyHigh="1.0" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
       <radiusHalfLight value="19.0e-6" uncertaintyLow="6.0e-6" uncertaintyHigh="8.0e-6" reference="Laevens et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...813...44L"/>
@@ -6053,10 +6053,10 @@
       <distanceHeliocentric value="0.018967059212" uncertaintyLow="0.008734653560" uncertaintyHigh="0.008734653560" uncertaintySystematic="0.008734653560"/>
       <positionHeliocentricCartesian value="-0.71884752E-02  -0.17549121E-01  -0.32175315E-03" uncertaintyLow="0.33104152E-02   0.80816687E-02   0.14817280E-03" uncertaintyHigh="0.33104152E-02   0.80816687E-02   0.14817280E-03" uncertaintySystematic="0.33104152E-02   0.80816687E-02   0.14817280E-03"/>
       <distanceM31 value="0.79115369E+00"/>
-      <properMotionRightAscension value="0.63" uncertaintyLow="-0.12" uncertaintyHigh="+0.13" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="-1.54" uncertaintyLow="-0.11" uncertaintyHigh="+0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionRightAscension value="-0.1" uncertaintyLow="-0.2" uncertaintyHigh="+0.09" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
-      <properMotionDeclination value="-1.01" uncertaintyLow="-0.1" uncertaintyHigh="+0.23" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="0.63" uncertaintyLow="+0.12" uncertaintyHigh="+0.13" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="-1.54" uncertaintyLow="+0.11" uncertaintyHigh="+0.1" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionRightAscension value="-0.1" uncertaintyLow="+0.2" uncertaintyHigh="+0.09" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
+      <properMotionDeclination value="-1.01" uncertaintyLow="+0.1" uncertaintyHigh="+0.23" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
     </galaxy>
   </galaxies>
   <properties>
