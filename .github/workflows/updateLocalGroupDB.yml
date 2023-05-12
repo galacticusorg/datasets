@@ -2,6 +2,8 @@ name: 'Update-Local-Group-DB'
 on:
   workflow_dispatch:
   push:
+    branches:
+      - 'master'
   schedule:
     - cron: '07 04 * * 1'
 defaults:
