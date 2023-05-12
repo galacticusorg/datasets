@@ -159,5 +159,6 @@ foreach my $record ( @{$records->{'response'}->{'docs'}} ) {
 
 # Update the original file.
 system("mv localGroupSatellites.xml.stage2 localGroupSatellites.xml");
+unlink("localGroupSatellites.xml.stage1");
 
 exit;
