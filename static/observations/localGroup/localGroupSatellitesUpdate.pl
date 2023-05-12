@@ -39,8 +39,9 @@ my %bibCodes;
 	    $line =~ s/$oldURL/$knownUpdatedURLs{$oldURL}/;
 	}
 	# Update URLs that point to an arXiv paper.
-	if ( $line =~ m/"https:\/\/arxiv\.org\/abs\/(\d+\.\d+)"/ ) {
-	    my $oldURL = "https://ui.adsabs.harvard.edu/abs/arXiv:".$1;
+	if ( $line =~ m/"(https:\/\/arxiv\.org\/abs\/(\d+\.\d+))"/ ) {
+	    my $originalURL = $1;
+	    my $oldURL      = "https://ui.adsabs.harvard.edu/abs/arXiv:".$2;
 	    unless ( exists($knownUpdatedURLs{$oldURL}) ) {
 		open(my $curl,"curl -Ls -o /dev/null -w %{url_effective} ".$oldURL."|");
 		my $newURL = <$curl>;
@@ -48,9 +49,9 @@ my %bibCodes;
 		chomp($newURL);
 		$newURL =~ s/\/abstract//;
 		$knownUpdatedURLs{$oldURL} = $newURL;
-		print "Updating URL '".$oldURL."' to '".$newURL."'\n";
+		print "Updating URL '".$originalURL."' to '".$newURL."'\n";
 	    }
-	    $line =~ s/$oldURL/$knownUpdatedURLs{$oldURL}/;
+	    $line =~ s/$originalURL/$knownUpdatedURLs{$oldURL}/;
 	}
 	# Update bibliographic references. 
 	if ( $line =~ m/"https:\/\/ui\.adsabs\.harvard\.edu\/abs\/(.*?)"/ ) {
