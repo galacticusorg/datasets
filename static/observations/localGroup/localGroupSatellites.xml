@@ -3100,6 +3100,7 @@
       <rightAscensionSexagesimal hours="3" minutes="01" seconds="23.6"/>
       <distanceModulus value="24.39" uncertaintyLow="0.03" uncertaintyHigh="0.05" reference="Weisz et al. (2019; MNRAS; 489; 763)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
       <magnitudeAbsoluteV value="-10.2" uncertaintyLow="0.3" uncertaintyHigh="0.3" reference="Weisz et al. (2019; MNRAS; 489; 763)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <massStellar value="1028016.3" uncertaintyLow="248186.0" uncertaintyHigh="327173.0" reference="Weisz et al. (2019; MNRAS; 489; 763)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W" technique="M/L = 1 Msun/Lsun"/>
       <massNeutralHydrogen reference="Putman et al. (2021)" referenceURL="https://arxiv.org/abs/2101.07809">
         <limit value="7.9000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
@@ -3544,6 +3545,7 @@
       <ellipticityProjected value="0.43" uncertaintyLow="0.12" uncertaintyHigh="0.1" reference="Martin et al. (2016; arXiv:1610.01158)" referenceURL="https://arxiv.org/abs/1610.01158"/>
       <extinctionV value="0.166"/>
       <magnitudeAbsoluteV value="-11.2" uncertaintyLow="0.3" uncertaintyHigh="0.4" reference="Weisz et al. (2019; MNRAS; 489; 763)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <massStellar value="2582260.2" uncertaintyLow="623415.5" uncertaintyHigh="821821.7" reference="Weisz et al. (2019; MNRAS; 489; 763)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W" technique="M/L = 1 Msun/Lsun"/>
       <radiusHalfLightAngular value="1.5" uncertainty="0.2" reference="Martin et al. (2016; arXiv:1610.01158)" referenceURL="https://arxiv.org/abs/1610.01158"/>
       <velocityRadialHeliocentric value="-139.8" uncertaintyLow="6.6" uncertaintyHigh="6.0"/>
       <velocityDispersionStellar value="11.8" uncertaintyLow="4.7" uncertaintyHigh="7.7"/>
@@ -4395,6 +4397,7 @@
         <limit value="7.6000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <magnitudeAbsoluteV value="-12.6" uncertaintyLow="0.5" uncertaintyHigh="0.5" reference="Weisz et al. (2019; MNRAS; 489; 763)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <massStellar value="9375620.1" uncertaintyLow="3460003.7" uncertaintyHigh="5483736.4" reference="Weisz et al. (2019; MNRAS; 489; 763)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W" technique="M/L = 1 Msun/Lsun"/>
       <declinationDecimal value="51.559722222222"/>
       <rightAscensionDecimal value="8.993442622951"/>
       <massDynamicalHalfLightRadius value="41000000" uncertaintyLow="11000000" uncertaintyHigh="7000000" reference="Martin et al.; ApJ; 793; 14" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
@@ -5883,6 +5886,7 @@
       <latitudeGalactic value="-22.89360512" uncertainty="0.0008" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
       <distanceHeliocentric value="73.1e-3" uncertaintyLow="0.7e-3" uncertaintyHigh="1.1" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
       <magnitudeAbsoluteV value="-5.7" uncertainty="0.1" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
+      <massStellar value="16293.0" uncertaintyLow="1433.6" uncertaintyHigh="1571.9" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L" technique="M/L = 1 Msun/Lsun"/>
       <metallicityStellar value="-2.28" uncertainty="0.03" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
       <velocityRadialHeliocentric value="-177.3" uncertainty="1.2" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
       <velocityDispersionStellar value="2.7" uncertaintyLow="1.0" uncertaintyHigh="1.3" reference="Longeard et al. (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019arXiv190202780L"/>
