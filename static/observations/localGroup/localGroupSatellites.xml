@@ -46,6 +46,7 @@
       <latitudeGalactic value="42.027"/>
       <longitudeGalactic value="282.908"/>
       <metallicityStellar value="-1.98e+00" uncertaintyLow="1.00e-01" uncertaintyHigh="1.00e-01" reference="Caldwell et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...839...20C"/>
+      <metallicityDispersionStellar value="2.20e-01" uncertaintyLow="3.00e-02" uncertaintyHigh="4.00e-02" reference="Caldwell et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...839...20C"/>
       <referencePrimary reference="Torrealba et al. (2016; arXiv:1601.07178)" referenceURL="http://arxiv.org/abs/1601.07178"/>
       <alias value="Cra II"/>
       <classification value="galaxy"/>
@@ -574,7 +575,7 @@
         <limit value="3.6" confidenceLevel="90%" type="upper"/>
         <limit value="4.5" confidenceLevel="95%" type="upper"/>
       </velocityDispersionStellar>
-      <metallicityDispersionStellar value="0.40" uncertaintyLow="0.26" uncertaintyHigh="0.48" reference="Kirby, Simon, &amp; Cohen (arXiv:1506.01021)" referenceURL="http://arxiv.org/abs/1506.01021"/>
+      <metallicityDispersionStellar value="4.00e-01" uncertaintyLow="2.60e-01" uncertaintyHigh="4.80e-01" reference="Kirby, Simon &amp; Cohen (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...810...56K"/>
       <positionAngle value="28" uncertaintyLow="35" uncertaintyHigh="40"/>
       <velocityMilkyWay value="135.4" reference="Kirby, Simon, &amp; Cohen (arXiv:1506.01021)" referenceURL="http://arxiv.org/abs/1506.01021"/>
       <metallicityStellar value="-2.02" uncertaintyLow="0.08" uncertaintyHigh="0.08" reference="Kirby, Simon &amp; Cohen (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...810...56K" technique="High resolution spectroscopy"/>
@@ -620,6 +621,7 @@
       </velocityDispersionStellar>
       <positionAngle value="56" uncertaintyLow="16" uncertaintyHigh="16"/>
       <metallicityStellar value="-2.242" uncertaintyLow="0.05" uncertaintyHigh="0.05" reference="Kirby et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...838...83K" technique="High resolution spectroscopy"/>
+      <metallicityDispersionStellar value="5.30e-01" uncertaintyLow="3.80e-01" uncertaintyHigh="1.20e-01" reference="Kirby et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...838...83K"/>
       <referencePrimary reference="Laevens et al. (2015; arXiv:1503.05554)" referenceURL="http://arxiv.org/abs/1503.05554"/>
       <alias value="TriII"/>
       <alias value="Laevens II"/>
@@ -659,6 +661,7 @@
       <alias value="RetII"/>
       <classification value="galaxy"/>
       <metallicityStellar value="-2.65e+00" uncertaintyLow="7.00e-02" uncertaintyHigh="7.00e-02" reference="Simon et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...808...95S"/>
+      <metallicityDispersionStellar value="2.80e-01" uncertaintyLow="9.00e-02" uncertaintyHigh="9.00e-02" reference="Simon et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...808...95S"/>
       <velocityRadialHeliocentric value="6.28e+01" uncertaintyLow="5.00e-01" uncertaintyHigh="5.00e-01" reference="Simon et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...808...95S"/>
       <velocityDispersionStellar value="3.30e+00" uncertaintyLow="7.00e-01" uncertaintyHigh="7.00e-01" reference="Simon et al. (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...808...95S"/>
       <properMotionRightAscension value="236.0" uncertaintyLow="5.0" uncertaintyHigh="5.0" reference="Pace &amp; Li (2019)" referenceURL="https://ui.adsabs.harvard.edu/abs/2019ApJ...875...77P">
@@ -701,7 +704,7 @@
       <radiusHalfLightAngular value="2.31" uncertainty="0.12" reference="Crnojevic et al. (2016; ApJ; 824; 14)" referenceURL="http://adsabs.harvard.edu/abs/2016ApJ...824L..14C"/>
       <velocityRadialHeliocentric value="7.56e+01" uncertaintyLow="1.30e+00" uncertaintyHigh="1.30e+00" reference="Li et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...838....8L"/>
       <velocityDispersionStellar value="6.90e+00" uncertaintyLow="9.00e-01" uncertaintyHigh="1.20e+00" reference="Li et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...838....8L"/>
-      <metallicityDispersionStellar value="0.47" uncertaintyLow="0.09" uncertaintyHigh="0.12" reference="Li et al. (2016; arXiv:1611.05052)" referenceURL="http://adsabs.harvard.edu/abs/2016arXiv161105052L"/>
+      <metallicityDispersionStellar value="4.70e-01" uncertaintyLow="9.00e-02" uncertaintyHigh="1.20e-01" reference="Li et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...838....8L"/>
       <positionAngle value="72.6" uncertainty="3.3" reference="Crnojevic et al. (2016; ApJ; 824; 14)" referenceURL="http://adsabs.harvard.edu/abs/2016ApJ...824L..14C"/>
       <velocityMilkyWay value="-66.6" reference="Li et al. (2016; arXiv:1611.05052)" referenceURL="http://adsabs.harvard.edu/abs/2016arXiv161105052L"/>
       <detectionEfficiencyHalfLight value="1.00" reference="The DES Collaboration (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302584T"/>
@@ -775,6 +778,7 @@
       <extinctionr value="0.033" reference="Jerjen et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
       <ageStellar value="13.7" uncertaintyLow="0.8" uncertaintyHigh="0.3" reference="Jerjen et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
       <metallicityStellar value="-2.76e+00" uncertaintyLow="1.00e-01" uncertaintyHigh="1.00e-01" reference="Koposov et al. (2015b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...811...62K"/>
+      <metallicityDispersionStellar value="1.70e-01" uncertaintyLow="3.00e-02" uncertaintyHigh="2.00e-01" reference="Koposov et al. (2015b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...811...62K"/>
       <positionAngle value="68" uncertainty="9" reference="Jerjen et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
       <detectionEfficiencyHalfLight value="0.78" reference="The DES Collaboration (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302584T"/>
       <referencePrimary reference="Koposov et al. (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302079K"/>
@@ -972,7 +976,7 @@
       <extinctionr value="0.019" reference="Jerjen et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
       <velocityRadialHeliocentric value="-1.40e+02" uncertaintyLow="1.60e+00" uncertaintyHigh="2.40e+00" reference="Walker et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...819...53W"/>
       <velocityDispersionStellar value="2.90e+00" uncertaintyLow="1.00e+00" uncertaintyHigh="2.10e+00" reference="Walker et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...819...53W"/>
-      <metallicityDispersionStellar value="0.41" uncertaintyLow="0.23" uncertaintyHigh="0.49" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
+      <metallicityDispersionStellar value="4.10e-01" uncertaintyLow="2.30e-01" uncertaintyHigh="4.90e-01" reference="Walker et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...819...53W"/>
       <positionAngle value="153" uncertaintyLow="7" uncertaintyHigh="8" reference="Cantu et al. (2020; arXiv:2005.06478)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200506478C"/>
       <metallicityStellar value="-1.88" uncertaintyLow="0.03" uncertaintyHigh="0.09" reference="Cantu et al. (2020; arXiv:2005.06478)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200506478C"/>
       <referencePrimary reference="Koposov et al. (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302079K"/>
@@ -1069,7 +1073,7 @@
       <radiusHalfLightAngular value="9.9" uncertainty="1.4"/>
       <velocityRadialHeliocentric value="-1.29e+02" uncertaintyLow="3.50e+00" uncertaintyHigh="3.50e+00" reference="Walker et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...819...53W"/>
       <velocityDispersionStellar value="8.60e+00" uncertaintyLow="2.70e+00" uncertaintyHigh="4.40e+00" reference="Walker et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...819...53W"/>
-      <metallicityDispersionStellar value="0.23" uncertaintyLow="0.13" uncertaintyHigh="0.18" reference="Walker et al. (2015; arXiv:1511.06296)" referenceURL="http://arxiv.org/abs/1511.06296"/>
+      <metallicityDispersionStellar value="2.90e-01" uncertaintyLow="1.20e-01" uncertaintyHigh="1.50e-01" reference="Chiti et al. (2018)" referenceURL="https://iopscience.iop.org/article/10.3847/1538-4357/aab4fc"/>
       <positionAngle value="106" uncertainty="22"/>
       <detectionEfficiencyHalfLight value="1.00" reference="The DES Collaboration (2015; ApJ)" referenceURL="http://adsabs.harvard.edu/abs/2015arXiv150302584T"/>
       <metallicityStellar value="-2.90e+00" uncertaintyLow="1.60e-01" uncertaintyHigh="1.50e-01" reference="Chiti et al. (2018)" referenceURL="https://iopscience.iop.org/article/10.3847/1538-4357/aab4fc"/>
@@ -1190,7 +1194,7 @@
       <longitudeGalactic value="79.2"/>
       <velocityRadialHeliocentric value="-2.26e+02" uncertaintyLow="2.70e+00" uncertaintyHigh="2.70e+00" reference="Kirby, Simon &amp; Cohen (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...810...56K"/>
       <velocityDispersionStellar value="5.40e+00" uncertaintyLow="2.40e+00" uncertaintyHigh="3.60e+00" reference="Kirby, Simon &amp; Cohen (2015)" referenceURL="https://ui.adsabs.harvard.edu/abs/2015ApJ...810...56K"/>
-      <metallicityDispersionStellar value="0.48" uncertaintyLow="0.29" uncertaintyHigh="0.70" reference="Kirby, Simon, &amp; Cohen (arXiv:1506.01021)" referenceURL="http://arxiv.org/abs/1506.01021"/>
+      <metallicityDispersionStellar value="4.10e-01" uncertaintyLow="2.30e-01" uncertaintyHigh="4.90e-01" reference="Walker et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...819...53W"/>
       <magnitudeApparentV value="16.3" uncertaintyLow="0.5" uncertaintyHigh="0.5"/>
       <distanceLocalGroup value="0.285"/>
       <positionAngle value="77.0" uncertaintyLow="12.0" uncertaintyHigh="12.0"/>
@@ -1254,6 +1258,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-1.97e+00" uncertaintyLow="4.00e-02" uncertaintyHigh="4.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="3.80e-01" uncertaintyLow="3.00e-02" uncertaintyHigh="3.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Irwin et al. (1990)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="-43.8" uncertainty="2.8" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -1383,6 +1388,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.71e+00" uncertaintyLow="3.90e-01" uncertaintyHigh="4.50e-01" reference="Frebel, Simon &amp; Kirby (2014)" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...786...74F"/>
+      <metallicityDispersionStellar value="9.50e-01" uncertaintyLow="2.60e-01" uncertaintyHigh="4.20e-01" reference="Frebel, Simon &amp; Kirby (2014)" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...786...74F"/>
       <referencePrimary reference="Belokurov et al. (2007)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="-169.7" uncertainty="19.5" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -1647,6 +1653,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-5.30e-01" uncertaintyLow="2.00e-02" uncertaintyHigh="3.00e-02" reference="Mucciarelli et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017A%2526A...605A..46M"/>
+      <metallicityDispersionStellar value="1.70e-01" uncertaintyLow="2.00e-02" uncertaintyHigh="2.00e-02" reference="Mucciarelli et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017A%2526A...605A..46M"/>
       <referencePrimary reference="Ibata et al. (1994)"/>
       <comment value="Tidally disrupting"/>
       <classification value="galaxy"/>
@@ -1929,6 +1936,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="6.9" uncertaintyLow="1.0" uncertaintyHigh="1.0"/>
       <metallicityStellar value="-1.91e+00" uncertaintyLow="1.40e-01" uncertaintyHigh="1.20e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="4.30e-01" uncertaintyLow="9.00e-02" uncertaintyHigh="1.30e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Irwin et al. (2007)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="-0.01" uncertainty="0.05" reference="McConnachie &amp; Venn (2020)" referenceURL="https://ui.adsabs.harvard.edu/abs/2020arXiv200705011M"/>
@@ -1978,6 +1986,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.16e+00" uncertaintyLow="1.30e-01" uncertaintyHigh="1.10e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="6.20e-01" uncertaintyLow="8.00e-02" uncertaintyHigh="1.00e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Willman et al. (2005b)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="-68.3" uncertainty="9.4" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -2066,6 +2075,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.23e+00" uncertaintyLow="2.40e-01" uncertaintyHigh="2.10e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="6.70e-01" uncertaintyLow="1.50e-01" uncertaintyHigh="2.00e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Zucker et al. (2006a)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="169.1" uncertainty="5.3" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -2118,6 +2128,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.48e+00" uncertaintyLow="2.10e-01" uncertaintyHigh="2.10e-01" reference="Collins et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017MNRAS.467..573C" technique="High resolution spectroscopy"/>
+      <metallicityDispersionStellar value="4.70e-01" uncertaintyLow="1.30e-01" uncertaintyHigh="2.30e-01" reference="Collins et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017MNRAS.467..573C"/>
       <referencePrimary reference="Belokurov et al. (2008)"/>
       <comment value="Cluster? Binary w/Leo IV?"/>
       <classification value="galaxy"/>
@@ -2211,6 +2222,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.79e+00" uncertaintyLow="1.00e-01" uncertaintyHigh="6.00e-02" reference="Ji et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...830...93J"/>
+      <metallicityDispersionStellar value="4.40e-01" uncertaintyLow="6.00e-02" uncertaintyHigh="7.00e-02" reference="Brown et al. (2014)" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...796...91B"/>
       <referencePrimary reference="Belokurov et al. (2006)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="-55.4" uncertainty="9.2" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -2263,6 +2275,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.29e+00" uncertaintyLow="2.20e-01" uncertaintyHigh="1.90e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="5.60e-01" uncertaintyLow="1.40e-01" uncertaintyHigh="1.90e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Belokurov et al. (2007)"/>
       <comment value="Binary w/Leo V?"/>
       <classification value="galaxy"/>
@@ -2784,6 +2797,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.35e+00" uncertaintyLow="1.90e-01" uncertaintyHigh="1.60e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="3.90e-01" uncertaintyLow="2.00e-02" uncertaintyHigh="3.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Zucker et al. (2006b)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="-15.9" uncertainty="9.4" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -2904,6 +2918,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.00e+00" uncertaintyLow="2.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="3.40e-01" uncertaintyLow="2.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <properMotionLatitude value="-16.3" uncertainty="6.3" reference="Pryor et al.; 2014; arXiv1407:3509" referenceURL="http://adsabs.harvard.edu/abs/2014arXiv1407.3509P"/>
       <properMotionLongitude value="-23.1" uncertainty="6.3" reference="Pryor et al.; 2014; arXiv1407:3509" referenceURL="http://adsabs.harvard.edu/abs/2014arXiv1407.3509P"/>
       <velocityAzimuthalMilkyWay value="89" uncertainty="25" reference="Pryor et al.; 2014; arXiv1407:3509" referenceURL="http://adsabs.harvard.edu/abs/2014arXiv1407.3509P"/>
@@ -3660,6 +3675,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-1.73e+00" uncertaintyLow="2.00e-02" uncertaintyHigh="3.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="4.40e-01" uncertaintyLow="2.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Shapley (1938a)"/>
       <comment value="The prototypical dSph"/>
       <classification value="galaxy"/>
@@ -3833,6 +3849,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.12e+00" uncertaintyLow="2.00e-02" uncertaintyHigh="3.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="3.30e-01" uncertaintyLow="3.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Wilson (1955)"/>
       <alias value="UGC 9749"/>
       <alias value="DDO 199"/>
@@ -3994,6 +4011,7 @@
       <morphology value="dSph"/>
       <membership value="G"/>
       <metallicityStellar value="-2.14" uncertaintyLow="0.15" uncertaintyHigh="0.16" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="3.90e-01" uncertaintyLow="1.30e-01" uncertaintyHigh="1.20e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Belokurov et al. (2009)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="165.6" uncertainty="15.5" uncertaintySystematic="4.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -4046,6 +4064,9 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-1.80e+00" uncertaintyLow="2.00e-02" uncertaintyHigh="2.00e-02" reference="Fabrizio et al. (2012)" referenceURL="https://ui.adsabs.harvard.edu/abs/2012PASP..124..519F"/>
+      <metallicityDispersionStellar reference="Fabrizio et al. (2012)" referenceURL="https://ui.adsabs.harvard.edu/abs/2012PASP..124..519F">
+	<limit value="0.24" confidenceLevel="90%" type="upper"/>
+      </metallicityDispersionStellar>
       <referencePrimary reference="Cannon et al. (1977)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="48.5" uncertainty="1.7" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -4225,6 +4246,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-1.07e+00" uncertaintyLow="1.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="2.70e-01" uncertaintyLow="1.00e-02" uncertaintyHigh="1.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Shapley (1938b)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="37.4" uncertainty="0.4" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -4509,6 +4531,9 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.79e+00" uncertaintyLow="1.00e-01" uncertaintyHigh="6.00e-02" reference="Ji et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...830...93J"/>
+      <metallicityDispersionStellar reference="Ji et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...830...93J">
+	<limit value="3.50e-01" confidenceLevel="90%" type="upper"/>
+      </metallicityDispersionStellar>
       <referencePrimary reference="Walsh et al. (2007)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="-268.6" uncertainty="38.9" uncertaintySystematic="5.6" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -4561,6 +4586,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-1.48e+00" uncertaintyLow="1.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="2.60e-01" uncertaintyLow="1.00e-02" uncertaintyHigh="1.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Harrington &amp; Wilson (1950)"/>
       <alias value="UGC 5470"/>
       <alias value="DDO 74"/>
@@ -4852,6 +4878,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.43e+00" uncertaintyLow="1.10e-01" uncertaintyHigh="1.10e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="4.60e-01" uncertaintyLow="8.00e-02" uncertaintyHigh="9.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Belokurov et al. (2007)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="47.1" uncertainty="10.8" uncertaintySystematic="3.5" reference="Fritz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -5028,6 +5055,7 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.35e+00" uncertaintyLow="1.90e-01" uncertaintyHigh="1.60e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityDispersionStellar value="5.70e-01" uncertaintyLow="1.20e-01" uncertaintyHigh="1.50e-01" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Belokurov et al. (2007)"/>
       <alias value="SDSS J1257+3419"/>
       <classification value="galaxy"/>
@@ -5198,7 +5226,8 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-1.68e+00" uncertaintyLow="3.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
-      <referencePrimary reference="Harrington &amp; Wilson (1950)"/>
+       <metallicityDispersionStellar value="3.40e-01" uncertaintyLow="2.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby et al. (2013b)" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+     <referencePrimary reference="Harrington &amp; Wilson (1950)"/>
       <alias value="Leo B"/>
       <alias value="UGC 6253"/>
       <alias value="DDO 93"/>
@@ -5702,6 +5731,7 @@
       <velocityRadialHeliocentric value="80.4" uncertainty="0.6" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <velocityDispersionStellar value="2.70e+00" uncertaintyLow="4.00e-01" uncertaintyHigh="5.00e-01" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <metallicityStellar value="-2.52e+00" uncertaintyLow="9.00e-02" uncertaintyHigh="9.00e-02" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
+      <metallicityDispersionStellar value="4.10e-01" uncertaintyLow="8.00e-02" uncertaintyHigh="8.00e-02" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <massDynamicalHalfLightRadius value="2.23e5" uncertaintyLow="0.66e5" uncertaintyHigh="0.95e5" reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <classification value="galaxy"/>
       <referencePrimary reference="Koposov et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
@@ -5734,6 +5764,7 @@
       <magnitudeAbsoluteV value="-4.50" uncertainty="0.10" reference="Torrealba et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
       <massStellar value="5395.1" uncertaintyLow="474.7" uncertaintyHigh="520.5" reference="Torrealba et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T" technique="M/L = 1 Msun/Lsun"/>
       <metallicityStellar value="-2.44e+00" uncertaintyLow="9.00e-02" uncertaintyHigh="9.00e-02" reference="Li et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...857..145L"/>
+      <metallicityDispersionStellar value="2.20e-01" uncertaintyLow="7.00e-02" uncertaintyHigh="1.00e-01" reference="Li et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...857..145L"/>
       <ageStellar value="9.9" uncertainty="0.4" reference="Torrealba et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
       <properMotionRightAscension value="180.2" uncertainty="3.8" reference="Kallivayalil et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...867...19K"/>
       <properMotionDeclination value="8.4" uncertainty="3.8" reference="Kallivayalil et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...867...19K"/>
