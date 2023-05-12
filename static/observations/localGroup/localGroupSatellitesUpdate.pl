@@ -39,7 +39,7 @@ my %bibCodes;
 	    $line =~ s/$oldURL/$knownUpdatedURLs{$oldURL}/;
 	}
 	# Update URLs that point to an arXiv paper.
-	if ( $line =~ m/"(https:\/\/arxiv\.org\/abs\/(\d+\.\d+))"/ ) {
+	if ( $line =~ m/"(https?:\/\/arxiv\.org\/abs\/(\d+\.\d+))"/ ) {
 	    my $originalURL = $1;
 	    my $oldURL      = "https://ui.adsabs.harvard.edu/abs/arXiv:".$2;
 	    unless ( exists($knownUpdatedURLs{$oldURL}) ) {
