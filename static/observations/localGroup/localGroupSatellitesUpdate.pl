@@ -109,7 +109,8 @@ my %journalAbbr =
      "Monthly Notices of the Royal Astronomical Society"       => "MNRAS"       ,
      "arXiv e-prints"                                          => "arXiv"       ,
      "Research Notes of the American Astronomical Society"     => "RNAAS"       ,
-     "Publications of the Astronomical Society of the Pacific" => "PASP"
+     "Publications of the Astronomical Society of the Pacific" => "PASJ"        ,
+     "Publications of the Astronomical Society of Japan"       => "PASP"
     );
 
 # Construct bibliographic entries for each case.
