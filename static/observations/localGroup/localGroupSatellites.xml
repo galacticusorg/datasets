@@ -1903,6 +1903,57 @@
       <distanceMilkyWay value="0.87132246E+00" uncertaintyLow="0.27886775E+00" uncertaintyHigh="0.27886775E+00"/>
       <distanceM31 value="0.95902910E-01" uncertaintyLow="0.27859900E+00" uncertaintyHigh="0.27859900E+00"/>
     </galaxy>
+    <galaxy name="Leo M">
+      <discoverySurvey value="HST-GO-16916"/>
+      <rightAscensionDecimal value="166.338189255" uncertaintyLow="4.4" uncertaintyHigh="4.0" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <declinationDecimal value="25.34521472" uncertaintyLow="3.6" uncertaintyHigh="3.7" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <positionAngle value="112" uncertainty="4" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <ellipticityProjected value="0.17" uncertaintyLow="0.11" uncertaintyHigh="0.12" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <radiusHalfLightAngular value="31.0" uncertaintyLow="5.0" uncertaintyHigh="6.0" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <radiusHalfLight value="70.0e-6" uncertaintyLow="11.0e-6" uncertaintyHigh="18.0e-6" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <magnitudeAbsoluteV value="-5.3" uncertaintyLow="0.4" uncertaintyHigh="0.3" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <massStellar value="1.5e4" uncertainty="0.2e4" technique="synthetic photometry" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <surfaceBrightnessEffectiveV value="23.30" uncertaintyLow="0.09" uncertaintyHigh="0.41" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <distanceHeliocentric value="457.0e-3" uncertaintyLow="18.0e-3" uncertaintyHigh="87.0e-3" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <metallicityStellar value="-1.9" uncertainty="0.1" technique="CMD modelling" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <starFormationHistoryCumulative>
+        <epoch fraction="0.80" time="2.9" uncertaintyLow="1.8" uncertaintyHigh="0.6" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      </starFormationHistoryCumulative>
+      <extinctionV value="0.045" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <referencePrimary reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <classification value="galaxy"/>
+      <declinationSexagesimal degrees="25.000000000000" arcminutes="20.000000000000" arcseconds="42.772992000005"/>
+      <rightAscensionSexagesimal hours="11.000000000000" minutes="5.000000000000" seconds="21.518178220001"/>
+      <distanceModulus value="23.299581000349" uncertaintyLow="0.085528453767" uncertaintyHigh="0.413387526538"/>
+      <positionHeliocentricCartesian value="-0.40132604E+00   0.97549398E-01   0.19562853E+00" uncertaintyLow="0.15807153E-01   0.38422083E-02   0.77052813E-02" uncertaintyHigh="0.76401238E-01   0.18570673E-01   0.37242193E-01"/>
+      <distanceMilkyWay value="0.45457415E+00" uncertaintyLow="0.14272048E-01" uncertaintyHigh="0.68980888E-01"/>
+      <distanceM31 value="0.10309102E+01" uncertaintyLow="0.23782573E-01" uncertaintyHigh="0.75760561E-01"/>
+    </galaxy>
+    <galaxy name="Leo K">
+      <discoverySurvey value="HST-GO-16916"/>
+      <rightAscensionDecimal value="141.0253568" uncertaintyLow="1.6" uncertaintyHigh="1.6" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <declinationDecimal value="16.51057655" uncertaintyLow="1.2" uncertaintyHigh="1.2" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <positionAngle value="101" uncertainty="3" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <ellipticityProjected value="0.26" uncertaintyLow="0.09" uncertaintyHigh="0.08" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <radiusHalfLightAngular value="24.0" uncertainty="3.0" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <radiusHalfLight value="65.0e-5" uncertaintyLow="20.0e-6" uncertaintyHigh="11.0e-6" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <magnitudeAbsoluteV value="-4.7" uncertaintyLow="0.4" uncertaintyHigh="0.7" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <massStellar value="1.0e4" uncertainty="0.2e-4" technique="synthetic photometry" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <surfaceBrightnessEffectiveV value="23.16" uncertaintyLow="0.55" uncertaintyHigh="0.14" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <distanceHeliocentric value="428.0e-3" uncertaintyLow="109.0e-3" uncertaintyHigh="28.0e-3" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <metallicityStellar value="-1.9" uncertainty="0.1" technique="CMD modelling" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <starFormationHistoryCumulative>
+        <epoch fraction="0.80" time="1.2" uncertaintyLow="0.2" uncertaintyHigh="5.8" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      </starFormationHistoryCumulative>
+      <extinctionV value="0.045" reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <referencePrimary reference="McQuinn et al. (2023; arXiv:2307.08738)" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv230708738M"/>
+      <classification value="galaxy"/>
+      <declinationSexagesimal degrees="16.000000000000" arcminutes="30.000000000000" arcseconds="38.075579999999"/>
+      <rightAscensionSexagesimal hours="9.000000000000" minutes="24.000000000000" seconds="6.187059199999"/>
+      <distanceModulus value="23.157218845066" uncertaintyLow="0.553015169713" uncertaintyHigh="0.142058942679"/>
+      <positionHeliocentricCartesian value="-0.31901797E+00   0.25810197E+00   0.12163432E+00" uncertaintyLow="0.81245230E-01   0.65731577E-01   0.30976964E-01" uncertaintyHigh="0.20870334E-01   0.16885176E-01   0.79573853E-02"/><distanceMilkyWay value="0.42287854E+00" uncertaintyLow="0.72770199E-01" uncertaintyHigh="0.18693443E-01"/>
+      <distanceM31 value="0.99162187E+00" uncertaintyLow="0.77314533E-01" uncertaintyHigh="0.26376868E-01"/>
+    </galaxy>
     <galaxy name="Leo T">
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="17" arcminutes="3" arcseconds="5" reference="Irwin et al. 2007"/>
@@ -2044,7 +2095,7 @@
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="63" arcminutes="7" arcseconds="48" reference="Simon &amp; Geha 2007"/>
       <rightAscensionSexagesimal hours="8" minutes="51" seconds="30.0" reference="Simon &amp; Geha 2007"/>
-      <distanceHeliocentric value="3.47e-02" uncertaintyLow="1.90e-03" uncertaintyHigh="2.00e-03" reference="Dall'Ora, Kinemuchi, Ripepi et al.; 2012; ApJ; 752; 42" referenceURL="https://ui.adsabs.harvard.edu/abs/2012ApJ...752...42D"/>
+      <distanceHeliocentric value="3.47e-02" uncertaintyLow="1.90e-03" uncertaintyHigh="2.00e-03" reference="Dall&apos;Ora, Kinemuchi, Ripepi et al.; 2012; ApJ; 752; 42" referenceURL="https://ui.adsabs.harvard.edu/abs/2012ApJ...752...42D"/>
       <declinationDecimal value="63.130000000000"/>
       <rightAscensionDecimal value="132.872950819672"/>
       <magnitudeAbsoluteV value="-4.43" uncertainty="0.26" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
@@ -2191,7 +2242,7 @@
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="14" arcminutes="30" arcseconds="0" reference="Martin et al. 2007"/>
       <rightAscensionSexagesimal hours="4" minutes="0" seconds="6.0" reference="Martin et al. 2007"/>
-      <distanceHeliocentric value="6.60e-02" uncertaintyLow="2.00e-03" uncertaintyHigh="2.00e-03" reference="Dall'Ora, Clementini, Kinemuchi et al.; 2006; ApJ; 653; L109" referenceURL="https://ui.adsabs.harvard.edu/abs/2006ApJ...653L.109D"/>
+      <distanceHeliocentric value="6.60e-02" uncertaintyLow="2.00e-03" uncertaintyHigh="2.00e-03" reference="Dall&apos;Ora, Clementini, Kinemuchi et al.; 2006; ApJ; 653; L109" referenceURL="https://ui.adsabs.harvard.edu/abs/2006ApJ...653L.109D"/>
       <declinationDecimal value="14.500000000000"/>
       <rightAscensionDecimal value="60.024590163934"/>
       <magnitudeAbsoluteV value="-6.02" uncertainty="0.25" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
@@ -2244,7 +2295,7 @@
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="-0" arcminutes="32" arcseconds="0" reference="Moretti et al. 2009"/>
       <rightAscensionSexagesimal hours="1" minutes="32" seconds="57.0" reference="Moretti et al. 2009"/>
-      <distanceHeliocentric value="1.54e-01" uncertaintyLow="5.00e-03" uncertaintyHigh="5.00e-03" reference="Moretti, Dall'Ora, Ripepi et al.; 2009; ApJ; 699; L125" referenceURL="https://ui.adsabs.harvard.edu/abs/2009ApJ...699L.125M"/>
+      <distanceHeliocentric value="1.54e-01" uncertaintyLow="5.00e-03" uncertaintyHigh="5.00e-03" reference="Moretti, Dall&apos;Ora, Ripepi et al.; 2009; ApJ; 699; L125" referenceURL="https://ui.adsabs.harvard.edu/abs/2009ApJ...699L.125M"/>
       <declinationDecimal value="-0.533333333333"/>
       <rightAscensionDecimal value="23.233606557377"/>
       <magnitudeAbsoluteV value="-4.99" uncertainty="0.26" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
@@ -5027,7 +5078,7 @@
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="34" arcminutes="19" arcseconds="15" reference="Greco et al. 2008"/>
       <rightAscensionSexagesimal hours="2" minutes="57" seconds="10.0" reference="Greco et al. 2008"/>
-      <distanceHeliocentric value="1.60e-01" uncertaintyLow="4.00e-03" uncertaintyHigh="4.00e-03" reference="Greco, Dall'Ora, Clementini et al.; 2008; ApJ; 675; L73" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...675L..73G"/>
+      <distanceHeliocentric value="1.60e-01" uncertaintyLow="4.00e-03" uncertaintyHigh="4.00e-03" reference="Greco, Dall&apos;Ora, Clementini et al.; 2008; ApJ; 675; L73" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...675L..73G"/>
       <declinationDecimal value="34.320833333333"/>
       <rightAscensionDecimal value="44.290983606557"/>
       <magnitudeAbsoluteV value="-5.17" uncertainty="0.32" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
