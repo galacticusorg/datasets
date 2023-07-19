@@ -108,7 +108,7 @@
 			<xs:attribute name="arcminutes"            type="xs:decimal" use="required"/>
 			<xs:attribute name="arcseconds"            type="xs:decimal" use="required"/>
 			<xs:attribute name="uncertaintyArcseconds" type="xs:decimal" use="optional"/>
-			<xs:attribute name="reference"             type="xs:string"  use="optional"/>                                                                                          
+			<xs:attribute name="reference"             type="xs:string"  use="optional"/>
 			<xs:attribute name="referenceURL"          type="xs:string"  use="optional"/>
 		      </xs:complexType>
 		    </xs:element>
@@ -119,7 +119,7 @@
 			<xs:attribute name="minutes"            type="xs:decimal" use="required"/>
 			<xs:attribute name="seconds"            type="xs:decimal" use="required"/>
  			<xs:attribute name="uncertaintySeconds" type="xs:decimal" use="optional"/>
-			<xs:attribute name="reference"          type="xs:string"  use="optional"/>                                                                                          
+			<xs:attribute name="reference"          type="xs:string"  use="optional"/>
 			<xs:attribute name="referenceURL"       type="xs:string"  use="optional"/>
 		      </xs:complexType>
 		    </xs:element>
@@ -129,8 +129,13 @@
 			<xs:all>
 			  <xs:element name="epoch" minOccurs="1" maxOccurs="unbounded">
 			    <xs:complexType>
-			      <xs:attribute name="fraction" type="xs:float"/>
-			      <xs:attribute name="time"     type="xs:float"/>
+			      <xs:attribute name="fraction"        type="xs:float"                />
+			      <xs:attribute name="time"            type="xs:float"                />
+			      <xs:attribute name="uncertainty"     type="xs:float"  use="optional"/>
+			      <xs:attribute name="uncertaintyLow"  type="xs:float"  use="optional"/>
+			      <xs:attribute name="uncertaintyHigh" type="xs:float"  use="optional"/>
+			      <xs:attribute name="reference"       type="xs:string" use="optional"/>
+			      <xs:attribute name="referenceURL"    type="xs:string" use="optional"/>
 			    </xs:complexType>
 			  </xs:element>
 			</xs:all>
