@@ -1,0 +1,8 @@
+<stars>
+  <fileFormat>1</fileFormat>
+  <!-- Include a standard compilation of stellar models -->
+  <xi:include href="stellarPropertiesMarigo2001.xml"                   xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesHegerWoosley2002.xml"             xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesTumlinsonShullVenkatesan2003.xml" xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesPortinariChiosiBressan1998.xml"   xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</stars>
