@@ -124,6 +124,43 @@
 		      </xs:complexType>
 		    </xs:element>
 
+		    <xs:element name="massStellar" minOccurs="0" maxOccurs="1">
+		      <xs:complexType>
+			<xs:all>
+			  <xs:element name="limit" minOccurs="0" maxOccurs="unbounded">
+			    <xs:complexType>
+			      <xs:attribute name="value"           type="xs:float"  use="required"/>                                                                                          
+			      <xs:attribute name="confidenceLevel" type="xs:string" use="required"/>                                                                                          
+			      <xs:attribute name="type"                             use="required" >
+				<xs:simpleType>
+				  <xs:restriction base="xs:string">
+				    <xs:enumeration value="upper"/>
+				    <xs:enumeration value="lower"/>
+				  </xs:restriction>
+				</xs:simpleType>
+			      </xs:attribute>
+			    </xs:complexType>                                                                                                                          
+			  </xs:element>
+			  <xs:element name="uncertaintyCorrelation" minOccurs="0" maxOccurs="1">
+			    <xs:complexType>
+			      <xs:attribute name="with"        type="xs:string" use="required"/>                                                                                          
+			      <xs:attribute name="coefficient" type="xs:float"  use="required"/>                                                                                          
+			    </xs:complexType>                                                                                                                          
+			  </xs:element>
+			</xs:all>
+			<xs:attribute name="value"                 type="xs:float"  use="optional"/>                                                                                          
+			<xs:attribute name="uncertainty"           type="xs:float"  use="optional"/>                                                                                          
+			<xs:attribute name="uncertaintyLow"        type="xs:float"  use="optional"/>                                                                                          
+			<xs:attribute name="uncertaintyHigh"       type="xs:float"  use="optional"/>                                                                                          
+			<xs:attribute name="uncertaintySystematic" type="xs:float"  use="optional"/>                                                                                          
+			<xs:attribute name="reference"             type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="referenceURL"          type="xs:string" use="optional"/>
+			<xs:attribute name="comment"               type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="technique"             type="xs:string" use="optional"/>
+			<xs:attribute name="imf"                   type="xs:string" use="optional"/>
+		      </xs:complexType>
+		    </xs:element>
+
 		    <xs:element name="starFormationHistoryCumulative" minOccurs="0" maxOccurs="1">
 		      <xs:complexType>                                                                                                                          
 			<xs:all>
@@ -189,6 +226,7 @@
 		    <xs:element name="latitudeGalactic"                       type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="longitudeGalactic"                      type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="magnitudeAbsoluter"                     type="datum"       minOccurs="0" maxOccurs="1"        />
+		    <xs:element name="magnitudeAbsoluteg"                     type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="magnitudeAbsoluteV"                     type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="magnitudeApparentB"                     type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="magnitudeApparentg"                     type="datum"       minOccurs="0" maxOccurs="1"        />
@@ -197,7 +235,6 @@
 		    <xs:element name="magnitudeApparentV"                     type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="massDynamicalHalfLightRadius"           type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="massNeutralHydrogen"                    type="datum"       minOccurs="0" maxOccurs="unbounded"/>
-		    <xs:element name="massStellar"                            type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="metallicityDispersionStellar"           type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="metallicityStellar"                     type="datum"       minOccurs="0" maxOccurs="unbounded"/>
 		    <xs:element name="positionAngle"                          type="datum"       minOccurs="0" maxOccurs="1"        />
