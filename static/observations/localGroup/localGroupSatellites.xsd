@@ -90,6 +90,7 @@
 			      <xs:enumeration value="tidal stream"  />
 			      <xs:enumeration value="overdensity"   />
 			      <xs:enumeration value="false positive"/>
+			      <xs:enumeration value="ambiguous"     />
 			    </xs:restriction>
 			  </xs:simpleType>
 			</xs:attribute>
