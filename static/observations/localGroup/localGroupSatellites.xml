@@ -1784,8 +1784,8 @@
       <surfaceBrightnessCentralV value="26.3" uncertaintyLow="0.9" uncertaintyHigh="0.4"/>
       <rotationVelocityMaximumStellar value="10.4" uncertaintyLow="5.8" uncertaintyHigh="7.7" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <membership value="A/L"/>
-      <metallicityStellar value="-1.95" uncertaintyLow="0.04" uncertaintyHigh="0.04" technique="Ca H &amp; K narrow-band imaging" reference="Fu et al.; 2024; arXiv:04698" referenceURL="https://arxiv.org/abs/2407.04698"/>
-      <metallicityDispersionStellar value="0.34" uncertaintyLow="0.05" uncertaintyHigh="0.05" technique="Ca H &amp; K narrow-band imaging" reference="Fu et al.; 2024; arXiv:04698" referenceURL="https://arxiv.org/abs/2407.04698"/>
+      <metallicityStellar value="-1.95" uncertaintyLow="0.04" uncertaintyHigh="0.04" technique="Ca H &amp; K narrow-band imaging" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2407.04698"/>
+      <metallicityDispersionStellar value="0.34" uncertaintyLow="0.05" uncertaintyHigh="0.05" technique="Ca H &amp; K narrow-band imaging" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2407.04698"/>
       <referencePrimary reference="Slater et al. (2011)"/>
       <comment value="In Pegasus"/>
       <classification value="galaxy"/>
@@ -1982,8 +1982,8 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
-      <metallicityStellar value="-2.17" uncertaintyLow="0.05" uncertaintyHigh="0.05" technique="Ca H &amp; K narrow-band imaging" reference="Fu et al.; 2024; arXiv:04698" referenceURL="https://arxiv.org/abs/2407.04698"/>
-      <metallicityDispersionStellar value="0.33" uncertaintyLow="0.07" uncertaintyHigh="0.07" technique="Ca H &amp; K narrow-band imaging" reference="Fu et al.; 2024; arXiv:04698" referenceURL="https://arxiv.org/abs/2407.04698"/>
+      <metallicityStellar value="-2.17" uncertaintyLow="0.05" uncertaintyHigh="0.05" technique="Ca H &amp; K narrow-band imaging" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2407.04698"/>
+      <metallicityDispersionStellar value="0.33" uncertaintyLow="0.07" uncertaintyHigh="0.07" technique="Ca H &amp; K narrow-band imaging" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2407.04698"/>
       <referencePrimary reference="Irwin et al. (2008)"/>
       <alias value="And XVII"/>
       <classification value="galaxy"/>
