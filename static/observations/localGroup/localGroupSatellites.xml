@@ -2918,32 +2918,32 @@
     </galaxy>
     <galaxy name="Leo VI">
       <discoverySurvey value="DELVE"/>
-      <distanceHeliocentric value="0.798" uncertainty="0.044" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <rightAscensionDecimal value="171.077" uncertaintyLow="0.013" uncertaintyHigh="0.016" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <declinationDecimal value="24.874" uncertaintyLow="0.011" uncertaintyHigh="0.008" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <radiusHalfLightAngular value="2.84" uncertaintyLow="0.90" uncertaintyHigh="0.78" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <radiusHalfLight value="90.0e-6" uncertaintyLow="30.0e-6" uncertaintyHigh="30.0e-6" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <ellipticityProjected value="0.54" uncertaintyLow="0.29" uncertaintyHigh="0.19" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <positionAngle value="63.0" uncertaintyLow="20.0" uncertaintyHigh="13.0" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <distanceModulus value="20.23" uncertaintyLow="0.07" uncertaintyHigh="0.13" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <distanceHeliocentric value="111.0e-3" uncertaintyLow="4.0e-3" uncertaintyHigh="7.0e-3" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <distanceHeliocentric value="0.798" uncertainty="0.044" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <rightAscensionDecimal value="171.077" uncertaintyLow="0.013" uncertaintyHigh="0.016" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <declinationDecimal value="24.874" uncertaintyLow="0.011" uncertaintyHigh="0.008" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <radiusHalfLightAngular value="2.84" uncertaintyLow="0.90" uncertaintyHigh="0.78" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <radiusHalfLight value="90.0e-6" uncertaintyLow="30.0e-6" uncertaintyHigh="30.0e-6" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <ellipticityProjected value="0.54" uncertaintyLow="0.29" uncertaintyHigh="0.19" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <positionAngle value="63.0" uncertaintyLow="20.0" uncertaintyHigh="13.0" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <distanceModulus value="20.23" uncertaintyLow="0.07" uncertaintyHigh="0.13" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <distanceHeliocentric value="111.0e-3" uncertaintyLow="4.0e-3" uncertaintyHigh="7.0e-3" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
        <ageStellar>
-        <limit value="12.37" confidenceLevel="68%" type="lower" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
+        <limit value="12.37" confidenceLevel="68%" type="lower" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
       </ageStellar>
-      <magnitudeAbsoluteV value="-3.56" uncertaintyLow="0.37" uncertaintyHigh="0.47" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <massStellar value="2300.0" uncertaintyLow="700.0" uncertaintyHigh="700.0" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <velocityRadialHeliocentric value="170.75" uncertaintyLow="1.65" uncertaintyHigh="1.90" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <velocityDispersionStellar value="3.60" uncertaintyLow="1.39" uncertaintyHigh="1.99" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <massDynamicalHalfLightRadius value="1.0e6" uncertaintyLow="0.7e6" uncertaintyHigh="1.6e6" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <metallicityStellar value="-2.41" uncertaintyLow="0.24" uncertaintyHigh="0.16" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <metallicityDispersionStellar value="0.33" uncertaintyLow="0.14" uncertaintyHigh="0.19" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <properMotionRightAscension value="-5.0" uncertaintyLow="20.0" uncertaintyHigh="19.0" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <properMotionDeclination value="-22.0" uncertaintyLow="17.0" uncertaintyHigh="22.0" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <distanceMilkyWay value="114.0e-3" uncertaintyLow="6.0e-3" uncertaintyHigh="5.0e-3" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <distanceOrbitalApocenter value="210.0e-3" uncertaintyLow="44.0e-3" uncertaintyHigh="190.0e-3" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <distanceOrbitalPericenter value="71.0e-3" uncertaintyLow="43.0e-3" uncertaintyHigh="27.0e-3" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <eccentricityOrbital value="0.65" uncertaintyLow="0.07" uncertaintyHigh="0.12" reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
-      <referencePrimary reference="Tan et al. (2024; arXiv:2408.00865" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <magnitudeAbsoluteV value="-3.56" uncertaintyLow="0.37" uncertaintyHigh="0.47" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <massStellar value="2300.0" uncertaintyLow="700.0" uncertaintyHigh="700.0" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <velocityRadialHeliocentric value="170.75" uncertaintyLow="1.65" uncertaintyHigh="1.90" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <velocityDispersionStellar value="3.60" uncertaintyLow="1.39" uncertaintyHigh="1.99" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <massDynamicalHalfLightRadius value="1.0e6" uncertaintyLow="0.7e6" uncertaintyHigh="1.6e6" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <metallicityStellar value="-2.41" uncertaintyLow="0.24" uncertaintyHigh="0.16" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <metallicityDispersionStellar value="0.33" uncertaintyLow="0.14" uncertaintyHigh="0.19" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <properMotionRightAscension value="-5.0" uncertaintyLow="20.0" uncertaintyHigh="19.0" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <properMotionDeclination value="-22.0" uncertaintyLow="17.0" uncertaintyHigh="22.0" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <distanceMilkyWay value="114.0e-3" uncertaintyLow="6.0e-3" uncertaintyHigh="5.0e-3" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <distanceOrbitalApocenter value="210.0e-3" uncertaintyLow="44.0e-3" uncertaintyHigh="190.0e-3" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <distanceOrbitalPericenter value="71.0e-3" uncertaintyLow="43.0e-3" uncertaintyHigh="27.0e-3" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <eccentricityOrbital value="0.65" uncertaintyLow="0.07" uncertaintyHigh="0.12" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+      <referencePrimary reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
       <classification value="galaxy"/>
       <declinationSexagesimal degrees="24.000000000000" arcminutes="52.000000000000" arcseconds="26.399999999995"/>
       <rightAscensionSexagesimal hours="11.000000000000" minutes="24.000000000000" seconds="18.788000000000"/>
