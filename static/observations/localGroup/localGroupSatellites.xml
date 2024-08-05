@@ -67,18 +67,18 @@
     </galaxy>
     <galaxy name="Virgo III">
       <discoverySurvey value="HSC-SSP" referenceURL="https://www.naoj.org/Projects/HSC/surveyplan.html"/>
-      <declinationDecimal value="4.441" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <rightAscensionDecimal value="186.348" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <distanceModulus value="20.9" uncertainty="0.2" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <distanceHeliocentric value="151.0e-3" uncertaintyLow="13.0e-3" uncertaintyHigh="15.0e-3" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <radiusHalfLightAngular value="1.0" uncertaintyLow="0.2" uncertaintyHigh="0.2" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <radiusHalfLight value="44.0e-6" uncertaintyLow="12.0e-6" uncertaintyHigh="14.0e-6" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <ellipticityProjected value="0.29" uncertaintyLow="0.19" uncertaintyHigh="0.15" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <positionAngle value="-24.0" uncertaintyLow="26.0" uncertaintyHigh="21.0" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <magnitudeAbsoluteV value="-2.69" uncertaintyLow="0.56" uncertaintyHigh="0.45" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <extinctionV value="0.054" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <massStellar value="1400.0" uncertaintyLow="500.0" uncertaintyHigh="700.0" technique="synthetic photometry" imf="Chabrier" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
-      <referencePrimary reference="Homma, Chiba, Komiyama et al.; 2024; PASP; " referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <declinationDecimal value="4.441" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <rightAscensionDecimal value="186.348" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <distanceModulus value="20.9" uncertainty="0.2" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <distanceHeliocentric value="151.0e-3" uncertaintyLow="13.0e-3" uncertaintyHigh="15.0e-3" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <radiusHalfLightAngular value="1.0" uncertaintyLow="0.2" uncertaintyHigh="0.2" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <radiusHalfLight value="44.0e-6" uncertaintyLow="12.0e-6" uncertaintyHigh="14.0e-6" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <ellipticityProjected value="0.29" uncertaintyLow="0.19" uncertaintyHigh="0.15" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <positionAngle value="-24.0" uncertaintyLow="26.0" uncertaintyHigh="21.0" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <magnitudeAbsoluteV value="-2.69" uncertaintyLow="0.56" uncertaintyHigh="0.45" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <extinctionV value="0.054" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <massStellar value="1400.0" uncertaintyLow="500.0" uncertaintyHigh="700.0" technique="synthetic photometry" imf="Chabrier" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
+      <referencePrimary reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ..tmp...55H"/>
       <classification value="galaxy"/>     
       <declinationSexagesimal degrees="4.000000000000" arcminutes="26.000000000000" arcseconds="27.599999999999"/>
       <rightAscensionSexagesimal hours="12.000000000000" minutes="25.000000000000" seconds="23.912000000003"/>
