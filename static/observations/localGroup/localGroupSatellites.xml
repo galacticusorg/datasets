@@ -2927,8 +2927,8 @@
       <positionAngle value="63.0" uncertaintyLow="20.0" uncertaintyHigh="13.0" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
       <distanceModulus value="20.23" uncertaintyLow="0.07" uncertaintyHigh="0.13" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
       <distanceHeliocentric value="111.0e-3" uncertaintyLow="4.0e-3" uncertaintyHigh="7.0e-3" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
-       <ageStellar>
-        <limit value="12.37" confidenceLevel="68%" type="lower" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
+       <ageStellar reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865">
+        <limit value="12.37" confidenceLevel="68%" type="lower"/>
       </ageStellar>
       <magnitudeAbsoluteV value="-3.56" uncertaintyLow="0.37" uncertaintyHigh="0.47" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
       <massStellar value="2300.0" uncertaintyLow="700.0" uncertaintyHigh="700.0" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
