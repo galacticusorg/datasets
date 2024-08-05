@@ -163,11 +163,11 @@ foreach my $record ( @{$records->{'response'}->{'docs'}} ) {
 	    my $bibCode = $1;
 	    if ( defined($bibCode) ) {
 		if ( exists($bibCodes{$bibCode}) ) {
-		    print $bibCode."\t".uri_unescape($bibCode)."\n"
-			unless ( exists($bibCodesCannonical{uri_unescape($bibCode)}) || exists($bibCodesCannonical{$bibCode}) ) ;
 		    my $bibCodeCannonical = $bibCodesCannonical{$bibCode};
-		    $line =~ s/\sreference="[^"]+"/ reference="$bibCodes{$bibCode}"/g;
-		    $line =~ s/\sreferenceURL="[^"]+"/ referenceURL="https:\/\/ui.adsabs.harvard.edu\/abs\/$bibCodeCannonical"/g;
+		    if ( defined($bibCodeCannonical) ) {
+			$line =~ s/\sreference="[^"]+"/ reference="$bibCodes{$bibCode}"/g;
+			$line =~ s/\sreferenceURL="[^"]+"/ referenceURL="https:\/\/ui.adsabs.harvard.edu\/abs\/$bibCodeCannonical"/g;
+		    }
 		}
 	    }
 	}
