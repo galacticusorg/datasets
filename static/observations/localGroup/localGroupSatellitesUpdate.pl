@@ -4,6 +4,7 @@ use warnings;
 use WWW::Curl::Easy;
 use JSON::PP qw(encode_json decode_json);
 use Unicode::Normalize;
+use URI::Escape;
 
 # Read arguments.
 die("Usage: localGroupSatellitesUpdate.pl <apiToken>")
@@ -55,7 +56,7 @@ my %bibCodes;
 	}
 	# Update bibliographic references. 
 	if ( $line =~ m/"https:\/\/ui\.adsabs\.harvard\.edu\/abs\/(.*?)"/ ) {
-	    my $bibCode = $1;
+	    (my $bibCode = uri_unescape($1)) =~ s/\/abstract//;
 	    $bibCodes{$bibCode} = "unknown";
 	}
 	# Output the updated line.
@@ -69,12 +70,12 @@ my %bibCodes;
 my $records;
 {
     my $countRecords = scalar(keys(%bibCodes));
-    $curl->setopt(CURLOPT_URL, 'https://api.adsabs.harvard.edu/v1/search/bigquery?q=*:*&rows='.$countRecords.'&fl=bibcode,title,author,year,pub,volume,page');
+    $curl->setopt(CURLOPT_URL, 'https://api.adsabs.harvard.edu/v1/search/bigquery?q=*:*&rows='.$countRecords.'&fl=bibcode,alternate_bibcode,title,author,year,pub,volume,page');
     $curl->setopt(CURLOPT_HTTPHEADER, ['Authorization: Bearer:'.$apiToken,"Content-Type: big-query/csv"]);
     my $response_body;
     $curl->setopt(CURLOPT_WRITEDATA,\$response_body);
     $curl->setopt(CURLOPT_POST, 1);
-    $curl->setopt(CURLOPT_POSTFIELDS, "bibcode\n".join("\n",keys(%bibCodes)));
+    $curl->setopt(CURLOPT_POSTFIELDS, "bibcode\n".join("\n",sort(keys(%bibCodes))));
     my $retcode = $curl->perform;
     if ($retcode == 0) {
 	my $response_code = $curl->getinfo(CURLINFO_HTTP_CODE);
@@ -99,6 +100,16 @@ my $records;
     }
 }
 
+# Look for cases where our current record used an alternate bibcode - update the entry to use this as the primary bibcode.
+foreach my $record (  @{$records->{'response'}->{'docs'}} ) {
+    $record->{'cannonical_bibcode'} = $record->{'bibcode'};
+    foreach my $alternateBibCode ( @{$record->{'alternate_bibcode'}} ) {
+	if ( exists($bibCodes{$alternateBibCode}) ) {
+	    $record->{'bibcode'} = $alternateBibCode;
+	}
+    }
+}
+
 # Journal abbreviations.
 my %journalAbbr =
     (
@@ -110,10 +121,12 @@ my %journalAbbr =
      "arXiv e-prints"                                          => "arXiv"       ,
      "Research Notes of the American Astronomical Society"     => "RNAAS"       ,
      "Publications of the Astronomical Society of the Pacific" => "PASJ"        ,
-     "Publications of the Astronomical Society of Japan"       => "PASP"
+     "Publications of the Astronomical Society of Japan"       => "PASP"        ,
+     "Nature"                                                  => "Nature"
     );
 
 # Construct bibliographic entries for each case.
+my %bibCodesCannonical;
 foreach my $record ( @{$records->{'response'}->{'docs'}} ) {
     die("No journal abbreviation found for '".$record->{'pub'}."'")
 	unless ( exists($journalAbbr{$record->{'pub'}}) );
@@ -137,6 +150,7 @@ foreach my $record ( @{$records->{'response'}->{'docs'}} ) {
     my $page    =                                            $record->{'page'  }->[0]           ;
     $bibCodes{$record->{'bibcode'}} =
 	$author.$year.$journal.$volume.$page;
+    $bibCodesCannonical{$record->{'bibcode'}} = $record->{'cannonical_bibcode'};
 }
 
 # Update references to standardized format.
@@ -147,8 +161,14 @@ foreach my $record ( @{$records->{'response'}->{'docs'}} ) {
 	# Update references.
 	if ( $line =~ m/"https:\/\/ui\.adsabs\.harvard\.edu\/abs\/(.*)"/ ) {
 	    my $bibCode = $1;
-	    if ( exists($bibCodes{$bibCode}) ) {
-		$line =~ s/\sreference="[^"]+"/ reference="$bibCodes{$bibCode}"/g;
+	    if ( defined($bibCode) ) {
+		if ( exists($bibCodes{$bibCode}) ) {
+		    print $bibCode."\t".uri_unescape($bibCode)."\n"
+			unless ( exists($bibCodesCannonical{uri_unescape($bibCode)}) || exists($bibCodesCannonical{$bibCode}) ) ;
+		    my $bibCodeCannonical = $bibCodesCannonical{$bibCode};
+		    $line =~ s/\sreference="[^"]+"/ reference="$bibCodes{$bibCode}"/g;
+		    $line =~ s/\sreferenceURL="[^"]+"/ referenceURL="https:\/\/ui.adsabs.harvard.edu\/abs\/$bibCodeCannonical"/g;
+		}
 	    }
 	}
 

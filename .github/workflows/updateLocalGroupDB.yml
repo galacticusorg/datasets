@@ -28,7 +28,7 @@ jobs:
       - name: Install tools
         run: |
           sudo apt -y update
-          sudo apt install -y libwww-curl-perl libjson-pp-perl perl-doc
+          sudo apt install -y libwww-curl-perl libjson-pp-perl liburi-escape-xs-perl perl-doc
       - name: Update the file
         run: |
           cd static/observations/localGroup
