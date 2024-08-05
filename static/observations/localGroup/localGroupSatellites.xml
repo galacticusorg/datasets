@@ -2918,7 +2918,6 @@
     </galaxy>
     <galaxy name="Leo VI">
       <discoverySurvey value="DELVE"/>
-      <distanceHeliocentric value="0.798" uncertainty="0.044" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
       <rightAscensionDecimal value="171.077" uncertaintyLow="0.013" uncertaintyHigh="0.016" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
       <declinationDecimal value="24.874" uncertaintyLow="0.011" uncertaintyHigh="0.008" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
       <radiusHalfLightAngular value="2.84" uncertaintyLow="0.90" uncertaintyHigh="0.78" reference="Tan et al. (2024; arXiv:2408.00865)" referenceURL="https://arxiv.org/abs/2408.00865"/>
@@ -2947,7 +2946,6 @@
       <classification value="galaxy"/>
       <declinationSexagesimal degrees="24.000000000000" arcminutes="52.000000000000" arcseconds="26.399999999995"/>
       <rightAscensionSexagesimal hours="11.000000000000" minutes="24.000000000000" seconds="18.788000000000"/>
-      <distanceHeliocentric value="0.111173172728" uncertaintyLow="0.051197138053" uncertaintyHigh="0.051197138053"/>
     </galaxy>
     <galaxy name="The Galaxy">
       <discoverySurvey value="classical"/>
