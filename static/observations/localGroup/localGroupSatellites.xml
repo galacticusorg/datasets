@@ -2101,8 +2101,8 @@
       <velocityDispersionNeutralHydrogen value="6.9" uncertaintyLow="1.0" uncertaintyHigh="1.0"/>
       <metallicityStellar value="-1.91e+00" uncertaintyLow="1.40e-01" uncertaintyHigh="1.20e-01" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <metallicityDispersionStellar value="4.30e-01" uncertaintyLow="9.00e-02" uncertaintyHigh="1.30e-01" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
-      <properMotionRightAscension value="-0.7" uncertainty="24.2" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="11.0" uncertainty="16.8" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="-0.7" uncertainty="24.2" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="11.0" uncertainty="16.8" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Irwin et al. (2007)"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="-0.01" uncertainty="0.05" reference="McConnachie &amp; Venn; 2020; AJ; 160; 124" referenceURL="https://ui.adsabs.harvard.edu/abs/2020AJ....160..124M"/>
@@ -2693,8 +2693,8 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="11.0" uncertaintyLow="1.1" uncertaintyHigh="1.1"/>
       <metallicityStellar value="-1.58" uncertaintyLow="0.06" uncertaintyHigh="0.06" technique="Spectral synthesis"/>
-      <properMotionRightAscension value="1.9" uncertainty="11.0" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="-1.1" uncertainty="6.7" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="1.9" uncertainty="11.0" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-1.1" uncertainty="6.7" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Kopylov et al. (2008)d"/>
       <alias value="VV 124"/>
       <comment value="Defines RLG"/>
@@ -2735,8 +2735,8 @@
       <rotationVelocityMaximumNeutralHydrogen value="21.0"/>
       <velocityDispersionNeutralHydrogen value="9.0"/>
       <metallicityStellar value="-1.40" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="Isochrones"/>
-      <properMotionRightAscension value="17.3" uncertainty="21.7" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="4.1" uncertainty="14.2" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="17.3" uncertainty="21.7" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="4.1" uncertainty="14.2" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="A. G. Wilson. Reported in Holmberg (1958)"/>
       <alias value="UGC 12613"/>
       <alias value="DDO 216"/>
@@ -2776,8 +2776,8 @@
       <rotationVelocityMaximumNeutralHydrogen value="25.0" uncertaintyLow="3.0" uncertaintyHigh="3.0"/>
       <velocityDispersionNeutralHydrogen value="5.9" uncertaintyLow="1.0" uncertaintyHigh="1.0"/>
       <metallicityStellar value="-1.60" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="CMD modelling" comment="Derived in E. Skillman et al., (2012 in preparation)"/>
-      <properMotionRightAscension value="3.0" uncertainty="1.2" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="0.1" uncertainty="1.1" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="3.0" uncertainty="1.2" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="0.1" uncertainty="1.1" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Wolf (1906)"/>
       <alias value="DDO 8"/>
       <alias value="UGC 668"/>
@@ -2904,8 +2904,8 @@
         <epoch fraction="0.04" time="12.0"/>
         <epoch fraction="0.11" time="8.0"/>
       </starFormationHistoryCumulative>
-      <properMotionRightAscension value="-6.6" uncertainty="7.3" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="-4.4" uncertainty="8.7" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="-6.6" uncertainty="7.3" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-4.4" uncertainty="8.7" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Zwicky (1942)"/>
       <alias value="Leo III"/>
       <alias value="UGC 5364"/>
@@ -3243,8 +3243,8 @@
       <rotationVelocityMaximumNeutralHydrogen value="47.0" uncertaintyLow="2.0" uncertaintyHigh="2.0"/>
       <velocityDispersionNeutralHydrogen value="5.8" uncertaintyLow="1.9" uncertaintyHigh="1.9"/>
       <metallicityStellar value="-1.00" uncertaintyLow="0.50" uncertaintyHigh="0.50" technique="CaT calibration"/>
-      <properMotionRightAscension value="-0.3" uncertainty="4.9" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="-8.7" uncertainty="5.0" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="-0.3" uncertainty="4.9" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-8.7" uncertainty="5.0" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Barnard (1884)"/>
       <alias value="IC 4895"/>
       <alias value="DDO 209"/>
@@ -3605,8 +3605,8 @@
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="10.0" uncertaintyLow="4.0" uncertaintyHigh="4.0"/>
       <metallicityStellar value="-1.37" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="Color of red giant branch"/>
-      <properMotionRightAscension value="14.2" uncertainty="2.8" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="-4.0" uncertainty="3.2" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="14.2" uncertainty="2.8" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-4.0" uncertainty="3.2" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Schuster &amp; West (1976)b"/>
       <classification value="galaxy"/>
       <properMotionRightAscension value="7.9" uncertainty="9.9" uncertaintySystematic="4" reference="unknown" referenceURL="https://ui.adsabs.harvard.edu/abs/2018A%26A...619A.103F">
@@ -3843,8 +3843,8 @@
       <rotationVelocityMaximumNeutralHydrogen value="0.0" uncertaintyLow="0.0" uncertaintyHigh="0.0"/>
       <velocityDispersionNeutralHydrogen value="10.0" uncertaintyLow="1.0" uncertaintyHigh="1.0"/>
       <metallicityStellar value="-2.10" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="Isochrones"/>
-      <properMotionRightAscension value="5.9" uncertainty="10.1" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="-12.8" uncertainty="9.2" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="5.9" uncertainty="10.1" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-12.8" uncertainty="9.2" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Longmore et al. (1978)"/>
       <alias value="UKS 1927-177"/>
       <comment value="Defines RLG"/>
@@ -4801,8 +4801,8 @@
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-1.48e+00" uncertaintyLow="1.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <metallicityDispersionStellar value="2.60e-01" uncertaintyLow="1.00e-02" uncertaintyHigh="1.00e-02" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
-      <properMotionRightAscension value="-6.3" uncertainty="0.5" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="-11.1" uncertainty="0.4" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="-6.3" uncertainty="0.5" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-11.1" uncertainty="0.4" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Harrington &amp; Wilson (1950)"/>
       <alias value="UGC 5470"/>
       <alias value="DDO 74"/>
@@ -4899,8 +4899,8 @@
       <rotationVelocityMaximumNeutralHydrogen value="30.0" uncertaintyLow="3.0" uncertaintyHigh="3.0"/>
       <velocityDispersionNeutralHydrogen value="4.5" uncertaintyLow="1.0" uncertaintyHigh="1.0"/>
       <metallicityStellar value="-1.28" uncertaintyLow="0.02" uncertaintyHigh="0.02" technique="CaT calibration"/>
-      <properMotionRightAscension value="11.6" uncertainty="8.1" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="-5.6" uncertainty="6.9" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="11.6" uncertainty="8.1" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-5.6" uncertainty="6.9" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Melotte (1926), including K. E. Lundmark"/>
       <alias value="Wolf-Lundmark-Melotte"/>
       <alias value="UGCA 444"/>
@@ -5445,8 +5445,8 @@
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-1.68e+00" uncertaintyLow="3.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
        <metallicityDispersionStellar value="3.40e-01" uncertaintyLow="2.00e-02" uncertaintyHigh="2.00e-02" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
-      <properMotionRightAscension value="-14.3" uncertainty="0.9" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="-13.0" uncertainty="0.9" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="-14.3" uncertainty="0.9" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-13.0" uncertainty="0.9" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Harrington &amp; Wilson (1950)"/>
       <alias value="Leo B"/>
       <alias value="UGC 6253"/>
@@ -5567,8 +5567,8 @@
       <latitudeGalactic value="-3.3"/>
       <longitudeGalactic value="119.0"/>
       <velocityRadialHeliocentric value="-348.0" uncertaintyLow="1.0" uncertaintyHigh="1.0" reference="Wilcots &amp; Miller 1998" comment="Gaseous disk embedded in complex, extended HI distribution, (with a dispersion of around 30+/-40 km s-1)"/>
-      <properMotionRightAscension value="0.2" uncertainty="2.7" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
-      <properMotionDeclination value="1.2" uncertainty="3.7" reference="Bennet, Patel, Sohn et al.; 2023; arXiv; arXiv:2312.09276" referenceURL="https://ui.adsabs.harvard.edu/abs/2023arXiv231209276B"/>
+      <properMotionRightAscension value="0.2" uncertainty="2.7" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="1.2" uncertainty="3.7" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <magnitudeApparentV value="9.5" uncertaintyLow="0.2" uncertaintyHigh="0.2"/>
       <distanceLocalGroup value="0.44"/>
       <velocityLocalGroup value="-64"/>
