@@ -4854,8 +4854,8 @@
       <surfaceBrightnessEffectiveV value="26.2"/>
       <surfaceBrightnessCentralV value="25.1" uncertainty="0.3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <rotationVelocityMaximumStellar value="14.7" uncertainty="3.7" reference="Collins et al.; 2014; ApJl 783; 7" referenceURL="http://adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <properMotionRightAscension value="-1.05" uncertainty="12.5" reference="Casetti-Dinescu et al. (2024; arXiv:2409.08252" referenceURL="https://arxiv.org/abs/2409.08252"/>
-      <properMotionDeclination value="47.5" uncertainty="12.5" reference="Casetti-Dinescu et al. (2024; arXiv:2409.08252" referenceURL="https://arxiv.org/abs/2409.08252"/>
+      <properMotionRightAscension value="-1.05" uncertainty="12.5" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2024; arXiv; arXiv:2409.08252" referenceURL="https://ui.adsabs.harvard.edu/abs/2024arXiv240908252C"/>
+      <properMotionDeclination value="47.5" uncertainty="12.5" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2024; arXiv; arXiv:2409.08252" referenceURL="https://ui.adsabs.harvard.edu/abs/2024arXiv240908252C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
