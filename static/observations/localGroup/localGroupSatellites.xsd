@@ -105,23 +105,27 @@
 
 		    <xs:element name="declinationSexagesimal" minOccurs="0" maxOccurs="1">
 		      <xs:complexType>                                                                                                                          
-			<xs:attribute name="degrees"               type="xs:decimal" use="required"/>
-			<xs:attribute name="arcminutes"            type="xs:decimal" use="required"/>
-			<xs:attribute name="arcseconds"            type="xs:decimal" use="required"/>
-			<xs:attribute name="uncertaintyArcseconds" type="xs:decimal" use="optional"/>
-			<xs:attribute name="reference"             type="xs:string"  use="optional"/>
-			<xs:attribute name="referenceURL"          type="xs:string"  use="optional"/>
+			<xs:attribute name="degrees"                   type="xs:decimal" use="required"/>
+			<xs:attribute name="arcminutes"                type="xs:decimal" use="required"/>
+			<xs:attribute name="arcseconds"                type="xs:decimal" use="required"/>
+			<xs:attribute name="uncertaintyArcseconds"     type="xs:decimal" use="optional"/>
+			<xs:attribute name="uncertaintyArcsecondsLow"  type="xs:decimal" use="optional"/>
+			<xs:attribute name="uncertaintyArcsecondsHigh" type="xs:decimal" use="optional"/>
+			<xs:attribute name="reference"                 type="xs:string"  use="optional"/>
+			<xs:attribute name="referenceURL"              type="xs:string"  use="optional"/>
 		      </xs:complexType>
 		    </xs:element>
 
 		    <xs:element name="rightAscensionSexagesimal" minOccurs="0" maxOccurs="1">
 		      <xs:complexType>                                                                                                                          
-			<xs:attribute name="hours"              type="xs:decimal" use="required"/>
-			<xs:attribute name="minutes"            type="xs:decimal" use="required"/>
-			<xs:attribute name="seconds"            type="xs:decimal" use="required"/>
- 			<xs:attribute name="uncertaintySeconds" type="xs:decimal" use="optional"/>
-			<xs:attribute name="reference"          type="xs:string"  use="optional"/>
-			<xs:attribute name="referenceURL"       type="xs:string"  use="optional"/>
+			<xs:attribute name="hours"                  type="xs:decimal" use="required"/>
+			<xs:attribute name="minutes"                type="xs:decimal" use="required"/>
+			<xs:attribute name="seconds"                type="xs:decimal" use="required"/>
+ 			<xs:attribute name="uncertaintySeconds"     type="xs:decimal" use="optional"/>
+ 			<xs:attribute name="uncertaintySecondsLow"  type="xs:decimal" use="optional"/>
+ 			<xs:attribute name="uncertaintySecondsHigh" type="xs:decimal" use="optional"/>
+			<xs:attribute name="reference"              type="xs:string"  use="optional"/>
+			<xs:attribute name="referenceURL"           type="xs:string"  use="optional"/>
 		      </xs:complexType>
 		    </xs:element>
 
