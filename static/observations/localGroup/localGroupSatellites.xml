@@ -3214,6 +3214,28 @@
       <distanceMilkyWay value="0.80062585E+00" uncertaintyLow="0.24947682E+00" uncertaintyHigh="0.24947682E+00"/>
       <distanceM31 value="0.26803517E+00" uncertaintyLow="0.73579757E-01" uncertaintyHigh="0.73579757E-01"/>
     </galaxy>
+    <galaxy name="Andromeda XXXV">
+      <discoverySurvey value="Pan-Andromeda Archaeological Survey (PAndAS)"/>
+      <referencePrimary reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <declinationSexagesimal degrees="40" arcminutes="6" arcseconds="29.3" uncertaintyArcsecondsLow="2.8" uncertaintyArcsecondsHigh="2.8" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <rightAscensionSexagesimal hours="0" minutes="26" seconds="38.6" uncertaintySecondsLow="1.6" uncertaintySecondsHigh="1.7" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/> 
+      <distanceModulus value="24.83" uncertaintyLow="0.15" uncertaintyHigh="0.17" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <distanceHeliocentric value="0.927" uncertaintyLow="0.63" uncertaintyHigh="0.76" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <ellipticityProjected value="0.43" uncertaintyLow="0.22" uncertaintyHigh="0.16" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <magnitudeAbsoluteV value="-5.2" uncertainty="0.3" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <radiusHalfLight value="53.0e-6" uncertaintyLow="11.0e-6" uncertaintyHigh="13.0e-6" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <radiusHalfLightAngular value="0.20" uncertaintyLow="0.04" uncertaintyHigh="0.05" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <positionAngle value="80.0" uncertaintyLow="16.0" uncertaintyHigh="16.0" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <surfaceBrightnessCentralV value="270" uncertainty="0.4" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <metallicityStellar value="-1.7" uncertainty="0.3" reference="Arias et al. (2025; arXiv:2502.1951)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250219516A/"/>
+      <alias value="And XXXV"/>
+      <classification value="galaxy"/>
+      <declinationDecimal value="40.108138888889"/>
+      <rightAscensionDecimal value="6.660833333333"/>
+      <positionHeliocentricCartesian value="0.70421170E+00   0.82237868E-01   0.59720332E+00" uncertaintyLow="0.47859048E+00   0.55889813E-01   0.40586634E+00" uncertaintyHigh="0.57734724E+00   0.67422632E-01   0.48961653E+00"/>
+      <distanceMilkyWay value="0.93148464E+00" uncertaintyLow="0.44806109E+00" uncertaintyHigh="0.54051814E+00"/>
+      <distanceM31 value="0.15194729E+00" uncertaintyLow="0.45182734E+00" uncertaintyHigh="0.54493156E+00"/>
+    </galaxy>
     <galaxy name="NGC 6822">
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-14" arcminutes="47" arcseconds="21" reference="Gieren et al. 2006"/>
