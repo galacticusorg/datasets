@@ -1,4 +1,4 @@
-# Galacticus Dataswts
+# Galacticus Datasets
 
 
 ![logo](assets/New_Logo_Galaxy_192_Transparent.png)
