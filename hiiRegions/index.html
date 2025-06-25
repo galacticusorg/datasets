@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes" />
+    <style>
+      html {
+        font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        -webkit-font-smoothing: antialiased;
+        background-color: #fff;
+        font-size: 16px;
+      }
+      body {
+        color: #4a4a4a;
+        margin: 8px;
+        font-size: 1em;
+        font-weight: 400;
+      }
+      header {
+        margin-bottom: 8px;
+        display: flex;
+        flex-direction: column;
+      }
+      main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      a {
+        color: #3273dc;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #000;
+      }
+      button {
+        color: #fff;
+        background-color: #3298dc;
+        border-color: transparent;
+        cursor: pointer;
+        text-align: center;
+      }
+      button:hover {
+        background-color: #2793da;
+        flex: none;
+      }
+      .spacer {
+        flex: auto;
+      }
+      .small {
+        font-size: 0.75rem;
+      }
+      footer {
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+      }
+      .header-label {
+        margin-right: 4px;
+      }
+      .benchmark-set {
+        margin: 8px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      .benchmark-title {
+        font-size: 3rem;
+        font-weight: 600;
+        word-break: break-word;
+        text-align: center;
+      }
+      .benchmark-graphs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .benchmark-chart {
+        max-width: 1000px;
+      }
+    </style>
+    <title>Validation - Dark Matter Only Subhalos</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <h1>BPT Diagrams for Emission Line Tables</h1>
+
+      This page contains BPT diagrams generated from tables used for emission line calculations in Galacticus. Tables are generated using <a href="https://www.nublado.org"" rel="noopener"/>Cloudy</a>
+    </header>
+    <main id="main">
+
+    <span>
+      Colored points indicate models from the table, with color indicating metallicity (purple = low; yellow = high). Gray points indicate star forming galaxies from the SDSS DR8 (see <a href="https://www.sdss4.org/dr14/spectro/galaxy_mpajhu">here</a>). The black rectangle shows a region ±0.1 around the "standard model" of <a href="https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1757G">Gutkin et al. (2016)</a>, while the black cross shows the model from the table closest to this standard model.
+    </span>
+
+    </main>
+
+    <script src="tableDefinitions.json"></script>
+    <script id="main-script">
+      'use strict';
+      (function() {
+        // Colors from https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+        const toolColors = {
+          cargo: '#dea584',
+          go: '#00add8',
+          benchmarkjs: '#f1e05a',
+          benchmarkluau: '#000080',
+          pytest: '#3572a5',
+          googlecpp: '#f34b7d',
+          catch2: '#f34b7d',
+          julia: '#a270ba',
+          benchmarkdotnet: '#178600',
+          customBiggerIsBetter: '#38ff38',
+          customSmallerIsBetter: '#ff3838',
+          _: '#333333'
+        };
+
+      function init() {
+      
+      const data = window.TABLE_DATA;
+      
+      // Prepare data points for charts
+      return data;
+      }
+
+      function renderChart(suffix,dataSet) {
+      const main = document.getElementById('main');
+
+       const suffixDiv = document.createElement('div');
+       const suffixLabel = document.createElement('h2');
+       suffixLabel.textContent = "Model: "+suffix;
+       suffixDiv.appendChild(suffixLabel);
+       main.appendChild(suffixDiv);
+
+       const fileDiv = document.createElement('div');
+       const fileLabel = document.createElement('strong');
+       const fileValue = document.createElement('a');
+       fileLabel.className = 'header-item';
+       fileLabel.textContent = "File: ";
+       fileValue.rel = "noopener";
+       fileValue.href = "https://github.com/galacticusorg/datasets/blob/"+dataSet.gitRevision+"/static/hiiRegions/"+dataSet.fileName;
+       fileValue.textContent = dataSet.fileName;
+       fileDiv.appendChild(fileLabel);
+       fileDiv.appendChild(fileValue);
+       main.appendChild(fileDiv);
+
+       const timeDiv = document.createElement('div');
+       const timeLabel = document.createElement('strong');
+       const timeValue = document.createElement('span');
+       timeLabel.className = 'header-item';
+       timeLabel.textContent = "Last Update: ";
+       timeValue.textContent = new Date(dataSet.time).toString();
+       timeDiv.appendChild(timeLabel);
+       timeDiv.appendChild(timeValue);
+       main.appendChild(timeDiv);
+
+       const gitDiv = document.createElement('div');
+       const gitLabel = document.createElement('strong');
+       const gitValue = document.createElement('a');
+       gitLabel.className = 'header-item';
+       gitLabel.textContent = "Commit: ";
+       gitValue.rel = "noopener";
+       gitValue.href = "https://github.com/galacticusorg/galacticus/commit/"+dataSet.gitRevision;
+       gitValue.textContent = dataSet.gitRevision;
+       gitDiv.appendChild(gitLabel);
+       gitDiv.appendChild(gitValue);
+       main.appendChild(gitDiv);
+
+       const cloudyDiv = document.createElement('div');
+       const cloudyLabel = document.createElement('strong');
+       const cloudyValue = document.createElement('span');
+       cloudyLabel.className = 'header-item';
+       cloudyLabel.textContent = "Cloudy Version: ";
+       cloudyValue.textContent = dataSet.cloudyVersion;
+       cloudyDiv.appendChild(cloudyLabel);
+       cloudyDiv.appendChild(cloudyValue);
+       main.appendChild(cloudyDiv);
+
+       const sspsDiv = document.createElement('div');
+       const sspsLabel = document.createElement('strong');
+       const sspsValue = document.createElement('a');
+       sspsLabel.className = 'header-item';
+       sspsLabel.textContent = "SSPs: ";
+       sspsLabel.rel = "noopener";
+       sspsLabel.href = dataSet.sspURL;
+       sspsValue.textContent = "data";
+       sspsDiv.appendChild(sspsLabel);
+       sspsDiv.appendChild(sspsValue);
+       main.appendChild(sspsDiv);
+
+       const commandDiv = document.createElement('div');
+       const commandLabel = document.createElement('strong');
+       const commandValue = document.createElement('tt');
+       commandLabel.className = 'header-item';
+       commandLabel.textContent = "Command: ";
+       commandValue.textContent = dataSet.commandLine;
+       commandDiv.appendChild(commandLabel);
+       commandDiv.appendChild(commandValue);
+       main.appendChild(commandDiv);
+
+       const tb = document.createElement('table');
+       const tr1 = document.createElement('tr');
+       const tr2 = document.createElement('tr');
+       tb.appendChild(tr1);
+       tb.appendChild(tr2);
+
+       const td1 = document.createElement('td');
+       const bpt1 = document.createElement('img');
+       bpt1.src = "bptDiagramOIIINII_"+suffix+".svg";
+       bpt1.style.width = "500px";
+       bpt1.style.height = "auto";
+       td1.appendChild(bpt1);
+       tr1.appendChild(td1);
+
+       const td2 = document.createElement('td');
+       const bpt2 = document.createElement('img');
+       bpt2.src = "bptDiagramNIIOII_"+suffix+".svg";
+       bpt2.style.width = "500px";
+       bpt2.style.height = "auto";
+       td2.appendChild(bpt2);
+       tr1.appendChild(td2);
+
+       const td3 = document.createElement('td');
+       const bpt3 = document.createElement('img');
+       bpt3.src = "bptDiagramOIIISII_"+suffix+".svg";
+       bpt3.style.width = "500px";
+       bpt3.style.height = "auto";
+       td3.appendChild(bpt3);
+       tr2.appendChild(td3);
+
+       const td4 = document.createElement('td');
+       const bpt4 = document.createElement('img');
+       bpt4.src = "bptDiagramOIIOIII_"+suffix+".svg";
+       bpt4.style.width = "500px";
+       bpt4.style.height = "auto";
+       td4.appendChild(bpt4);
+       tr2.appendChild(td4);
+      
+       main.appendChild(tb);
+
+      }
+
+      function renderAllCharts(dataSets) {
+      for (const [suffix, dataSet] of Object.entries(dataSets)) {
+        renderChart(suffix,dataSet);
+       }
+      }
+
+       renderAllCharts(init()); // Start
+      })();
+    </script>
+  </body>
+</html>
