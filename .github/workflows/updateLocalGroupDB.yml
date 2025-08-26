@@ -20,7 +20,7 @@ jobs:
       adstoken: ${{ secrets.NASA_ADS_API_TOKEN }}
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - uses: tibdex/github-app-token@v2
