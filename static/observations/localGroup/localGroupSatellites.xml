@@ -1424,10 +1424,13 @@
       <metallicityStellar value="-1.50" uncertaintyLow="0.10" uncertaintyHigh="0.10" technique="CaT calibration"/>
       <referencePrimary reference="Armandroff et al. (1999)"/>
       <alias value="Pegasus dSph"/>
+      <alias value="And VI"/>
       <classification value="galaxy"/>
       <positionHeliocentricCartesian value="0.37795387E+00   0.60343979E+00   0.32573040E+00" uncertainty="0.12067493E-01   0.19266915E-01   0.10400077E-01"/>
       <distanceMilkyWay value="0.78126903E+00" uncertainty="0.16451901E-01"/>
       <distanceM31 value="0.56649441E+00" uncertainty="0.19896944E-01"/>
+      <properMotionRightAscension value="-0.16" uncertainty="1.23" reference="Casetti-Dinescu et al. (2025)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250906215C"/>
+      <properMotionDeclination value="-5.26" uncertainty="1.12" reference="Casetti-Dinescu et al. (2025)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250906215C"/>
     </galaxy>
     <galaxy name="KKH 86">
       <discoverySurvey value="classical"/>
@@ -4363,6 +4366,8 @@
       <positionHeliocentricCartesian value="0.49664561E+00   0.15727552E+00   0.57108366E+00" uncertainty="0.17989750E-01   0.56969141E-02   0.20686084E-01"/>
       <distanceMilkyWay value="0.77675178E+00" uncertainty="0.19230916E-01"/>
       <distanceM31 value="0.10943769E+00" uncertainty="0.23518657E-01"/>
+      <properMotionRightAscension value="2.61" uncertainty="2.15" reference="Casetti-Dinescu et al. (2025)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250906215C"/>
+      <properMotionDeclination value="-7.42" uncertainty="1.91" reference="Casetti-Dinescu et al. (2025)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250906215C"/>
     </galaxy>
     <galaxy name="GR 8">
       <discoverySurvey value="classical"/>
