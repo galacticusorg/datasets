@@ -1,11 +1,10 @@
 window.TABLE_DATA =
-{
     "SSP:BC2003_IMF:Chabrier": {
-        "time": "2025-06-25 13:02:23.366282",
-        "gitRevision": "b67ed4d0c631e711faacbfb2843b1cbb50ee5cba",
+        "time": "2025-08-18 07:49:11.716833",
+        "gitRevision": "872958da0e2bd70c52ed9dbaee64f1587ec3a723",
         "cloudyVersion": "23.01",
         "sspURL": "https://zenodo.org/records/6338452/files/SSP_Spectra_BC2003_highResolution_imfChabrier.hdf5?download=1",
-        "commandLine": "./scripts/ssps/createEmissionLinesTable.py --outputFileName emissionLineLuminosities_BC2003_highResolution_imfChabrier.hdf5 --sspFileName https://zenodo.org/records/6338452/files/SSP_Spectra_BC2003_highResolution_imfChabrier.hdf5?download=1 --jobMaximum 999 --workspace cloudyWork --waitOnSubmit 0 --waitOnActive 10 --rerun --suffixGitHubPages SSP:BC2003_IMF:Chabrier",
-        "fileName": "emissionLineLuminosities_BC2003_highResolution_imfChabrier.hdf5"
+        "commandLine": "./scripts/ssps/createEmissionLinesTable.py --outputFileName test.hdf5 --sspFileName https://zenodo.org/records/6338452/files/SSP_Spectra_BC2003_highResolution_imfChabrier.hdf5?download=1 --jobMaximum 999 --workspace cloudyWork --waitOnSubmit 0 --waitOnActive 10 --suffixGitHubPages SSP:BC2003_IMF:Chabrier --normalization massStellar --rerun",
+        "fileName": "test.hdf5"
     }
 }
