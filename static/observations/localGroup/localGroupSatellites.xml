@@ -16,19 +16,24 @@
       <ageStellar reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S">
         <limit value="11.0" confidenceLevel="unknown" type="lower"/>
       </ageStellar>
-      <metallicityStellar reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S">
-        <limit value="-2.2" confidenceLevel="unknown" type="upper"/>
-      </metallicityStellar>
+      <metallicityStellar value="-2.65" uncertainty="0.1" uncertaintySystematic="0.3" reference="Cerny et al. (2025;  arXiv:2510.02431)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2510.02431"/>
+      <metallicityDispersionStellar reference="Cerny et al. (2025;  arXiv:2510.02431)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2510.02431">
+        <limit value="0.35" confidenceLevel="95%" type="upper"/>
+      </metallicityDispersionStellar>
       <massStellar value="16.0" uncertaintyLow="5.0" uncertaintyHigh="6.0" technique="synthetic photometry" reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S"/>
       <magnitudeAbsoluteV value="+2.2" uncertaintyLow="0.3" uncertaintyHigh="0.4" reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S"/>
       <surfaceBrightnessEffectiveV value="27.0" uncertainty="1.0" reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S"/>
       <properMotionRightAscension value="-75.0" uncertainty="9.0" uncertaintySystematic="3.3" reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S"/>
       <properMotionDeclination value="115.0" uncertainty="14.0" uncertaintySystematic="3.3" reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S"/>
-      <velocityDispersionStellar value="3.7" uncertaintyLow="1.00" uncertaintyHigh="1.4" reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S"/>
+      <velocityDispersionStellar reference="Cerny et al. (2025;  arXiv:2510.02431)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2510.02431">
+        <limit value="2.3" confidenceLevel="95.0%" type="upper"/>
+      </velocityDispersionStellar>
       <velocityRadialHeliocentric value="88.6" uncertainty="1.3" reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S"/>
-      <massDynamicalHalfLightRadius value="73257.8" uncertaintyLow="48469.5" uncertaintyHigh="102575.0" reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S"/>
+      <massDynamicalHalfLightRadius reference="Cerny et al. (2025;  arXiv:2510.02431)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2510.02431">
+        <limit value="10670.0" confidenceLevel="95.0%" type="upper"/>
+      </massDynamicalHalfLightRadius>
       <referencePrimary reference="Smith, Cerny, Hayes et al.; 2024; ApJ; 961; 92" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...961...92S"/>
-      <classification value="galaxy"/>
+      <classification value="star cluster" reference="Cerny et al. (2025;  arXiv:2510.02431)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2510.02431"/>
       <declinationDecimal value="31.078333333333"/>
       <rightAscensionDecimal value="174.704098360656"/>
       <positionHeliocentricCartesian value="-0.85280637E-02   0.79050930E-03   0.51620949E-02" uncertainty="0.85280637E-03   0.79050930E-04   0.51620949E-03"/>
