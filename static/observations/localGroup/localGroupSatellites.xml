@@ -869,7 +869,7 @@
       <positionHeliocentricCartesian value="0.16181352E-01   0.67011568E-01  -0.11559569E-01" uncertainty="0.83337436E-03   0.34512395E-02   0.59534258E-03"/>
       <distanceMilkyWay value="0.64006291E-01" uncertainty="0.32760519E-02"/>
       <distanceM31 value="0.77238573E+00" uncertainty="0.17557975E-01"/>
-</galaxy>
+    </galaxy>
     <galaxy name="Horologium I">
       <alias value="Hor I"/>
       <discoverySurvey value="DES"/>
@@ -6424,6 +6424,78 @@
       <positionHeliocentricCartesian value="-0.71884752E-02  -0.17549121E-01  -0.32175315E-03" uncertaintyLow="0.33104152E-02   0.80816687E-02   0.14817280E-03" uncertaintyHigh="0.33104152E-02   0.80816687E-02   0.14817280E-03" uncertaintySystematic="0.33104152E-02   0.80816687E-02   0.14817280E-03"/>
       <distanceMilkyWay value="0.24638085E-01" uncertaintyLow="0.79025454E-02" uncertaintyHigh="0.79025454E-02" uncertaintySystematic="0.79025454E-02"/>
       <distanceM31 value="0.79115369E+00" uncertaintyLow="0.17628314E-01" uncertaintyHigh="0.17628314E-01" uncertaintySystematic="0.17628314E-01"/>
+    </galaxy>
+    <galaxy name="Carina IV">
+      <discoverySurvey value="DELVE DR3"/>
+      <declinationDecimal value="-63.319" uncertaintyLow="0.005" uncertaintyHigh="0.006" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <rightAscensionDecimal value="104.046" uncertaintyLow="0.015" uncertaintyHigh="0.012" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <radiusHalfLightAngular value="1.19" uncertaintyLow="0.38" uncertaintyHigh="0.56" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <radiusHalfLight value="40.0e-6" uncertaintyLow="10.0e-6" uncertaintyHigh="10.0e-6" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <ellipticityProjected value="0.21" uncertaintyLow="0.21" uncertaintyHigh="0.27" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <positionAngle value="117" uncertaintyLow="68" uncertaintyHigh="63" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <distanceModulus value="20.1" uncertaintyLow="0.2" uncertaintyHigh="0.1" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <distanceHeliocentric value="102.0e-3" uncertaintyLow="9.0e-3" uncertaintyHigh="5.0e-3" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <ageStellar value="12.5" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <magnitudeAbsoluteV value="-2.8" uncertaintyLow="0.6" uncertaintyHigh="0.4" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <massStellar value="2250" uncertaintyLow="830" uncertaintyHigh="1180" technique="M/L = 2 Msun/Lsun"/>
+      <reddening value="0.090" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <metallicityStellar value="-3.89" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <referencePrimary reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <alias value="J0656-6319"/>
+      <classification value="galaxy"/>
+      <declinationSexagesimal degrees="-63.000000000000" arcminutes="19.000000000000" arcseconds="8.400000000009"/>
+      <rightAscensionSexagesimal hours="6.000000000000" minutes="56.000000000000" seconds="11.040000000002"/>
+      <positionHeliocentricCartesian value="-0.11115775E-01   0.44430942E-01  -0.91139075E-01" uncertaintyLow="0.98080365E-03   0.39203773E-02   0.80416831E-02" uncertaintyHigh="0.54489091E-03   0.21779874E-02   0.44676017E-02"/>
+      <distanceMilkyWay value="0.95355963E-01" uncertaintyLow="0.75121191E-02" uncertaintyHigh="0.41739483E-02"/>
+      <distanceM31 value="0.84899762E+00" uncertaintyLow="0.18367421E-01" uncertaintyHigh="0.17722317E-01"/>
+    </galaxy>
+    <galaxy name="Phoenix III">
+      <discoverySurvey value="DELVE DR3"/>
+      <declinationDecimal value="-41.428" uncertaintyLow="0.003" uncertaintyHigh="0.004" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <rightAscensionDecimal value="26.711" uncertaintyLow="0.009" uncertaintyHigh="0.008" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <radiusHalfLightAngular value="0.59" uncertaintyLow="0.26" uncertaintyHigh="0.42" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <radiusHalfLight value="19.0e-6" uncertaintyLow="8.0e-6" uncertaintyHigh="14.0e-6" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <ellipticityProjected value="0.52" uncertaintyLow="0.45" uncertaintyHigh="0.18" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <positionAngle value="89.0" uncertaintyLow="40.0" uncertaintyHigh="37.0" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <distanceModulus value="20.3" uncertaintyLow="0.1" uncertaintyHigh="0.2" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <distanceHeliocentric value="115.0e-3" uncertaintyLow="5.0e-3" uncertaintyHigh="8.0e-3" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <ageStellar value="11.8" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <magnitudeAbsoluteV value="-1.2" uncertaintyLow="1.1" uncertaintyHigh="0.7" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <massStellar value="520.0" uncertaintyLow="290.0" uncertaintyHigh="660.0" technique="M/L = 2 Msun/Lsun"/>
+      <reddening value="0.015" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <metallicityStellar value="-4.0" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <referencePrimary reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <alias value="J0146-4125"/>
+      <classification value="galaxy"/>
+      <declinationSexagesimal degrees="-41.000000000000" arcminutes="25.000000000000" arcseconds="40.799999999990"/>
+      <rightAscensionSexagesimal hours="1.000000000000" minutes="46.000000000000" seconds="50.640000000000"/>
+      <positionHeliocentricCartesian value="0.77024042E-01   0.38757587E-01  -0.76093011E-01" uncertaintyLow="0.33488714E-02   0.16851125E-02   0.33083918E-02" uncertaintyHigh="0.53581942E-02   0.26961800E-02   0.52934269E-02"/>
+      <distanceMilkyWay value="0.11258786E+00" uncertaintyLow="0.32282169E-02" uncertaintyHigh="0.51643871E-02"/>
+      <distanceM31 value="0.77933822E+00" uncertaintyLow="0.17588528E-01" uncertaintyHigh="0.18069372E-01"/>
+    </galaxy>
+    <galaxy name="DELVE 7">
+      <discoverySurvey value="DELVE DR3"/>
+      <declinationDecimal value="-50.33" uncertaintyLow="0.002" uncertaintyHigh="0.002" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <rightAscensionDecimal value="304.107" uncertaintyLow="0.005" uncertaintyHigh="0.004" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <radiusHalfLightAngular value="0.2" uncertaintyLow="0.1" uncertaintyHigh="0.35" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <radiusHalfLight value="2.0e-6" uncertaintyLow="1.0e-6" uncertaintyHigh="4.0e-6" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <ellipticityProjected value="0.63" uncertaintyLow="0.53" uncertaintyHigh="0.17" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <positionAngle value="101.0" uncertaintyLow="55.0" uncertaintyHigh="43.0" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <distanceModulus value="18.1" uncertaintyLow="0.3" uncertaintyHigh="0.3" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <distanceHeliocentric value="42.0e-3" uncertaintyLow="5.0e-3" uncertaintyHigh="6.0e-3" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <ageStellar value="10.0" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <magnitudeAbsoluteV value="1.2" uncertaintyLow="2.1" uncertaintyHigh="0.7" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <massStellar value="60.0" uncertaintyLow="40.0" uncertaintyHigh="12.0" technique="M/L = 2 Msun/Lsun"/>
+      <reddening value="0.052" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <metallicityStellar value="-3.21" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <referencePrimary reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <alias value="J2016-5019"/>
+      <classification value="star cluster"/>
+      <declinationSexagesimal degrees="-50.000000000000" arcminutes="19.000000000000" arcseconds="47.999999999994"/>
+      <rightAscensionSexagesimal hours="20.000000000000" minutes="16.000000000000" seconds="25.680000000007"/>
+      <positionHeliocentricCartesian value="0.15034186E-01  -0.22199558E-01  -0.32328824E-01" uncertaintyLow="0.17897841E-02   0.26428045E-02   0.38486695E-02" uncertaintyHigh="0.21477409E-02   0.31713654E-02   0.46184034E-02"/>
+      <distanceMilkyWay value="0.44246443E-01" uncertaintyLow="0.30910630E-02" uncertaintyHigh="0.37087686E-02"/>
+      <distanceM31 value="0.79730821E+00" uncertaintyLow="0.17553826E-01" uncertaintyHigh="0.17663842E-01"/>
     </galaxy>
   </galaxies>
   <properties>
