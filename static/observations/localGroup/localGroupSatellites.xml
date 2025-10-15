@@ -1434,8 +1434,8 @@
       <positionHeliocentricCartesian value="0.37795387E+00   0.60343979E+00   0.32573040E+00" uncertainty="0.12067493E-01   0.19266915E-01   0.10400077E-01"/>
       <distanceMilkyWay value="0.78126903E+00" uncertainty="0.16451901E-01"/>
       <distanceM31 value="0.56649441E+00" uncertainty="0.19896944E-01"/>
-      <properMotionRightAscension value="-0.16" uncertainty="1.23" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; arXiv; arXiv:2509.06215" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250906215C"/>
-      <properMotionDeclination value="-5.26" uncertainty="1.12" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; arXiv; arXiv:2509.06215" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250906215C"/>
+      <properMotionRightAscension value="-0.16" uncertainty="1.23" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; ApJ; 992; 54" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992...54C"/>
+      <properMotionDeclination value="-5.26" uncertainty="1.12" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; ApJ; 992; 54" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992...54C"/>
     </galaxy>
     <galaxy name="KKH 86">
       <discoverySurvey value="classical"/>
@@ -4371,8 +4371,8 @@
       <positionHeliocentricCartesian value="0.49664561E+00   0.15727552E+00   0.57108366E+00" uncertainty="0.17989750E-01   0.56969141E-02   0.20686084E-01"/>
       <distanceMilkyWay value="0.77675178E+00" uncertainty="0.19230916E-01"/>
       <distanceM31 value="0.10943769E+00" uncertainty="0.23518657E-01"/>
-      <properMotionRightAscension value="2.61" uncertainty="2.15" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; arXiv; arXiv:2509.06215" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250906215C"/>
-      <properMotionDeclination value="-7.42" uncertainty="1.91" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; arXiv; arXiv:2509.06215" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv250906215C"/>
+      <properMotionRightAscension value="2.61" uncertainty="2.15" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; ApJ; 992; 54" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992...54C"/>
+      <properMotionDeclination value="-7.42" uncertainty="1.91" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; ApJ; 992; 54" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992...54C"/>
     </galaxy>
     <galaxy name="GR 8">
       <discoverySurvey value="classical"/>
@@ -6427,20 +6427,20 @@
     </galaxy>
     <galaxy name="Carina IV">
       <discoverySurvey value="DELVE DR3"/>
-      <declinationDecimal value="-63.319" uncertaintyLow="0.005" uncertaintyHigh="0.006" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <rightAscensionDecimal value="104.046" uncertaintyLow="0.015" uncertaintyHigh="0.012" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <radiusHalfLightAngular value="1.19" uncertaintyLow="0.38" uncertaintyHigh="0.56" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <radiusHalfLight value="40.0e-6" uncertaintyLow="10.0e-6" uncertaintyHigh="10.0e-6" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <ellipticityProjected value="0.21" uncertaintyLow="0.21" uncertaintyHigh="0.27" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <positionAngle value="117" uncertaintyLow="68" uncertaintyHigh="63" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <distanceModulus value="20.1" uncertaintyLow="0.2" uncertaintyHigh="0.1" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <distanceHeliocentric value="102.0e-3" uncertaintyLow="9.0e-3" uncertaintyHigh="5.0e-3" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <ageStellar value="12.5" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <magnitudeAbsoluteV value="-2.8" uncertaintyLow="0.6" uncertaintyHigh="0.4" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <declinationDecimal value="-63.319" uncertaintyLow="0.005" uncertaintyHigh="0.006" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <rightAscensionDecimal value="104.046" uncertaintyLow="0.015" uncertaintyHigh="0.012" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <radiusHalfLightAngular value="1.19" uncertaintyLow="0.38" uncertaintyHigh="0.56" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <radiusHalfLight value="40.0e-6" uncertaintyLow="10.0e-6" uncertaintyHigh="10.0e-6" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <ellipticityProjected value="0.21" uncertaintyLow="0.21" uncertaintyHigh="0.27" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <positionAngle value="117" uncertaintyLow="68" uncertaintyHigh="63" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <distanceModulus value="20.1" uncertaintyLow="0.2" uncertaintyHigh="0.1" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <distanceHeliocentric value="102.0e-3" uncertaintyLow="9.0e-3" uncertaintyHigh="5.0e-3" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <ageStellar value="12.5" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <magnitudeAbsoluteV value="-2.8" uncertaintyLow="0.6" uncertaintyHigh="0.4" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
       <massStellar value="2250" uncertaintyLow="830" uncertaintyHigh="1180" technique="M/L = 2 Msun/Lsun"/>
-      <reddening value="0.090" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <metallicityStellar value="-3.89" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <referencePrimary reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <reddening value="0.090" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <metallicityStellar value="-3.89" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <referencePrimary reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
       <alias value="J0656-6319"/>
       <classification value="galaxy"/>
       <declinationSexagesimal degrees="-63.000000000000" arcminutes="19.000000000000" arcseconds="8.400000000009"/>
@@ -6451,20 +6451,20 @@
     </galaxy>
     <galaxy name="Phoenix III">
       <discoverySurvey value="DELVE DR3"/>
-      <declinationDecimal value="-41.428" uncertaintyLow="0.003" uncertaintyHigh="0.004" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <rightAscensionDecimal value="26.711" uncertaintyLow="0.009" uncertaintyHigh="0.008" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <radiusHalfLightAngular value="0.59" uncertaintyLow="0.26" uncertaintyHigh="0.42" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <radiusHalfLight value="19.0e-6" uncertaintyLow="8.0e-6" uncertaintyHigh="14.0e-6" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <ellipticityProjected value="0.52" uncertaintyLow="0.45" uncertaintyHigh="0.18" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <positionAngle value="89.0" uncertaintyLow="40.0" uncertaintyHigh="37.0" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <distanceModulus value="20.3" uncertaintyLow="0.1" uncertaintyHigh="0.2" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <distanceHeliocentric value="115.0e-3" uncertaintyLow="5.0e-3" uncertaintyHigh="8.0e-3" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <ageStellar value="11.8" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <magnitudeAbsoluteV value="-1.2" uncertaintyLow="1.1" uncertaintyHigh="0.7" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <declinationDecimal value="-41.428" uncertaintyLow="0.003" uncertaintyHigh="0.004" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <rightAscensionDecimal value="26.711" uncertaintyLow="0.009" uncertaintyHigh="0.008" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <radiusHalfLightAngular value="0.59" uncertaintyLow="0.26" uncertaintyHigh="0.42" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <radiusHalfLight value="19.0e-6" uncertaintyLow="8.0e-6" uncertaintyHigh="14.0e-6" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <ellipticityProjected value="0.52" uncertaintyLow="0.45" uncertaintyHigh="0.18" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <positionAngle value="89.0" uncertaintyLow="40.0" uncertaintyHigh="37.0" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <distanceModulus value="20.3" uncertaintyLow="0.1" uncertaintyHigh="0.2" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <distanceHeliocentric value="115.0e-3" uncertaintyLow="5.0e-3" uncertaintyHigh="8.0e-3" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <ageStellar value="11.8" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <magnitudeAbsoluteV value="-1.2" uncertaintyLow="1.1" uncertaintyHigh="0.7" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
       <massStellar value="520.0" uncertaintyLow="290.0" uncertaintyHigh="660.0" technique="M/L = 2 Msun/Lsun"/>
-      <reddening value="0.015" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <metallicityStellar value="-4.0" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <referencePrimary reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <reddening value="0.015" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <metallicityStellar value="-4.0" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <referencePrimary reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
       <alias value="J0146-4125"/>
       <classification value="galaxy"/>
       <declinationSexagesimal degrees="-41.000000000000" arcminutes="25.000000000000" arcseconds="40.799999999990"/>
@@ -6475,20 +6475,20 @@
     </galaxy>
     <galaxy name="DELVE 7">
       <discoverySurvey value="DELVE DR3"/>
-      <declinationDecimal value="-50.33" uncertaintyLow="0.002" uncertaintyHigh="0.002" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <rightAscensionDecimal value="304.107" uncertaintyLow="0.005" uncertaintyHigh="0.004" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <radiusHalfLightAngular value="0.2" uncertaintyLow="0.1" uncertaintyHigh="0.35" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <radiusHalfLight value="2.0e-6" uncertaintyLow="1.0e-6" uncertaintyHigh="4.0e-6" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <ellipticityProjected value="0.63" uncertaintyLow="0.53" uncertaintyHigh="0.17" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <positionAngle value="101.0" uncertaintyLow="55.0" uncertaintyHigh="43.0" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <distanceModulus value="18.1" uncertaintyLow="0.3" uncertaintyHigh="0.3" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <distanceHeliocentric value="42.0e-3" uncertaintyLow="5.0e-3" uncertaintyHigh="6.0e-3" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <ageStellar value="10.0" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <magnitudeAbsoluteV value="1.2" uncertaintyLow="2.1" uncertaintyHigh="0.7" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <declinationDecimal value="-50.33" uncertaintyLow="0.002" uncertaintyHigh="0.002" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <rightAscensionDecimal value="304.107" uncertaintyLow="0.005" uncertaintyHigh="0.004" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <radiusHalfLightAngular value="0.2" uncertaintyLow="0.1" uncertaintyHigh="0.35" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <radiusHalfLight value="2.0e-6" uncertaintyLow="1.0e-6" uncertaintyHigh="4.0e-6" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <ellipticityProjected value="0.63" uncertaintyLow="0.53" uncertaintyHigh="0.17" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <positionAngle value="101.0" uncertaintyLow="55.0" uncertaintyHigh="43.0" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <distanceModulus value="18.1" uncertaintyLow="0.3" uncertaintyHigh="0.3" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <distanceHeliocentric value="42.0e-3" uncertaintyLow="5.0e-3" uncertaintyHigh="6.0e-3" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <ageStellar value="10.0" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <magnitudeAbsoluteV value="1.2" uncertaintyLow="2.1" uncertaintyHigh="0.7" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
       <massStellar value="60.0" uncertaintyLow="40.0" uncertaintyHigh="12.0" technique="M/L = 2 Msun/Lsun"/>
-      <reddening value="0.052" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <metallicityStellar value="-3.21" reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
-      <referencePrimary reference="Tan, Cerny, Pace et al.; arXiv:2510.11684" referenceURL="https://arxiv.org/abs/2510.11684"/>
+      <reddening value="0.052" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <metallicityStellar value="-3.21" reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
+      <referencePrimary reference="Tan, Cerny, Pace et al.; 2025; arXiv; arXiv:2510.11684" referenceURL="https://ui.adsabs.harvard.edu/abs/2025arXiv251011684T"/>
       <alias value="J2016-5019"/>
       <classification value="star cluster"/>
       <declinationSexagesimal degrees="-50.000000000000" arcminutes="19.000000000000" arcseconds="47.999999999994"/>
