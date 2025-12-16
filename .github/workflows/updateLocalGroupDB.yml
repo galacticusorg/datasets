@@ -41,7 +41,7 @@ jobs:
           cd -
       - name: Create Pull Request
         if: ${{ ( env.appid != '' ) && ( env.adstoken != '' ) }}
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           title: "fix: update Local Group DB references"
           commit-message: "fix: update Local Group DB references"
