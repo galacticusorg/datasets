@@ -1,11 +1,18 @@
 window.TABLE_DATA =
-    {
-	"SSP:BC2003_IMF:Chabrier": {
-            "time": "2025-08-18 07:49:11.716833",
-            "gitRevision": "872958da0e2bd70c52ed9dbaee64f1587ec3a723",
-            "cloudyVersion": "23.01",
-            "sspURL": "https://zenodo.org/records/6338452/files/SSP_Spectra_BC2003_highResolution_imfChabrier.hdf5?download=1",
-            "commandLine": "./scripts/ssps/createEmissionLinesTable.py --outputFileName test.hdf5 --sspFileName https://zenodo.org/records/6338452/files/SSP_Spectra_BC2003_highResolution_imfChabrier.hdf5?download=1 --jobMaximum 999 --workspace cloudyWork --waitOnSubmit 0 --waitOnActive 10 --suffixGitHubPages SSP:BC2003_IMF:Chabrier --normalization massStellar --rerun",
-            "fileName": "test.hdf5"
-	}
+{
+    "SSP:BC2003_IMF:Chabrier": {
+        "time": "2025-08-18 07:49:11.716833",
+        "gitRevision": "872958da0e2bd70c52ed9dbaee64f1587ec3a723",
+        "cloudyVersion": "23.01",
+        "sspURL": "https://zenodo.org/records/6338452/files/SSP_Spectra_BC2003_highResolution_imfChabrier.hdf5?download=1",
+        "commandLine": "./scripts/ssps/createEmissionLinesTable.py --outputFileName test.hdf5 --sspFileName https://zenodo.org/records/6338452/files/SSP_Spectra_BC2003_highResolution_imfChabrier.hdf5?download=1 --jobMaximum 999 --workspace cloudyWork --waitOnSubmit 0 --waitOnActive 10 --suffixGitHubPages SSP:BC2003_IMF:Chabrier --normalization massStellar --rerun",
+        "fileName": "test.hdf5"
+    },
+    "SSP:BC2003:IMF:Chabrier": {
+        "time": "2026-02-02 07:25:57.107524",
+        "gitRevision": "244c4ac19b0794a213a8dacd5d1bad20300095d5",
+        "cloudyVersion": "23.01",
+        "commandLine": "./scripts/ssps/createEmissionLinesTable.py --outputFileName emissionLineLuminosities:sspSSP:BC2003:IMF:Chabrier:dustMetalsRatio0.4:factorMorphology2.0:abundanceAdjustS:0.2.hdf5 --sspFileName /resnick/groups/carnegie_poc/abenson/Galacticus/galacticus_Sachi/projects/emissionLines/data/SSP_Spectra_BC2003_highResolution_imfChabrier.hdf5 --jobMaximum 9000 --workspace /resnick/groups/carnegie_poc/abenson/Galacticus/galacticus_Sachi/projects/emissionLines/data/cloudyTableS0.2 --waitOnSubmit 0 --waitOnActive 10 --suffixGitHubPages SSP:BC2003:IMF:Chabrier --normalization massStellar --stopOuterRadius --iterationsMaximum 0 --ageMaximum 1.0e30 --metallicitySupersample 2 --ageSubsample 1 --factorMorphology 2.0 --dustToMetalsRatio 0.4 --abundanceAdjust S:0.2 --rerun",
+        "fileName": "emissionLineLuminosities:sspSSP:BC2003:IMF:Chabrier:dustMetalsRatio0.4:factorMorphology2.0:abundanceAdjustS:0.2.hdf5"
     }
+}
