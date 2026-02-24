@@ -7,8 +7,8 @@
     <xs:all>
       <xs:element name="limit" minOccurs="0" maxOccurs="unbounded">
 	<xs:complexType>
-	  <xs:attribute name="value"           type="xs:float"  use="required"/>                                                                                          
-	  <xs:attribute name="confidenceLevel" type="xs:string" use="required"/>                                                                                          
+	  <xs:attribute name="value"           type="xs:float"  use="required"/>
+	  <xs:attribute name="confidenceLevel" type="xs:string" use="required"/>
 	  <xs:attribute name="type"                             use="required" >
 	    <xs:simpleType>
 	      <xs:restriction base="xs:string">
@@ -21,31 +21,31 @@
       </xs:element>
       <xs:element name="uncertaintyCorrelation" minOccurs="0" maxOccurs="1">
 	<xs:complexType>
-	  <xs:attribute name="with"        type="xs:string" use="required"/>                                                                                          
-	  <xs:attribute name="coefficient" type="xs:float"  use="required"/>                                                                                          
+	  <xs:attribute name="with"        type="xs:string" use="required"/>
+	  <xs:attribute name="coefficient" type="xs:float"  use="required"/>
 	</xs:complexType>                                                                                                                          
       </xs:element>
     </xs:all>
-    <xs:attribute name="value"                 type="xs:float"  use="optional"/>                                                                                          
-    <xs:attribute name="uncertainty"           type="xs:float"  use="optional"/>                                                                                          
-    <xs:attribute name="uncertaintyLow"        type="xs:float"  use="optional"/>                                                                                          
-    <xs:attribute name="uncertaintyHigh"       type="xs:float"  use="optional"/>                                                                                          
-    <xs:attribute name="uncertaintySystematic" type="xs:float"  use="optional"/>                                                                                          
-    <xs:attribute name="reference"             type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="value"                 type="xs:float"  use="optional"/>
+    <xs:attribute name="uncertainty"           type="xs:float"  use="optional"/>
+    <xs:attribute name="uncertaintyLow"        type="xs:float"  use="optional"/>
+    <xs:attribute name="uncertaintyHigh"       type="xs:float"  use="optional"/>
+    <xs:attribute name="uncertaintySystematic" type="xs:float"  use="optional"/>
+    <xs:attribute name="reference"             type="xs:string" use="optional"/>
     <xs:attribute name="referenceURL"          type="xs:string" use="optional"/>
-    <xs:attribute name="comment"               type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="comment"               type="xs:string" use="optional"/>
     <xs:attribute name="technique"             type="xs:string" use="optional"/>
   </xs:complexType>
 
   <!-- Define a type for 2D vector data -->
   <xs:complexType name="datumVector" mixed="true">
-    <xs:attribute name="value"                 type="xs:string" use="required"/>                                                                                          
-    <xs:attribute name="uncertainty"           type="xs:string" use="optional"/>                                                                                          
-    <xs:attribute name="uncertaintyLow"        type="xs:string" use="optional"/>                                                                                          
-    <xs:attribute name="uncertaintyHigh"       type="xs:string" use="optional"/>                                                                                          
-    <xs:attribute name="uncertaintySystematic" type="xs:string" use="optional"/>                                                                                          
-    <xs:attribute name="reference"             type="xs:string" use="optional"/>                                                                                          
-    <xs:attribute name="referenceURL"          type="xs:string" use="optional"/>                                                                                          
+    <xs:attribute name="value"                 type="xs:string" use="required"/>
+    <xs:attribute name="uncertainty"           type="xs:string" use="optional"/>
+    <xs:attribute name="uncertaintyLow"        type="xs:string" use="optional"/>
+    <xs:attribute name="uncertaintyHigh"       type="xs:string" use="optional"/>
+    <xs:attribute name="uncertaintySystematic" type="xs:string" use="optional"/>
+    <xs:attribute name="reference"             type="xs:string" use="optional"/>
+    <xs:attribute name="referenceURL"          type="xs:string" use="optional"/>
   </xs:complexType>
 
   <!-- Begin the main schema -->
@@ -54,43 +54,44 @@
       <xs:all>
 	<xs:element name="compiledBy" type="xs:string" minOccurs="0" maxOccurs="1"/>
 	<xs:element name="galaxies"                    minOccurs="1" maxOccurs="1" >
-	  <xs:complexType>                                                                                                                                
+	  <xs:complexType>
 	    <xs:all>
 	      <xs:element name="galaxy"  minOccurs="1" maxOccurs="unbounded">
-		<xs:complexType>                                                                                                                          
+		<xs:complexType>
 		  <xs:all>
 
 		    <!-- Begin with some unique entries that do not conform to the typical datum schema -->
 		    <xs:element name="discoverySurvey" minOccurs="1" maxOccurs="1">
-		      <xs:complexType>                                                                                                                          
-			<xs:attribute name="value"        use="required"/>                                                                                          
-			<xs:attribute name="reference"    use="optional"/>                                                                                          
-			<xs:attribute name="referenceURL" use="optional"/>                                                                                          
-			<xs:attribute name="DOI"          use="optional"/>                                                                                          
- 		      </xs:complexType>
+		      <xs:complexType>
+			<xs:attribute name="value"        use="required"/>
+			<xs:attribute name="reference"    use="optional"/>
+			<xs:attribute name="referenceURL" use="optional"/>
+			<xs:attribute name="DOI"          use="optional"/>
+		      </xs:complexType>
 		    </xs:element>
 
 		    <xs:element name="referencePrimary" minOccurs="1" maxOccurs="1">
-		      <xs:complexType>                                                                                                                          
-			<xs:attribute name="reference"    use="required"/>                                                                                          
-			<xs:attribute name="referenceURL" use="optional"/>                                                                                          
- 		      </xs:complexType>
+		      <xs:complexType>
+			<xs:attribute name="reference"    use="required"/>
+			<xs:attribute name="referenceURL" use="optional"/>
+		      </xs:complexType>
 		    </xs:element>
 
 		    <xs:element name="classification" minOccurs="1" maxOccurs="1">
 		      <xs:complexType>
-			<xs:attribute name="reference"    use="optional"/>                                                                                          
-			<xs:attribute name="referenceURL" use="optional"/>                                                                                          
-			<xs:attribute name="comment"      use="optional"/>                                                                                          
- 			<xs:attribute name="value"        use="required" >                                                                                          
+			<xs:attribute name="reference"    use="optional"/>
+			<xs:attribute name="referenceURL" use="optional"/>
+			<xs:attribute name="comment"      use="optional"/>
+			<xs:attribute name="value"        use="required" >
 			  <xs:simpleType>
 			    <xs:restriction base="xs:string">
-			      <xs:enumeration value="galaxy"        />
-			      <xs:enumeration value="star cluster"  />
-			      <xs:enumeration value="tidal stream"  />
-			      <xs:enumeration value="overdensity"   />
-			      <xs:enumeration value="false positive"/>
-			      <xs:enumeration value="ambiguous"     />
+			      <xs:enumeration value="galaxy"          />
+			      <xs:enumeration value="galaxy candidate"/>
+			      <xs:enumeration value="star cluster"    />
+			      <xs:enumeration value="tidal stream"    />
+			      <xs:enumeration value="overdensity"     />
+			      <xs:enumeration value="false positive"  />
+			      <xs:enumeration value="ambiguous"       />
 			    </xs:restriction>
 			  </xs:simpleType>
 			</xs:attribute>
@@ -99,12 +100,12 @@
 
 		    <xs:element name="alias" minOccurs="0" maxOccurs="unbounded">
 		      <xs:complexType>
-			<xs:attribute name="value" use="required"/>                                                                                          
+			<xs:attribute name="value" use="required"/>
 		      </xs:complexType>
 		    </xs:element>
 
 		    <xs:element name="declinationSexagesimal" minOccurs="0" maxOccurs="1">
-		      <xs:complexType>                                                                                                                          
+		      <xs:complexType>
 			<xs:attribute name="degrees"                   type="xs:decimal" use="required"/>
 			<xs:attribute name="arcminutes"                type="xs:decimal" use="required"/>
 			<xs:attribute name="arcseconds"                type="xs:decimal" use="required"/>
@@ -117,7 +118,7 @@
 		    </xs:element>
 
 		    <xs:element name="rightAscensionSexagesimal" minOccurs="0" maxOccurs="1">
-		      <xs:complexType>                                                                                                                          
+		      <xs:complexType>
 			<xs:attribute name="hours"                  type="xs:decimal" use="required"/>
 			<xs:attribute name="minutes"                type="xs:decimal" use="required"/>
 			<xs:attribute name="seconds"                type="xs:decimal" use="required"/>
@@ -134,8 +135,8 @@
 			<xs:all>
 			  <xs:element name="limit" minOccurs="0" maxOccurs="unbounded">
 			    <xs:complexType>
-			      <xs:attribute name="value"           type="xs:float"  use="required"/>                                                                                          
-			      <xs:attribute name="confidenceLevel" type="xs:string" use="required"/>                                                                                          
+			      <xs:attribute name="value"           type="xs:float"  use="required"/>
+			      <xs:attribute name="confidenceLevel" type="xs:string" use="required"/>
 			      <xs:attribute name="type"                             use="required" >
 				<xs:simpleType>
 				  <xs:restriction base="xs:string">
@@ -144,30 +145,30 @@
 				  </xs:restriction>
 				</xs:simpleType>
 			      </xs:attribute>
-			    </xs:complexType>                                                                                                                          
+			    </xs:complexType>
 			  </xs:element>
 			  <xs:element name="uncertaintyCorrelation" minOccurs="0" maxOccurs="1">
 			    <xs:complexType>
-			      <xs:attribute name="with"        type="xs:string" use="required"/>                                                                                          
-			      <xs:attribute name="coefficient" type="xs:float"  use="required"/>                                                                                          
-			    </xs:complexType>                                                                                                                          
+			      <xs:attribute name="with"        type="xs:string" use="required"/>
+			      <xs:attribute name="coefficient" type="xs:float"  use="required"/>
+			    </xs:complexType>
 			  </xs:element>
 			</xs:all>
-			<xs:attribute name="value"                 type="xs:float"  use="optional"/>                                                                                          
-			<xs:attribute name="uncertainty"           type="xs:float"  use="optional"/>                                                                                          
-			<xs:attribute name="uncertaintyLow"        type="xs:float"  use="optional"/>                                                                                          
-			<xs:attribute name="uncertaintyHigh"       type="xs:float"  use="optional"/>                                                                                          
-			<xs:attribute name="uncertaintySystematic" type="xs:float"  use="optional"/>                                                                                          
-			<xs:attribute name="reference"             type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="value"                 type="xs:float"  use="optional"/>
+			<xs:attribute name="uncertainty"           type="xs:float"  use="optional"/>
+			<xs:attribute name="uncertaintyLow"        type="xs:float"  use="optional"/>
+			<xs:attribute name="uncertaintyHigh"       type="xs:float"  use="optional"/>
+			<xs:attribute name="uncertaintySystematic" type="xs:float"  use="optional"/>
+			<xs:attribute name="reference"             type="xs:string" use="optional"/>
 			<xs:attribute name="referenceURL"          type="xs:string" use="optional"/>
-			<xs:attribute name="comment"               type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="comment"               type="xs:string" use="optional"/>
 			<xs:attribute name="technique"             type="xs:string" use="optional"/>
 			<xs:attribute name="imf"                   type="xs:string" use="optional"/>
 		      </xs:complexType>
 		    </xs:element>
 
 		    <xs:element name="starFormationHistoryCumulative" minOccurs="0" maxOccurs="1">
-		      <xs:complexType>                                                                                                                          
+		      <xs:complexType>
 			<xs:all>
 			  <xs:element name="epoch" minOccurs="1" maxOccurs="unbounded">
 			    <xs:complexType>
@@ -181,31 +182,31 @@
 			    </xs:complexType>
 			  </xs:element>
 			</xs:all>
-			<xs:attribute name="reference"    type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="reference"    type="xs:string" use="optional"/>
 			<xs:attribute name="referenceURL" type="xs:string" use="optional"/>
 		      </xs:complexType>
 		    </xs:element>
 
 		    <xs:element name="morphology" minOccurs="0" maxOccurs="1">
-		      <xs:complexType>                                                                                                                          
+		      <xs:complexType>
 			<xs:attribute name="value"        type="xs:string" use="required"/>
-			<xs:attribute name="reference"    type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="reference"    type="xs:string" use="optional"/>
 			<xs:attribute name="referenceURL" type="xs:string" use="optional"/>
 		      </xs:complexType>
 		    </xs:element>
 
 		    <xs:element name="membership" minOccurs="0" maxOccurs="1">
-		      <xs:complexType>                                                                                                                          
+		      <xs:complexType>
 			<xs:attribute name="value"        type="xs:string" use="required"/>
-			<xs:attribute name="reference"    type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="reference"    type="xs:string" use="optional"/>
 			<xs:attribute name="referenceURL" type="xs:string" use="optional"/>
 		      </xs:complexType>
 		    </xs:element>
-
+		    
 		    <xs:element name="comment" minOccurs="0" maxOccurs="1">
-		      <xs:complexType>                                                                                                                          
+		      <xs:complexType>
 			<xs:attribute name="value"        type="xs:string" use="required"/>
-			<xs:attribute name="reference"    type="xs:string" use="optional"/>                                                                                          
+			<xs:attribute name="reference"    type="xs:string" use="optional"/>
 			<xs:attribute name="referenceURL" type="xs:string" use="optional"/>
 		      </xs:complexType>
 		    </xs:element>
@@ -272,7 +273,7 @@
 		    <xs:element name="velocityRadialMilkyWay"                 type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="velocityRotation"                       type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="velocityVerticalMilkyWay"               type="datum"       minOccurs="0" maxOccurs="1"        />
-		   
+		    
 		  </xs:all>
 		  <xs:attribute name="name" use="required"/>
 		</xs:complexType>
@@ -282,7 +283,7 @@
 	</xs:element>
 
 	<xs:element name="properties" minOccurs="1" maxOccurs="1">
-	  <xs:complexType>                                                                                                                                
+	  <xs:complexType>
 	    <xs:all>
 	      <xs:element name="property" minOccurs="1" maxOccurs="unbounded">
 		<xs:complexType>
