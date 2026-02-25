@@ -5788,7 +5788,7 @@
     </galaxy>
     <galaxy name="Willman 1">
       <alias value="Willman I"/>
-      <discoverySurvey value="SDSS"/>1
+      <discoverySurvey value="SDSS"/>
       <distanceHeliocentric value="38.55e-3" uncertainty="0.45e-3" reference="Durbin et al. (2025)" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992..106D"/>
       <declinationDecimal value="51.0501" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...65M"/>
       <rightAscensionDecimal value="162.3436" reference="Munoz et al. (2018)" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...65M"/>
@@ -5821,7 +5821,7 @@
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <metallicityStellar value="-2.45" uncertaintyLow="0.13" uncertaintyHigh="0.12" reference="Chiu et al. (2026)" referenceURL="https://arxiv.org/abs/2602.20272"/>
       <metallicityDispersionStellar value="0.30" uncertaintyLow="0.11" uncertaintyHigh="0.15" reference="Chiu et al. (2026)" referenceURL="https://arxiv.org/abs/2602.20272"/>
-      <distanceOrbitalApocenter value="43.2-3" uncertaintyLow="0.5e-3" uncertaintyHigh="0.5e-3" reference="Chiu et al. (2026)" referenceURL="https://arxiv.org/abs/2602.20272"/>
+      <distanceOrbitalApocenter value="43.2e-3" uncertaintyLow="0.5e-3" uncertaintyHigh="0.5e-3" reference="Chiu et al. (2026)" referenceURL="https://arxiv.org/abs/2602.20272"/>
       <distanceOrbitalPericenter value="14.7e-3" uncertaintyLow="1.6e-3" uncertaintyHigh="1.9e-3" reference="Chiu et al. (2026)" referenceURL="https://arxiv.org/abs/2602.20272"/>
       <eccentricityOrbital value="0.49" uncertaintyLow="0.05" uncertaintyHigh="0.04" reference="Chiu et al. (2026)" referenceURL="https://arxiv.org/abs/2602.20272"/>
       <referencePrimary reference="Willman et al. (2005a)"/>
