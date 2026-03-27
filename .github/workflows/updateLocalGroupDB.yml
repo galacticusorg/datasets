@@ -37,7 +37,7 @@ jobs:
         if: ${{ env.adstoken != '' }}
         run: |
           cd static/observations/localGroup
-          ./localGroupSatellitesUpdate.pl ${{ secrets.NASA_ADS_API_TOKEN }}
+          python3 ./localGroupSatellitesUpdate.py ${{ secrets.NASA_ADS_API_TOKEN }}
           cd -
       - name: Create Pull Request
         if: ${{ ( env.appid != '' ) && ( env.adstoken != '' ) }}
