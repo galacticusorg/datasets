@@ -94,10 +94,10 @@ def points_are_acceptable(p_ra, p_dec, boundaries, rectangles):
 
 
 def main():
-    work_directory = os.environ["GALACTICUS_DATA_PATH"] + "/surveys/UKIDSS_UDS/"
+    work_directory = os.environ["GALACTICUS_DATA_PATH"] + "/dynamic/surveys/UKIDSS_UDS/"
     data_file = (
         os.environ["GALACTICUS_DATA_PATH"]
-        + "/surveyGeometry/UKIDDS_UDS/surveyGeometry.txt"
+        + "/static/surveyGeometry/UKIDDS_UDS/surveyGeometry.txt"
     )
 
     # Read galaxy positions (skip comment lines starting with #).
@@ -279,14 +279,14 @@ def main():
         )
         ax.add_patch(rect_patch)
 
-    ax.scatter(ra, dec, s=1, color="mediumseagreen", label="Galaxies", zorder=3)
+    ax.scatter(ra, dec, s=0.2, color="mediumseagreen", label="Galaxies", zorder=3)
 
     sample_mask = np.random.uniform(0, 1, len(random_accept)) <= 0.1
     sample_indices = random_accept[sample_mask]
     ax.scatter(
         random_ra[sample_indices],
         random_dec[sample_indices],
-        s=1,
+        s=0.2,
         color="orange",
         label="Random points",
         zorder=2,
