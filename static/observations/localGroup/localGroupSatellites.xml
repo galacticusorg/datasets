@@ -3255,9 +3255,9 @@
     </galaxy>
     <galaxy name="Andromeda XXXVI">
       <referencePrimary reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <discoverySurvey value="Pan-Andromeda Archaeological Survey" referenceURL="https://ui.adsabs.harvard.edu/abs/2009Natur.461...66M"/>
       <declinationDecimal value="47.656" uncertainty="0.001" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
       <rightAscensionDecimal value="19.168" uncertainty="0.000" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <distanceModulus value="24.45" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
       <distanceHeliocentric value="0.776" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
       <ellipticityProjected value="0.015" uncertaintyLow="0.012" uncertaintyHigh="0.032" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
       <magnitudeAbsoluteV value="-6.0" uncertainty="0.2" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
@@ -3269,12 +3269,13 @@
       <massStellar value="21500.0" uncertaintyLow="3600.0" uncertaintyHigh="4300.0" technique="M/L = 1 Msun/Lsun" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
       <alias value="And XXXVI"/>
       <classification value="galaxy"/>
-      <declinationSexagesimal degrees="47" arcminutes="39" arcseconds="21.6"/>
-      <rightAscensionSexagesimal hours="1" minutes="16" seconds="40.3"/>
-      <positionHeliocentricCartesian value="0.49371987E+00   0.17162233E+00   0.57355250E+00"/>
-      <distanceMilkyWay value="0.78071248E+00"/>
-      <distanceM31 value="0.11996304E+00"/>
-    </galaxy>
+      <declinationSexagesimal degrees="47.000000000000" arcminutes="39.000000000000" arcseconds="21.599999999996" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <rightAscensionSexagesimal hours="1.000000000000" minutes="16.000000000000" seconds="40.320000000000" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <distanceModulus value="24.449308606291" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <positionHeliocentricCartesian value="0.49371987E+00   0.17162233E+00   0.57355250E+00" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <distanceMilkyWay value="0.77961864E+00" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <distanceM31 value="0.11969774E+00 reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492""/>
+</galaxy>
     <galaxy name="NGC 6822">
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-14" arcminutes="47" arcseconds="21" reference="Gieren et al. 2006"/>
