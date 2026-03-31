@@ -3254,19 +3254,19 @@
       <distanceM31 value="0.15194729E+00" uncertaintyLow="0.45182734E+00" uncertaintyHigh="0.54493156E+00"/>
     </galaxy>
     <galaxy name="Andromeda XXXVI">
-      <referencePrimary reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <declinationDecimal value="47.656" uncertaintyLow="0.001" uncertaintyHigh="0.001" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <rightAscensionDecimal value="19.168" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <distanceModulus value="24.45" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <distanceHeliocentric value="0.776" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <ellipticityProjected value="0.015" uncertaintyLow="0.012" uncertaintyHigh="0.032" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <magnitudeAbsoluteV value="-6.0" uncertainty="0.2" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <magnitudeAbsoluteg value="-5.4" uncertainty="0.1" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <magnitudeAbsoluter value="-6.2" uncertainty="0.1" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <radiusHalfLight value="64.0e-6" uncertaintyLow="19.0e-6" uncertaintyHigh="30.0e-6" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <radiusHalfLightAngular value="0.284" uncertaintyLow="0.084" uncertaintyHigh="0.132" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <positionAngle value="78.6" uncertaintyLow="28.5" uncertaintyHigh="29.7" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <massStellar value="21500.0" uncertaintyLow="3600.0" uncertaintyHigh="4300.0" technique="M/L = 1 Msun/Lsun" reference="arXiv:2603.28492" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <referencePrimary reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <declinationDecimal value="47.656" uncertainty="0.001" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <rightAscensionDecimal value="19.168" uncertainty="0.000" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <distanceModulus value="24.45" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <distanceHeliocentric value="0.776" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <ellipticityProjected value="0.015" uncertaintyLow="0.012" uncertaintyHigh="0.032" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <magnitudeAbsoluteV value="-6.0" uncertainty="0.2" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <magnitudeAbsoluteg value="-5.4" uncertainty="0.1" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <magnitudeAbsoluter value="-6.2" uncertainty="0.1" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <radiusHalfLight value="64.0e-6" uncertaintyLow="19.0e-6" uncertaintyHigh="30.0e-6" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <radiusHalfLightAngular value="0.284" uncertaintyLow="0.084" uncertaintyHigh="0.132" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <positionAngle value="78.6" uncertaintyLow="28.5" uncertaintyHigh="29.7" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+      <massStellar value="21500.0" uncertaintyLow="3600.0" uncertaintyHigh="4300.0" technique="M/L = 1 Msun/Lsun" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
       <alias value="And XXXVI"/>
       <classification value="galaxy"/>
       <declinationSexagesimal degrees="47" arcminutes="39" arcseconds="21.6"/>
