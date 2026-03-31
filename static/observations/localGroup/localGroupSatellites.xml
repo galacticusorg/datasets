@@ -3274,8 +3274,8 @@
       <distanceModulus value="24.449308606291" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
       <positionHeliocentricCartesian value="0.49371987E+00   0.17162233E+00   0.57355250E+00" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
       <distanceMilkyWay value="0.77961864E+00" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
-      <distanceM31 value="0.11969774E+00 reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492""/>
-</galaxy>
+      <distanceM31 value="0.11969774E+00" reference="Sakowska et al. (2026; arXiv:2603.28492)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2603.28492"/>
+    </galaxy>
     <galaxy name="NGC 6822">
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-14" arcminutes="47" arcseconds="21" reference="Gieren et al. 2006"/>
