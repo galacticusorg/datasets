@@ -31,8 +31,7 @@ jobs:
           private_key: ${{ secrets.DEPLOY_APP_PRIVATE_KEY }}
       - name: Install tools
         run: |
-          sudo apt -y update
-          sudo apt install -y libwww-curl-perl libjson-pp-perl liburi-escape-xs-perl perl-doc
+          pip3 install -r static/observations/localGroup/requirements.txt
       - name: Update the file
         if: ${{ env.adstoken != '' }}
         run: |

@@ -11,3 +11,9 @@ updates:
       interval: "weekly"
     assignees:
       - "abensonca"
+  - package-ecosystem: "pip"
+    directory: "/static/observations/localGroup"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "abensonca"

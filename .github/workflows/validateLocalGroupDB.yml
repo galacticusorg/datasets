@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v6
       - name: Install xmlschema
         run: |
-          pip3 install xmlschema
+          pip3 install -r static/observations/localGroup/requirements.txt
       - name: Validate the database
         run: |
           cd static/observations/localGroup
