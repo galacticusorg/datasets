@@ -9,7 +9,7 @@ import urllib.error
 # Report status of GitHub Actions workflows to Slack.
 # Andrew Benson
 
-repo = "galacticus"
+repo = "datasets"
 
 workflows = [
     {"file": "updateLocalGroupDB.yml","name": "Update-Local-Group-DB"},
