@@ -35,3 +35,9 @@ The `HDF5-Diff` GitHub Actions workflow runs the same diff on PRs and posts the 
 ## Local Group satellite database
 
 `static/observations/localGroup/localGroupSatellites.xml` is validated against `localGroupSatellites.xsd` on every PR (`Validate-Local-Group-DB` workflow), and its bibliographic references are refreshed weekly against NASA ADS by `Update-Local-Group-DB`. Python dependencies for both workflows are pinned in `static/observations/localGroup/requirements.txt`.
+
+## License and upstream sources
+
+This repository is released under the MIT License (see `LICENSE`).
+
+A substantial fraction of the files under `static/` are *redistributions* of data originally published elsewhere — for example BC2003 SSP spectra, ULTRAVISTA completeness tables (see `static/surveyGeometry/ULTRAVISTA/README`), the Wilms (2000) ISM absorption table, McConnell &amp; Ma black-hole kinematics, FSPS source patches, etc. The MIT License grant in this repository covers the curated *compilation* and any genuinely-original content (such as `localGroupSatellites.xml` and the Galacticus-generated cosmological parameter files); it does **not** override whatever terms each upstream source attached to the underlying data. Users who plan to redistribute individual files should consult the original publication or data release for terms applying to that file.
