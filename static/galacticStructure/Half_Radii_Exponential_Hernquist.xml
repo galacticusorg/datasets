@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <halfRadii>
   <description>Tabulation of half-radii for composite exponential disk-Hernquist spheroid galaxies (viewed face on). The disk mass and scalelength are assumed to be unity and the spheroid properties are expressed in units of the disk properties.</description>  <source>Computed by GNU Octave script 'Half Mass Radii.m'</source>
   <spheroidRadius>

@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <filter>
   <description>Hard X-ray filter (2.0-10.0keV)</description>
   <name>xRayHard</name>

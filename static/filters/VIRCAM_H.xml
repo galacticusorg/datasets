@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <filter>
   <name>VIRCAM H</name>
   <description>VIRCAM H (filter + CCD + mirrors + atmosphere [airmass: 1.0])</description>

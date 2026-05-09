@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <filter>
   <description>Full-band X-ray filter (0.5-10.0keV)</description>
   <name>xRayHard</name>

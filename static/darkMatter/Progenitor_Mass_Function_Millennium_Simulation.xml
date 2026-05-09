@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <conditionalMassFunctions>
   <description>The Millennium Simulation conditional mass function data plotted in Fig. 1 of  Cole, Helly Frenk and Parkinson (astro-ph/07081376) MNRAS accepted. There are 12 datasets corresponding to the 12 panels and labelled by the values of M2 and z1. See the figure caption and the paper for full details.</description>
   <units>Msolar/h</units>

@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <filter>
   <description>ACS WFC f850lp filter (normalized to unity peak)</description>
   <name>ACS WFC f850lp</name>

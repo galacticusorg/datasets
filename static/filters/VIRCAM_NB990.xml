@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <filter>
   <name>VIRCAM NB990</name>
   <description>VIRCAM NB990 (filter + CCD + mirrors + atmosphere [airmass: 1.0])</description>

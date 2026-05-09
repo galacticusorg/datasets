@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <filter>
   <name>SuprimeCam IA505</name>
   <description>SuprimeCam IA505 (filter + telescope + CCD + atmosphere [airmass: 1.2])</description>

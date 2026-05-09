@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <filter>
   <description>Response curve for the J Bessel filter</description>
   <name>Bessel J</name>

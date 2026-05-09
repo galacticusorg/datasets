@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <supernovaeYields>
   <description>Yields for Type Ia supernovae. Yields are given as the mass (in Solar masses) of each element produced.</description>
   <source>Nomoto et al. (1997, Nuclear Physics A, 621, 467; Model W7)</source>
