@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <parameters>
   <createdBy>Galacticus</createdBy>
-  <createdBy>scripts/aux/WMAP9_Parameter_Covariance.pl</createdBy>
+  <createdBy>constraints/scripts/wmap9CosmologyParametersConfig.py</createdBy>
   <description>WMAP-9 Lambda CDM cosmological parameter best fit values with covariance and correlation matrices.</description>
   <description>Uses: wmap9+spt+act+snls3+bao+h0 constraints.</description>
   <parameter>
