@@ -223,6 +223,7 @@
 		    <xs:element name="distanceOrbitalApocenter"               type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="distanceOrbitalPericenter"              type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="eccentricityOrbital"                    type="datum"       minOccurs="0" maxOccurs="1"        />
+		    <xs:element name="inclinationOrbital"                     type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="ellipticityProjected"                   type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="extinctionF606W"                        type="datum"       minOccurs="0" maxOccurs="1"        />
 		    <xs:element name="extinctionF814W"                        type="datum"       minOccurs="0" maxOccurs="1"        />
