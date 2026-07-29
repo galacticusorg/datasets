@@ -72,17 +72,23 @@
     </galaxy>
     <galaxy name="Virgo III">
       <discoverySurvey value="HSC-SSP" referenceURL="https://www.naoj.org/Projects/HSC/surveyplan.html"/>
-      <declinationDecimal value="4.441" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
-      <rightAscensionDecimal value="186.348" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
-      <distanceModulus value="20.9" uncertainty="0.2" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
-      <distanceHeliocentric value="151.0e-3" uncertaintyLow="13.0e-3" uncertaintyHigh="15.0e-3" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
-      <radiusHalfLightAngular value="1.0" uncertaintyLow="0.2" uncertaintyHigh="0.2" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
-      <radiusHalfLight value="44.0e-6" uncertaintyLow="12.0e-6" uncertaintyHigh="14.0e-6" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
-      <ellipticityProjected value="0.29" uncertaintyLow="0.19" uncertaintyHigh="0.15" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
-      <positionAngle value="-24.0" uncertaintyLow="26.0" uncertaintyHigh="21.0" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
-      <magnitudeAbsoluteV value="-2.69" uncertaintyLow="0.56" uncertaintyHigh="0.45" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
+      <declinationDecimal value="4.442" uncertainty="0.003" reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
+      <rightAscensionDecimal value="186.350" uncertainty="0.002" reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
+      <distanceModulus value="20.90" uncertaintyLow="0.11" uncertaintyHigh="0.10" uncertaintySystematic="0.1" reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
+      <distanceHeliocentric value="151.0e-3" uncertaintyLow="8.0e-3" uncertaintyHigh="8.0e-3" reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
+      <radiusHalfLightAngular value="1.22" uncertaintyLow="0.19" uncertaintyHigh="0.23" reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
+      <radiusHalfLight value="53.0e-6" uncertaintyLow="8.0e-6" uncertaintyHigh="10.0e-6" reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
+      <ellipticityProjected value="0.48" uncertaintyLow="0.13" uncertaintyHigh="0.11" reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
+      <positionAngle value="-68.0" uncertaintyLow="10.0" uncertaintyHigh="12.0" reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
+      <magnitudeAbsoluteV value="-2.72" uncertaintyLow="0.70" uncertaintyHigh="0.49" reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
+      <ageStellar reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044">
+        <limit value="11.45" confidenceLevel="84%" type="lower"/>
+      </ageStellar>
+      <metallicityStellar reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044">
+        <limit value="-1.94" confidenceLevel="84%" type="upper"/>
+      </metallicityStellar>
       <extinctionV value="0.054" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
-      <massStellar value="1400.0" uncertaintyLow="500.0" uncertaintyHigh="700.0" technique="synthetic photometry" imf="Chabrier" reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
+      <massStellar value="3307.0" uncertaintyLow="925.0" uncertaintyHigh="886.0" technique="synthetic photometry" imf="Chabrier" comment="Derived from the V-band luminosity assuming a stellar mass-to-light ratio M*/L_V = 2." reference="Pai, Drlica-Wagner, Ferguson et al. (2026; arXiv:2607.25044)" referenceURL="https://arxiv.org/abs/2607.25044"/>
       <referencePrimary reference="Homma, Chiba, Komiyama et al.; 2024; PASP; 76; 733" referenceURL="https://ui.adsabs.harvard.edu/abs/2024PASJ...76..733H"/>
       <classification value="galaxy"/>     
       <declinationSexagesimal degrees="4.000000000000" arcminutes="26.000000000000" arcseconds="27.599999999999"/>
