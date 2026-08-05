@@ -1,6 +1,6 @@
---- a/src/autosps.f90
-+++ b/src/autosps.f90
-@@ -24,20 +24,33 @@ PROGRAM AUTOSPS
+--- autosps.f90.orig	2026-07-31 11:32:31.000000000 -0700
++++ autosps.f90	2026-08-05 08:46:25.169362492 -0700
+@@ -25,20 +25,33 @@
    !set IMF
    WRITE(6,*)  'enter IMF [0-5; def:0]:'
    WRITE(6,*) ' (0=Salpeter, 1=Chabrier 2003, 2=Kroupa 2001, '//&

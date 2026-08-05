@@ -1,8 +1,8 @@
---- Makefile.orig	2020-02-13 18:46:08.000000000 +0000
-+++ Makefile	2020-02-13 19:32:15.821731101 +0000
+--- Makefile.orig	2026-07-31 11:32:31.000000000 -0700
++++ Makefile	2026-08-05 08:46:31.617339063 -0700
 @@ -38,7 +38,7 @@
  
- PROGS = simple lesssimple autosps spec_bin
+ PROGS = simple lesssimple autosps
  
 -COMMON = sps_vars.o sps_utils.o compsp.o csp_gen.o ssp_gen.o \
 +COMMON = sps_vars.o sps_utils.o compsp.o csp_gen.o galacticus_IMF.o ssp_gen.o \
