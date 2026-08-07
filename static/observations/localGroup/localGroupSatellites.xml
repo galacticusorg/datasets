@@ -65,6 +65,7 @@
       <distanceM31 value="0.78584246E+00" uncertainty="0.17492905E-01"/>
     </galaxy>
     <galaxy name="KiDS-UFD-1">
+      <census value="DELVE-MW-I" classification="probableDwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Sextans II"/>
       <alias value="Sex II"/>
       <discoverySurvey value="KiDS" referenceURL="https://ui.adsabs.harvard.edu/abs/2019A%2526A...625A...2K"/>
@@ -146,6 +147,7 @@
       <distanceM31 value="0.84991656E+00" uncertaintyLow="0.18685602E-01" uncertaintyHigh="0.20334440E-01"/>
     </galaxy>
     <galaxy name="Crater II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="VST-ATLAS" reference="Shanks et al. (2015)" referenceURL="http://adsabs.harvard.edu/abs/2015MNRAS.451.4238S" DOI="doi:10.1093/mnras/stv1130"/>
       <declinationSexagesimal degrees="-18" arcminutes="24" arcseconds="46.8"/>
       <rightAscensionSexagesimal hours="11" minutes="49" seconds="14.4"/>
@@ -183,6 +185,7 @@
       <distanceM31 value="0.88998385E+00" uncertaintyLow="0.17620380E-01" uncertaintyHigh="0.17620380E-01"/>
     </galaxy>
     <galaxy name="DES J2204-4626">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-46" arcminutes="26" arcseconds="23"/>
       <rightAscensionSexagesimal hours="22" minutes="4" seconds="4"/>
@@ -236,6 +239,7 @@
       <distanceM31 value="0.78897188E+00" uncertainty="0.17585177E-01"/>
     </galaxy>
     <galaxy name="DES J2356-5935">
+      <census value="DELVE-MW-I" classification="probableDwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-59" arcminutes="36" arcseconds="0"/>
       <rightAscensionSexagesimal hours="23" minutes="56" seconds="35"/>
@@ -284,6 +288,7 @@
       <distanceM31 value="0.78828758E+00" uncertaintyLow="0.17446725E-01" uncertaintyHigh="0.17446725E-01"/>
     </galaxy>
     <galaxy name="DES J0531-2801">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-28" arcminutes="1" arcseconds="48"/>
       <rightAscensionSexagesimal hours="5" minutes="31" seconds="26"/>
@@ -322,6 +327,7 @@
       <distanceM31 value="0.82260197E+00" uncertainty="0.18541798E-01"/>
     </galaxy>
     <galaxy name="DES J0002-6051">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-60" arcminutes="51" arcseconds="0"/>
       <rightAscensionSexagesimal hours="0" minutes="2" seconds="55"/>
@@ -361,6 +367,7 @@
       <distanceM31 value="0.79472551E+00" uncertainty="0.17566623E-01"/>
     </galaxy>
     <galaxy name="DES J0345-6026">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-60" arcminutes="27" arcseconds="0"/>
       <rightAscensionSexagesimal hours="3" minutes="45" seconds="26"/>
@@ -401,6 +408,7 @@
       <distanceM31 value="0.81664298E+00" uncertainty="0.19386971E-01"/>
     </galaxy>
     <galaxy name="DES J2337-6316">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-63" arcminutes="16" arcseconds="12"/>
       <rightAscensionSexagesimal hours="23" minutes="37" seconds="24"/>
@@ -472,6 +480,7 @@
       <distanceM31 value="0.85653496E+00" uncertainty="0.19465423E-01"/>
     </galaxy>
     <galaxy name="DES J0117-1725">
+      <census value="DELVE-MW-I" classification="probableDwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-17" arcminutes="25" arcseconds="12"/>
       <rightAscensionSexagesimal hours="1" minutes="17" seconds="52"/>
@@ -506,6 +515,7 @@
       <distanceM31 value="0.76988536E+00" uncertainty="0.17434747E-01"/>
     </galaxy>
     <galaxy name="Horologium II">
+      <census value="DELVE-MW-I" classification="probableDwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-50" arcminutes="0" arcseconds="36.7" uncertaintyArcseconds="39.3" reference="Luque et al. (2016)" referenceURL="http://adsabs.harvard.edu/abs/2016MNRAS.458..603L"/>
       <rightAscensionSexagesimal hours="3" minutes="16" seconds="27.6" uncertaintySeconds="46.7" reference="Luque et al. (2016)" referenceURL="http://adsabs.harvard.edu/abs/2016MNRAS.458..603L"/>
@@ -665,6 +675,7 @@
       <distanceM31 value="0.65033874E+00" uncertaintyLow="0.40294561E-01" uncertaintyHigh="0.29104218E-01"/>
     </galaxy>
     <galaxy name="Hydra II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="ASH-ATLAS" reference="Nidever et al. (2017)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017AJ....154..199N/abstract" DOI="doi:10.3847/1538-3881/aa8d1c"/>
       <declinationSexagesimal degrees="-31" arcminutes="59" arcseconds="7"/>
       <rightAscensionSexagesimal reference="Simon et al. (arXiv:1610.05301)" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...838...11S" hours="23" minutes="56" seconds="36"/>
@@ -713,6 +724,7 @@
       <distanceM31 value="0.75551517E+00" uncertaintyLow="0.17842982E-01" uncertaintyHigh="0.17661171E-01"/>
     </galaxy>
     <galaxy name="Triangulum II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="Pan-STARRS"/>
       <declinationSexagesimal degrees="+36" arcminutes="10" arcseconds="42.4"/>
       <rightAscensionSexagesimal hours="2" minutes="13" seconds="17.4"/>
@@ -779,6 +791,7 @@
       <distanceM31 value="0.25388994E+00" uncertaintyLow="0.27288729E-01" uncertaintyHigh="0.30363541E-01"/>
     </galaxy>
     <galaxy name="Reticulum II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-54" arcminutes="29" arcseconds="31"/>
       <rightAscensionSexagesimal hours="3" minutes="35" seconds="42"/>
@@ -821,6 +834,7 @@
       <distanceM31 value="0.79051918E+00" uncertaintyLow="0.17451050E-01" uncertaintyHigh="0.17454167E-01"/>
     </galaxy>
     <galaxy name="Eridanus II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal reference="Crnojevic et al. (2016; ApJ; 824; 14)" referenceURL="http://adsabs.harvard.edu/abs/2016ApJ...824L..14C" degrees="-43" arcminutes="32" arcseconds="01.7"/>
       <rightAscensionSexagesimal reference="Crnojevic et al. (2016; ApJ; 824; 14)" referenceURL="http://adsabs.harvard.edu/abs/2016ApJ...824L..14C" hours="3" minutes="44" seconds="20.1"/>
@@ -867,6 +881,7 @@
       <distanceM31 value="0.88777956E+00" uncertainty="0.19989162E-01"/>
     </galaxy>
     <galaxy name="Eridanus IV">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DELVE"/>
       <declinationDecimal value="-9.5189" uncertainty="0.00425" reference="Casey, Mutlu-Pakdil, Sand et al.; 2025; ApJ; 984; 148" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...984..148C"/>
       <rightAscensionDecimal value="76.4246" uncertainty="0.00456" reference="Casey, Mutlu-Pakdil, Sand et al.; 2025; ApJ; 984; 148" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...984..148C"/>
@@ -901,6 +916,7 @@
       <distanceM31 value="0.77238573E+00" uncertainty="0.17557975E-01"/>
     </galaxy>
     <galaxy name="Horologium I">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Hor I"/>
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-54" arcminutes="7" arcseconds="17" uncertaintyArcseconds="5" reference="Jerjen, Conn, Kim et al.; 2018; arXiv; arXiv:1809.02259" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
@@ -949,6 +965,7 @@
       <distanceM31 value="0.79709913E+00" uncertaintyLow="0.17488279E-01" uncertaintyHigh="0.17488279E-01"/>
     </galaxy>
     <galaxy name="Pictoris I">
+      <census value="DELVE-MW-I" classification="probableDwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-50" arcminutes="17" arcseconds="11" uncertaintyArcseconds="5" reference="Jerjen, Conn, Kim et al.; 2018; arXiv; arXiv:1809.02259" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
       <rightAscensionSexagesimal hours="4" minutes="43" seconds="47.6" uncertaintySeconds="0.3" reference="Jerjen, Conn, Kim et al.; 2018; arXiv; arXiv:1809.02259" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
@@ -992,6 +1009,7 @@
       <distanceM31 value="0.81948696E+00" uncertainty="0.17559906E-01"/>
     </galaxy>
     <galaxy name="Pictoris II">
+      <census value="DELVE-MW-I" classification="probableDwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <declinationDecimal value="-59.90"/>
       <rightAscensionDecimal value="101.18"/>
       <discoverySurvey value="MagLiteS" reference="Drlica-Wagner et al. (2016)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833L...5D/abstract" DOI="doi:10.3847/2041-8205/833/1/L5"/>
@@ -1024,6 +1042,7 @@
       <distanceM31 value="0.80966592E+00" uncertaintyLow="0.17619178E-01" uncertaintyHigh="0.17710854E-01"/>
     </galaxy>
     <galaxy name="Phoenix II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-54" arcminutes="24" arcseconds="08" reference="Jerjen, Conn, Kim et al.; 2018; arXiv; arXiv:1809.02259" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
       <rightAscensionSexagesimal hours="23" minutes="39" seconds="58.4" reference="Jerjen, Conn, Kim et al.; 2018; arXiv; arXiv:1809.02259" referenceURL="https://ui.adsabs.harvard.edu/abs/2018arXiv180902259J"/>
@@ -1100,6 +1119,7 @@
       <distanceM31 value="0.81217435E+00"/>
     </galaxy>
     <galaxy name="Grus I">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <distanceHeliocentric value="125.0e-3" uncertaintyLow="12.0e-3" uncertaintyHigh="6.0e-3" reference="Cantu, Pace, Marshall et al.; 2021; ApJ; 916; 81" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...916...81C"/>
       <ageStellar value="13.26" uncertaintyLow="0.25" uncertaintyHigh="0.18" reference="Cantu, Pace, Marshall et al.; 2021; ApJ; 916; 81" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...916...81C"/>
@@ -1208,6 +1228,7 @@
       <distanceM31 value="0.79771209E+00" uncertainty="0.17538100E-01"/>
     </galaxy>
     <galaxy name="Tucana II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="DES"/>
       <declinationSexagesimal degrees="-58" arcminutes="34" arcseconds="5.9"/>
       <rightAscensionSexagesimal hours="22" minutes="51" seconds="51.9"/>
@@ -1378,6 +1399,7 @@
       <distanceM31 value="0.67026230E+00" uncertaintyLow="0.18831479E-01" uncertaintyHigh="0.18831479E-01"/>
     </galaxy>
     <galaxy name="Sextans (I)">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Sextans I"/>
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-1" arcminutes="36" arcseconds="53" reference="Lee et al. 2009"/>
@@ -1511,6 +1533,7 @@
       <distanceM31 value="0.22478349E+01" uncertainty="0.15426774E+00"/>
     </galaxy>
     <galaxy name="Segue (I)">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Segue I"/>
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="16" arcminutes="4" arcseconds="55" reference="Simon et al. 2011"/>
@@ -1565,6 +1588,8 @@
       <distanceM31 value="0.76245576E+00" uncertaintyLow="0.17478796E-01" uncertaintyHigh="0.17478796E-01"/>
     </galaxy>
     <galaxy name="LMC">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
+      <magnitudeAbsoluteV value="-18.077" uncertainty="0.1" reference="de Vaucouleurs (1991)" referenceURL="https://ui.adsabs.harvard.edu/abs/1991rc3..book.....D"/>
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-69" arcminutes="45" arcseconds="22" reference="Clementini et al. 2003"/>
       <rightAscensionSexagesimal hours="5" minutes="23" seconds="34.5" reference="Clementini et al. 2003"/>
@@ -1776,6 +1801,7 @@
       <distanceM31 value="0.19314567E+01" uncertainty="0.66958074E-01"/>
     </galaxy>
     <galaxy name="Sagittarius dSph">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="SgrI"/>
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-30" arcminutes="32" arcseconds="43" reference="Monaco et al. 2004"/>
@@ -2166,6 +2192,7 @@
       <distanceM31 value="0.98518830E+00" uncertaintyLow="0.26355795E-01" uncertaintyHigh="0.27412802E-01"/>
     </galaxy>
     <galaxy name="Ursa Major (I)">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Ursa Major I"/>
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="51" arcminutes="55" arcseconds="12" reference="Okamoto et al. 2008"/>
@@ -2256,6 +2283,7 @@
       <distanceM31 value="0.22476738E+01" uncertainty="0.55385289E-01"/>
     </galaxy>
     <galaxy name="Ursa Major II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="63" arcminutes="7" arcseconds="48" reference="Simon &amp; Geha 2007"/>
       <rightAscensionSexagesimal hours="8" minutes="51" seconds="30.0" reference="Simon &amp; Geha 2007"/>
@@ -2309,6 +2337,7 @@
       <distanceM31 value="0.76951586E+00" uncertaintyLow="0.17593547E-01" uncertaintyHigh="0.17597691E-01"/>
     </galaxy>
     <galaxy name="Leo V">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="2" arcminutes="13" arcseconds="19.47" reference="Belokurov et al. 2008"/>
       <rightAscensionSexagesimal hours="11" minutes="31" seconds="8.8" reference="Belokurov et al. 2008"/>
@@ -2402,6 +2431,7 @@
       <distanceM31 value="0.15023566E+00" uncertaintyLow="0.28793949E+00" uncertaintyHigh="0.28793949E+00"/>
     </galaxy>
     <galaxy name="Bootes (I)">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Bootes I"/>
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="14" arcminutes="30" arcseconds="0" reference="Martin et al. 2007"/>
@@ -2456,6 +2486,7 @@
       <distanceM31 value="0.74254584E+00" uncertaintyLow="0.17566220E-01" uncertaintyHigh="0.17566220E-01"/>
     </galaxy>
     <galaxy name="Leo IV">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="-0" arcminutes="32" arcseconds="0" reference="Moretti et al. 2009"/>
       <rightAscensionSexagesimal hours="1" minutes="32" seconds="57.0" reference="Moretti et al. 2009"/>
@@ -3016,6 +3047,7 @@
       <distanceM31 value="0.78715692E+00" uncertainty="0.17469640E-01" uncertaintySystematic="0.12952139E+00"/>
     </galaxy>
     <galaxy name="Canes Venatici (I)">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Canes Venatici I"/>
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="33" arcminutes="33" arcseconds="21" reference="Martin et al. 2008a"/>
@@ -3138,6 +3170,7 @@
       <distanceM31 value="0.20643154E+00" uncertainty="0.14169900E-01"/>
     </galaxy>
     <galaxy name="Draco">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="57" arcminutes="54" arcseconds="55" reference="Walker et al. 2007"/>
       <rightAscensionSexagesimal hours="7" minutes="20" seconds="12.4" reference="Walker et al. 2007"/>
@@ -3546,6 +3579,7 @@
       <distanceM31 value="0.18698848E+00" uncertainty="0.24600435E-01"/>
     </galaxy>
     <galaxy name="Hercules">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="12" arcminutes="47" arcseconds="30" reference="Aden et al. 2009a"/>
       <rightAscensionSexagesimal hours="6" minutes="31" seconds="2.0" reference="Aden et al. 2009a"/>
@@ -3948,6 +3982,7 @@
       <distanceM31 value="0.16982421E+01" uncertainty="0.60377860E-01"/>
     </galaxy>
     <galaxy name="Sculptor">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-33" arcminutes="42" arcseconds="33" reference="Walker et al. 2009b"/>
       <rightAscensionSexagesimal hours="1" minutes="0" seconds="9.4" reference="Walker et al. 2009b"/>
@@ -4121,6 +4156,7 @@
       <distanceM31 value="0.41875530E-01" uncertainty="0.25585982E-01"/>
     </galaxy>
     <galaxy name="Ursa Minor">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="67" arcminutes="13" arcseconds="21" reference="Carrera et al. 2002"/>
       <rightAscensionSexagesimal hours="5" minutes="9" seconds="8.5" reference="Carrera et al. 2002"/>
@@ -4283,6 +4319,7 @@
       <distanceM31 value="0.23869461E+01" uncertainty="0.20113111E+00"/>
     </galaxy>
     <galaxy name="Segue II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="SEGUE"/>
       <declinationSexagesimal degrees="20" arcminutes="10" arcseconds="31" reference="Belokurov et al. 2009"/>
       <rightAscensionSexagesimal hours="2" minutes="19" seconds="16.0" reference="Belokurov et al. 2009"/>
@@ -4336,6 +4373,7 @@
       <distanceM31 value="0.75098048E+00" uncertaintyLow="0.17567967E-01" uncertaintyHigh="0.17567967E-01"/>
     </galaxy>
     <galaxy name="Carina">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-50" arcminutes="57" arcseconds="58" reference="Pietrzynski et al. 2009"/>
       <rightAscensionSexagesimal hours="6" minutes="41" seconds="36.7" reference="Pietrzynski et al. 2009"/>
@@ -4520,6 +4558,7 @@
       <distanceM31 value="0.27900538E+00" uncertainty="0.34702310E-01"/>
     </galaxy>
     <galaxy name="Fornax">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-34" arcminutes="26" arcseconds="57" reference="Pietrzynski et al. 2009"/>
       <rightAscensionSexagesimal hours="2" minutes="39" seconds="59.3" reference="Pietrzynski et al. 2009"/>
@@ -4807,6 +4846,7 @@
       <distanceM31 value="0.19491549E+01" uncertainty="0.29383428E-01"/>
     </galaxy>
     <galaxy name="Bootes II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="12" arcminutes="51" arcseconds="0" reference="Koch et al. 2009"/>
       <rightAscensionSexagesimal hours="3" minutes="58" seconds="0.0" reference="Koch et al. 2009"/>
@@ -4861,6 +4901,7 @@
       <distanceM31 value="0.75727748E+00" uncertaintyLow="0.17522331E-01" uncertaintyHigh="0.17522331E-01"/>
     </galaxy>
     <galaxy name="Leo I">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="12" arcminutes="18" arcseconds="23" reference="Mateo et al. 2008"/>
       <rightAscensionSexagesimal hours="0" minutes="8" seconds="28.1" reference="Mateo et al. 2008"/>
@@ -5159,6 +5200,7 @@
       <distanceM31 value="0.68013345E+00" uncertainty="0.18021752E-01"/>
     </galaxy>
     <galaxy name="Coma Berenices">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="23" arcminutes="54" arcseconds="15" reference="Belokurov et al. 2007"/>
       <rightAscensionSexagesimal hours="2" minutes="26" seconds="59.0" reference="Belokurov et al. 2007"/>
@@ -5336,6 +5378,7 @@
       <distanceM31 value="0.00000000E+00" uncertainty="0.00000000E+00"/>
     </galaxy>
     <galaxy name="Canes Venatici II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="34" arcminutes="19" arcseconds="15" reference="Greco et al. 2008"/>
       <rightAscensionSexagesimal hours="2" minutes="57" seconds="10.0" reference="Greco et al. 2008"/>
@@ -5511,6 +5554,7 @@
       <distanceM31 value="0.18332049E+00" uncertainty="0.18547768E-01"/>
     </galaxy>
     <galaxy name="Leo II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="22" arcminutes="9" arcseconds="6" reference="Bellazzini et al. 2005"/>
       <rightAscensionSexagesimal hours="1" minutes="13" seconds="28.8" reference="Bellazzini et al. 2005"/>
@@ -5690,6 +5734,8 @@
       <distanceM31 value="0.25198449E+00" uncertainty="0.33868657E-01"/>
     </galaxy>
     <galaxy name="SMC">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
+      <magnitudeAbsoluteV value="-16.790" uncertainty="0.2" reference="de Vaucouleurs (1991)" referenceURL="https://ui.adsabs.harvard.edu/abs/1991rc3..book.....D"/>
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="-72" arcminutes="49" arcseconds="43" reference="Udalski et al. 1999"/>
       <rightAscensionSexagesimal hours="0" minutes="52" seconds="44.8" reference="Udalski et al. 1999"/>
@@ -5844,6 +5890,7 @@
       <distanceM31 value="0.39442047E+00" uncertainty="0.21116647E-01"/>
     </galaxy>
     <galaxy name="Willman 1">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Willman I"/>
       <discoverySurvey value="SDSS"/>
       <distanceHeliocentric value="38.55e-3" uncertainty="0.45e-3" reference="Durbin, Choi, Savino et al.; 2025; ApJ; 992; 106" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992..106D"/>
@@ -6009,6 +6056,7 @@
       <distanceM31 value="0.78711309E+00" uncertainty="0.28091055E+01"/>
     </galaxy>
     <galaxy name="Aquarius II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Aqu II"/>
       <rightAscensionDecimal value="338.4813" uncertainty="0.005" reference="Torrealba et al. (2016)" referenceURL="http://adsabs.harvard.edu/abs/2016MNRAS.463..712T"/>
       <declinationDecimal value="-9.3274" uncertainty="0.005" reference="Torrealba et al. (2016)" referenceURL="http://adsabs.harvard.edu/abs/2016MNRAS.463..712T"/>
@@ -6045,6 +6093,7 @@
       <distanceM31 value="0.73263095E+00" uncertainty="0.17174895E-01"/>
     </galaxy>
     <galaxy name="Aquarius III">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Aqu III"/>
       <rightAscensionDecimal value="357.218" uncertaintyLow="0.004" uncertaintyHigh="0.005" reference="Cerny, Chiti, Geha et al.; 2025; ApJ; 979; 164" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..164C"/>
       <declinationDecimal value="-3.489" uncertaintyLow="0.003" uncertaintyHigh="0.004" reference="Cerny, Chiti, Geha et al.; 2025; ApJ; 979; 164" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..164C"/>
@@ -6078,6 +6127,7 @@
       <distanceM31 value="0.72700687E+00" uncertainty="0.17458550E-01"/>
     </galaxy>
     <galaxy name="Hydrus I">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Hyi I"/>
       <rightAscensionDecimal value="37.389" uncertainty="0.031" reference="Koposov, Walker, Belokurov et al.; 2018; MNRAS; 479; 5343" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
       <declinationDecimal value="-79.3089" uncertainty="0.0045" reference="Koposov, Walker, Belokurov et al.; 2018; MNRAS; 479; 5343" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5343K"/>
@@ -6112,6 +6162,7 @@
       <distanceM31 value="0.79779763E+00" uncertainty="0.17413103E-01"/>
     </galaxy>
     <galaxy name="Carina II">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Car II"/>
       <rightAscensionDecimal value="114.1066" uncertainty="0.0070" reference="Torrealba, Belokurov, Koposov et al.; 2018; MNRAS; 475; 5085" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
       <declinationDecimal value="-57.9991" uncertainty="0.0100" reference="Torrealba, Belokurov, Koposov et al.; 2018; MNRAS; 475; 5085" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
@@ -6147,6 +6198,7 @@
       <distanceM31 value="0.80706368E+00" uncertainty="0.17467596E-01"/>
     </galaxy>
     <galaxy name="Carina III">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Car III"/>
       <rightAscensionDecimal value="114.6298" uncertainty="0.0060" reference="Torrealba, Belokurov, Koposov et al.; 2018; MNRAS; 475; 5085" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
       <declinationDecimal value="-57.8997" uncertainty="0.0080" reference="Torrealba, Belokurov, Koposov et al.; 2018; MNRAS; 475; 5085" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.475.5085T"/>
@@ -6202,6 +6254,7 @@
       <distanceM31 value="0.74489400E+00" uncertainty="0.17282971E-01"/>
     </galaxy>
     <galaxy name="Draco II">
+      <census value="DELVE-MW-I" classification="probableDwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Laevens IV"/>
       <rightAscensionDecimal value="238.174" uncertaintyLow="0.005" uncertaintyHigh="0.005" reference="Longeard, Martin, Starkenburg et al.; 2018; MNRAS; 480; 2609" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.2609L"/>
       <declinationDecimal value="64.579" uncertaintyLow="0.006" uncertaintyHigh="0.006" reference="Longeard, Martin, Starkenburg et al.; 2018; MNRAS; 480; 2609" referenceURL="https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.2609L"/>
@@ -6432,6 +6485,7 @@
       <distanceM31 value="0.79846679E+00" uncertaintyLow="0.19564586E-01" uncertaintyHigh="0.20063438E-01"/>
     </galaxy>
     <galaxy name="Centaurus I">
+      <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://arxiv.org/abs/2509.12313" />
       <alias value="Cen I"/>
       <alias value="DELVE J1238-4054"/>
       <classification value="galaxy"/>

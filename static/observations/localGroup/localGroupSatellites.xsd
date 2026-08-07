@@ -61,6 +61,23 @@
 		  <xs:all>
 
 		    <!-- Begin with some unique entries that do not conform to the typical datum schema -->
+		    <xs:element name="census" minOccurs="0" maxOccurs="1">
+		      <xs:complexType>
+			<xs:attribute name="value"          use="required"/>
+			<xs:attribute name="classification" use="optional" >
+			  <xs:simpleType>
+			    <xs:restriction base="xs:string">
+			      <xs:enumeration value="dwarf"        />
+			      <xs:enumeration value="probableDwarf"/>
+			    </xs:restriction>
+			  </xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="reference"      use="optional"/>
+			<xs:attribute name="referenceURL"   use="optional"/>
+			<xs:attribute name="DOI"            use="optional"/>
+		      </xs:complexType>
+		    </xs:element>
+
 		    <xs:element name="discoverySurvey" minOccurs="1" maxOccurs="1">
 		      <xs:complexType>
 			<xs:attribute name="value"        use="required"/>
