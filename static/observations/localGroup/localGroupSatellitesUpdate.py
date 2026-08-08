@@ -22,14 +22,20 @@ def resolve_url(url):
 journal_abbr = {
     "The Astronomical Journal":                                "AJ",
     "The Astrophysical Journal":                               "ApJ",
+    "The Astrophysical Journal Letters":                       "ApJL",
+    "The Astrophysical Journal Supplement Series":             "ApJS",
     "Astronomy and Astrophysics":                              "AA",
+    "Astronomy and Astrophysics Supplement Series":            "AAS",
+    "Annual Review of Astronomy and Astrophysics":             "ARAA",
     "Acta Astronomica":                                        "Acta Astron.",
     "Monthly Notices of the Royal Astronomical Society":       "MNRAS",
     "arXiv e-prints":                                          "arXiv",
     "Research Notes of the American Astronomical Society":     "RNAAS",
     "Publications of the Astronomical Society of the Pacific": "PASP",
     "Publications of the Astronomical Society of Japan":       "PASJ",
+    "Reviews of Modern Physics":                               "RvMP",
     "Nature":                                                  "Nature",
+    "Nature Astronomy":                                        "Nature Astron.",
 }
 
 # Books and catalogs, for which the ADS "pub" field holds the full title. Matched by
@@ -141,15 +147,24 @@ def main():
             if alt in bib_codes:
                 record["bibcode"] = alt
 
+    # Accumulate any unknown publications so that a single run reports all of them,
+    # rather than failing on the first and hiding the rest until the next run.
     bib_codes_canonical = {}
+    unknown_pubs = {}
     for record in records["response"]["docs"]:
         pub = record.get("pub", "")
         journal = abbreviate(pub)
         if journal is None:
-            sys.exit(f"No journal abbreviation found for '{pub}'")
+            unknown_pubs.setdefault(pub, []).append(record["bibcode"])
+            continue
 
         bib_codes[record["bibcode"]] = format_reference(record, journal)
         bib_codes_canonical[record["bibcode"]] = record["canonical_bibcode"]
+
+    if unknown_pubs:
+        report = "\n".join(f"  '{pub}' ({', '.join(sorted(codes))})"
+                           for pub, codes in sorted(unknown_pubs.items()))
+        sys.exit(f"No journal abbreviation found for:\n{report}")
 
     # Stage 2: Update reference attributes in the XML.
     with open("localGroupSatellites.xml.stage1", "r") as fin, \
