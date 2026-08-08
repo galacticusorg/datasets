@@ -11,11 +11,31 @@ import urllib.parse
 import requests
 
 
+# Matches an ADS abstract URL, capturing the bibcode. Both the current host and the
+# older 'adsabs.harvard.edu' form are accepted, as both appear in the database.
+ads_url_pattern = r'"(https?://(?:ui\.)?adsabs\.harvard\.edu/abs/([^"]+))"'
+
+
 def resolve_url(url):
     """Follow redirects and return the final URL, stripping any /abstract suffix."""
     resp = requests.get(url, allow_redirects=True)
     final_url = re.sub(r"/abstract$", "", resp.url)
     return final_url
+
+
+def decode_bib_code(text):
+    """Extract a bibcode from the path of an ADS URL.
+
+    Bibcodes containing an ampersand (e.g. '2019A&A...625A...2K') are percent-encoded
+    in the URL, and some entries in the database are encoded more than once, so decode
+    repeatedly until the result stops changing.
+    """
+    bib_code = re.sub(r"/abstract$", "", text)
+    while True:
+        decoded = urllib.parse.unquote(bib_code)
+        if decoded == bib_code:
+            return bib_code
+        bib_code = decoded
 
 
 # Journal abbreviation table, keyed on the exact ADS "pub" field.
@@ -81,6 +101,26 @@ def format_reference(record, journal):
     return "; ".join(parts)
 
 
+def update_line(line, bib_codes, bib_codes_canonical):
+    """Rewrite the reference and referenceURL attributes on a line citing an ADS record."""
+    m = re.search(ads_url_pattern, line)
+    if not m:
+        return line
+
+    bib_code = decode_bib_code(m.group(2))
+    if bib_code not in bib_codes or bib_code not in bib_codes_canonical:
+        return line
+
+    # Percent-encode the bibcode, as an ampersand can not appear literally in the URL.
+    # The colon of an 'arXiv:' bibcode is left as is, matching the URLs that ADS serves.
+    canonical = urllib.parse.quote(bib_codes_canonical[bib_code], safe=":")
+    line = re.sub(r'\sreference="[^"]+"',
+                  f' reference="{bib_codes[bib_code]}"', line)
+    line = re.sub(r'\sreferenceURL="[^"]+"',
+                  f' referenceURL="https://ui.adsabs.harvard.edu/abs/{canonical}"', line)
+    return line
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit("Usage: localGroupSatellitesUpdate.py <apiToken>")
@@ -94,7 +134,7 @@ def main():
          open("localGroupSatellites.xml.stage1", "w") as fout:
         for line in fin:
             # Update URLs pointing to an arXiv paper on NASA ADS.
-            m = re.search(r'"(https://ui\.adsabs\.harvard\.edu/abs/\d+arXiv.*?)"', line)
+            m = re.search(r'"(https?://(?:ui\.)?adsabs\.harvard\.edu/abs/\d+arXiv[^"]*?)"', line)
             if m:
                 old_url = m.group(1)
                 if old_url not in known_updated_urls:
@@ -116,11 +156,9 @@ def main():
                 line = line.replace(original_url, known_updated_urls[ads_url])
 
             # Collect bibcodes from ADS URLs.
-            m = re.search(r'"https://ui\.adsabs\.harvard\.edu/abs/(.*?)"', line)
+            m = re.search(ads_url_pattern, line)
             if m:
-                bib_code = urllib.parse.unquote(m.group(1))
-                bib_code = re.sub(r"/abstract$", "", bib_code)
-                bib_codes[bib_code] = "unknown"
+                bib_codes[decode_bib_code(m.group(2))] = "unknown"
 
             fout.write(line)
 
@@ -170,17 +208,7 @@ def main():
     with open("localGroupSatellites.xml.stage1", "r") as fin, \
          open("localGroupSatellites.xml.stage2", "w") as fout:
         for line in fin:
-            m = re.search(r'"https://ui\.adsabs\.harvard\.edu/abs/(.*)"', line)
-            if m:
-                bib_code = m.group(1)
-                if bib_code in bib_codes and bib_code in bib_codes_canonical:
-                    canonical = bib_codes_canonical[bib_code]
-                    line = re.sub(r'\sreference="[^"]+"',
-                                  f' reference="{bib_codes[bib_code]}"', line)
-                    line = re.sub(r'\sreferenceURL="[^"]+"',
-                                  f' referenceURL="https://ui.adsabs.harvard.edu/abs/{canonical}"',
-                                  line)
-            fout.write(line)
+            fout.write(update_line(line, bib_codes, bib_codes_canonical))
 
     shutil.move("localGroupSatellites.xml.stage2", "localGroupSatellites.xml")
     os.unlink("localGroupSatellites.xml.stage1")
