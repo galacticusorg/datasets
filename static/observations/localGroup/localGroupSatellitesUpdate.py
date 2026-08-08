@@ -18,6 +18,63 @@ def resolve_url(url):
     return final_url
 
 
+# Journal abbreviation table, keyed on the exact ADS "pub" field.
+journal_abbr = {
+    "The Astronomical Journal":                                "AJ",
+    "The Astrophysical Journal":                               "ApJ",
+    "Astronomy and Astrophysics":                              "AA",
+    "Acta Astronomica":                                        "Acta Astron.",
+    "Monthly Notices of the Royal Astronomical Society":       "MNRAS",
+    "arXiv e-prints":                                          "arXiv",
+    "Research Notes of the American Astronomical Society":     "RNAAS",
+    "Publications of the Astronomical Society of the Pacific": "PASP",
+    "Publications of the Astronomical Society of Japan":       "PASJ",
+    "Nature":                                                  "Nature",
+}
+
+# Books and catalogs, for which the ADS "pub" field holds the full title. Matched by
+# regex as these titles are long and can include volume-by-volume detail.
+publication_abbr = [
+    (r"^Third Reference Catalogue of Bright Galaxies", "RC3"),
+]
+
+
+def abbreviate(pub):
+    """Return the abbreviation for a publication name, or None if it is unknown."""
+    if pub in journal_abbr:
+        return journal_abbr[pub]
+    for pattern, abbr in publication_abbr:
+        if re.search(pattern, pub):
+            return abbr
+    return None
+
+
+def format_reference(record, journal):
+    """Build the reference string for an ADS record: authors; year; journal; volume; page."""
+    raw_authors = [re.sub(r"([^,]+),.*", r"\1", a) for a in record.get("author", [])]
+    n = len(raw_authors)
+    if n == 1:
+        author = raw_authors[0]
+    elif n == 2:
+        author = f"{raw_authors[0]} &amp; {raw_authors[1]}"
+    elif n == 3:
+        author = f"{raw_authors[0]}, {raw_authors[1]} &amp; {raw_authors[2]}"
+    else:
+        author = f"{raw_authors[0]}, {raw_authors[1]}, {raw_authors[2]} et al."
+
+    # Strip diacritics via NFKD normalization.
+    author = unicodedata.normalize("NFKD", author)
+    author = "".join(c for c in author if unicodedata.category(c) != "Mn")
+
+    # Books and catalogs carry no volume or page, so include only those parts present.
+    parts = [author, record["year"], journal]
+    if record.get("volume"):
+        parts.append(record["volume"])
+    if record.get("page"):
+        parts.append(record["page"][0])
+    return "; ".join(parts)
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit("Usage: localGroupSatellitesUpdate.py <apiToken>")
@@ -84,48 +141,14 @@ def main():
             if alt in bib_codes:
                 record["bibcode"] = alt
 
-    # Journal abbreviation table.
-    journal_abbr = {
-        "The Astronomical Journal":                                "AJ",
-        "The Astrophysical Journal":                               "ApJ",
-        "Astronomy and Astrophysics":                              "AA",
-        "Acta Astronomica":                                        "Acta Astron.",
-        "Monthly Notices of the Royal Astronomical Society":       "MNRAS",
-        "arXiv e-prints":                                          "arXiv",
-        "Research Notes of the American Astronomical Society":     "RNAAS",
-        "Publications of the Astronomical Society of the Pacific": "PASJ",
-        "Publications of the Astronomical Society of Japan":       "PASP",
-        "Nature":                                                  "Nature",
-    }
-
     bib_codes_canonical = {}
     for record in records["response"]["docs"]:
         pub = record.get("pub", "")
-        if pub not in journal_abbr:
+        journal = abbreviate(pub)
+        if journal is None:
             sys.exit(f"No journal abbreviation found for '{pub}'")
 
-        raw_authors = [re.sub(r"([^,]+),.*", r"\1", a) for a in record.get("author", [])]
-        n = len(raw_authors)
-        if n == 1:
-            author = raw_authors[0]
-        elif n == 2:
-            author = f"{raw_authors[0]} &amp; {raw_authors[1]}"
-        elif n == 3:
-            author = f"{raw_authors[0]}, {raw_authors[1]} &amp; {raw_authors[2]}"
-        else:
-            author = f"{raw_authors[0]}, {raw_authors[1]}, {raw_authors[2]} et al."
-        author += "; "
-
-        # Strip diacritics via NFKD normalization.
-        author = unicodedata.normalize("NFKD", author)
-        author = "".join(c for c in author if unicodedata.category(c) != "Mn")
-
-        year    = record["year"] + "; "
-        journal = journal_abbr[pub] + "; "
-        volume  = record["volume"] + "; " if "volume" in record else ""
-        page    = record["page"][0]
-
-        bib_codes[record["bibcode"]] = author + year + journal + volume + page
+        bib_codes[record["bibcode"]] = format_reference(record, journal)
         bib_codes_canonical[record["bibcode"]] = record["canonical_bibcode"]
 
     # Stage 2: Update reference attributes in the XML.
