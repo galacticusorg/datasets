@@ -1725,7 +1725,7 @@
       <magnitudeAbsoluter value="-9.8" uncertainty="0.8"/>
       <magnitudeApparentg value="17.52" uncertainty="0.09"/>
       <magnitudeApparentr value="17.35" uncertainty="0.05"/>
-      <referencePrimary reference="Tollerud et al. (2014); http://adsabs.harvard.edu/abs/2014arXiv1411.5019T"/>
+      <referencePrimary reference="Tollerud et al. (2014)" referenceURL="https://ui.adsabs.harvard.edu/abs/2014arXiv1411.5019T"/>
       <comment value="Distance based quantities are the mean of those derived assuming the &apos;Hubble flow&apos; and &apos;Nearby&apos; methods."/>
       <classification value="galaxy"/>
       <positionHeliocentricCartesian value="0.25485455E+01   0.16429449E+00   0.48777348E+00" uncertainty="0.88218884E+00   0.56871169E-01   0.16884467E+00"/>
@@ -2049,7 +2049,7 @@
       <distanceM31 value="0.18894554E+00" uncertainty="0.47813265E-01"/>
     </galaxy>
     <galaxy name="Andromeda XVII">
-      <discoverySurvey value="Irwin2008" reference="https://ui.adsabs.harvard.edu/abs/2008ApJ...676L..17I/abstract" referenceURL="doi:10.1086/587100"/>
+      <discoverySurvey value="Irwin2008" reference="Irwin et al. (2008)" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...676L..17I" DOI="doi:10.1086/587100"/>
       <declinationSexagesimal reference="Martin et al. (2016; arXiv:1610.01158)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+44" arcminutes="19" arcseconds="23"/>
       <rightAscensionSexagesimal reference="Martin et al. (2016; arXiv:1610.01158)" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="37" seconds="06.3"/>
       <distanceModulus value="24.69" uncertaintyLow="0.03" uncertaintyHigh="0.06" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
@@ -5115,7 +5115,7 @@
       <magnitudeAbsoluter value="-11.7" uncertainty="1"/>
       <magnitudeApparentg value="17.45" uncertainty="0.12"/>
       <magnitudeApparentr value="17.18" uncertainty="0.07"/>
-      <referencePrimary reference="Tollerud et al. (2014); http://adsabs.harvard.edu/abs/2014arXiv1411.5019T"/>
+      <referencePrimary reference="Tollerud et al. (2014)" referenceURL="https://ui.adsabs.harvard.edu/abs/2014arXiv1411.5019T"/>
       <comment value="Distance based quantities are the mean of those derived assuming the &apos;Hubble flow&apos; and &apos;Nearby&apos; methods."/>
       <classification value="galaxy"/>
       <positionHeliocentricCartesian value="0.57239797E+01   0.20605282E+01   0.11959433E+01" uncertainty="0.24927008E+01   0.89732681E+00   0.52081402E+00"/>
