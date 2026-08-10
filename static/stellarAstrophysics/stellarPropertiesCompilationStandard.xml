@@ -2,8 +2,11 @@
 <stars>
   <fileFormat>1</fileFormat>
   <!-- Include a standard compilation of stellar models -->
-  <xi:include href="stellarPropertiesMarigo2001.xml"                   xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="stellarPropertiesHegerWoosley2002.xml"             xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="stellarPropertiesTumlinsonShullVenkatesan2003.xml" xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="stellarPropertiesPortinariChiosiBressan1998.xml"   xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <!-- The Portinari, Chiosi & Bressan (1998) data are split into their lifetime and yield components; including
+       both here reproduces the original, unsplit file exactly. -->
+  <xi:include href="stellarPropertiesMarigo2001.xml"                            xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesHegerWoosley2002.xml"                      xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesTumlinsonShullVenkatesan2003.xml"          xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesPortinariChiosiBressan1998Lifetimes.xml"   xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesPortinariChiosiBressan1998Yields.xml"      xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </stars>
