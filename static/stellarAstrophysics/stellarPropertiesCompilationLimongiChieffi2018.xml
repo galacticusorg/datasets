@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<stars>
+  <fileFormat>1</fileFormat>
+  <!-- A compilation of stellar models using the Limongi & Chieffi (2018) massive star yields in place of those
+       of Portinari, Chiosi & Bressan (1998).
+
+       Limongi & Chieffi (2018) extend down to Z = 3.2e-5, roughly a factor of twelve below the metallicity floor
+       of Portinari, Chiosi & Bressan (1998), but cover initial masses of 13 Msun and above only. They are
+       therefore combined here with the Marigo (2001) asymptotic giant branch models, and with the Portinari,
+       Chiosi & Bressan (1998) *lifetimes*, which are needed below 13 Msun. The Portinari, Chiosi & Bressan
+       (1998) yields are deliberately NOT included: they cover 9-120 Msun and would overlap the Limongi &
+       Chieffi models, leaving the interpolation to blend two mutually inconsistent sets of stellar models over
+       the same region of the (mass, metallicity) plane.
+
+       The massive star file included here is explosion set M (mixing and fallback) for non-rotating models.
+       Limongi & Chieffi report four explosion sets which differ only in which stars explode, and three initial
+       rotation velocities; set M and set R bracket the explodability uncertainty, since in set R everything
+       above 25 Msun collapses entirely to a black hole so that only the wind is ejected. Swap the include below
+       for one of the other stellarPropertiesLimongiChieffi2018_set<F|I|M|R>_v<000|150|300>.xml files to explore
+       those variations.
+
+       Note that no yields are available between the 5 Msun upper limit of Marigo (2001) and the 13 Msun lower
+       limit of Limongi & Chieffi (2018); yields in that range are interpolated across the gap. -->
+  <xi:include href="stellarPropertiesMarigo2001.xml"                          xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesHegerWoosley2002.xml"                    xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesTumlinsonShullVenkatesan2003.xml"        xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesPortinariChiosiBressan1998Lifetimes.xml" xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesLimongiChieffi2018_setM_v000.xml"        xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</stars>

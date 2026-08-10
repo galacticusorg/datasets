@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<stars>
+  <fileFormat>1</fileFormat>
+  <!-- A compilation of stellar models using the Sukhbold et al. (2016) core-collapse supernova yields in place
+       of those of Portinari, Chiosi & Bressan (1998).
+
+       What Sukhbold et al. offer is a grid far denser than any alternative (0.1 Msun steps between 13 and
+       27 Msun) and a physically motivated prescription for which stars explode, rather than a threshold mass.
+       Roughly half of their models collapse entirely to a black hole and eject only their wind, in narrow
+       islands of mass interleaved with masses that explode. That structure is the point of the models, and it
+       substantially reduces the mass and metals returned relative to a prescription in which every massive star
+       explodes: the initial mass function weighted metal yield is 0.0156 against 0.0290 for Portinari, Chiosi &
+       Bressan (1998).
+
+       THE YIELDS DO NOT DEPEND ON METALLICITY. Sukhbold et al. computed their models at a single metallicity,
+       Solar, and for non-rotating progenitors only. The included file writes each model twice, at two
+       bracketing metallicities with identical yields, which states that fact explicitly and keeps the
+       interpolation well posed. Any element supplied only by this file therefore takes its Solar yield at every
+       metallicity. This compilation is appropriate for exploring the consequences of the explodability
+       prescription, which is its purpose, but it is not a metallicity-dependent yield set and should not be
+       used to study metallicity trends in abundances; use the Limongi & Chieffi (2018) compilation for that.
+
+       The included file uses the W18 neutrino engine; swap it for stellarPropertiesSukhbold2016_N20.xml to use
+       the N20 engine instead, which explodes more of the grid.
+
+       Sukhbold et al. tabulate no lifetimes, so the Portinari, Chiosi & Bressan (1998) lifetimes are included;
+       their yields deliberately are not, since those cover 9-120 Msun and would overlap the Sukhbold models.
+       Marigo (2001) supplies the asymptotic giant branch yields below 9 Msun. -->
+  <xi:include href="stellarPropertiesMarigo2001.xml"                          xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesHegerWoosley2002.xml"                    xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesTumlinsonShullVenkatesan2003.xml"        xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesPortinariChiosiBressan1998Lifetimes.xml" xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesSukhbold2016_W18.xml"                    xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</stars>
