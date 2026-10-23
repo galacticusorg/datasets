@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<stars>
+  <fileFormat>1</fileFormat>
+  <!-- A compilation of stellar models replacing every source of yields in the standard compilation.
+
+       Asymptotic giant branch (AGB) stars of 1-6 Msun (6.5 Msun at Z = 0.02) are from Karakas (2010), at
+       Z = 0.0001, 0.004, 0.008 and 0.02. These extend a factor of forty below the Z = 0.004 floor of the Marigo
+       (2001) models used by the standard compilation, and give yields for every element to nickel rather than for
+       C, N and O alone.
+
+       Super-AGB stars of 6.5-7.5 Msun are from Doherty et al. (2014a,b), at Z = 0.0001, 0.001, 0.004, 0.008 and
+       0.02. These fill much of the gap between the AGB and massive star models, which in the standard compilation
+       has no stellar models at all between 5 and 9 Msun. Doherty et al. models of 8 Msun and above (present at
+       Z >= 0.004) are excluded from the converted file, since Galacticus treats stars above its
+       initialMassForSupernovaeTypeII parameter (8 Msun by default) as supernova progenitors.
+
+       Massive stars of 13-120 Msun are from Limongi & Chieffi (2018), explosion set M (mixing and fallback) for
+       non-rotating models, as in stellarPropertiesCompilationLimongiChieffi2018.xml (which see for the alternative
+       explosion sets and rotation velocities). Stars between the 8 Msun threshold and 13 Msun are assigned the
+       yields per unit initial mass of the 13 Msun models.
+
+       Pair instability supernovae are from Heger & Woosley (2002), at Z = 0 only.
+
+       Lifetimes are from Portinari, Chiosi & Bressan (1998), with those of Tumlinson, Shull & Venkatesan (2003) at
+       Z = 0 and those of Limongi & Chieffi (2018) at their metallicities. Neither Karakas (2010) nor Doherty et al.
+       (2014) tabulate lifetimes.
+
+       Limitations to be aware of when using this compilation:
+
+       * Ejected masses between about 7.5 and 13 Msun are not metallicity dependent. No metallicity in the
+         compilation has both intermediate mass and massive star models (Karakas and Doherty et al. are at
+         Z = 0.0001-0.02, Limongi & Chieffi at Z = 3.2e-5-0.01345), so at each metallicity the ejected mass can be
+         interpolated in mass only across that gap where a single tabulation spans it. The only such tabulation is
+         that of Heger & Woosley (2002) at Z = 0, which is therefore used at all metallicities. Its values (6.7,
+         8.5 and 10.4 Msun at 8, 10 and 12 Msun) are close to the initial mass less that of a neutron star.
+
+       * The metallicity scales of the sources differ (Karakas and Doherty et al. quote nominal Z, with Z = 0.02
+         for their Solar models; Limongi & Chieffi quote the metal mass fraction of a scaled Asplund et al. 2009
+         mixture, with Z = 0.01345 at Solar). The tabulated values are used as given.
+
+       * The AGB and super-AGB models give no yield for any element beyond nickel. Their s-process production is
+         tabulated only as a total (the species "g"), which is included in the metal yield but cannot be assigned
+         to any element.
+
+       * The minimum initial mass for a Type II supernova is independent of metallicity in Galacticus, while in the
+         Doherty et al. models it rises with metallicity, to above 9 Msun at Z = 0.02. Their models of 8 Msun and
+         above, which end as white dwarfs, are therefore excluded, and stars between 8 Msun and the true
+         supernova threshold are treated as supernova progenitors.
+
+       * The later AGB models of Karakas & Lugaro (2016) and Karakas et al. (2018), which extend to
+         Z = 0.0028-0.03 and up to 8 Msun, are not included: no machine-readable version with ejected masses was
+         found, and their metallicities interleave with those of Karakas (2010). -->
+  <xi:include href="stellarPropertiesKarakas2010.xml"                         xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesDoherty2014.xml"                         xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesHegerWoosley2002.xml"                    xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesTumlinsonShullVenkatesan2003.xml"        xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesPortinariChiosiBressan1998Lifetimes.xml" xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="stellarPropertiesLimongiChieffi2018_setM_v000.xml"        xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</stars>

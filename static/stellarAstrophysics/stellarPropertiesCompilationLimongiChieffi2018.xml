@@ -20,7 +20,15 @@
        those variations.
 
        Note that no yields are available between the 5 Msun upper limit of Marigo (2001) and the 13 Msun lower
-       limit of Limongi & Chieffi (2018); yields in that range are interpolated across the gap. -->
+       limit of Limongi & Chieffi (2018). Galacticus does not interpolate yields across its
+       initialMassForSupernovaeTypeII (8 Msun by default): stars in the gap are assigned the yields per unit
+       initial mass of the nearest tabulated star on the same side of that mass. Ejected masses across the gap
+       are not metallicity dependent: no metallicity has models on both sides of it (Marigo at Z = 0.004-0.019,
+       Limongi & Chieffi at Z = 3.2e-5-0.01345), so they are taken from the only tabulation that spans it, that of
+       Heger & Woosley (2002) at Z = 0. The metallicity scales of the two also differ (Marigo quote nominal Z, with
+       Z = 0.019 for the Solar model; Limongi & Chieffi use a scaled Asplund et al. 2009 mixture, with Z = 0.01345
+       at Solar), and the tabulated values are used as given. See also
+       stellarPropertiesCompilationKarakas2010Doherty2014LimongiChieffi2018.xml, which fills much of this gap. -->
   <xi:include href="stellarPropertiesMarigo2001.xml"                          xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
   <xi:include href="stellarPropertiesHegerWoosley2002.xml"                    xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
   <xi:include href="stellarPropertiesTumlinsonShullVenkatesan2003.xml"        xpointer="xpointer(stars/star)" xmlns:xi="http://www.w3.org/2001/XInclude"/>
