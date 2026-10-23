@@ -17,7 +17,9 @@
        Massive stars of 13-120 Msun are from Limongi & Chieffi (2018), explosion set M (mixing and fallback) for
        non-rotating models, as in stellarPropertiesCompilationLimongiChieffi2018.xml (which see for the alternative
        explosion sets and rotation velocities). Stars between the 8 Msun threshold and 13 Msun are assigned the
-       yields per unit initial mass of the 13 Msun models.
+       yields per unit initial mass of the 13 Msun models. At Z < 0.01345 these models extend only to 80 Msun;
+       above that (and above 120 Msun at Z = 0.01345) each metallicity's most massive model is used, scaled by
+       initial mass.
 
        Pair instability supernovae are from Heger & Woosley (2002), at Z = 0 only.
 
@@ -27,16 +29,25 @@
 
        Limitations to be aware of when using this compilation:
 
-       * Ejected masses between about 7.5 and 13 Msun are not metallicity dependent. No metallicity in the
-         compilation has both intermediate mass and massive star models (Karakas and Doherty et al. are at
-         Z = 0.0001-0.02, Limongi & Chieffi at Z = 3.2e-5-0.01345), so at each metallicity the ejected mass can be
-         interpolated in mass only across that gap where a single tabulation spans it. The only such tabulation is
-         that of Heger & Woosley (2002) at Z = 0, which is therefore used at all metallicities. Its values (6.7,
-         8.5 and 10.4 Msun at 8, 10 and 12 Msun) are close to the initial mass less that of a neutron star.
+       * Ejected masses between 8 and 13 Msun are not metallicity dependent. No metallicity in the compilation has
+         both intermediate mass and massive star models (Karakas and Doherty et al. are at Z = 0.0001-0.02,
+         Limongi & Chieffi at Z = 3.2e-5-0.01345). Below 8 Msun the ejected mass at each metallicity is taken from
+         its most massive model (7.5 Msun), scaled by initial mass. Above 8 Msun the only tabulation reaching below
+         13 Msun is that of Heger & Woosley (2002) at Z = 0, which is therefore used at all metallicities. Its
+         values (6.8, 8.5 and 10.4 Msun at 8, 10 and 12 Msun) are close to the initial mass less that of a neutron
+         star.
 
        * The metallicity scales of the sources differ (Karakas and Doherty et al. quote nominal Z, with Z = 0.02
          for their Solar models; Limongi & Chieffi quote the metal mass fraction of a scaled Asplund et al. 2009
          mixture, with Z = 0.01345 at Solar). The tabulated values are used as given.
+
+       * Yields change abruptly at 6.5 Msun for 0.0001 < Z < 0.004. Karakas (2010) has no models at Z = 0.001,
+         so there the compilation has only the Doherty et al. models of 6.5-7.5 Msun. Below 6.5 Msun, a star at
+         such a metallicity is interpolated between Z = 0.0001 and Z = 0.004. From 6.5 Msun the Z = 0.001 models
+         are used instead. The yields of these stars fall steeply between Z = 0.0001 and 0.001, so the straddling
+         interpolation below 6.5 Msun overestimates them (by up to about 60% in the metal yield of a 6.5 Msun star
+         at Z = 0.002). Integrated over the initial mass function the effect is below 0.2% in the metal yield and
+         negligible for C, O and Fe, but reaches about 10% for N, which these stars mainly produce, near Z = 0.001.
 
        * The AGB and super-AGB models give no yield for any element beyond nickel. Their s-process production is
          tabulated only as a total (the species "g"), which is included in the metal yield but cannot be assigned
