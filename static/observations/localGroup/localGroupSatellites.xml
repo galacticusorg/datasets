@@ -3369,15 +3369,16 @@
         <limit value="9.6000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="42000000" uncertaintyLow="9000000" uncertaintyHigh="8000000" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
-      <ellipticityProjected value="0.44" uncertainty="0.03" reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R"/>
+      <ellipticityProjected value="0.40" uncertainty="0.01" technique="Exponential profile fit" reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
       <extinctionV value="0.133"/>
-      <magnitudeAbsoluteV value="-11.6" uncertainty="0.7" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
-      <radiusHalfLight value="7.019e-04" uncertainty="4.5e-05" comment="Computed from the angular radius in this reference at the distance of Savino et al. (2022), who give 910 pc using an older angular radius." reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R"/>
-      <radiusHalfLightAngular value="3.24" uncertainty="0.21" reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R"/>
+      <magnitudeAbsoluteV value="-11.32" uncertainty="0.3" comment="Adjusted from -11.4, at the distance modulus of 24.44 in this reference, to the distance of Savino et al. (2022)." reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
+      <massStellar value="2884031.5" uncertaintyLow="696269.9" uncertaintyHigh="917862.5" technique="M/L = 1 Msun/Lsun" reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
+      <radiusHalfLight value="6.780e-04" uncertainty="1.1e-05" technique="Exponential profile fit" comment="Computed from the angular radius in this reference at the distance of Savino et al. (2022)." reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
+      <radiusHalfLightAngular value="3.13" uncertainty="0.05" technique="Exponential profile fit" reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
       <velocityRadialHeliocentric value="-193.4" uncertainty="1.1" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <velocityDispersionStellar value="10.3" uncertainty="0.9" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <magnitudeApparentV value="12.7" uncertaintyLow="0.7" uncertaintyHigh="0.7"/>
-      <positionAngle value="-59.0" uncertaintyLow="6.0" uncertaintyHigh="6.0"/>
+      <positionAngle value="-63.0" uncertainty="1.0" technique="Exponential profile fit" reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
       <velocityMilkyWay value="+9" uncertainty="2" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <surfaceBrightnessCentralV value="24.8" uncertainty="0.3" reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R"/>
       <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
@@ -3385,7 +3386,7 @@
         <epoch fraction="0.80" time="9.6" uncertaintyLow="0.9" uncertaintyHigh="0.6"/>
         <epoch fraction="0.90" time="8.6" uncertaintyLow="1.5" uncertaintyHigh="1.4"/>
       </starFormationHistoryCumulative>
-      <metallicityStellar value="-2.0" uncertainty="1.0" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M" technique="9"/>
+      <metallicityStellar value="-2.0" uncertainty="0.1" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M" technique="9"/>
       <metallicityStellar value="-1.68" uncertainty="0.03" reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R" technique="photometric; median"/>
       <alias value="And XXXI"/>
       <alias value="Lacerta I"/>
@@ -4909,24 +4910,24 @@
       <rightAscensionSexagesimal hours="0" minutes="35" seconds="59.4"/>
       <distanceModulus value="24.52" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 4% of the total light, so it may not represent the whole galaxy."/>
-      <radiusHalfLight value="1.516e-03" uncertaintyLow="2.370e-04" uncertaintyHigh="2.830e-04" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <radiusHalfLight value="1.103e-03" uncertainty="2.1e-05" technique="Exponential profile fit" comment="Computed from the angular radius in this reference at the distance of Savino et al. (2022)." reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="7.6000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <magnitudeAbsoluteV value="-12.3" uncertainty="0.7" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
-      <massStellar value="7112135.1" uncertaintyLow="3379633.6" uncertaintyHigh="6439759.0" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-12.40" uncertainty="0.2" comment="At the distance of Savino et al. (2022), as given in this reference, which has -12.5 at its own distance. The uncertainty is that given for -12.5." reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
+      <massStellar value="7798301.1" uncertaintyLow="1311956.8" uncertaintyHigh="1577319.0" technique="M/L = 1 Msun/Lsun" reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
       <declinationDecimal value="51.559722222222"/>
       <rightAscensionDecimal value="8.997500000000"/>
       <massDynamicalHalfLightRadius value="41000000" uncertaintyLow="11000000" uncertaintyHigh="7000000" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
-      <ellipticityProjected value="0.50" uncertaintyLow="0.09" uncertaintyHigh="0.09"/>
+      <ellipticityProjected value="0.35" uncertainty="0.01" technique="Exponential profile fit" reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
       <extinctionV value="0.193"/>
-      <radiusHalfLightAngular value="6.50" uncertaintyLow="1.00" uncertaintyHigh="1.20"/>
+      <radiusHalfLightAngular value="4.73" uncertainty="0.09" technique="Exponential profile fit" reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
       <velocityRadialHeliocentric value="-371.6" uncertainty="0.7" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <velocityDispersionStellar value="8.4" uncertainty="0.6" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <magnitudeApparentV value="12.2" uncertaintyLow="0.7" uncertaintyHigh="0.7"/>
-      <positionAngle value="-90.0" uncertaintyLow="7.0" uncertaintyHigh="7.0"/>
+      <positionAngle value="91.0" uncertainty="2.0" technique="Exponential profile fit" reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
       <velocityMilkyWay value="-186" uncertainty="2" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
-      <surfaceBrightnessCentralV value="26.4" uncertaintyLow="0.8" uncertaintyHigh="0.8"/>
+      <surfaceBrightnessCentralV value="24.9" uncertainty="0.3" technique="Exponential profile fit" reference="Rhode, Smith, Crnojevic et al.; 2023; AJ; 166; 180" referenceURL="https://ui.adsabs.harvard.edu/abs/2023AJ....166..180R"/>
       <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
         <epoch fraction="0.50" time="10.7" uncertaintyLow="0.7" uncertaintyHigh="0.8"/>
         <epoch fraction="0.80" time="9.5" uncertaintyLow="0.5" uncertaintyHigh="1"/>
