@@ -3050,28 +3050,28 @@
       <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2509.12313" />
       <alias value="Canes Venatici I"/>
       <discoverySurvey value="SDSS"/>
-      <declinationSexagesimal degrees="33" arcminutes="33" arcseconds="21" reference="Martin et al. 2008a"/>
-      <rightAscensionSexagesimal hours="3" minutes="28" seconds="3.5" reference="Martin et al. 2008a"/>
-      <distanceHeliocentric value="2.11e-01" uncertaintyLow="6.00e-03" uncertaintyHigh="6.00e-03" reference="Kuehn, Kinemuchi, Ripepi et al.; 2008; ApJL; 674; L81" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...674L..81K"/>
-      <declinationDecimal value="33.555833333333"/>
-      <rightAscensionDecimal value="52.014344262295"/>
-      <magnitudeAbsoluteV value="-8.73" uncertainty="0.06" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
-      <massStellar value="265460.6" uncertaintyLow="14271.9" uncertaintyHigh="15082.8" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
+      <declinationSexagesimal degrees="33" arcminutes="33" arcseconds="7.7" reference="Okamoto, Arimoto, Yamada et al.; 2012; ApJ; 744; 96" referenceURL="https://ui.adsabs.harvard.edu/abs/2012ApJ...744...96O"/>
+      <rightAscensionSexagesimal hours="13" minutes="28" seconds="1.4" reference="Okamoto, Arimoto, Yamada et al.; 2012; ApJ; 744; 96" referenceURL="https://ui.adsabs.harvard.edu/abs/2012ApJ...744...96O"/>
+      <distanceHeliocentric value="2.178e-01" uncertainty="5.0e-03" comment="Computed from the distance modulus." reference="Perez-Garcia, Gallart, Monelli et al. (2026; arXiv:2611.05274)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.05274"/>
+      <declinationDecimal value="33.552138888889"/>
+      <rightAscensionDecimal value="202.005833333333"/>
+      <magnitudeAbsoluteV value="-8.80" uncertainty="0.06" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <massStellar value="283139.2" uncertaintyLow="15222.4" uncertaintyHigh="16087.3" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M" technique="M/L = 1 Msun/Lsun"/>
       <massDynamicalHalfLightRadius value="19000000" uncertainty="2000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="4.8000e+03" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="4.37e-04" uncertaintyLow="1.80e-05" uncertaintyHigh="1.80e-05" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
-      <ellipticityProjected value="0.39" uncertaintyLow="0.03" uncertaintyHigh="0.03"/>
+      <radiusHalfLight value="4.52e-04" uncertainty="1.3e-05" technique="Plummer profile fit" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
+      <ellipticityProjected value="0.44" uncertainty="0.03" technique="Plummer profile fit" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
       <extinctionV value="0.014"/>
-      <radiusHalfLightAngular value="8.90" uncertaintyLow="0.40" uncertaintyHigh="0.40"/>
+      <radiusHalfLightAngular value="7.12" uncertainty="0.21" technique="Plummer profile fit" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
       <latitudeGalactic value="+79.8"/>
       <longitudeGalactic value="74.3"/>
       <velocityRadialHeliocentric value="3.09e+01" uncertaintyLow="6.00e-01" uncertaintyHigh="6.00e-01" reference="Simon &amp; Geha; 2007; ApJ; 670; 313" referenceURL="https://ui.adsabs.harvard.edu/abs/2007ApJ...670..313S"/>
       <velocityDispersionStellar value="7.60e+00" uncertaintyLow="4.00e-01" uncertaintyHigh="4.00e-01" reference="Simon &amp; Geha; 2007; ApJ; 670; 313" referenceURL="https://ui.adsabs.harvard.edu/abs/2007ApJ...670..313S"/>
       <magnitudeApparentV value="13.1" uncertaintyLow="0.2" uncertaintyHigh="0.2"/>
       <distanceLocalGroup value="0.493"/>
-      <positionAngle value="70.0" uncertaintyLow="4.0" uncertaintyHigh="4.0"/>
+      <positionAngle value="80.0" uncertainty="2.0" technique="Plummer profile fit" reference="Munoz, Cote, Santana et al.; 2018; ApJ; 860; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2018ApJ...860...66M"/>
       <velocityLocalGroup value="62"/>
       <velocityM31 value="54"/>
       <velocityMilkyWay value="78"/>
@@ -3082,7 +3082,15 @@
       <membership value="G"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
-      <metallicityStellar value="-2.35e+00" uncertaintyLow="1.90e-01" uncertaintyHigh="1.60e-01" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityStellar value="-1.91" uncertainty="0.01" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <ageStellar value="11.8" comment="Mean age of the main star formation peak; see the comment for this galaxy." reference="Perez-Garcia, Gallart, Monelli et al. (2026; arXiv:2611.05274)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.05274"/>
+      <starFormationHistoryCumulative reference="Perez-Garcia, Gallart, Monelli et al. (2026; arXiv:2611.05274)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.05274">
+        <epoch fraction="0.40" time="12.0"/>
+        <epoch fraction="0.50" time="11.8"/>
+        <epoch fraction="0.90" time="10.0"/>
+        <epoch fraction="0.95" time="8.0"/>
+      </starFormationHistoryCumulative>
+      <comment value="Star formation history and stellar age from CMD fitting of two HST/ACS fields, which cover approximately 18% of the stellar mass and lie within the half-light radius; the authors note that an age gradient could make the star formation appear later than it was for the galaxy as a whole. The cumulative epochs at 11.8 and 10.0 Gyr are quoted in Section 4.5 of the paper. Those at 12.0 and 8.0 Gyr are not quoted: they were digitized from the cumulative curve in the right panel of Figure 4 (with an estimated read-off uncertainty of 0.01 in fraction) for comparison with other entries in this database that give the fractions at these times. In the same figure the 50% and 90% guide lines lie at approximately 11.7 and 10.2 Gyr, so the quoted times appear to be rounded. The cumulative curve includes minor star formation at lookback times below 8 Gyr that the authors do not consider significant. ageStellar is the mean age of the main star formation peak (Table 3), whose fitted width of 0.9 Gyr includes the age resolution of the method (0.57 Gyr for a mock population of negligible width and age 12 Gyr). CMD fitting gives a metallicity distribution centered on [Z/H]=-1.86 with width 0.16 dex, comparable to the 0.15 dex found for M92 with the same method. The paper derives a present-day stellar mass of (4.03+/-1.16)e5 Msun, the average of M/L=1.6 applied to L_V=2.3e5 Lsun and the integrated star formation history corrected for recycling; massStellar instead retains M/L=1 for comparability with other entries." reference="Perez-Garcia, Gallart, Monelli et al. (2026; arXiv:2611.05274)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.05274"/>
       <metallicityDispersionStellar value="3.90e-01" uncertaintyLow="2.00e-02" uncertaintyHigh="3.00e-02" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Zucker et al. (2006b)"/>
       <classification value="galaxy"/>
@@ -3096,10 +3104,10 @@
       <properMotionDeclination value="-0.06" uncertainty="0.03" reference="McConnachie &amp; Venn; 2020; AJ; 160; 124" referenceURL="https://ui.adsabs.harvard.edu/abs/2020AJ....160..124M"/>
       <properMotionRightAscension value="-11" uncertainty="2" reference="McConnachie &amp; Venn; 2020; RNAAS; 4; 229" referenceURL="https://ui.adsabs.harvard.edu/abs/2020RNAAS...4..229M"/>
       <properMotionDeclination value="-12" uncertainty="2" reference="McConnachie &amp; Venn; 2020; RNAAS; 4; 229" referenceURL="https://ui.adsabs.harvard.edu/abs/2020RNAAS...4..229M"/>
-      <distanceModulus value="21.621412276488" uncertaintyLow="0.061748030602" uncertaintyHigh="0.061748030602"/>
-      <positionHeliocentricCartesian value="0.10822097E+00   0.13858802E+00   0.11663011E+00" uncertaintyLow="0.30773735E-02   0.39408917E-02   0.33164959E-02" uncertaintyHigh="0.30773735E-02   0.39408917E-02   0.33164959E-02"/>
-      <distanceMilkyWay value="0.21077427E+00" uncertaintyLow="0.35156611E-02" uncertaintyHigh="0.35156611E-02"/>
-      <distanceM31 value="0.61784437E+00" uncertaintyLow="0.17928058E-01" uncertaintyHigh="0.17928058E-01"/>
+      <distanceModulus value="21.69" uncertainty="0.05" technique="RR Lyrae Period-Wesenheit relations" comment="From 105 RR Lyrae stars; attributed to Perez-Garcia et al. (in prep) and quoted in Section 3.2 of this reference." reference="Perez-Garcia, Gallart, Monelli et al. (2026; arXiv:2611.05274)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.05274"/>
+      <positionHeliocentricCartesian value="-0.16828702E+00   -0.68012300E-01   0.12037710E+00" uncertainty="0.38633384E-02   0.15613476E-02   0.27634779E-02"/>
+      <distanceMilkyWay value="0.21970442E+00" uncertainty="0.33404177E-02"/>
+      <distanceM31 value="0.86352199E+00" uncertainty="0.18040629E-01"/>
     </galaxy>
     <galaxy name="Andromeda XXI">
       <discoverySurvey value="PAndAS" reference="McConnachie, Irwin, Ibata et al.; 2009; Nature; 461; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2009Natur.461...66M" DOI="doi:10.1038/nature08327"/>
