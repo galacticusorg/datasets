@@ -5420,7 +5420,7 @@
       <membership value="G"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
-      <metallicityStellar value="-2.35e+00" uncertaintyLow="1.90e-01" uncertaintyHigh="1.60e-01" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
+      <metallicityStellar value="-2.12" uncertainty="0.05" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <metallicityDispersionStellar value="5.70e-01" uncertaintyLow="1.20e-01" uncertaintyHigh="1.50e-01" reference="Kirby, Cohen, Guhathakurta et al.; 2013; ApJ; 779; 102" referenceURL="https://ui.adsabs.harvard.edu/abs/2013ApJ...779..102K"/>
       <referencePrimary reference="Belokurov et al. (2007)"/>
       <alias value="SDSS J1257+3419"/>
