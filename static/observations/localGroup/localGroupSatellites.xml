@@ -1339,10 +1339,15 @@
       <rotationVelocityMaximumStellar value="4.4" uncertaintyLow="3.9" uncertaintyHigh="4.7" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13" uncertaintyLow="2.4" uncertaintyHigh="1.1"/>
+        <epoch fraction="0.80" time="10.7" uncertaintyLow="1.7" uncertaintyHigh="2.1"/>
+        <epoch fraction="0.90" time="4.4" uncertaintyLow="1" uncertaintyHigh="8.2"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.80" uncertaintyLow="0.60" uncertaintyHigh="0.60" technique="CaT calibration"/>
       <referencePrimary reference="Martin et al. (2009)"/>
       <alias value="And XXII"/>
-      <comment value="M33 satellite? In Pisces"/>
+      <comment value="M33 satellite? In Pisces Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 90% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 76% of the total light."/>
       <classification value="galaxy"/>
       <distanceHeliocentric value="0.7551" uncertaintyLow="0.0240" uncertaintyHigh="0.0250" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <positionHeliocentricCartesian value="0.61800261E+00   0.24866519E+00   0.35554804E+00" uncertaintyLow="0.19642514E-01   0.79035419E-02   0.11300693E-01" uncertaintyHigh="0.20460952E-01   0.82328562E-02   0.11771555E-01"/>
@@ -1459,6 +1464,7 @@
       <rightAscensionSexagesimal hours="23" minutes="51" seconds="46.3" reference="McConnachie et al. 2005"/>
       <distanceHeliocentric value="0.8318" uncertainty="0.0230" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.60" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 90% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 41% of the total light, so it may not represent the whole galaxy."/>
       <magnitudeAbsoluteV value="-11.6" uncertainty="0.2" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="24.582500000000"/>
       <rightAscensionDecimal value="357.942916666667"/>
@@ -1488,6 +1494,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="9.7" uncertaintyLow="0.8" uncertaintyHigh="0.3"/>
+        <epoch fraction="0.80" time="9.1" uncertaintyLow="1" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.90" time="6.4" uncertaintyLow="0.8" uncertaintyHigh="2.7"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.50" uncertaintyLow="0.10" uncertaintyHigh="0.10" technique="CaT calibration"/>
       <referencePrimary reference="Armandroff et al. (1999)"/>
       <alias value="Pegasus dSph"/>
@@ -1669,6 +1680,7 @@
       <rightAscensionSexagesimal hours="0" minutes="42" seconds="41.8" reference="Fiorentino et al. 2010"/>
       <distanceHeliocentric value="0.7727" uncertaintyLow="0.0210" uncertaintyHigh="0.0220" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.44" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 5% of the total light, so it may not represent the whole galaxy. The authors note that crowding limits the photometry to above the oldest main sequence turnoff, which makes the oldest ages and the 50% epoch less robust."/>
       <magnitudeAbsoluteV value="-16.8" uncertainty="0.1" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="40.865277777778"/>
       <rightAscensionDecimal value="10.674166666667"/>
@@ -1698,6 +1710,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.1" uncertaintyLow="0.5" uncertaintyHigh="1.1"/>
+        <epoch fraction="0.80" time="7.4" uncertaintyLow="1" uncertaintyHigh="0.6"/>
+        <epoch fraction="0.90" time="3.1" uncertaintyLow="0.3" uncertaintyHigh="1.5"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-0.25" technique="Isochrones" comment="Likely significant age spread and gradients?"/>
       <referencePrimary reference="Legentil (1755)"/>
       <alias value="NGC 221"/>
@@ -1885,10 +1902,15 @@
       <surfaceBrightnessCentralV value="26.3" uncertaintyLow="0.9" uncertaintyHigh="0.4"/>
       <rotationVelocityMaximumStellar value="10.4" uncertaintyLow="5.8" uncertaintyHigh="7.7" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <membership value="A/L"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="11.1" uncertaintyLow="1.2" uncertaintyHigh="0.5"/>
+        <epoch fraction="0.80" time="10.3" uncertaintyLow="1.3" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.90" time="10" uncertaintyLow="2.1" uncertaintyHigh="1.2"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.95" uncertaintyLow="0.04" uncertaintyHigh="0.04" technique="Ca H &amp; K narrow-band imaging" reference="Fu, Weisz, Starkenburg et al.; 2024; ApJ; 975; 2" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...975....2F"/>
       <metallicityDispersionStellar value="0.34" uncertaintyLow="0.05" uncertaintyHigh="0.05" technique="Ca H &amp; K narrow-band imaging" reference="Fu, Weisz, Starkenburg et al.; 2024; ApJ; 975; 2" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...975....2F"/>
       <referencePrimary reference="Slater et al. (2011)"/>
-      <comment value="In Pegasus"/>
+      <comment value="In Pegasus Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 76% of the total light."/>
       <classification value="galaxy"/>
       <positionHeliocentricCartesian value="0.59121819E+00  -0.23680961E+00   0.38595382E+00" uncertainty="0.13496320E-01   0.54058860E-02   0.88105477E-02"/>
       <distanceMilkyWay value="0.74488808E+00" uncertainty="0.11788910E-01"/>
@@ -1978,6 +2000,7 @@
       <rightAscensionSexagesimal hours="1" minutes="3" seconds="55.0" reference="McConnachie et al. 2005"/>
       <distanceHeliocentric value="0.6053" uncertainty="0.0140" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="23.91" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 38% of the total light, so it may not represent the whole galaxy."/>
       <magnitudeAbsoluteV value="-9.8" uncertainty="0.1" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="21.885000000000"/>
       <rightAscensionDecimal value="15.979166666667"/>
@@ -2004,6 +2027,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="5.0"/>
       <velocityDispersionNeutralHydrogen value="9.1" uncertaintyLow="0.3" uncertaintyHigh="0.3"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="10.8" uncertaintyLow="1" uncertaintyHigh="0.5"/>
+        <epoch fraction="0.80" time="7.4" uncertaintyLow="1.1" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.90" time="4.7" uncertaintyLow="0.6" uncertaintyHigh="0.7"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.10" uncertaintyLow="0.22" uncertaintyHigh="0.22" technique="Color of red giant branch"/>
       <referencePrimary reference="Kowal et al. (1978)"/>
       <alias value="Local Group Suspect 3"/>
@@ -2019,6 +2047,7 @@
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="19" seconds="34.5"/>
       <distanceHeliocentric value="0.8128" uncertaintyLow="0.0290" uncertaintyHigh="0.0340" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.55" uncertaintyLow="0.08" uncertaintyHigh="0.09" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 80% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 2% of the total light, so it may not represent the whole galaxy."/>
       <declinationDecimal value="35.044722222222"/>
       <rightAscensionDecimal value="4.893750000000"/>
       <massStellar value="937562.0" uncertaintyLow="226348.5" uncertaintyHigh="298385.4" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -2044,6 +2073,11 @@
       <rotationVelocityMaximumStellar value="7.4" uncertaintyLow="3.8" uncertaintyHigh="6.6" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="12.8" uncertaintyLow="2.9" uncertaintyHigh="1.3"/>
+        <epoch fraction="0.80" time="8.9" uncertaintyLow="2.1" uncertaintyHigh="1.1"/>
+        <epoch fraction="0.90" time="6.3" uncertaintyLow="0.7" uncertaintyHigh="2.9"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.07" uncertainty="0.02" technique="CaT calibration" reference="Collins, Tollerud, Rich et al.; 2020; MNRAS; 491; 3496" referenceURL="https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.3496C"/>
       <referencePrimary reference="McConnachie et al. (2008)"/>
       <alias value="And XIX"/>
@@ -2057,6 +2091,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+44" arcminutes="19" arcseconds="23"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="37" seconds="06.3"/>
       <distanceModulus value="24.40" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 63% of the total light."/>
       <declinationDecimal value="44.323055555556"/>
       <rightAscensionDecimal value="9.276250000000"/>
       <massStellar value="112719.7" uncertaintyLow="27213.1" uncertaintyHigh="35873.8" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -2084,6 +2119,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.3" uncertaintyLow="0.7" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.80" time="12.8" uncertaintyLow="0.2" uncertaintyHigh="1.3"/>
+        <epoch fraction="0.90" time="12.6" uncertaintyLow="2.2" uncertaintyHigh="1.5"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.17" uncertaintyLow="0.05" uncertaintyHigh="0.05" technique="Ca H &amp; K narrow-band imaging" reference="Fu, Weisz, Starkenburg et al.; 2024; ApJ; 975; 2" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...975....2F"/>
       <metallicityDispersionStellar value="0.33" uncertaintyLow="0.07" uncertaintyHigh="0.07" technique="Ca H &amp; K narrow-band imaging" reference="Fu, Weisz, Starkenburg et al.; 2024; ApJ; 975; 2" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...975....2F"/>
       <referencePrimary reference="Irwin et al. (2008)"/>
@@ -2400,6 +2440,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+47" arcminutes="54" arcseconds="43"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="23" seconds="46.3"/>
       <distanceModulus value="24.48" uncertaintyLow="0.07" uncertaintyHigh="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 90% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 78% of the total light."/>
       <declinationDecimal value="47.911944444444"/>
       <rightAscensionDecimal value="5.942916666667"/>
       <massStellar value="21478.3" uncertaintyLow="10206.3" uncertaintyHigh="12562.5" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -2425,6 +2466,11 @@
       <rotationVelocityMaximumStellar value="13.7" uncertaintyLow="9.6" uncertaintyHigh="15.7" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13" uncertaintyLow="2.5" uncertaintyHigh="1.1"/>
+        <epoch fraction="0.80" time="10.2" uncertaintyLow="2.1" uncertaintyHigh="2.3"/>
+        <epoch fraction="0.90" time="6.3" uncertaintyLow="1.3" uncertaintyHigh="5"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.80" uncertaintyLow="0.50" uncertaintyHigh="0.50" technique="CaT calibration"/>
       <referencePrimary reference="Richardson et al. (2011)"/>
       <alias value="And XXVI"/>
@@ -2584,6 +2630,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+44" arcminutes="48" arcseconds="27"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="06" seconds="35.4"/>
       <distanceModulus value="24.00" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 77% of the total light."/>
       <declinationDecimal value="44.807500000000"/>
       <rightAscensionDecimal value="16.647500000000"/>
       <massStellar value="71121.4" uncertaintyLow="17170.3" uncertaintyHigh="22634.8" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -2613,6 +2660,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13" uncertaintyLow="2" uncertaintyHigh="1.1"/>
+        <epoch fraction="0.80" time="9.9" uncertaintyLow="1" uncertaintyHigh="2.3"/>
+        <epoch fraction="0.90" time="7.5" uncertaintyLow="1" uncertaintyHigh="3.8"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.93" uncertaintyLow="0.11" uncertaintyHigh="0.11" technique="Isochrones"/>
       <referencePrimary reference="Zucker et al. (2007)"/>
       <alias value="And X"/>
@@ -2793,6 +2845,7 @@
       <rightAscensionSexagesimal hours="23" minutes="28" seconds="36.3" reference="McConnachie et al. 2005"/>
       <distanceHeliocentric value="0.8872" uncertaintyLow="0.0200" uncertaintyHigh="0.0210" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.74" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 42% of the total light, so it may not represent the whole galaxy."/>
       <magnitudeAbsoluteV value="-12.3" uncertainty="0.2" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="14.743055555556"/>
       <rightAscensionDecimal value="352.151250000000"/>
@@ -2819,6 +2872,11 @@
       <membership value="L/A"/>
       <rotationVelocityMaximumNeutralHydrogen value="21.0"/>
       <velocityDispersionNeutralHydrogen value="9.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="7.5" uncertaintyLow="0.4" uncertaintyHigh="2"/>
+        <epoch fraction="0.80" time="4.6" uncertaintyLow="0.2" uncertaintyHigh="1.8"/>
+        <epoch fraction="0.90" time="3.2" uncertaintyLow="0.1" uncertaintyHigh="1.2"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.40" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="Isochrones"/>
       <properMotionRightAscension value="17.3" uncertainty="21.7" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <properMotionDeclination value="4.1" uncertainty="14.2" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
@@ -2836,6 +2894,7 @@
       <rightAscensionSexagesimal hours="1" minutes="4" seconds="47.8" reference="Bernard et al. 2010"/>
       <distanceHeliocentric value="0.7311" uncertainty="0.0170" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.32" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 3% of the total light, so it may not represent the whole galaxy."/>
       <magnitudeAbsoluteV value="-15.2" uncertainty="0.1" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="2.117777777778"/>
       <rightAscensionDecimal value="16.199166666667"/>
@@ -2861,6 +2920,11 @@
       <membership value="L"/>
       <rotationVelocityMaximumNeutralHydrogen value="25.0" uncertaintyLow="3.0" uncertaintyHigh="3.0"/>
       <velocityDispersionNeutralHydrogen value="5.9" uncertaintyLow="1.0" uncertaintyHigh="1.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="8.4" uncertaintyLow="0.8" uncertaintyHigh="0.5"/>
+        <epoch fraction="0.80" time="4.5" uncertaintyLow="0.5" uncertaintyHigh="0.5"/>
+        <epoch fraction="0.90" time="2.1" uncertaintyLow="0.3" uncertaintyHigh="0.6"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.60" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="CMD modelling" comment="Derived in E. Skillman et al., (2012 in preparation)"/>
       <properMotionRightAscension value="3.0" uncertainty="1.2" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <properMotionDeclination value="0.1" uncertainty="1.1" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
@@ -2915,6 +2979,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+43" arcminutes="11" arcseconds="57"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="52" seconds="53.4"/>
       <distanceModulus value="24.23" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 47% of the total light, so it may not represent the whole galaxy."/>
       <declinationDecimal value="43.199166666667"/>
       <rightAscensionDecimal value="13.222500000000"/>
       <massStellar value="235504.9" uncertaintyLow="56856.2" uncertaintyHigh="74951.0" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -2944,6 +3009,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13" uncertaintyLow="1.1" uncertaintyHigh="1.1"/>
+        <epoch fraction="0.80" time="9.5" uncertaintyLow="0.8" uncertaintyHigh="3.3"/>
+        <epoch fraction="0.90" time="9" uncertaintyLow="1.6" uncertaintyHigh="3.6"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.20" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="CaT calibration"/>
       <referencePrimary reference="Zucker et al. (2004)"/>
       <alias value="And IX"/>
@@ -3120,6 +3190,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+42" arcminutes="28" arcseconds="14"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="23" minutes="54" seconds="47.9"/>
       <distanceModulus value="24.44" uncertaintyLow="0.07" uncertaintyHigh="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 15% of the total light, so it may not represent the whole galaxy."/>
       <declinationDecimal value="42.470555555556"/>
       <rightAscensionDecimal value="358.699583333333"/>
       <massStellar value="310456.0" uncertaintyLow="74951.0" uncertaintyHigh="98804.7" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -3145,6 +3216,11 @@
       <rotationVelocityMaximumStellar value="7.1" uncertaintyLow="2.7" uncertaintyHigh="3.1" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="12.6" uncertaintyLow="3.1" uncertaintyHigh="1.5"/>
+        <epoch fraction="0.80" time="9.2" uncertaintyLow="0.9" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.90" time="9" uncertaintyLow="2.8" uncertaintyHigh="1"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.80" uncertaintyLow="0.10" uncertaintyHigh="0.10" technique="CaT calibration"/>
       <referencePrimary reference="Martin et al. (2009)"/>
       <alias value="And XXI"/>
@@ -3161,6 +3237,12 @@
       <rightAscensionSexagesimal hours="1" minutes="33" seconds="50.9" reference="McConnachie et al. 2005"/>
       <distanceHeliocentric value="0.8590" uncertaintyLow="0.0230" uncertaintyHigh="0.0240" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.67" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. It is the sum of eight HST/ACS fields. The authors note that it is strongly driven by the older, denser central fields, and that crowding limits the photometry to above the oldest main sequence turnoff, which makes the oldest ages and the 50% epoch less robust."/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="12.3" uncertaintyLow="4.8" uncertaintyHigh="1.9"/>
+        <epoch fraction="0.80" time="1.9" uncertaintyLow="0.2" uncertaintyHigh="0.2"/>
+        <epoch fraction="0.90" time="1.2" uncertaintyLow="0.1" uncertaintyHigh="0.1"/>
+      </starFormationHistoryCumulative>
       <declinationDecimal value="30.660277777778"/>
       <rightAscensionDecimal value="23.462083333333"/>
       <massStellar value="3269544723.2" comment="Scaled from 2.9e+09 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.809 Mpc."/>
@@ -3280,6 +3362,7 @@
       <declinationSexagesimal degrees="41" arcminutes="17" arcseconds="28"/>
       <rightAscensionSexagesimal reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M" hours="22" minutes="58" seconds="16.3"/>
       <distanceModulus value="24.36" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 90% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 8% of the total light, so it may not represent the whole galaxy."/>
       <declinationDecimal value="41.291111111111"/>
       <rightAscensionDecimal value="344.567916666667"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
@@ -3297,6 +3380,11 @@
       <positionAngle value="-59.0" uncertaintyLow="6.0" uncertaintyHigh="6.0"/>
       <velocityMilkyWay value="+9" uncertainty="2" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <surfaceBrightnessCentralV value="24.8" uncertainty="0.3" reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="10.5" uncertaintyLow="0.5" uncertaintyHigh="0.7"/>
+        <epoch fraction="0.80" time="9.6" uncertaintyLow="0.9" uncertaintyHigh="0.6"/>
+        <epoch fraction="0.90" time="8.6" uncertaintyLow="1.5" uncertaintyHigh="1.4"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.0" uncertainty="1.0" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M" technique="9"/>
       <metallicityStellar value="-1.68" uncertainty="0.03" reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R" technique="photometric; median"/>
       <alias value="And XXXI"/>
@@ -3430,10 +3518,15 @@
       <membership value="A/L"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.1" uncertaintyLow="2.7" uncertaintyHigh="1"/>
+        <epoch fraction="0.80" time="10.7" uncertaintyLow="1.3" uncertaintyHigh="1.9"/>
+        <epoch fraction="0.90" time="6.5" uncertaintyLow="0.7" uncertaintyHigh="4.4"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.20" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="CaT calibration"/>
       <referencePrimary reference="Martin et al. (2006)"/>
       <alias value="And XII"/>
-      <comment value="Unbound to M31?"/>
+      <comment value="Unbound to M31? Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 90% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 46% of the total light, so it may not represent the whole galaxy."/>
       <classification value="galaxy"/>
       <positionHeliocentricCartesian value="0.57976408E+00   0.12183643E+00   0.40529783E+00" uncertaintyLow="0.18577005E-01   0.39039258E-02   0.12986696E-01" uncertaintyHigh="0.21807788E-01   0.45828695E-02   0.15245251E-01"/>
       <distanceMilkyWay value="0.72169658E+00" uncertaintyLow="0.16667335E-01" uncertaintyHigh="0.19565979E-01"/>
@@ -3447,6 +3540,7 @@
       <declinationSexagesimal degrees="40" arcminutes="59" arcseconds="18"/>
       <rightAscensionSexagesimal hours="3" minutes="01" seconds="23.6"/>
       <distanceModulus value="24.24" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 54% of the total light."/>
       <magnitudeAbsoluteV value="-10.1" uncertainty="0.7" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massStellar value="937562.0" uncertaintyLow="445522.5" uncertaintyHigh="848925.6" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
@@ -3464,6 +3558,11 @@
       <positionAngle value="-6.0" uncertaintyLow="10.0" uncertaintyHigh="15.0"/>
       <velocityMilkyWay value="-220" uncertainty="4" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <surfaceBrightnessCentralV value="25.6" uncertaintyLow="0.9" uncertaintyHigh="1.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="9.3" uncertaintyLow="0.4" uncertaintyHigh="0.8"/>
+        <epoch fraction="0.80" time="8.2" uncertaintyLow="1" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.90" time="6.5" uncertaintyLow="0.6" uncertaintyHigh="1.7"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.0" uncertainty="0.2" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M" technique="9"/>
       <classification value="galaxy"/>
       <distanceHeliocentric value="0.7047" uncertaintyLow="0.0190" uncertaintyHigh="0.0200" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -3501,9 +3600,14 @@
       <rotationVelocityMaximumStellar value="9.0" uncertaintyLow="3.2" uncertaintyHigh="3.4" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.2" uncertaintyLow="0.6" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.80" time="12.7" uncertaintyLow="1.1" uncertaintyHigh="1.4"/>
+        <epoch fraction="0.90" time="10.4" uncertaintyLow="2.1" uncertaintyHigh="2.3"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.80" technique="Isochrones"/>
       <referencePrimary reference="Bell et al. (2011)"/>
-      <comment value="In Pegasus"/>
+      <comment value="In Pegasus Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 54% of the total light."/>
       <classification value="galaxy"/>
       <distanceHeliocentric value="0.7112" uncertaintyLow="0.0190" uncertaintyHigh="0.0200" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <positionHeliocentricCartesian value="0.61116788E+00  -0.28623035E-02   0.36369091E+00" uncertaintyLow="0.16327601E-01   0.76467614E-04   0.97161519E-02" uncertaintyHigh="0.17186948E-01   0.80492225E-04   0.10227528E-01"/>
@@ -3515,6 +3619,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+46" arcminutes="51" arcseconds="41"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="30" seconds="09.9"/>
       <distanceModulus value="24.38" uncertaintyLow="0.06" uncertaintyHigh="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 28% of the total light, so it may not represent the whole galaxy."/>
       <declinationDecimal value="46.861388888889"/>
       <rightAscensionDecimal value="7.541250000000"/>
       <massStellar value="373250.2" uncertaintyLow="90111.0" uncertaintyHigh="75495.2" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -3540,6 +3645,11 @@
       <rotationVelocityMaximumStellar value="4.7" uncertaintyLow="2.6" uncertaintyHigh="2.9" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="12.8" uncertaintyLow="1.2" uncertaintyHigh="1.3"/>
+        <epoch fraction="0.80" time="10.5" uncertaintyLow="0.8" uncertaintyHigh="2.4"/>
+        <epoch fraction="0.90" time="10.2" uncertaintyLow="1.8" uncertaintyHigh="2.6"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.90" uncertaintyLow="0.10" uncertaintyHigh="0.10" technique="CaT calibration"/>
       <referencePrimary reference="Richardson et al. (2011)"/>
       <alias value="And XXV"/>
@@ -3680,6 +3790,7 @@
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="45" seconds="39.7"/>
       <distanceHeliocentric value="0.7762" uncertainty="0.0180" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.45" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 19% of the total light, so it may not represent the whole galaxy."/>
       <declinationDecimal value="38.037500000000"/>
       <rightAscensionDecimal value="11.415416666667"/>
       <massStellar value="3104559.6" uncertaintyLow="522299.4" uncertaintyHigh="627942.0" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -3709,6 +3820,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="12.7" uncertaintyLow="2.6" uncertaintyHigh="1.5"/>
+        <epoch fraction="0.80" time="9.2" uncertaintyLow="0.3" uncertaintyHigh="1.3"/>
+        <epoch fraction="0.90" time="9" uncertaintyLow="0.9" uncertaintyHigh="1"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.45" uncertaintyLow="0.04" uncertaintyHigh="0.04" technique="Isochrones"/>
       <referencePrimary reference="van den Bergh (1972)"/>
       <alias value="And I"/>
@@ -3885,6 +4001,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+49" arcminutes="38" arcseconds="49"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="36" seconds="34.6"/>
       <distanceModulus value="23.74" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 60% of the total light."/>
       <declinationDecimal value="49.646944444444"/>
       <rightAscensionDecimal value="9.144166666667"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
@@ -3903,6 +4020,11 @@
       <positionAngle value="110" uncertainty="9" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <surfaceBrightnessCentralV value="26.1" uncertainty="0.3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <rotationVelocityMaximumStellar value="18.6" uncertaintyLow="11.4" uncertaintyHigh="17.7" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.1" uncertaintyLow="0.5" uncertaintyHigh="1.1"/>
+        <epoch fraction="0.80" time="9.6" uncertaintyLow="0.7" uncertaintyHigh="3.2"/>
+        <epoch fraction="0.90" time="9.1" uncertaintyLow="1" uncertaintyHigh="3.6"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.70" uncertaintyLow="0.40" uncertaintyHigh="0.40" technique="CaT calibration"/>
       <alias value="And XXX"/>
       <alias value="Cas II"/>
@@ -3918,6 +4040,7 @@
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="46" seconds="19.7"/>
       <distanceHeliocentric value="0.7516" uncertaintyLow="0.0240" uncertaintyHigh="0.0250" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.38" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 85% of the total light."/>
       <declinationDecimal value="33.802777777778"/>
       <rightAscensionDecimal value="11.582083333333"/>
       <massStellar value="31045.6" uncertaintyLow="9567.3" uncertaintyHigh="13828.9" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -3947,6 +4070,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.3" uncertaintyLow="0.9" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.80" time="12.8" uncertaintyLow="2.8" uncertaintyHigh="1.3"/>
+        <epoch fraction="0.90" time="12.6" uncertaintyLow="5.5" uncertaintyHigh="1.5"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.80" uncertaintyLow="0.10" uncertaintyHigh="0.10" technique="CaT calibration"/>
       <referencePrimary reference="Martin et al. (2006)"/>
       <alias value="And XI"/>
@@ -4134,6 +4262,7 @@
       <rightAscensionSexagesimal hours="0" minutes="40" seconds="22.1" reference="Geha et al. 2006b"/>
       <distanceHeliocentric value="0.8356" uncertainty="0.0230" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.61" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 4% of the total light, so it may not represent the whole galaxy."/>
       <magnitudeAbsoluteV value="-16.7" uncertainty="0.1" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="41.685277777778"/>
       <rightAscensionDecimal value="10.092083333333"/>
@@ -4161,6 +4290,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="16.1"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="8.5" uncertaintyLow="0.5" uncertaintyHigh="4.2"/>
+        <epoch fraction="0.80" time="3.3" uncertaintyLow="0.4" uncertaintyHigh="5.1"/>
+        <epoch fraction="0.90" time="2.6" uncertaintyLow="0.2" uncertaintyHigh="0.5"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-0.80" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="Isochrones"/>
       <referencePrimary reference="Messier (1798)"/>
       <alias value="M110"/>
@@ -4261,10 +4395,15 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="10.5" uncertaintyLow="1.3" uncertaintyHigh="0.7"/>
+        <epoch fraction="0.80" time="10.1" uncertaintyLow="3.5" uncertaintyHigh="1.2"/>
+        <epoch fraction="0.90" time="5.8" uncertaintyLow="2.5" uncertaintyHigh="2.7"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.70" uncertaintyLow="0.30" uncertaintyHigh="0.30" technique="CaT calibration"/>
       <referencePrimary reference="Martin et al. (2006)"/>
       <alias value="And XIII"/>
-      <comment value="In Pisces"/>
+      <comment value="In Pisces Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 90% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 82% of the total light."/>
       <classification value="galaxy"/>
       <positionHeliocentricCartesian value="0.67047816E+00   0.15432993E+00   0.44687523E+00" uncertaintyLow="0.21248698E-01   0.48910022E-02   0.14162306E-01" uncertaintyHigh="0.22065956E-01   0.50791177E-02   0.14707010E-01"/>
       <distanceMilkyWay value="0.82434880E+00" uncertaintyLow="0.18974022E-01" uncertaintyHigh="0.19703787E-01"/>
@@ -4449,6 +4588,7 @@
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="10" seconds="17.5"/>
       <distanceHeliocentric value="0.7586" uncertainty="0.0210" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.40" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 58% of the total light."/>
       <declinationDecimal value="47.628333333333"/>
       <rightAscensionDecimal value="17.572916666667"/>
       <massStellar value="448745.4" uncertaintyLow="75495.2" uncertaintyHigh="90765.2" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -4478,6 +4618,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.1" uncertaintyLow="2" uncertaintyHigh="1"/>
+        <epoch fraction="0.80" time="11" uncertaintyLow="1" uncertaintyHigh="1.6"/>
+        <epoch fraction="0.90" time="9.5" uncertaintyLow="1.2" uncertaintyHigh="2.3"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.00" uncertaintyLow="0.10" uncertaintyHigh="0.10" technique="CaT calibration"/>
       <referencePrimary reference="Armandroff et al. (1998)"/>
       <alias value="And V"/>
@@ -4563,10 +4708,15 @@
       <membership value="A/L"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="9.9" uncertaintyLow="0.9" uncertaintyHigh="0.4"/>
+        <epoch fraction="0.80" time="8.4" uncertaintyLow="1.1" uncertaintyHigh="0.5"/>
+        <epoch fraction="0.90" time="7.8" uncertaintyLow="1.4" uncertaintyHigh="0.5"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.10" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="CaT calibration"/>
       <referencePrimary reference="Ibata et al. (2007)"/>
       <alias value="And XVI"/>
-      <comment value="In Pisces"/>
+      <comment value="In Pisces Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 90% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 64% of the total light."/>
       <classification value="galaxy"/>
       <positionHeliocentricCartesian value="0.42248794E+00   0.11222784E+00   0.27716171E+00" uncertainty="0.15508638E-01   0.41196464E-02   0.10174020E-01"/>
       <distanceMilkyWay value="0.52173618E+00" uncertainty="0.13748065E-01"/>
@@ -4708,6 +4858,7 @@
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="14" seconds="18.3"/>
       <distanceHeliocentric value="0.7482" uncertainty="0.0170" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.37" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 69% of the total light."/>
       <declinationDecimal value="38.119722222222"/>
       <rightAscensionDecimal value="18.576250000000"/>
       <massStellar value="195884.5" uncertaintyLow="47290.9" uncertaintyHigh="62341.6" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -4737,6 +4888,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.1" uncertaintyLow="1.6" uncertaintyHigh="1"/>
+        <epoch fraction="0.80" time="11.7" uncertaintyLow="1.6" uncertaintyHigh="1"/>
+        <epoch fraction="0.90" time="9.4" uncertaintyLow="1.8" uncertaintyHigh="3.2"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.80" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="CaT calibration"/>
       <referencePrimary reference="Ibata et al. (2007)"/>
       <alias value="And XV"/>
@@ -4752,6 +4908,7 @@
       <declinationSexagesimal degrees="51" arcminutes="33" arcseconds="35"/>
       <rightAscensionSexagesimal hours="0" minutes="35" seconds="59.4"/>
       <distanceModulus value="24.52" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 4% of the total light, so it may not represent the whole galaxy."/>
       <radiusHalfLight value="1.516e-03" uncertaintyLow="2.370e-04" uncertaintyHigh="2.830e-04" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="7.6000e+04" confidenceLevel="99.999971%" type="upper"/>
@@ -4770,6 +4927,11 @@
       <positionAngle value="-90.0" uncertaintyLow="7.0" uncertaintyHigh="7.0"/>
       <velocityMilkyWay value="-186" uncertainty="2" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <surfaceBrightnessCentralV value="26.4" uncertaintyLow="0.8" uncertaintyHigh="0.8"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="10.7" uncertaintyLow="0.7" uncertaintyHigh="0.8"/>
+        <epoch fraction="0.80" time="9.5" uncertaintyLow="0.5" uncertaintyHigh="1"/>
+        <epoch fraction="0.90" time="9.1" uncertaintyLow="0.2" uncertaintyHigh="1.2"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.7" uncertainty="0.1" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M" technique="9"/>
       <classification value="galaxy"/>
       <distanceHeliocentric value="0.8017" uncertaintyLow="0.0220" uncertaintyHigh="0.0230" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -4980,6 +5142,7 @@
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="35" seconds="30.9"/>
       <distanceHeliocentric value="0.7211" uncertaintyLow="0.0160" uncertaintyHigh="0.0170" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.29" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 43% of the total light, so it may not represent the whole galaxy."/>
       <declinationDecimal value="36.498888888889"/>
       <rightAscensionDecimal value="8.878750000000"/>
       <massStellar value="539510.6" uncertaintyLow="90765.2" uncertaintyHigh="109123.8" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -5011,6 +5174,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="11.9" uncertaintyLow="1.4" uncertaintyHigh="0.7"/>
+        <epoch fraction="0.80" time="10.7" uncertaintyLow="1.2" uncertaintyHigh="0.7"/>
+        <epoch fraction="0.90" time="10.1" uncertaintyLow="1.2" uncertaintyHigh="1.1"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.78" uncertaintyLow="0.04" uncertaintyHigh="0.04" technique="Isochrones"/>
       <referencePrimary reference="van den Bergh (1972)"/>
       <alias value="And III"/>
@@ -5099,12 +5267,17 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="7.1" uncertaintyLow="0.8" uncertaintyHigh="5.5"/>
+        <epoch fraction="0.80" time="6" uncertaintyLow="0.4" uncertaintyHigh="1.2"/>
+        <epoch fraction="0.90" time="5.7" uncertaintyLow="0.4" uncertaintyHigh="0.9"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.10" uncertaintyLow="0.10" uncertaintyHigh="0.10" technique="CaT calibration"/>
       <sersicIndex value="1.69" uncertainty="0.03" reference="Crnojevic, Ferguson, Irwin et al.; 2014; MNRAS; 445; 3862" referenceURL="https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.3862C"/>
       <referencePrimary reference="Herschel (1833)"/>
       <alias value="UGC 326"/>
       <alias value="DDO 3"/>
-      <comment value="Binary w/NGC 185? Tidal stream"/>
+      <comment value="Binary w/NGC 185? Tidal stream Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 2% of the total light, so it may not represent the whole galaxy."/>
       <classification value="galaxy"/>
       <positionHeliocentricCartesian value="0.48151172E+00   0.70248539E-01   0.55018348E+00" uncertaintyLow="0.13111279E-01   0.19128261E-02   0.14981170E-01" uncertaintyHigh="0.13766843E-01   0.20084674E-02   0.15730229E-01"/>
       <distanceMilkyWay value="0.73853114E+00" uncertaintyLow="0.14129308E-01" uncertaintyHigh="0.14835762E-01"/>
@@ -5452,6 +5625,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+38" arcminutes="43" arcseconds="26"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="29" seconds="21.0"/>
       <distanceModulus value="24.36" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 12% of the total light, so it may not represent the whole galaxy."/>
       <declinationDecimal value="38.723888888889"/>
       <rightAscensionDecimal value="22.337500000000"/>
       <massStellar value="711213.5" uncertaintyLow="119651.9" uncertaintyHigh="143853.2" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -5477,6 +5651,11 @@
       <rotationVelocityMaximumStellar value="11.2" uncertaintyLow="2.6" uncertaintyHigh="2.8" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="9.2" uncertaintyLow="0.4" uncertaintyHigh="1.4"/>
+        <epoch fraction="0.80" time="8.1" uncertaintyLow="0.8" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.90" time="6.6" uncertaintyLow="0.3" uncertaintyHigh="1.7"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.20" uncertaintyLow="0.30" uncertaintyHigh="0.30" technique="CaT calibration"/>
       <referencePrimary reference="Richardson et al. (2011)"/>
       <alias value="And XXIII"/>
@@ -5559,10 +5738,15 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="9.8" uncertaintyLow="0.9" uncertaintyHigh="3.2"/>
+        <epoch fraction="0.80" time="9" uncertaintyLow="1" uncertaintyHigh="1"/>
+        <epoch fraction="0.90" time="7.6" uncertaintyLow="0.5" uncertaintyHigh="1.5"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.39" uncertaintyLow="0.03" uncertaintyHigh="0.03" technique="CaT calibration"/>
       <referencePrimary reference="van den Bergh (1972)"/>
       <alias value="And II"/>
-      <comment value="In Pisces"/>
+      <comment value="In Pisces Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 12% of the total light, so it may not represent the whole galaxy."/>
       <classification value="galaxy"/>
       <positionHeliocentricCartesian value="0.52578016E+00   0.18218761E+00   0.36740324E+00" uncertaintyLow="0.11827688E-01   0.40984015E-02   0.82649199E-02" uncertaintyHigh="0.12616201E-01   0.43716283E-02   0.88159146E-02"/>
       <distanceMilkyWay value="0.67137956E+00" uncertaintyLow="0.10401470E-01" uncertaintyHigh="0.11094882E-01"/>
@@ -5661,10 +5845,15 @@
       <membership value="A/L"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="10.8" uncertaintyLow="1.1" uncertaintyHigh="0.4"/>
+        <epoch fraction="0.80" time="10.1" uncertaintyLow="1.7" uncertaintyHigh="1.1"/>
+        <epoch fraction="0.90" time="8.2" uncertaintyLow="1.9" uncertaintyHigh="1.8"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.26" uncertaintyLow="0.05" uncertaintyHigh="0.05" technique="Isochrones"/>
       <referencePrimary reference="Majewski et al. (2007)"/>
       <alias value="And XIV"/>
-      <comment value="Unbound to M31? In Pisces"/>
+      <comment value="Unbound to M31? In Pisces Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. Its HST/ACS field contains about 50% of the total light."/>
       <classification value="galaxy"/>
       <distanceHeliocentric value="0.7727" uncertaintyLow="0.0210" uncertaintyHigh="0.0220" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <positionHeliocentricCartesian value="0.65432932E+00   0.14981134E+00   0.38272051E+00" uncertaintyLow="0.17782989E-01   0.40714872E-02   0.10401360E-01" uncertaintyHigh="0.18629798E-01   0.42653676E-02   0.10896663E-01"/>
@@ -5676,6 +5865,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+35" arcminutes="07" arcseconds="37"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="07" seconds="30.6"/>
       <distanceModulus value="24.35" uncertainty="0.08" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 90% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 85% of the total light."/>
       <declinationDecimal value="35.126944444444"/>
       <rightAscensionDecimal value="1.877500000000"/>
       <massStellar value="31045.6" uncertaintyLow="9567.3" uncertaintyHigh="13828.9" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -5701,6 +5891,11 @@
       <rotationVelocityMaximumStellar value="11.2" uncertaintyLow="7.0" uncertaintyHigh="12.0" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <morphology value="dSph"/>
       <membership value="A"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.2" uncertaintyLow="2.4" uncertaintyHigh="0.9"/>
+        <epoch fraction="0.80" time="12.6" uncertaintyLow="3.6" uncertaintyHigh="1.5"/>
+        <epoch fraction="0.90" time="8.3" uncertaintyLow="2.3" uncertaintyHigh="4.4"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-2.20" uncertaintyLow="0.40" uncertaintyHigh="0.40" technique="CaT calibration"/>
       <referencePrimary reference="McConnachie et al. (2008)"/>
       <alias value="And XX"/>
@@ -5831,6 +6026,7 @@
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+46" arcminutes="22" arcseconds="13"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="18" seconds="32.7"/>
       <distanceModulus value="23.92" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 50% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 32% of the total light, so it may not represent the whole galaxy."/>
       <declinationDecimal value="46.370277777778"/>
       <rightAscensionDecimal value="19.636250000000"/>
       <massStellar value="93756.2" uncertaintyLow="22634.8" uncertaintyHigh="29838.5" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
@@ -5853,6 +6049,11 @@
       <surfaceBrightnessCentralV value="28.2" uncertainty="0.4" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <morphology value="dSph"/>
       <membership value="A"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="12.3" uncertaintyLow="2.8" uncertaintyHigh="1.8"/>
+        <epoch fraction="0.80" time="8.4" uncertaintyLow="0.8" uncertaintyHigh="2.9"/>
+        <epoch fraction="0.90" time="7.6" uncertaintyLow="1.5" uncertaintyHigh="1.4"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.80" uncertaintyLow="0.30" uncertaintyHigh="0.30" technique="CaT calibration"/>
       <referencePrimary reference="Richardson et al. (2011)"/>
       <alias value="And XXIV"/>
@@ -5868,6 +6069,7 @@
       <rightAscensionSexagesimal hours="23" minutes="26" seconds="31.7" reference="Kalirai et al. 2010"/>
       <distanceHeliocentric value="0.8241" uncertainty="0.0230" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <distanceModulus value="24.58" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <comment value="Star formation history is from CMD fitting (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. On the 80% epoch, one side of the combined uncertainty in that table is smaller than the statistical uncertainty, so the larger of the two is used. Its HST/ACS field contains about 23% of the total light, so it may not represent the whole galaxy."/>
       <magnitudeAbsoluteV value="-13.3" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="50.675833333333"/>
       <rightAscensionDecimal value="351.632083333333"/>
@@ -5897,6 +6099,11 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="10.7" uncertaintyLow="1" uncertaintyHigh="0.5"/>
+        <epoch fraction="0.80" time="8.8" uncertaintyLow="0.9" uncertaintyHigh="2.4"/>
+        <epoch fraction="0.90" time="7.7" uncertaintyLow="0.6" uncertaintyHigh="2.5"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.40" uncertaintyLow="0.30" uncertaintyHigh="0.30" technique="Isochrones"/>
       <referencePrimary reference="Karachentsev &amp; Karachentseva (1999)"/>
       <alias value="Casseopia dSph"/>
