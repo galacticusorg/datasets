@@ -3547,17 +3547,18 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="48" arcminutes="20" arcseconds="15" reference="Geha et al. 2010"/>
       <rightAscensionSexagesimal hours="0" minutes="38" seconds="58.0" reference="Geha et al. 2010"/>
-      <distanceHeliocentric value="0.617" uncertainty="0.026"/>
-      <distanceModulus value="23.95" uncertaintyLow="0.09" uncertaintyHigh="0.09"/>
+      <distanceHeliocentric value="0.6486" uncertainty="0.018" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.06" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="48.337500000000"/>
       <rightAscensionDecimal value="9.741666666667"/>
-      <massStellar value="135518941.2" uncertaintyLow="4901852.4" uncertaintyHigh="5085811.2" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="148593564.2" uncertaintyLow="9277883.9" uncertaintyHigh="9895755.0" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="150000000"/>
       <massNeutralHydrogen value="1.1000e+05" uncertainty="1.0000e+04" reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P"/>
-      <radiusHalfLight value="0.00053" uncertainty="1e-05" reference="Crnojevic, Ferguson, Irwin et al.; 2014; MNRAS; 445; 3862" referenceURL="https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.3862C"/>
+      <radiusHalfLight value="5.55e-04" uncertainty="1.7e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.15" uncertaintyLow="0.01" uncertaintyHigh="0.01"/>
       <extinctionV value="0.184"/>
-      <magnitudeAbsoluteV value="-15.5" uncertainty="0.04" reference="Crnojevic, Ferguson, Irwin et al.; 2014; MNRAS; 445; 3862" referenceURL="https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.3862C"/>
+      <reddening value="0.20" reference="Ventura, Ventura, D'Souza et al. (2026; arXiv:2611.06547)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.06547"/>
+      <magnitudeAbsoluteV value="-15.6" uncertainty="0.07" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="2.94" uncertainty="0.04" reference="Crnojevic, Ferguson, Irwin et al.; 2014; MNRAS; 445; 3862" referenceURL="https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.3862C"/>
       <latitudeGalactic value="-14.5"/>
       <longitudeGalactic value="120.8"/>
@@ -3576,15 +3577,20 @@
       <membership value="A"/>
       <rotationVelocityMaximumNeutralHydrogen value="00.0" uncertaintyLow="00.0" uncertaintyHigh="00.0"/>
       <velocityDispersionNeutralHydrogen value="15.3" uncertaintyLow="0.8" uncertaintyHigh="0.8"/>
+      <starFormationHistoryCumulative reference="Savino, Weisz, Dolphin et al.; 2025; ApJ; 979; 205" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...979..205S">
+        <epoch fraction="0.50" time="13.0" uncertaintyLow="1.0" uncertaintyHigh="1.2"/>
+        <epoch fraction="0.80" time="10.0" uncertaintyLow="0.9" uncertaintyHigh="2.7"/>
+        <epoch fraction="0.90" time="9.3" uncertaintyLow="1.6" uncertaintyHigh="3.0"/>
+      </starFormationHistoryCumulative>
       <metallicityStellar value="-1.30" uncertaintyLow="0.10" uncertaintyHigh="0.10" technique="CaT calibration"/>
       <sersicIndex value="1.78" uncertainty="0.02" reference="Crnojevic, Ferguson, Irwin et al.; 2014; MNRAS; 445; 3862" referenceURL="https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.3862C"/>
       <referencePrimary reference="Herschel (1789)"/>
       <alias value="UGC 396"/>
-      <comment value="Binary w/NGC 147?"/>
+      <comment value="Binary w/NGC 147? Star formation history is from CMD fitting which reaches the oldest main sequence turnoff (Table 3 of Savino et al. 2025), with statistical and systematic uncertainties combined. It comes from one HST/ACS field, about 6.6 arcminutes from the center, which contains only about 2% of the total light. The authors note that NGC 185 has significant stellar population gradients and lies off the relation between median age and luminosity, so this may not represent the whole galaxy. Ventura et al. (2026; arXiv:2611.06547) derive a later history from the same data by fitting evolved stars (horizontal branch, red clump, RGB and AGB): 50%, 75% and 90% of stars formed by 11.1, 8.9 and 6.6 Gyr ago, read from the plotted data of their Figure 8, which agrees with their text (more than 11 Gyr, and slightly below 7 Gyr). That history is not used here because it depends on the assumed RGB mass loss and on a single metallicity (Z=0.002) for the old stars, gives no uncertainties on these epochs, and lies outside the uncertainties of Savino et al. Savino et al. fit the turnoff directly, in the same way for all of their M31 satellites, and agree with Geha et al. (2015). Ventura et al. report that their history agrees better with the long-period variable result of Hamedani Golshan et al. (2017) and with the relation between N_AGB/N_RGB and T90, and also find an average RGB mass loss of 0.22 +/- 0.01 Msun and N_AGB/N_RGB of about 0.08."/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.40423151E+00   0.69399150E-01   0.46094430E+00" uncertainty="0.17034067E-01   0.29244374E-02   0.19423909E-01"/>
-      <distanceMilkyWay value="0.62115066E+00" uncertainty="0.18294731E-01"/>
-      <distanceM31 value="0.18698814E+00" uncertainty="0.24600132E-01"/>
+      <positionHeliocentricCartesian value="0.42493445E+00   0.72953466E-01   0.48455182E+00" uncertainty="0.11792816E-01   0.20246105E-02   0.13447321E-01"/>
+      <distanceMilkyWay value="0.65274865E+00" uncertainty="0.12666170E-01"/>
+      <distanceM31 value="0.16078357E+00" uncertainty="0.21342097E-01"/>
     </galaxy>
     <galaxy name="Hercules">
       <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2509.12313" />
