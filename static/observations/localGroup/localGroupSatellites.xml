@@ -3064,8 +3064,10 @@
         <epoch fraction="0.04" time="12.0"/>
         <epoch fraction="0.11" time="8.0"/>
       </starFormationHistoryCumulative>
-      <properMotionRightAscension value="-6.6" uncertainty="7.3" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
-      <properMotionDeclination value="-4.4" uncertainty="8.7" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionRightAscension value="-6.6" uncertainty="7.3" comment="Gaia DR3 stars with HST relative motions (GaiaHub; Table 2 of this reference)." reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-4.4" uncertainty="8.7" comment="Gaia DR3 stars with HST relative motions (GaiaHub; Table 2 of this reference)." reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionRightAscension value="0.19" uncertainty="0.97" comment="Multi-epoch HST/ACS (three epochs over 15 years), relative to background galaxies (Table 4 of this reference)." reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-8.36" uncertainty="0.90" comment="Multi-epoch HST/ACS (three epochs over 15 years), relative to background galaxies (Table 4 of this reference)." reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Zwicky (1942)"/>
       <alias value="Leo III"/>
       <alias value="UGC 5364"/>
@@ -4124,8 +4126,10 @@
       <rotationVelocityMaximumNeutralHydrogen value="0.0" uncertaintyLow="0.0" uncertaintyHigh="0.0"/>
       <velocityDispersionNeutralHydrogen value="10.0" uncertaintyLow="1.0" uncertaintyHigh="1.0"/>
       <metallicityStellar value="-2.10" uncertaintyLow="0.20" uncertaintyHigh="0.20" technique="Isochrones"/>
-      <properMotionRightAscension value="5.9" uncertainty="10.1" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
-      <properMotionDeclination value="-12.8" uncertainty="9.2" reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionRightAscension value="5.9" uncertainty="10.1" comment="Gaia DR3 stars with HST relative motions (GaiaHub; Table 2 of this reference)." reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="-12.8" uncertainty="9.2" comment="Gaia DR3 stars with HST relative motions (GaiaHub; Table 2 of this reference)." reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionRightAscension value="4.33" uncertainty="1.66" comment="Multi-epoch HST/ACS (two epochs over 9 years), relative to background galaxies (Table 4 of this reference)." reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
+      <properMotionDeclination value="4.65" uncertainty="1.91" comment="Multi-epoch HST/ACS (two epochs over 9 years), relative to background galaxies (Table 4 of this reference)." reference="Bennet, Patel, Sohn et al.; 2024; ApJ; 971; 98" referenceURL="https://ui.adsabs.harvard.edu/abs/2024ApJ...971...98B"/>
       <referencePrimary reference="Longmore et al. (1978)"/>
       <alias value="UKS 1927-177"/>
       <comment value="Defines RLG"/>
