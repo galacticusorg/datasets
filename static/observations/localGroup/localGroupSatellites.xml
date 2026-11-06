@@ -1313,18 +1313,18 @@
       <discoverySurvey value="PAndAS" reference="McConnachie, Irwin, Ibata et al.; 2009; Nature; 461; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2009Natur.461...66M" DOI="doi:10.1038/nature08327"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+28" arcminutes="05" arcseconds="25"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="27" seconds="40.4"/>
-      <distanceModulus value="24.84" uncertaintyLow="0.24" uncertaintyHigh="0.27" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.39" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="28.090277777778"/>
       <rightAscensionDecimal value="21.918333333333"/>
-      <massStellar value="40926.1" uncertaintyLow="21337.7" uncertaintyHigh="23937.3" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="31045.6" uncertaintyLow="9567.3" uncertaintyHigh="13828.9" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="3.9000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="1000000" uncertaintyLow="800000" uncertaintyHigh="1100000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <radiusHalfLight value="253.0e-6" uncertaintyLow="71.0e-6" uncertaintyHigh="86.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="1.980e-04" uncertaintyLow="4.400e-05" uncertaintyHigh="6.600e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.61" uncertaintyLow="0.14" uncertaintyHigh="0.1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.079"/>
-      <magnitudeAbsoluteV value="-6.7" uncertaintyLow="0.5" uncertaintyHigh="0.8" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-6.4" uncertainty="0.4" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="0.9" uncertaintyLow="0.2" uncertaintyHigh="0.3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-34.1"/>
       <longitudeGalactic value="132.6"/>
@@ -1344,10 +1344,10 @@
       <alias value="And XXII"/>
       <comment value="M33 satellite? In Pisces"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.928966386780" uncertaintyLow="0.102673159396" uncertaintyHigh="0.115507304321"/>
-      <positionHeliocentricCartesian value="0.76030148E+00   0.30592187E+00   0.43741515E+00" uncertaintyLow="0.84031625E-01   0.33811734E-01   0.48344909E-01" uncertaintyHigh="0.94535579E-01   0.38038201E-01   0.54388022E-01"/>
-      <distanceMilkyWay value="0.93363259E+00" uncertaintyLow="0.73071701E-01" uncertaintyHigh="0.82205659E-01"/>
-      <distanceM31 value="0.27946735E+00" uncertaintyLow="0.62615381E-01" uncertaintyHigh="0.70116595E-01"/>
+      <distanceHeliocentric value="0.7551" uncertaintyLow="0.0240" uncertaintyHigh="0.0250" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.61800261E+00   0.24866519E+00   0.35554804E+00" uncertaintyLow="0.19642514E-01   0.79035419E-02   0.11300693E-01" uncertaintyHigh="0.20460952E-01   0.82328562E-02   0.11771555E-01"/>
+      <distanceMilkyWay value="0.75977197E+00" uncertaintyLow="0.17068681E-01" uncertaintyHigh="0.17779869E-01"/>
+      <distanceM31 value="0.21666623E+00" uncertaintyLow="0.16606169E-01" uncertaintyHigh="0.16883811E-01"/>
     </galaxy>
     <galaxy name="Pisces II">
       <discoverySurvey value="SDSS"/>
@@ -1457,16 +1457,17 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="24" arcminutes="34" arcseconds="57" reference="McConnachie et al. 2005"/>
       <rightAscensionSexagesimal hours="23" minutes="51" seconds="46.3" reference="McConnachie et al. 2005"/>
-      <distanceHeliocentric value="0.783" uncertainty="0.025"/>
-      <distanceModulus value="24.47" uncertaintyLow="0.07" uncertaintyHigh="0.07"/>
+      <distanceHeliocentric value="0.8318" uncertainty="0.0230" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.60" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-11.6" uncertainty="0.2" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="24.582500000000"/>
       <rightAscensionDecimal value="357.942916666667"/>
-      <massStellar value="2800000"/>
+      <massStellar value="3159892.7" comment="Scaled from 2.8e+06 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.783 Mpc."/>
       <massDynamicalHalfLightRadius value="46700000" uncertainty="9000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="2.4000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.524e-3" uncertainty="0.049e-3"/>
+      <radiusHalfLight value="4.890e-04" uncertainty="2.200e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.41" uncertaintyLow="0.03" uncertaintyHigh="0.03"/>
       <extinctionV value="0.063"/>
       <radiusHalfLightAngular value="2.30" uncertaintyLow="0.20" uncertaintyHigh="0.20"/>
@@ -1492,9 +1493,9 @@
       <alias value="Pegasus dSph"/>
       <alias value="And VI"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.71157253E+00  -0.25558484E-01   0.32573040E+00" uncertainty="0.22719430E-01   0.81604355E-03   0.10400077E-01"/>
-      <distanceMilkyWay value="0.78488723E+00" uncertainty="0.21068426E-01"/>
-      <distanceM31 value="0.26883738E+00" uncertainty="0.20127696E-01"/>
+      <positionHeliocentricCartesian value="0.75592086E+00  -0.27151401E-01   0.34603135E+00" uncertainty="0.20901875E-01   0.75076007E-03   0.95680704E-02"/>
+      <distanceMilkyWay value="0.83368480E+00" uncertainty="0.19384460E-01"/>
+      <distanceM31 value="0.28135277E+00" uncertainty="0.21126041E-01"/>
       <properMotionRightAscension value="-0.16" uncertainty="1.23" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; ApJ; 992; 54" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992...54C"/>
       <properMotionDeclination value="-5.26" uncertainty="1.12" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; ApJ; 992; 54" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992...54C"/>
     </galaxy>
@@ -1666,16 +1667,17 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="40" arcminutes="51" arcseconds="55" reference="Fiorentino et al. 2010"/>
       <rightAscensionSexagesimal hours="0" minutes="42" seconds="41.8" reference="Fiorentino et al. 2010"/>
-      <distanceHeliocentric value="0.805" uncertainty="0.078"/>
-      <distanceModulus value="24.53" uncertaintyLow="0.21" uncertaintyHigh="0.21"/>
+      <distanceHeliocentric value="0.7727" uncertaintyLow="0.0210" uncertaintyHigh="0.0220" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.44" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-16.8" uncertainty="0.1" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="40.865277777778"/>
       <rightAscensionDecimal value="10.674166666667"/>
-      <massStellar value="320000000"/>
+      <massStellar value="294835682.0" comment="Scaled from 3.2e+08 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.805 Mpc."/>
       <massDynamicalHalfLightRadius value="540000000"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="1.8000e+05" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.11e-3" uncertainty="0.016e-3"/>
+      <radiusHalfLight value="1.060e-04" uncertainty="1.200e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.25" uncertaintyLow="0.02" uncertaintyHigh="0.02"/>
       <extinctionV value="0.154"/>
       <radiusHalfLightAngular value="0.47" uncertaintyLow="0.05" uncertaintyHigh="0.05"/>
@@ -1701,9 +1703,9 @@
       <alias value="NGC 221"/>
       <alias value="UGC 452"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.59824724E+00   0.11276065E+00   0.52669752E+00" uncertainty="0.57966813E-01   0.10925876E-01   0.51034045E-01"/>
-      <distanceMilkyWay value="0.80900837E+00" uncertainty="0.54439570E-01"/>
-      <distanceM31 value="0.22700942E-01" uncertainty="0.58662904E-01"/>
+      <positionHeliocentricCartesian value="0.57424303E+00   0.10823621E+00   0.50556419E+00" uncertaintyLow="0.15606450E-01   0.29415821E-02   0.13739935E-01" uncertaintyHigh="0.16349614E-01   0.30816574E-02   0.14394218E-01"/>
+      <distanceMilkyWay value="0.77670973E+00" uncertaintyLow="0.14655905E-01" uncertaintyHigh="0.15353797E-01"/>
+      <distanceM31 value="0.11669000E-01" uncertaintyLow="0.21755341E-01" uncertaintyHigh="0.22186792E-01"/>
     </galaxy>
     <galaxy name="Pisces A">
       <declinationSexagesimal degrees="+10" arcminutes="48" arcseconds="47.01"/>
@@ -1857,16 +1859,17 @@
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="31" arcminutes="12" arcseconds="58" reference="Slater et al. 2011"/>
       <rightAscensionSexagesimal hours="22" minutes="32" seconds="41.2" reference="Slater et al. 2011"/>
-      <distanceHeliocentric value="0.661" uncertaintyLow="0.061" uncertaintyHigh="0.152"/>
-      <distanceModulus value="24.10" uncertaintyLow="0.20" uncertaintyHigh="0.50"/>
+      <distanceHeliocentric value="0.7447" uncertainty="0.0170" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.36" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-8.8" uncertaintyLow="1" uncertaintyHigh="0.4" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="31.216111111111"/>
       <rightAscensionDecimal value="338.171666666667"/>
-      <massStellar value="210000"/>
+      <massStellar value="266550.2" comment="Scaled from 210000 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.661 Mpc."/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="1.8000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="5300000" uncertaintyLow="2700000" uncertaintyHigh="3600000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <radiusHalfLight value="0.213e-3" uncertaintyLow="0.045e-3" uncertaintyHigh="0.064e-3"/>
+      <radiusHalfLight value="2.400e-04" uncertainty="4.600e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.34" uncertaintyLow="0.13" uncertaintyHigh="0.13"/>
       <extinctionV value="0.096"/>
       <radiusHalfLightAngular value="1.11" uncertaintyLow="0.21" uncertaintyHigh="0.21"/>
@@ -1887,9 +1890,9 @@
       <referencePrimary reference="Slater et al. (2011)"/>
       <comment value="In Pegasus"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.52476867E+00  -0.21019357E+00   0.34257482E+00" uncertaintyLow="0.48427971E-01   0.19397591E-01   0.31614318E-01" uncertaintyHigh="0.12067298E+00   0.48334981E-01   0.78776662E-01"/>
-      <distanceMilkyWay value="0.66119390E+00" uncertaintyLow="0.42307695E-01" uncertaintyHigh="0.10542238E+00"/>
-      <distanceM31 value="0.36750675E+00" uncertaintyLow="0.25196533E-01" uncertaintyHigh="0.59492762E-01"/>
+      <positionHeliocentricCartesian value="0.59121819E+00  -0.23680961E+00   0.38595382E+00" uncertainty="0.13496320E-01   0.54058860E-02   0.88105477E-02"/>
+      <distanceMilkyWay value="0.74488808E+00" uncertainty="0.11788910E-01"/>
+      <distanceM31 value="0.36994824E+00" uncertainty="0.89611030E-02"/>
     </galaxy>
     <galaxy name="Sextans A">
       <discoverySurvey value="classical"/>
@@ -1973,14 +1976,15 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="21" arcminutes="53" arcseconds="6" reference="McConnachie et al. 2005"/>
       <rightAscensionSexagesimal hours="1" minutes="3" seconds="55.0" reference="McConnachie et al. 2005"/>
-      <distanceHeliocentric value="0.769" uncertainty="0.025"/>
-      <distanceModulus value="24.43" uncertaintyLow="0.07" uncertaintyHigh="0.07"/>
+      <distanceHeliocentric value="0.6053" uncertainty="0.0140" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="23.91" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-9.8" uncertainty="0.1" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="21.885000000000"/>
       <rightAscensionDecimal value="15.979166666667"/>
-      <massStellar value="960000"/>
+      <massStellar value="594784.9" comment="Scaled from 960000 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.769 Mpc."/>
       <massDynamicalHalfLightRadius value="17000000"/>
       <massNeutralHydrogen value="3.8000e+05" uncertainty="2.0000e+04" reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P"/>
-      <radiusHalfLight value="0.47e-3" uncertainty="0.047e-3"/>
+      <radiusHalfLight value="3.700e-04" uncertainty="3.600e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.20"/>
       <extinctionV value="0.040"/>
       <radiusHalfLightAngular value="2.10" uncertaintyLow="0.20" uncertaintyHigh="0.20"/>
@@ -2005,27 +2009,27 @@
       <alias value="Local Group Suspect 3"/>
       <alias value="Pisces (I)"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.68600970E+00   0.19644019E+00   0.28664080E+00" uncertainty="0.22302006E-01   0.63862221E-02   0.93186216E-02"/>
-      <distanceMilkyWay value="0.77278183E+00" uncertainty="0.20188855E-01"/>
-      <distanceM31 value="0.26840899E+00" uncertainty="0.20089463E-01"/>
+      <positionHeliocentricCartesian value="0.53997616E+00   0.15462321E+00   0.22562247E+00" uncertainty="0.12489123E-01   0.35762844E-02   0.52184281E-02"/>
+      <distanceMilkyWay value="0.60909131E+00" uncertainty="0.11294670E-01"/>
+      <distanceM31 value="0.29686739E+00" uncertainty="0.17204754E-01"/>
     </galaxy>
     <galaxy name="Andromeda XIX">
       <discoverySurvey value="Martin2006" reference="McConnachie, Huxor, Martin et al.; 2008; ApJ; 688; 1009" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...688.1009M"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+35" arcminutes="02" arcseconds="41"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="19" seconds="34.5"/>
-      <distanceHeliocentric value="0.933" uncertainty="0.056"/>
-      <distanceModulus value="24.57" uncertaintyLow="0.43" uncertaintyHigh="0.08"/>
+      <distanceHeliocentric value="0.8128" uncertaintyLow="0.0290" uncertaintyHigh="0.0340" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.55" uncertaintyLow="0.08" uncertaintyHigh="0.09" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="35.044722222222"/>
       <rightAscensionDecimal value="4.893750000000"/>
-      <massStellar value="855066.7" uncertaintyLow="445806.0" uncertaintyHigh="380880.7" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="937562.0" uncertaintyLow="226348.5" uncertaintyHigh="298385.4" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="1.3000e+05" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="1.1e8" uncertainty="0.5e8" reference="Collins, Tollerud, Rich et al.; 2020; MNRAS; 491; 3496" referenceURL="https://ui.adsabs.harvard.edu/abs/2020MNRAS.491.3496C"/>
-      <radiusHalfLight value="3.065e-3" uncertaintyLow="1.065e-3" uncertaintyHigh="0.935e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="3.357e-03" uncertaintyLow="4.650e-04" uncertaintyHigh="8.160e-04" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.58" uncertaintyLow="0.1" uncertaintyHigh="0.05" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.062"/>
-      <magnitudeAbsoluteV value="-10" uncertaintyLow="0.4" uncertaintyHigh="0.8" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-10.1" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="14.2" uncertaintyLow="1.9" uncertaintyHigh="3.4" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-27.4"/>
       <longitudeGalactic value="115.6"/>
@@ -2044,26 +2048,26 @@
       <referencePrimary reference="McConnachie et al. (2008)"/>
       <alias value="And XIX"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.76106638E+00   0.65162776E-01   0.53574320E+00" uncertainty="0.45680297E-01   0.39111634E-02   0.32156076E-01"/>
-      <distanceMilkyWay value="0.93621075E+00" uncertainty="0.41525958E-01"/>
-      <distanceM31 value="0.18894835E+00" uncertainty="0.47813158E-01"/>
+      <positionHeliocentricCartesian value="0.66301688E+00   0.56767743E-01   0.46672248E+00" uncertaintyLow="0.23655868E-01   0.20254239E-02   0.16652254E-01" uncertaintyHigh="0.27734466E-01   0.23746349E-02   0.19523332E-01"/>
+      <distanceMilkyWay value="0.81601535E+00" uncertaintyLow="0.21499768E-01" uncertaintyHigh="0.25206611E-01"/>
+      <distanceM31 value="0.11130476E+00" uncertaintyLow="0.25195214E-01" uncertaintyHigh="0.27879466E-01"/>
     </galaxy>
     <galaxy name="Andromeda XVII">
       <discoverySurvey value="Irwin2008" reference="Irwin, Ferguson, Huxor et al.; 2008; ApJL; 676; L17" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...676L..17I" DOI="doi:10.1086/587100"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+44" arcminutes="19" arcseconds="23"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="37" seconds="06.3"/>
-      <distanceModulus value="24.69" uncertaintyLow="0.03" uncertaintyHigh="0.06" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.40" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="44.323055555556"/>
       <rightAscensionDecimal value="9.276250000000"/>
-      <massStellar value="162929.6" uncertaintyLow="39334.9" uncertaintyHigh="51853.4" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="112719.7" uncertaintyLow="27213.1" uncertaintyHigh="35873.8" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="1300000" uncertaintyLow="1900000" uncertaintyHigh="3300000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="4.2000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="339.0e-6" uncertaintyLow="51.0e-6" uncertaintyHigh="65.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="3.150e-04" uncertainty="6.800e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.5" uncertainty="0.1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.074"/>
-      <magnitudeAbsoluteV value="-8.2" uncertainty="0.3" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-7.8" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="1.4" uncertainty="0.3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-18.5"/>
       <longitudeGalactic value="120.2"/>
@@ -2085,10 +2089,10 @@
       <referencePrimary reference="Irwin et al. (2008)"/>
       <alias value="And XVII"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.866961875758" uncertaintyLow="0.011977520948" uncertaintyHigh="0.023955041896"/>
-      <positionHeliocentricCartesian value="0.61212357E+00   0.99978557E-01   0.60574905E+00" uncertaintyLow="0.84567996E-02   0.13812548E-02   0.83687325E-02" uncertaintyHigh="0.16913599E-01   0.27625096E-02   0.16737465E-01"/>
-      <distanceMilkyWay value="0.87095067E+00" uncertaintyLow="0.83510100E-02" uncertaintyHigh="0.16701761E-01"/>
-      <distanceM31 value="0.95907146E-01" uncertaintyLow="0.18647828E-01" uncertaintyHigh="0.23591252E-01"/>
+      <distanceHeliocentric value="0.7586" uncertaintyLow="0.0240" uncertaintyHigh="0.0250" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.53561403E+00   0.87482202E-01   0.53003626E+00" uncertaintyLow="0.16945342E-01   0.27676942E-02   0.16768877E-01" uncertaintyHigh="0.17651398E-01   0.28830148E-02   0.17467581E-01"/>
+      <distanceMilkyWay value="0.76259310E+00" uncertaintyLow="0.16730778E-01" uncertaintyHigh="0.17427887E-01"/>
+      <distanceM31 value="0.49753309E-01" uncertaintyLow="0.22528615E-01" uncertaintyHigh="0.22965937E-01"/>
     </galaxy>
     <galaxy name="Leo M">
       <discoverySurvey value="HST-GO-16916"/>
@@ -2395,18 +2399,18 @@
       <discoverySurvey value="PAndAS" reference="McConnachie, Irwin, Ibata et al.; 2009; Nature; 461; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2009Natur.461...66M" DOI="doi:10.1038/nature08327"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+47" arcminutes="54" arcseconds="43"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="23" seconds="46.3"/>
-      <distanceModulus value="24.74" uncertaintyLow="0.20" uncertaintyHigh="0.21" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.48" uncertaintyLow="0.07" uncertaintyHigh="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="47.911944444444"/>
       <rightAscensionDecimal value="5.942916666667"/>
-      <massStellar value="23550.5" uncertaintyLow="13270.3" uncertaintyHigh="35605.7" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="21478.3" uncertaintyLow="10206.3" uncertaintyHigh="12562.5" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="5.0000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="8300000" uncertaintyLow="4600000" uncertaintyHigh="7200000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <radiusHalfLight value="228.0e-6" uncertaintyLow="98.0e-6" uncertaintyHigh="183.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="2.290e-04" uncertaintyLow="1.150e-04" uncertaintyHigh="1.380e-04" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.35" uncertaintyLow="0.35" uncertaintyHigh="0.33" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.110"/>
-      <magnitudeAbsoluteV value="-6.1" uncertaintyLow="1.0" uncertaintyHigh="0.9" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-6" uncertaintyLow="0.5" uncertaintyHigh="0.7" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="1" uncertaintyLow="0.5" uncertaintyHigh="0.6" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-14.7"/>
       <longitudeGalactic value="118.1"/>
@@ -2425,10 +2429,10 @@
       <referencePrimary reference="Richardson et al. (2011)"/>
       <alias value="And XXVI"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.887156012038" uncertaintyLow="0.081710088339" uncertaintyHigh="0.085795592756"/>
-      <positionHeliocentricCartesian value="0.59143992E+00   0.61567147E-01   0.65837231E+00" uncertaintyLow="0.54473630E-01   0.56705438E-02   0.60638330E-01" uncertaintyHigh="0.57197312E-01   0.59540710E-02   0.63670247E-01"/>
-      <distanceMilkyWay value="0.89096948E+00" uncertaintyLow="0.57810910E-01" uncertaintyHigh="0.60701453E-01"/>
-      <distanceM31 value="0.15023519E+00" uncertaintyLow="0.59606766E-01" uncertaintyHigh="0.62384990E-01"/>
+      <distanceHeliocentric value="0.7870" uncertaintyLow="0.0250" uncertaintyHigh="0.0220" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.52466896E+00   0.54616487E-01   0.58404497E+00" uncertaintyLow="0.16666739E-01   0.17349583E-02   0.18552890E-01" uncertaintyHigh="0.14666731E-01   0.15267633E-02   0.16326543E-01"/>
+      <distanceMilkyWay value="0.79081732E+00" uncertaintyLow="0.17687157E-01" uncertaintyHigh="0.15564721E-01"/>
+      <distanceM31 value="0.10205274E+00" uncertaintyLow="0.21106233E-01" uncertaintyHigh="0.19847170E-01"/>
     </galaxy>
     <galaxy name="Bootes (I)">
       <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2509.12313" />
@@ -2579,18 +2583,18 @@
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+44" arcminutes="48" arcseconds="27"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="06" seconds="35.4"/>
-      <distanceModulus value="24.26" uncertaintyLow="0.10" uncertaintyHigh="0.12" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.00" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="44.807500000000"/>
       <rightAscensionDecimal value="16.647500000000"/>
-      <massStellar value="77983.0" uncertaintyLow="18826.8" uncertaintyHigh="24818.6" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="71121.4" uncertaintyLow="17170.3" uncertaintyHigh="22634.8" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="4600000" uncertainty="2000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="3.4000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="239.0e-6" uncertaintyLow="39.0e-6" uncertaintyHigh="79.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="2.020e-04" uncertaintyLow="3.700e-05" uncertaintyHigh="7.400e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.1" uncertaintyLow="0.1" uncertaintyHigh="0.34" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.129"/>
-      <magnitudeAbsoluteV value="-7.4" uncertainty="0.3" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-7.3" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="1.1" uncertaintyLow="0.2" uncertaintyHigh="0.4" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-18.0"/>
       <longitudeGalactic value="125.8"/>
@@ -2613,10 +2617,10 @@
       <referencePrimary reference="Zucker et al. (2007)"/>
       <alias value="And X"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.711213513653" uncertaintyLow="0.032752592689" uncertaintyHigh="0.039303111227"/>
-      <positionHeliocentricCartesian value="0.48344098E+00   0.14455653E+00   0.50121143E+00" uncertaintyLow="0.22263280E-01   0.66570742E-02   0.23081639E-01" uncertaintyHigh="0.26715936E-01   0.79884890E-02   0.27697967E-01"/>
-      <distanceMilkyWay value="0.71585279E+00" uncertaintyLow="0.22222739E-01" uncertaintyHigh="0.26667258E-01"/>
-      <distanceM31 value="0.10242037E+00" uncertaintyLow="0.27248127E-01" uncertaintyHigh="0.30612533E-01"/>
+      <distanceHeliocentric value="0.6310" uncertaintyLow="0.0170" uncertaintyHigh="0.0180" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.42891656E+00   0.12825286E+00   0.44468279E+00" uncertaintyLow="0.11555597E-01   0.34553069E-02   0.11980360E-01" uncertaintyHigh="0.12235338E-01   0.36585603E-02   0.12685088E-01"/>
+      <distanceMilkyWay value="0.63564345E+00" uncertaintyLow="0.11532262E-01" uncertaintyHigh="0.12210613E-01"/>
+      <distanceM31 value="0.16684947E+00" uncertaintyLow="0.21392150E-01" uncertaintyHigh="0.21767546E-01"/>
     </galaxy>
     <galaxy name="Leo P">
       <referencePrimary reference="Giovanelli, Haynes, Kent et al.; 2005; AJ; 130; 2598" referenceURL="https://ui.adsabs.harvard.edu/abs/2005AJ....130.2598G"/>
@@ -2787,13 +2791,14 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="14" arcminutes="44" arcseconds="35" reference="McConnachie et al. 2005"/>
       <rightAscensionSexagesimal hours="23" minutes="28" seconds="36.3" reference="McConnachie et al. 2005"/>
-      <distanceHeliocentric value="0.92" uncertainty="0.03"/>
-      <distanceModulus value="24.82" uncertaintyLow="0.07" uncertaintyHigh="0.07"/>
+      <distanceHeliocentric value="0.8872" uncertaintyLow="0.0200" uncertaintyHigh="0.0210" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.74" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-12.3" uncertainty="0.2" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="14.743055555556"/>
       <rightAscensionDecimal value="352.151250000000"/>
-      <massStellar value="6610000"/>
+      <massStellar value="6147080.1" comment="Scaled from 6.61e+06 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.92 Mpc."/>
       <massNeutralHydrogen value="5.9000e+06" uncertainty="4.0000e+05" reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P"/>
-      <radiusHalfLight value="0.562e-3"/>
+      <radiusHalfLight value="5.420e-04" comment="Scaled to the distance of Savino et al. (2022) from 0.92 Mpc."/>
       <ellipticityProjected value="0.46" uncertaintyLow="0.02" uncertaintyHigh="0.02"/>
       <extinctionV value="0.068"/>
       <radiusHalfLightAngular value="2.10" uncertaintyLow="0.04" uncertaintyHigh="0.04"/>
@@ -2821,21 +2826,22 @@
       <alias value="UGC 12613"/>
       <alias value="DDO 216"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.88137585E+00  -0.12149755E+00   0.23412596E+00" uncertainty="0.28740517E-01   0.39618766E-02   0.76345421E-02"/>
-      <distanceMilkyWay value="0.92053806E+00" uncertainty="0.27607090E-01"/>
-      <distanceM31 value="0.47406994E+00" uncertainty="0.24507439E-01"/>
+      <positionHeliocentricCartesian value="0.84995288E+00  -0.11716590E+00   0.22577886E+00" uncertaintyLow="0.19160344E-01   0.26412511E-02   0.50896947E-02" uncertaintyHigh="0.20118362E-01   0.27733137E-02   0.53441795E-02"/>
+      <distanceMilkyWay value="0.88773943E+00" uncertaintyLow="0.18404703E-01" uncertaintyHigh="0.19324937E-01"/>
+      <distanceM31 value="0.45769810E+00" uncertaintyLow="0.19344261E-01" uncertaintyHigh="0.19715488E-01"/>
     </galaxy>
     <galaxy name="IC 1613">
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="2" arcminutes="7" arcseconds="4" reference="Bernard et al. 2010"/>
       <rightAscensionSexagesimal hours="1" minutes="4" seconds="47.8" reference="Bernard et al. 2010"/>
-      <distanceHeliocentric value="0.755" uncertainty="0.042"/>
-      <distanceModulus value="24.39" uncertaintyLow="0.12" uncertaintyHigh="0.12"/>
+      <distanceHeliocentric value="0.7311" uncertainty="0.0170" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.32" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-15.2" uncertainty="0.1" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="2.117777777778"/>
       <rightAscensionDecimal value="16.199166666667"/>
-      <massStellar value="100000000"/>
+      <massStellar value="93769082.1" comment="Scaled from 1e+08 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.755 Mpc."/>
       <massNeutralHydrogen value="6.5000e+07" uncertainty="7.0000e+06" reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P"/>
-      <radiusHalfLight value="1.496e-3"/>
+      <radiusHalfLight value="1.449e-03" comment="Scaled to the distance of Savino et al. (2022) from 0.755 Mpc."/>
       <ellipticityProjected value="0.11" uncertaintyLow="0.03" uncertaintyHigh="0.03"/>
       <extinctionV value="0.025"/>
       <radiusHalfLightAngular value="6.81"/>
@@ -2862,9 +2868,9 @@
       <alias value="DDO 8"/>
       <alias value="UGC 668"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.72452959E+00   0.21048388E+00   0.27900103E-01" uncertainty="0.40304957E-01   0.11709037E-01   0.15520587E-02"/>
-      <distanceMilkyWay value="0.75763832E+00" uncertainty="0.38714273E-01"/>
-      <distanceM31 value="0.51995224E+00" uncertainty="0.20082381E-01"/>
+      <positionHeliocentricCartesian value="0.70159415E+00   0.20382088E+00   0.27016908E-01" uncertainty="0.16313911E-01   0.47393720E-02   0.62821425E-03"/>
+      <distanceMilkyWay value="0.73373965E+00" uncertainty="0.15668736E-01"/>
+      <distanceM31 value="0.51354323E+00" uncertainty="0.16838047E-01"/>
     </galaxy>
     <galaxy name="NGC 300">
       <discoverySurvey value="classical"/>
@@ -2908,18 +2914,18 @@
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+43" arcminutes="11" arcseconds="57"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="52" seconds="53.4"/>
-      <distanceModulus value="24.43" uncertaintyLow="0.03" uncertaintyHigh="0.06" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.23" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="43.199166666667"/>
       <rightAscensionDecimal value="13.222500000000"/>
-      <massStellar value="340408.2" uncertaintyLow="82182.2" uncertaintyHigh="108337.2" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="235504.9" uncertaintyLow="56856.2" uncertaintyHigh="74951.0" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="22500000" uncertainty="7000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="5.5000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="444.0e-6" uncertaintyLow="53.0e-6" uncertaintyHigh="68.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="4.080e-04" uncertaintyLow="4.200e-05" uncertaintyHigh="6.200e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0" uncertaintyLow="0" uncertaintyHigh="0.16" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.075"/>
-      <magnitudeAbsoluteV value="-9.0" uncertainty="0.3" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-8.6" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="2" uncertaintyLow="0.2" uncertaintyHigh="0.3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-19.7"/>
       <longitudeGalactic value="123.2"/>
@@ -2942,10 +2948,10 @@
       <referencePrimary reference="Zucker et al. (2004)"/>
       <alias value="And IX"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.769130440287" uncertaintyLow="0.010625929718" uncertaintyHigh="0.021251859436"/>
-      <positionHeliocentricCartesian value="0.54581553E+00   0.12824603E+00   0.52649786E+00" uncertaintyLow="0.75407202E-02   0.17717844E-02   0.72738368E-02" uncertaintyHigh="0.15081440E-01   0.35435688E-02   0.14547674E-01"/>
-      <distanceMilkyWay value="0.77343775E+00" uncertaintyLow="0.73045953E-02" uncertaintyHigh="0.14608878E-01"/>
-      <distanceM31 value="0.39024887E-01" uncertaintyLow="0.17350190E-01" uncertaintyHigh="0.20786769E-01"/>
+      <distanceHeliocentric value="0.7015" uncertaintyLow="0.0190" uncertaintyHigh="0.0200" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.49782140E+00   0.11696922E+00   0.48020236E+00" uncertaintyLow="0.13483402E-01   0.31680901E-02   0.13006194E-01" uncertaintyHigh="0.14193055E-01   0.33348317E-02   0.13690730E-01"/>
+      <distanceMilkyWay value="0.70581042E+00" uncertaintyLow="0.13058990E-01" uncertaintyHigh="0.13746293E-01"/>
+      <distanceM31 value="0.88633110E-01" uncertaintyLow="0.22475408E-01" uncertaintyHigh="0.22900005E-01"/>
     </galaxy>
     <galaxy name="Leo A">
       <discoverySurvey value="classical"/>
@@ -3113,18 +3119,18 @@
       <discoverySurvey value="PAndAS" reference="McConnachie, Irwin, Ibata et al.; 2009; Nature; 461; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2009Natur.461...66M" DOI="doi:10.1038/nature08327"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+42" arcminutes="28" arcseconds="14"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="23" minutes="54" seconds="47.9"/>
-      <distanceModulus value="24.65" uncertaintyLow="0.03" uncertaintyHigh="0.05" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.44" uncertaintyLow="0.07" uncertaintyHigh="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="42.470555555556"/>
       <rightAscensionDecimal value="358.699583333333"/>
-      <massStellar value="409260.7" uncertaintyLow="98804.7" uncertaintyHigh="130249.9" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="310456.0" uncertaintyLow="74951.0" uncertaintyHigh="98804.7" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="6.9000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="12000000" uncertaintyLow="4000000" uncertaintyHigh="5000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <radiusHalfLight value="1033.0e-6" uncertaintyLow="181.0e-6" uncertaintyHigh="206.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="9.220e-04" uncertaintyLow="9.500e-05" uncertaintyHigh="1.820e-04" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.36" uncertaintyLow="0.13" uncertaintyHigh="0.1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.093"/>
-      <magnitudeAbsoluteV value="-9.2" uncertainty="0.3" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-8.9" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="4.1" uncertaintyLow="0.4" uncertaintyHigh="0.8" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-19.2"/>
       <longitudeGalactic value="111.9"/>
@@ -3143,21 +3149,21 @@
       <referencePrimary reference="Martin et al. (2009)"/>
       <alias value="And XXI"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.851138038202" uncertaintyLow="0.011758906553" uncertaintyHigh="0.019598177588"/>
-      <positionHeliocentricCartesian value="0.62765851E+00  -0.14248131E-01   0.57469796E+00" uncertaintyLow="0.86714228E-02   0.19684520E-03   0.79397458E-02" uncertaintyHigh="0.14452371E-01   0.32807534E-03   0.13232910E-01"/>
-      <distanceMilkyWay value="0.85409705E+00" uncertaintyLow="0.83433201E-02" uncertaintyHigh="0.13905376E-01"/>
-      <distanceM31 value="0.14506478E+00" uncertaintyLow="0.10532341E-01" uncertaintyHigh="0.12021087E-01"/>
+      <distanceHeliocentric value="0.7727" uncertaintyLow="0.0250" uncertaintyHigh="0.0220" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.56981560E+00  -0.12935071E-01   0.52173572E+00" uncertaintyLow="0.18435861E-01   0.41850236E-03   0.16880281E-01" uncertaintyHigh="0.16223558E-01   0.36828207E-03   0.14854647E-01"/>
+      <distanceMilkyWay value="0.77566256E+00" uncertaintyLow="0.17737688E-01" uncertaintyHigh="0.15609184E-01"/>
+      <distanceM31 value="0.12245664E+00" uncertaintyLow="0.40670712E-02" uncertaintyHigh="0.40016711E-02"/>
     </galaxy>
     <galaxy name="Triangulum">
       <discoverySurvey value="classical"/>
       <referencePrimary reference="McConnachie et al. 2005"/>
       <declinationSexagesimal degrees="30" arcminutes="39" arcseconds="37" reference="McConnachie et al. 2005"/>
       <rightAscensionSexagesimal hours="1" minutes="33" seconds="50.9" reference="McConnachie et al. 2005"/>
-      <distanceHeliocentric value="0.809" uncertainty="0.022"/>
-      <distanceModulus value="24.54" uncertaintyLow="0.06" uncertaintyHigh="0.06"/>
+      <distanceHeliocentric value="0.8590" uncertaintyLow="0.0230" uncertaintyHigh="0.0240" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.67" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="30.660277777778"/>
       <rightAscensionDecimal value="23.462083333333"/>
-      <massStellar value="2900000000"/>
+      <massStellar value="3269544723.2" comment="Scaled from 2.9e+09 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.809 Mpc."/>
       <extinctionV value="0.041"/>
       <latitudeGalactic value="-31.3"/>
       <longitudeGalactic value="133.6"/>
@@ -3173,9 +3179,9 @@
       <alias value="NGC 598"/>
       <alias value="UGC 1117"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.63837172E+00   0.27706974E+00   0.41254686E+00" uncertainty="0.17359923E-01   0.75346530E-02   0.11218827E-01"/>
-      <distanceMilkyWay value="0.81390734E+00" uncertainty="0.15018483E-01"/>
-      <distanceM31 value="0.20643500E+00" uncertainty="0.14169576E-01"/>
+      <positionHeliocentricCartesian value="0.67782609E+00   0.29419395E+00   0.43804419E+00" uncertaintyLow="0.18149010E-01   0.78771372E-02   0.11728773E-01" uncertaintyHigh="0.18938098E-01   0.82196215E-02   0.12238720E-01"/>
+      <distanceMilkyWay value="0.86390575E+00" uncertaintyLow="0.15704137E-01" uncertaintyHigh="0.16386916E-01"/>
+      <distanceM31 value="0.22429325E+00" uncertaintyLow="0.15248594E-01" uncertaintyHigh="0.15605385E-01"/>
     </galaxy>
     <galaxy name="Draco">
       <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2509.12313" />
@@ -3273,7 +3279,7 @@
       <referencePrimary reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <declinationSexagesimal degrees="41" arcminutes="17" arcseconds="28"/>
       <rightAscensionSexagesimal reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M" hours="22" minutes="58" seconds="16.3"/>
-      <distanceModulus value="24.50" uncertaintyLow="0.04" uncertaintyHigh="0.05" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.36" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="41.291111111111"/>
       <rightAscensionDecimal value="344.567916666667"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
@@ -3282,8 +3288,8 @@
       <massDynamicalHalfLightRadius value="42000000" uncertaintyLow="9000000" uncertaintyHigh="8000000" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <ellipticityProjected value="0.44" uncertainty="0.03" reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R"/>
       <extinctionV value="0.133"/>
-      <magnitudeAbsoluteV value="-11.5" uncertainty="0.5" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
-      <radiusHalfLight value="967.0e-6" uncertaintyLow="88.0e-6" uncertaintyHigh="105.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-11.6" uncertainty="0.7" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <radiusHalfLight value="7.019e-04" uncertainty="4.5e-05" comment="Computed from the angular radius in this reference at the distance of Savino et al. (2022), who give 910 pc using an older angular radius." reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R"/>
       <radiusHalfLightAngular value="3.24" uncertainty="0.21" reference="Rhode, Crnojevic, Sand et al.; 2017; ApJ; 836; 137" referenceURL="https://ui.adsabs.harvard.edu/abs/2017ApJ...836..137R"/>
       <velocityRadialHeliocentric value="-193.4" uncertainty="1.1" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
       <velocityDispersionStellar value="10.3" uncertainty="0.9" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
@@ -3297,10 +3303,10 @@
       <alias value="Lacerta I"/>
       <alias value="Lac I"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.794328234724" uncertaintyLow="0.014632066818" uncertaintyHigh="0.018290083522"/>
-      <positionHeliocentricCartesian value="0.57531380E+00  -0.15881447E+00   0.52416537E+00" uncertaintyLow="0.10597672E-01   0.29254707E-02   0.96554830E-02" uncertaintyHigh="0.13247090E-01   0.36568383E-02   0.12069354E-01"/>
-      <distanceMilkyWay value="0.79590224E+00" uncertaintyLow="0.10007309E-01" uncertaintyHigh="0.12509069E-01"/>
-      <distanceM31 value="0.26805442E+00" uncertaintyLow="0.45862514E-02" uncertaintyHigh="0.50886550E-02"/>
+      <distanceHeliocentric value="0.7447" uncertainty="0.0170" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.53936920E+00  -0.14889202E+00   0.49141644E+00" uncertainty="0.12312712E-01   0.33989047E-02   0.11218047E-01"/>
+      <distanceMilkyWay value="0.74627677E+00" uncertainty="0.11627847E-01"/>
+      <distanceM31 value="0.26212686E+00" uncertainty="0.61200410E-02"/>
     </galaxy>
     <galaxy name="Andromeda XXXV">
       <discoverySurvey value="Pan-Andromeda Archaeological Survey (PAndAS)"/>
@@ -3394,19 +3400,19 @@
       <discoverySurvey value="Martin2006" reference="McConnachie, Huxor, Martin et al.; 2008; ApJ; 688; 1009" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...688.1009M"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+34" arcminutes="22" arcseconds="38"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="47" seconds="28.3"/>
-      <distanceHeliocentric value="0.871" uncertainty="0.12"/>
-      <distanceModulus value="24.84" uncertaintyLow="0.34" uncertaintyHigh="0.09"/>
+      <distanceHeliocentric value="0.7178" uncertaintyLow="0.0230" uncertaintyHigh="0.0270" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.28" uncertaintyLow="0.07" uncertaintyHigh="0.08" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="34.377222222222"/>
       <rightAscensionDecimal value="11.867916666667"/>
-      <massStellar value="53951.1" uncertaintyLow="25637.2" uncertaintyHigh="31555.6" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="37325.0" uncertaintyLow="13774.5" uncertaintyHigh="21831.1" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="1200000"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="7.9000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.42e-3" uncertaintyLow="0.2e-3" uncertaintyHigh="0.28e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="3.760e-04" uncertaintyLow="1.470e-04" uncertaintyHigh="2.510e-04" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.61" uncertaintyLow="0.48" uncertaintyHigh="0.16" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.110"/>
-      <magnitudeAbsoluteV value="-7" uncertaintyLow="0.5" uncertaintyHigh="0.7" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-6.6" uncertainty="0.5" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="1.8" uncertaintyLow="0.7" uncertaintyHigh="1.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-28.5"/>
       <longitudeGalactic value="122.0"/>
@@ -3429,9 +3435,9 @@
       <alias value="And XII"/>
       <comment value="Unbound to M31?"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.70350309E+00   0.14783997E+00   0.49180051E+00" uncertainty="0.96923502E-01   0.20368309E-01   0.67756672E-01"/>
-      <distanceMilkyWay value="0.87489007E+00" uncertainty="0.87002572E-01"/>
-      <distanceM31 value="0.13334283E+00" uncertainty="0.93719010E-01"/>
+      <positionHeliocentricCartesian value="0.57976408E+00   0.12183643E+00   0.40529783E+00" uncertaintyLow="0.18577005E-01   0.39039258E-02   0.12986696E-01" uncertaintyHigh="0.21807788E-01   0.45828695E-02   0.15245251E-01"/>
+      <distanceMilkyWay value="0.72169658E+00" uncertaintyLow="0.16667335E-01" uncertaintyHigh="0.19565979E-01"/>
+      <distanceM31 value="0.11190204E+00" uncertaintyLow="0.20863152E-01" uncertaintyHigh="0.22322541E-01"/>
     </galaxy>
     <galaxy name="Andromeda XXXIII">
       <alias value="Per I"/>
@@ -3440,13 +3446,13 @@
       <referencePrimary reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
       <declinationSexagesimal degrees="40" arcminutes="59" arcseconds="18"/>
       <rightAscensionSexagesimal hours="3" minutes="01" seconds="23.6"/>
-      <distanceModulus value="24.39" uncertaintyLow="0.03" uncertaintyHigh="0.05" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
-      <magnitudeAbsoluteV value="-10.2" uncertaintyLow="0.3" uncertaintyHigh="0.3" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
-      <massStellar value="1028016.3" uncertaintyLow="248186.0" uncertaintyHigh="327173.0" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W" technique="M/L = 1 Msun/Lsun"/>
+      <distanceModulus value="24.24" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-10.1" uncertainty="0.7" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <massStellar value="937562.0" uncertaintyLow="445522.5" uncertaintyHigh="848925.6" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="7.9000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="384.0e-6" uncertaintyLow="68.0e-6" uncertaintyHigh="98.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="3.480e-04" uncertainty="8.300e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="40.988333333333"/>
       <rightAscensionDecimal value="45.348333333333"/>
       <ellipticityProjected value="0.43" uncertaintyLow="0.17" uncertaintyHigh="0.15"/>
@@ -3460,26 +3466,26 @@
       <surfaceBrightnessCentralV value="25.6" uncertaintyLow="0.9" uncertaintyHigh="1.0"/>
       <metallicityStellar value="-2.0" uncertainty="0.2" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M" technique="9"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.755092227665" uncertaintyLow="0.010431984644" uncertaintyHigh="0.017386641073"/>
-      <positionHeliocentricCartesian value="0.40057633E+00   0.40547684E+00   0.49526902E+00" uncertaintyLow="0.55341665E-02   0.56018696E-02   0.68423944E-02" uncertaintyHigh="0.92236109E-02   0.93364493E-02   0.11403991E-01"/>
-      <distanceMilkyWay value="0.76186188E+00" uncertaintyLow="0.61489374E-02" uncertaintyHigh="0.10247594E-01"/>
-      <distanceM31 value="0.34622528E+00" uncertaintyLow="0.11445708E-01" uncertaintyHigh="0.13658045E-01"/>
+      <distanceHeliocentric value="0.7047" uncertaintyLow="0.0190" uncertaintyHigh="0.0200" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.37384326E+00   0.37841673E+00   0.46221649E+00" uncertaintyLow="0.10079498E-01   0.10202807E-01   0.12462201E-01" uncertaintyHigh="0.10609997E-01   0.10739796E-01   0.13118107E-01"/>
+      <distanceMilkyWay value="0.71147071E+00" uncertaintyLow="0.11198349E-01" uncertaintyHigh="0.11787702E-01"/>
+      <distanceM31 value="0.34245603E+00" uncertaintyLow="0.15503720E-01" uncertaintyHigh="0.15863599E-01"/>
     </galaxy>
     <galaxy name="Andromeda XXIX">
       <alias value="And XXIX"/>
       <discoverySurvey value="SDSS"/>
       <declinationSexagesimal degrees="30" arcminutes="45" arcseconds="20" reference="Bell et al. 2011"/>
       <rightAscensionSexagesimal hours="23" minutes="58" seconds="55.6" reference="Bell et al. 2011"/>
-      <distanceModulus value="24.57" uncertaintyLow="0.04" uncertaintyHigh="0.05" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.26" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="30.755555555556"/>
       <rightAscensionDecimal value="359.731666666667"/>
-      <massStellar value="214783.0" uncertaintyLow="66189.4" uncertaintyHigh="95673.0" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="162929.6" uncertaintyLow="50209.9" uncertaintyHigh="72575.3" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="2.5000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="6800000" uncertaintyLow="2200000" uncertaintyHigh="2300000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <radiusHalfLight value="397.0e-6" uncertaintyLow="90.0e-6" uncertaintyHigh="126.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
-      <magnitudeAbsoluteV value="-8.5" uncertainty="0.4" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="3.520e-04" uncertaintyLow="4.200e-05" uncertaintyHigh="4.300e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-8.2" uncertainty="0.4" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.35" uncertaintyLow="0.06" uncertaintyHigh="0.06"/>
       <extinctionV value="0.046"/>
       <radiusHalfLightAngular value="1.70" uncertaintyLow="0.20" uncertaintyHigh="0.20"/>
@@ -3499,27 +3505,27 @@
       <referencePrimary reference="Bell et al. (2011)"/>
       <comment value="In Pegasus"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.820351544330" uncertaintyLow="0.015111433896" uncertaintyHigh="0.018889292370"/>
-      <positionHeliocentricCartesian value="0.70496697E+00  -0.33015961E-02   0.41950843E+00" uncertaintyLow="0.12985972E-01   0.60817647E-04   0.77276309E-02" uncertaintyHigh="0.16232464E-01   0.76022059E-04   0.96595386E-02"/>
-      <distanceMilkyWay value="0.82280279E+00" uncertaintyLow="0.11822645E-01" uncertaintyHigh="0.14778279E-01"/>
-      <distanceM31 value="0.19513658E+00" uncertaintyLow="0.17336851E-01" uncertaintyHigh="0.18676704E-01"/>
+      <distanceHeliocentric value="0.7112" uncertaintyLow="0.0190" uncertaintyHigh="0.0200" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.61116788E+00  -0.28623035E-02   0.36369091E+00" uncertaintyLow="0.16327601E-01   0.76467614E-04   0.97161519E-02" uncertaintyHigh="0.17186948E-01   0.80492225E-04   0.10227528E-01"/>
+      <distanceMilkyWay value="0.71365708E+00" uncertaintyLow="0.14861723E-01" uncertaintyHigh="0.15643914E-01"/>
+      <distanceM31 value="0.19224340E+00" uncertaintyLow="0.15912448E-01" uncertaintyHigh="0.16139645E-01"/>
     </galaxy>
     <galaxy name="Andromeda XXV">
       <discoverySurvey value="PAndAS" reference="McConnachie, Irwin, Ibata et al.; 2009; Nature; 461; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2009Natur.461...66M" DOI="doi:10.1038/nature08327"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+46" arcminutes="51" arcseconds="41"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="30" seconds="09.9"/>
-      <distanceModulus value="24.60" uncertaintyLow="0.04" uncertaintyHigh="0.05" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.38" uncertaintyLow="0.06" uncertaintyHigh="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="46.861388888889"/>
       <rightAscensionDecimal value="7.541250000000"/>
-      <massStellar value="448745.4" uncertaintyLow="108337.2" uncertaintyHigh="142816.2" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="373250.2" uncertaintyLow="90111.0" uncertaintyHigh="75495.2" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="2.9000e+05" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="3300000" uncertaintyLow="1800000" uncertaintyHigh="1900000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <radiusHalfLight value="679.0e-6" uncertaintyLow="80.0e-6" uncertaintyHigh="80.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="5.900e-04" uncertaintyLow="4.700e-05" uncertaintyHigh="9.000e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.03" uncertaintyLow="0.03" uncertaintyHigh="0.16" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.101"/>
-      <magnitudeAbsoluteV value="-9.3" uncertainty="0.3" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-9.1" uncertaintyLow="0.2" uncertaintyHigh="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="2.7" uncertaintyLow="0.2" uncertaintyHigh="0.4" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-15.9"/>
       <longitudeGalactic value="119.2"/>
@@ -3538,10 +3544,10 @@
       <referencePrimary reference="Richardson et al. (2011)"/>
       <alias value="And XXV"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.831763771103" uncertaintyLow="0.015321654882" uncertaintyHigh="0.019152068602"/>
-      <positionHeliocentricCartesian value="0.56381234E+00   0.74640294E-01   0.60693940E+00" uncertaintyLow="0.10385807E-01   0.13749250E-02   0.11180237E-01" uncertaintyHigh="0.12982259E-01   0.17186563E-02   0.13975296E-01"/>
-      <distanceMilkyWay value="0.83568099E+00" uncertaintyLow="0.10770709E-01" uncertaintyHigh="0.13463323E-01"/>
-      <distanceM31 value="0.97899561E-01" uncertaintyLow="0.18723810E-01" uncertaintyHigh="0.20300122E-01"/>
+      <distanceHeliocentric value="0.7516" uncertaintyLow="0.0210" uncertaintyHigh="0.0250" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.50947321E+00   0.67446608E-01   0.54844377E+00" uncertaintyLow="0.14234882E-01   0.18844848E-02   0.15323735E-01" uncertaintyHigh="0.16946288E-01   0.22434343E-02   0.18242541E-01"/>
+      <distanceMilkyWay value="0.75552062E+00" uncertaintyLow="0.14761413E-01" uncertaintyHigh="0.17573075E-01"/>
+      <distanceM31 value="0.86590057E-01" uncertaintyLow="0.20404038E-01" uncertaintyHigh="0.21987923E-01"/>
     </galaxy>
     <galaxy name="NGC 185">
       <discoverySurvey value="classical"/>
@@ -3678,19 +3684,19 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+38" arcminutes="02" arcseconds="15"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="45" seconds="39.7"/>
-      <distanceHeliocentric value="0.745" uncertainty="0.024"/>
-      <distanceModulus value="24.36" uncertaintyLow="0.07" uncertaintyHigh="0.07"/>
+      <distanceHeliocentric value="0.7762" uncertainty="0.0180" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.45" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="38.037500000000"/>
       <rightAscensionDecimal value="11.415416666667"/>
-      <massStellar value="2582260.2" uncertaintyLow="434429.7" uncertaintyHigh="522299.4" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="3104559.6" uncertaintyLow="522299.4" uncertaintyHigh="627942.0" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="50500000" uncertainty="13500000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="7.5000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.815e-3" uncertainty="0.04e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="8.800e-04" uncertaintyLow="3.000e-05" uncertaintyHigh="3.100e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.28" uncertainty="0.03" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.053"/>
-      <magnitudeAbsoluteV value="-11.2" uncertainty="0.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-11.4" uncertainty="0.2" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="3.9" uncertainty="0.1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-24.8"/>
       <longitudeGalactic value="121.7"/>
@@ -3713,9 +3719,9 @@
       <referencePrimary reference="van den Bergh (1972)"/>
       <alias value="And I"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.57516022E+00   0.11613370E+00   0.45905194E+00" uncertainty="0.18528651E-01   0.37412200E-02   0.14788250E-01"/>
-      <distanceMilkyWay value="0.74898544E+00" uncertainty="0.16933554E-01"/>
-      <distanceM31 value="0.57926413E-01" uncertainty="0.22008192E-01"/>
+      <positionHeliocentricCartesian value="0.59924747E+00   0.12099729E+00   0.47827666E+00" uncertainty="0.13896489E-01   0.28059150E-02   0.11091188E-01"/>
+      <distanceMilkyWay value="0.78018402E+00" uncertainty="0.12701335E-01"/>
+      <distanceM31 value="0.45141556E-01" uncertainty="0.19971508E-01"/>
     </galaxy>
     <galaxy name="Phoenix">
       <discoverySurvey value="classical"/>
@@ -3884,18 +3890,18 @@
       <referencePrimary reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+49" arcminutes="38" arcseconds="49"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="36" seconds="34.6"/>
-      <distanceModulus value="23.99" uncertaintyLow="0.05" uncertaintyHigh="0.05" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="23.74" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="49.646944444444"/>
       <rightAscensionDecimal value="9.144166666667"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="4.0000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="21000000" uncertaintyLow="12000000" uncertaintyHigh="20000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <radiusHalfLight value="275.0e-6" uncertaintyLow="40.0e-6" uncertaintyHigh="45.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="2.450e-04" uncertainty="3.300e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.43" uncertaintyLow="0.12" uncertaintyHigh="0.1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.166"/>
-      <magnitudeAbsoluteV value="-11.2" uncertaintyLow="0.3" uncertaintyHigh="0.4" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
-      <massStellar value="2582260.2" uncertaintyLow="623415.5" uncertaintyHigh="821821.7" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W" technique="M/L = 1 Msun/Lsun"/>
+      <magnitudeAbsoluteV value="-7.7" uncertaintyLow="0.2" uncertaintyHigh="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <massStellar value="102801.6" uncertaintyLow="24818.6" uncertaintyHigh="20793.1" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="1.5" uncertainty="0.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <velocityRadialHeliocentric value="-139.8" uncertaintyLow="6.6" uncertaintyHigh="6.0"/>
       <velocityDispersionStellar value="11.8" uncertaintyLow="4.7" uncertaintyHigh="7.7"/>
@@ -3907,28 +3913,28 @@
       <alias value="And XXX"/>
       <alias value="Cas II"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.628058358813" uncertaintyLow="0.014461578145" uncertaintyHigh="0.014461578145"/>
-      <positionHeliocentricCartesian value="0.40149704E+00   0.64626882E-01   0.47862386E+00" uncertaintyLow="0.92448110E-02   0.14880889E-02   0.11020722E-01" uncertaintyHigh="0.92448110E-02   0.14880889E-02   0.11020722E-01"/>
-      <distanceMilkyWay value="0.63219219E+00" uncertaintyLow="0.10265015E-01" uncertaintyHigh="0.10265015E-01"/>
-      <distanceM31 value="0.18621312E+00" uncertaintyLow="0.20038229E-01" uncertaintyHigh="0.20038229E-01"/>
+      <distanceHeliocentric value="0.5598" uncertaintyLow="0.0150" uncertaintyHigh="0.0160" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.35786172E+00   0.57603132E-01   0.42660627E+00" uncertaintyLow="0.95890064E-02   0.15434923E-02   0.11431036E-01" uncertaintyHigh="0.10228273E-01   0.16463918E-02   0.12193105E-01"/>
+      <distanceMilkyWay value="0.56393879E+00" uncertaintyLow="0.10646372E-01" uncertaintyHigh="0.11356110E-01"/>
+      <distanceM31 value="0.24357174E+00" uncertaintyLow="0.20249912E-01" uncertaintyHigh="0.20564572E-01"/>
     </galaxy>
     <galaxy name="Andromeda XI">
       <discoverySurvey value="Martin2006" reference="McConnachie, Huxor, Martin et al.; 2008; ApJ; 688; 1009" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...688.1009M"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+33" arcminutes="48" arcseconds="10"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="46" seconds="19.7"/>
-      <distanceHeliocentric value="0.759" uncertaintyLow="0.175" uncertaintyHigh="0.07"/>
-      <distanceModulus value="24.33" uncertaintyLow="0.05" uncertaintyHigh="0.05"/>
+      <distanceHeliocentric value="0.7516" uncertaintyLow="0.0240" uncertaintyHigh="0.0250" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.38" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="33.802777777778"/>
       <rightAscensionDecimal value="11.582083333333"/>
-      <massStellar value="28313.9" uncertaintyLow="12020.9" uncertaintyHigh="12612.2" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="31045.6" uncertaintyLow="9567.3" uncertaintyHigh="13828.9" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="4100000" uncertaintyLow="2000000" uncertaintyHigh="3000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="4.6000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.12e-3" uncertaintyLow="0.044e-3" uncertaintyHigh="0.053e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="1.310e-04" uncertainty="4.400e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.19" uncertaintyLow="0.19" uncertaintyHigh="0.28" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.080"/>
-      <magnitudeAbsoluteV value="-6.3" uncertaintyLow="0.4" uncertaintyHigh="0.6" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-6.4" uncertainty="0.4" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="0.6" uncertainty="0.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-29.1"/>
       <longitudeGalactic value="121.7"/>
@@ -3951,9 +3957,9 @@
       <referencePrimary reference="Martin et al. (2006)"/>
       <alias value="And XI"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.61785454E+00   0.12662599E+00   0.42225895E+00" uncertaintyLow="0.14245658E+00   0.29195716E-01   0.97358783E-01" uncertaintyHigh="0.56982633E-01   0.11678286E-01   0.38943513E-01"/>
-      <distanceMilkyWay value="0.76284338E+00" uncertaintyLow="0.12774288E+00" uncertaintyHigh="0.51097168E-01"/>
-      <distanceM31 value="0.10365738E+00" uncertaintyLow="0.10526477E+00" uncertaintyHigh="0.44760764E-01"/>
+      <positionHeliocentricCartesian value="0.61183067E+00   0.12539143E+00   0.41814206E+00" uncertaintyLow="0.19536903E-01   0.40039839E-02   0.13352062E-01" uncertaintyHigh="0.20350940E-01   0.41708165E-02   0.13908398E-01"/>
+      <distanceMilkyWay value="0.75544373E+00" uncertaintyLow="0.17518621E-01" uncertaintyHigh="0.18248558E-01"/>
+      <distanceM31 value="0.10514595E+00" uncertaintyLow="0.21627789E-01" uncertaintyHigh="0.22008059E-01"/>
     </galaxy>
     <galaxy name="Sagittarius dIrr">
       <discoverySurvey value="classical"/>
@@ -4132,14 +4138,15 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="41" arcminutes="41" arcseconds="7" reference="Geha et al. 2006b"/>
       <rightAscensionSexagesimal hours="0" minutes="40" seconds="22.1" reference="Geha et al. 2006b"/>
-      <distanceHeliocentric value="0.824" uncertainty="0.027"/>
-      <distanceModulus value="24.58" uncertaintyLow="0.07" uncertaintyHigh="0.07"/>
+      <distanceHeliocentric value="0.8356" uncertainty="0.0230" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.61" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-16.7" uncertainty="0.1" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="41.685277777778"/>
       <rightAscensionDecimal value="10.092083333333"/>
-      <massStellar value="330000000"/>
+      <massStellar value="339356661.8" comment="Scaled from 3.3e+08 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.824 Mpc."/>
       <massDynamicalHalfLightRadius value="420000000"/>
       <massNeutralHydrogen value="4.0000e+05" uncertainty="3.0000e+04" reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P"/>
-      <radiusHalfLight value="0.59e-3" uncertainty="0.031e-3"/>
+      <radiusHalfLight value="5.980e-04" uncertaintyLow="2.900e-05" uncertaintyHigh="3.000e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.43" uncertaintyLow="0.10" uncertaintyHigh="0.10"/>
       <extinctionV value="0.085"/>
       <radiusHalfLightAngular value="2.46" uncertaintyLow="0.10" uncertaintyHigh="0.10"/>
@@ -4165,9 +4172,9 @@
       <alias value="M110"/>
       <alias value="UGC 426"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.60584931E+00   0.10783183E+00   0.54799171E+00" uncertainty="0.19851858E-01   0.35333246E-02   0.17956039E-01"/>
-      <distanceMilkyWay value="0.82798079E+00" uncertainty="0.18838022E-01"/>
-      <distanceM31 value="0.41877891E-01" uncertainty="0.25585778E-01"/>
+      <positionHeliocentricCartesian value="0.61437825E+00   0.10934985E+00   0.55570616E+00" uncertainty="0.16910842E-01   0.30098691E-02   0.15295885E-01"/>
+      <distanceMilkyWay value="0.83958035E+00" uncertainty="0.16047544E-01"/>
+      <distanceM31 value="0.53296736E-01" uncertainty="0.23691614E-01"/>
     </galaxy>
     <galaxy name="Ursa Minor">
       <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2509.12313" />
@@ -4229,19 +4236,19 @@
       <discoverySurvey value="Martin2006" reference="McConnachie, Huxor, Martin et al.; 2008; ApJ; 688; 1009" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...688.1009M"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+33" arcminutes="00" arcseconds="16"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="51" seconds="51.0"/>
-      <distanceHeliocentric value="0.912" uncertaintyLow="0.168" uncertaintyHigh="0.042"/>
-      <distanceModulus value="24.62" uncertaintyLow="0.05" uncertaintyHigh="0.05"/>
+      <distanceHeliocentric value="0.8204" uncertaintyLow="0.0260" uncertaintyHigh="0.0270" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.57" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="33.004444444444"/>
       <rightAscensionDecimal value="12.962500000000"/>
-      <massStellar value="34040.8" uncertaintyLow="16175.9" uncertaintyHigh="19910.3" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="44874.5" uncertaintyLow="13828.9" uncertaintyHigh="19988.9" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="2600000" uncertaintyLow="1600000" uncertaintyHigh="2200000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="7.0000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.13e-3" uncertaintyLow="0.062e-3" uncertaintyHigh="0.08e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="1.910e-04" uncertaintyLow="7.200e-05" uncertaintyHigh="9.600e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.61" uncertaintyLow="0.2" uncertaintyHigh="0.14" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.082"/>
-      <magnitudeAbsoluteV value="-6.5" uncertaintyLow="0.5" uncertaintyHigh="0.7" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-6.8" uncertainty="0.4" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="0.8" uncertaintyLow="0.3" uncertaintyHigh="0.4" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-29.9"/>
       <longitudeGalactic value="123.0"/>
@@ -4265,9 +4272,9 @@
       <alias value="And XIII"/>
       <comment value="In Pisces"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.74533895E+00   0.17156131E+00   0.49677013E+00" uncertaintyLow="0.13729928E+00   0.31603399E-01   0.91510287E-01" uncertaintyHigh="0.34324820E-01   0.79008498E-02   0.22877572E-01"/>
-      <distanceMilkyWay value="0.91594557E+00" uncertaintyLow="0.12263385E+00" uncertaintyHigh="0.30658498E-01"/>
-      <distanceM31 value="0.17940146E+00" uncertaintyLow="0.12985350E+00" uncertaintyHigh="0.36542787E-01"/>
+      <positionHeliocentricCartesian value="0.67047816E+00   0.15432993E+00   0.44687523E+00" uncertaintyLow="0.21248698E-01   0.48910022E-02   0.14162306E-01" uncertaintyHigh="0.22065956E-01   0.50791177E-02   0.14707010E-01"/>
+      <distanceMilkyWay value="0.82434880E+00" uncertaintyLow="0.18974022E-01" uncertaintyHigh="0.19703787E-01"/>
+      <distanceM31 value="0.12402193E+00" uncertaintyLow="0.24313981E-01" uncertaintyHigh="0.24817706E-01"/>
     </galaxy>
     <galaxy name="HIZSS 3B">
       <discoverySurvey value="HIPASS-ZOA" reference="Henning, Staveley-Smith, Ekers et al.; 2000; AJ; 119; 2686" referenceURL="https://ui.adsabs.harvard.edu/abs/2000AJ....119.2686H" DOI="doi:10.1086/301374"/>
@@ -4446,19 +4453,19 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+47" arcminutes="37" arcseconds="42"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="10" seconds="17.5"/>
-      <distanceHeliocentric value="0.773" uncertainty="0.028"/>
-      <distanceModulus value="24.44" uncertaintyLow="0.08" uncertaintyHigh="0.08"/>
+      <distanceHeliocentric value="0.7586" uncertainty="0.0210" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.40" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="47.628333333333"/>
       <rightAscensionDecimal value="17.572916666667"/>
-      <massStellar value="448745.4" uncertaintyLow="75495.2" uncertaintyHigh="90765.2" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="448745.4" uncertaintyLow="75495.2" uncertaintyHigh="90765.2" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="23000000" uncertainty="4000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="8.0000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.345e-3" uncertainty="0.04e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="3.530e-04" uncertaintyLow="2.400e-05" uncertaintyHigh="3.500e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.26" uncertaintyLow="0.07" uncertaintyHigh="0.09" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.125"/>
-      <magnitudeAbsoluteV value="-9.3" uncertainty="0.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-9.3" uncertainty="0.2" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="1.6" uncertaintyLow="0.1" uncertaintyHigh="0.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-15.1"/>
       <longitudeGalactic value="126.2"/>
@@ -4481,9 +4488,9 @@
       <referencePrimary reference="Armandroff et al. (1998)"/>
       <alias value="And V"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.49664233E+00   0.15728588E+00   0.57108366E+00" uncertainty="0.17989631E-01   0.56972894E-02   0.20686084E-01"/>
-      <distanceMilkyWay value="0.77775742E+00" uncertainty="0.19173504E-01"/>
-      <distanceM31 value="0.10942695E+00" uncertainty="0.23520247E-01"/>
+      <positionHeliocentricCartesian value="0.48739051E+00   0.15435585E+00   0.56044511E+00" uncertainty="0.13492224E-01   0.42729670E-02   0.15514563E-01"/>
+      <distanceMilkyWay value="0.76335798E+00" uncertainty="0.14379854E-01"/>
+      <distanceM31 value="0.11067256E+00" uncertainty="0.20952960E-01"/>
       <properMotionRightAscension value="2.61" uncertainty="2.15" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; ApJ; 992; 54" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992...54C"/>
       <properMotionDeclination value="-7.42" uncertainty="1.91" reference="Casetti-Dinescu, Pawlowski, Girard et al.; 2025; ApJ; 992; 54" referenceURL="https://ui.adsabs.harvard.edu/abs/2025ApJ...992...54C"/>
     </galaxy>
@@ -4531,19 +4538,19 @@
       <discoverySurvey value="Martin2006" reference="McConnachie, Huxor, Martin et al.; 2008; ApJ; 688; 1009" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...688.1009M"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+32" arcminutes="22" arcseconds="34"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="59" seconds="30.3"/>
-      <distanceHeliocentric value="0.525" uncertainty="0.048"/>
-      <distanceModulus value="23.39" uncertaintyLow="0.14" uncertaintyHigh="0.19"/>
+      <distanceHeliocentric value="0.5176" uncertainty="0.0190" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="23.57" uncertainty="0.08" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="32.376111111111"/>
       <rightAscensionDecimal value="14.876250000000"/>
-      <massStellar value="71121.4" uncertaintyLow="17170.3" uncertaintyHigh="22634.8" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="85506.7" uncertaintyLow="20643.2" uncertaintyHigh="27213.1" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="2400000" uncertaintyLow="600000" uncertaintyHigh="800000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="2.0000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.13e-3" uncertaintyLow="0.015e-3" uncertaintyHigh="0.03e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="1.506e-04" uncertainty="1.5e-05" comment="Computed from the angular radius in this reference at the distance of Savino et al. (2022). The table of Savino et al. gives 239 +/- 25 pc, which is inconsistent with this angular radius, the source it cites." reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <ellipticityProjected value="0.29" uncertainty="0.08" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.067"/>
-      <magnitudeAbsoluteV value="-7.3" uncertainty="0.3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-7.5" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="1" uncertainty="0.1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-30.5"/>
       <longitudeGalactic value="124.9"/>
@@ -4567,9 +4574,9 @@
       <alias value="And XVI"/>
       <comment value="In Pisces"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.42852814E+00   0.11383234E+00   0.28112423E+00" uncertainty="0.39179716E-01   0.10407528E-01   0.25702786E-01"/>
-      <distanceMilkyWay value="0.52913548E+00" uncertainty="0.34734000E-01"/>
-      <distanceM31 value="0.27900424E+00" uncertainty="0.34702127E-01"/>
+      <positionHeliocentricCartesian value="0.42248794E+00   0.11222784E+00   0.27716171E+00" uncertainty="0.15508638E-01   0.41196464E-02   0.10174020E-01"/>
+      <distanceMilkyWay value="0.52173618E+00" uncertainty="0.13748065E-01"/>
+      <distanceM31 value="0.28558281E+00" uncertainty="0.20898074E-01"/>
     </galaxy>
     <galaxy name="Fornax">
       <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2509.12313" />
@@ -4705,19 +4712,19 @@
       <discoverySurvey value="Martin2006" reference="McConnachie, Huxor, Martin et al.; 2008; ApJ; 688; 1009" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...688.1009M"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+38" arcminutes="07" arcseconds="11"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="14" seconds="18.3"/>
-      <distanceHeliocentric value="0.631" uncertainty="0.058"/>
-      <distanceModulus value="23.98" uncertaintyLow="0.12" uncertaintyHigh="0.26"/>
+      <distanceHeliocentric value="0.7482" uncertainty="0.0170" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.37" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="38.119722222222"/>
       <rightAscensionDecimal value="18.576250000000"/>
-      <massStellar value="135518.9" uncertaintyLow="32717.3" uncertaintyHigh="60365.6" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="195884.5" uncertaintyLow="47290.9" uncertaintyHigh="62341.6" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="2200000" uncertainty="1100000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="4.1000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.23e-3" uncertaintyLow="0.025e-3" uncertaintyHigh="0.035e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="2.830e-04" uncertainty="2.300e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.24" uncertainty="0.1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.047"/>
-      <magnitudeAbsoluteV value="-8" uncertaintyLow="0.4" uncertaintyHigh="0.3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-8.4" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="1.3" uncertainty="0.1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-24.5"/>
       <longitudeGalactic value="127.9"/>
@@ -4740,9 +4747,9 @@
       <referencePrimary reference="Ibata et al. (2007)"/>
       <alias value="And XV"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.47055863E+00   0.15814336E+00   0.38952054E+00" uncertainty="0.43252616E-01   0.14536157E-01   0.35803790E-01"/>
-      <distanceMilkyWay value="0.63566450E+00" uncertainty="0.39150668E-01"/>
-      <distanceM31 value="0.17358045E+00" uncertainty="0.41245827E-01"/>
+      <positionHeliocentricCartesian value="0.55795875E+00   0.18751642E+00   0.46186888E+00" uncertainty="0.12677491E-01   0.42605977E-02   0.10494214E-01"/>
+      <distanceMilkyWay value="0.75285873E+00" uncertainty="0.11480843E-01"/>
+      <distanceM31 value="0.97684348E-01" uncertainty="0.12674240E-01"/>
     </galaxy>
     <galaxy name="Andromeda XXXII">
       <alias value="Cas III"/>
@@ -4750,13 +4757,13 @@
       <referencePrimary reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
       <declinationSexagesimal degrees="51" arcminutes="33" arcseconds="35"/>
       <rightAscensionSexagesimal hours="0" minutes="35" seconds="59.4"/>
-      <distanceModulus value="24.70" uncertaintyLow="0.04" uncertaintyHigh="0.04" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
-      <radiusHalfLight value="1640.0e-6" uncertaintyLow="240.0e-6" uncertaintyHigh="300.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.52" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <radiusHalfLight value="1.516e-03" uncertaintyLow="2.370e-04" uncertaintyHigh="2.830e-04" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="7.6000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <magnitudeAbsoluteV value="-12.6" uncertaintyLow="0.5" uncertaintyHigh="0.5" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
-      <massStellar value="9375620.1" uncertaintyLow="3460003.7" uncertaintyHigh="5483736.4" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W" technique="M/L = 1 Msun/Lsun"/>
+      <magnitudeAbsoluteV value="-12.3" uncertainty="0.7" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <massStellar value="7112135.1" uncertaintyLow="3379633.6" uncertaintyHigh="6439759.0" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="51.559722222222"/>
       <rightAscensionDecimal value="8.997500000000"/>
       <massDynamicalHalfLightRadius value="41000000" uncertaintyLow="11000000" uncertaintyHigh="7000000" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M"/>
@@ -4771,10 +4778,10 @@
       <surfaceBrightnessCentralV value="26.4" uncertaintyLow="0.8" uncertaintyHigh="0.8"/>
       <metallicityStellar value="-1.7" uncertainty="0.1" reference="Martin, Chambers, Collins et al.; 2014; ApJL; 793; L14" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...793L..14M" technique="9"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.870963589956" uncertaintyLow="0.016043742230" uncertaintyHigh="0.016043742230"/>
-      <positionHeliocentricCartesian value="0.53481402E+00   0.84682298E-01   0.68218799E+00" uncertaintyLow="0.98516383E-02   0.15599056E-02   0.12566367E-01" uncertaintyHigh="0.98516383E-02   0.15599056E-02   0.12566367E-01"/>
-      <distanceMilkyWay value="0.87511857E+00" uncertaintyLow="0.11551355E-01" uncertaintyHigh="0.11551355E-01"/>
-      <distanceM31 value="0.17307035E+00" uncertaintyLow="0.20544420E-01" uncertaintyHigh="0.20544420E-01"/>
+      <distanceHeliocentric value="0.8017" uncertaintyLow="0.0220" uncertaintyHigh="0.0230" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.49228280E+00   0.77947918E-01   0.62793682E+00" uncertaintyLow="0.13509070E-01   0.21390223E-02   0.17231645E-01" uncertaintyHigh="0.14123119E-01   0.22362506E-02   0.18014902E-01"/>
+      <distanceMilkyWay value="0.80585751E+00" uncertaintyLow="0.15839329E-01" uncertaintyHigh="0.16559289E-01"/>
+      <distanceM31 value="0.14421765E+00" uncertaintyLow="0.22954432E-01" uncertaintyHigh="0.23440510E-01"/>
     </galaxy>
     <galaxy name="Andromeda XVIII">
       <discoverySurvey value="Martin2006" reference="McConnachie, Huxor, Martin et al.; 2008; ApJ; 688; 1009" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...688.1009M"/>
@@ -4817,7 +4824,7 @@
       </starFormationHistoryCumulative>
       <referencePrimary reference="McConnachie et al. (2008)"/>
       <alias value="And XVIII"/>
-      <comment value="Isolated dSph"/>
+      <comment value="Isolated dSph Distance is on the horizontal branch scale of Weisz et al. (2019), which Savino et al. (2022) find to be about 0.25 mag too distant. This galaxy is not in the sample of Savino et al."/>
       <classification value="galaxy"/>
       <distanceHeliocentric value="1.218989598925" uncertaintyLow="0.016840963674" uncertaintyHigh="0.028068272790"/>
       <positionHeliocentricCartesian value="0.86054221E+00   0.84861767E-02   0.86332539E+00" uncertaintyLow="0.11888830E-01   0.11724086E-03   0.11927281E-01" uncertaintyHigh="0.19814717E-01   0.19540144E-03   0.19878802E-01"/>
@@ -4977,19 +4984,19 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+36" arcminutes="29" arcseconds="56"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="35" seconds="30.9"/>
-      <distanceHeliocentric value="0.748" uncertainty="0.024"/>
-      <distanceModulus value="24.37" uncertaintyLow="0.07" uncertaintyHigh="0.07"/>
+      <distanceHeliocentric value="0.7211" uncertaintyLow="0.0160" uncertaintyHigh="0.0170" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.29" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="36.498888888889"/>
       <rightAscensionDecimal value="8.878750000000"/>
-      <massStellar value="539510.6" uncertaintyLow="130249.9" uncertaintyHigh="171702.9" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="539510.6" uncertaintyLow="90765.2" uncertaintyHigh="109123.8" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="19500000" uncertainty="4600000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="6.2000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.405e-3" uncertainty="0.035e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="4.200e-04" uncertainty="4.300e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.59" uncertainty="0.04" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.056"/>
-      <magnitudeAbsoluteV value="-9.5" uncertainty="0.3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-9.5" uncertainty="0.2" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="2" uncertainty="0.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-26.3"/>
       <longitudeGalactic value="119.4"/>
@@ -5014,9 +5021,9 @@
       <referencePrimary reference="van den Bergh (1972)"/>
       <alias value="And III"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.59408837E+00   0.92806028E-01   0.44491578E+00" uncertainty="0.19061659E-01   0.29777335E-02   0.14275373E-01"/>
-      <distanceMilkyWay value="0.75168119E+00" uncertainty="0.17325052E-01"/>
-      <distanceM31 value="0.75059701E-01" uncertainty="0.21548531E-01"/>
+      <positionHeliocentricCartesian value="0.57272342E+00   0.89468485E-01   0.42891547E+00" uncertaintyLow="0.12707773E-01   0.19851557E-02   0.95169152E-02" uncertaintyHigh="0.13502008E-01   0.21092279E-02   0.10111722E-01"/>
+      <distanceMilkyWay value="0.72478255E+00" uncertaintyLow="0.11549155E-01" uncertaintyHigh="0.12270965E-01"/>
+      <distanceM31 value="0.89900007E-01" uncertaintyLow="0.18614265E-01" uncertaintyHigh="0.18912120E-01"/>
     </galaxy>
     <galaxy name="WLM">
       <discoverySurvey value="classical"/>
@@ -5067,19 +5074,19 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal degrees="48" arcminutes="30" arcseconds="32" reference="Geha et al. 2010"/>
       <rightAscensionSexagesimal hours="0" minutes="33" seconds="12.1" reference="Geha et al. 2010"/>
-      <distanceHeliocentric value="0.676" uncertainty="0.028"/>
-      <distanceModulus value="24.15" uncertaintyLow="0.09" uncertaintyHigh="0.09"/>
+      <distanceHeliocentric value="0.7345" uncertaintyLow="0.0200" uncertaintyHigh="0.0210" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.33" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="48.508888888889"/>
       <rightAscensionDecimal value="8.300416666667"/>
-      <massStellar value="340408189.7" uncertaintyLow="12312896.6" uncertaintyHigh="12774980.1" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="373250157.8" uncertaintyLow="23304990.8" uncertaintyHigh="24857012.8" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="93000000"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="6.7000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.00141" uncertainty="2e-05" reference="Crnojevic, Ferguson, Irwin et al.; 2014; MNRAS; 445; 3862" referenceURL="https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.3862C"/>
+      <radiusHalfLight value="1.431e-03" uncertaintyLow="4.300e-05" uncertaintyHigh="4.400e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.41" uncertaintyLow="0.02" uncertaintyHigh="0.02"/>
       <extinctionV value="0.172"/>
-      <magnitudeAbsoluteV value="-16.5" uncertainty="0.04" reference="Crnojevic, Ferguson, Irwin et al.; 2014; MNRAS; 445; 3862" referenceURL="https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.3862C"/>
+      <magnitudeAbsoluteV value="-16.6" uncertainty="0.07" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="6.70" uncertainty="0.09" reference="Crnojevic, Ferguson, Irwin et al.; 2014; MNRAS; 445; 3862" referenceURL="https://ui.adsabs.harvard.edu/abs/2014MNRAS.445.3862C"/>
       <latitudeGalactic value="-14.3"/>
       <longitudeGalactic value="119.8"/>
@@ -5105,9 +5112,9 @@
       <alias value="DDO 3"/>
       <comment value="Binary w/NGC 185? Tidal stream"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.44316123E+00   0.64653523E-01   0.50636355E+00" uncertainty="0.18355790E-01   0.26779566E-02   0.20973638E-01"/>
-      <distanceMilkyWay value="0.68003421E+00" uncertainty="0.19779995E-01"/>
-      <distanceM31 value="0.14263608E+00" uncertainty="0.24780388E-01"/>
+      <positionHeliocentricCartesian value="0.48151172E+00   0.70248539E-01   0.55018348E+00" uncertaintyLow="0.13111279E-01   0.19128261E-02   0.14981170E-01" uncertaintyHigh="0.13766843E-01   0.20084674E-02   0.15730229E-01"/>
+      <distanceMilkyWay value="0.73853114E+00" uncertaintyLow="0.14129308E-01" uncertaintyHigh="0.14835762E-01"/>
+      <distanceM31 value="0.10962733E+00" uncertaintyLow="0.21185412E-01" uncertaintyHigh="0.21558850E-01"/>
     </galaxy>
     <galaxy name="Pisces B">
       <declinationSexagesimal degrees="+11" arcminutes="07" arcseconds="18.22"/>
@@ -5450,18 +5457,18 @@
       <discoverySurvey value="PAndAS" reference="McConnachie, Irwin, Ibata et al.; 2009; Nature; 461; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2009Natur.461...66M" DOI="doi:10.1038/nature08327"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+38" arcminutes="43" arcseconds="26"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="29" seconds="21.0"/>
-      <distanceModulus value="24.54" uncertaintyLow="0.03" uncertaintyHigh="0.06" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.36" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="38.723888888889"/>
       <rightAscensionDecimal value="22.337500000000"/>
-      <massStellar value="855066.7" uncertaintyLow="143853.2" uncertaintyHigh="272130.8" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="711213.5" uncertaintyLow="119651.9" uncertaintyHigh="143853.2" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="8.2000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="34000000" uncertaintyLow="7000000" uncertaintyHigh="8000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <radiusHalfLight value="1277.0e-6" uncertaintyLow="96.0e-6" uncertaintyHigh="109.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="1.170e-03" uncertaintyLow="9.400e-05" uncertaintyHigh="9.500e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.41" uncertaintyLow="0.06" uncertaintyHigh="0.05" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.066"/>
-      <magnitudeAbsoluteV value="-10.0" uncertaintyLow="0.3" uncertaintyHigh="0.2" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-9.8" uncertainty="0.2" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="5.4" uncertainty="0.4" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-23.6"/>
       <longitudeGalactic value="131.0"/>
@@ -5480,10 +5487,10 @@
       <referencePrimary reference="Richardson et al. (2011)"/>
       <alias value="And XXIII"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.809095899178" uncertaintyLow="0.011178072937" uncertaintyHigh="0.022356145875"/>
-      <positionHeliocentricCartesian value="0.58386515E+00   0.23990709E+00   0.50614450E+00" uncertaintyLow="0.80663951E-02   0.33144389E-02   0.69926447E-02" uncertaintyHigh="0.16132790E-01   0.66288777E-02   0.13985289E-01"/>
-      <distanceMilkyWay value="0.81410409E+00" uncertaintyLow="0.73305537E-02" uncertaintyHigh="0.14660730E-01"/>
-      <distanceM31 value="0.13131845E+00" uncertaintyLow="0.50640926E-02" uncertaintyHigh="0.77197063E-02"/>
+      <distanceHeliocentric value="0.7447" uncertainty="0.0240" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.53739535E+00   0.22081289E+00   0.46586049E+00" uncertainty="0.17319039E-01   0.71163011E-02   0.15013632E-01"/>
+      <distanceMilkyWay value="0.74971050E+00" uncertainty="0.15735537E-01"/>
+      <distanceM31 value="0.12927544E+00" uncertainty="0.13685214E-01"/>
     </galaxy>
     <galaxy name="Bootes III">
       <discoverySurvey value="SDSS"/>
@@ -5527,19 +5534,19 @@
       <discoverySurvey value="classical"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+33" arcminutes="26" arcseconds="07"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="16" seconds="26.8"/>
-      <distanceHeliocentric value="0.652" uncertainty="0.018"/>
-      <distanceModulus value="24.07" uncertaintyLow="0.06" uncertaintyHigh="0.06"/>
+      <distanceHeliocentric value="0.6668" uncertaintyLow="0.0150" uncertaintyHigh="0.0160" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.12" uncertainty="0.05" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="33.435277777778"/>
       <rightAscensionDecimal value="19.111666666667"/>
-      <massStellar value="3732501.6" uncertaintyLow="627942.0" uncertaintyHigh="754952.3" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="4092606.6" uncertaintyLow="688524.7" uncertaintyHigh="827788.8" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="33100000" uncertainty="7000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="4.4000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.965e-3" uncertainty="0.045e-3" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <radiusHalfLight value="1.028e-03" uncertaintyLow="3.000e-05" uncertaintyHigh="3.100e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.16" uncertainty="0.02" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.061"/>
-      <magnitudeAbsoluteV value="-11.6" uncertainty="0.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
+      <magnitudeAbsoluteV value="-11.7" uncertainty="0.2" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="5.3" uncertainty="0.1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-29.2"/>
       <longitudeGalactic value="128.9"/>
@@ -5563,9 +5570,9 @@
       <alias value="And II"/>
       <comment value="In Pisces"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.51411017E+00   0.17814385E+00   0.35924852E+00" uncertainty="0.14193226E-01   0.49180818E-02   0.99179039E-02"/>
-      <distanceMilkyWay value="0.65658036E+00" uncertainty="0.12480682E-01"/>
-      <distanceM31 value="0.18331515E+00" uncertainty="0.18548254E-01"/>
+      <positionHeliocentricCartesian value="0.52578016E+00   0.18218761E+00   0.36740324E+00" uncertaintyLow="0.11827688E-01   0.40984015E-02   0.82649199E-02" uncertaintyHigh="0.12616201E-01   0.43716283E-02   0.88159146E-02"/>
+      <distanceMilkyWay value="0.67137956E+00" uncertaintyLow="0.10401470E-01" uncertaintyHigh="0.11094882E-01"/>
+      <distanceM31 value="0.17412393E+00" uncertaintyLow="0.17268460E-01" uncertaintyHigh="0.17528804E-01"/>
     </galaxy>
     <galaxy name="Leo II">
       <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2509.12313" />
@@ -5630,18 +5637,18 @@
       <discoverySurvey value="Majewski2007" reference="Majewski, Beaton, Patterson et al.; 2007; ApJL; 670; L9" referenceURL="https://ui.adsabs.harvard.edu/abs/2007ApJ...670L...9M" DOI="doi:10.1086/524033"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+29" arcminutes="41" arcseconds="23"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="51" seconds="35.0"/>
-      <distanceModulus value="24.64" uncertaintyLow="0.04" uncertaintyHigh="0.05" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.44" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="29.689722222222"/>
       <rightAscensionDecimal value="12.895833333333"/>
-      <massStellar value="235504.9" uncertaintyLow="72575.3" uncertaintyHigh="74951.1" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="235504.9" uncertaintyLow="56856.2" uncertaintyHigh="74951.0" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massDynamicalHalfLightRadius value="4200000" uncertainty="2000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="2.4000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="379.0e-6" uncertaintyLow="54.0e-6" uncertaintyHigh="38.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="3.370e-04" uncertainty="4.600e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.17" uncertaintyLow="0.17" uncertaintyHigh="0.16" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.060"/>
-      <magnitudeAbsoluteV value="-8.6" uncertaintyLow="0.3" uncertaintyHigh="0.4" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-8.6" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="1.5" uncertainty="0.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-33.2"/>
       <longitudeGalactic value="123.0"/>
@@ -5665,27 +5672,27 @@
       <alias value="And XIV"/>
       <comment value="Unbound to M31? In Pisces"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.847227414141" uncertaintyLow="0.015606505713" uncertaintyHigh="0.019508132142"/>
-      <positionHeliocentricCartesian value="0.71743981E+00   0.16426074E+00   0.41963415E+00" uncertaintyLow="0.13215730E-01   0.30257947E-02   0.77299467E-02" uncertaintyHigh="0.16519662E-01   0.37822434E-02   0.96624333E-02"/>
-      <distanceMilkyWay value="0.85103253E+00" uncertaintyLow="0.11809452E-01" uncertaintyHigh="0.14761776E-01"/>
-      <distanceM31 value="0.17825072E+00" uncertaintyLow="0.20347204E-01" uncertaintyHigh="0.22006104E-01"/>
+      <distanceHeliocentric value="0.7727" uncertaintyLow="0.0210" uncertaintyHigh="0.0220" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.65432932E+00   0.14981134E+00   0.38272051E+00" uncertaintyLow="0.17782989E-01   0.40714872E-02   0.10401360E-01" uncertaintyHigh="0.18629798E-01   0.42653676E-02   0.10896663E-01"/>
+      <distanceMilkyWay value="0.77650818E+00" uncertaintyLow="0.15886323E-01" uncertaintyHigh="0.16642809E-01"/>
+      <distanceM31 value="0.15912933E+00" uncertaintyLow="0.20502339E-01" uncertaintyHigh="0.20855205E-01"/>
     </galaxy>
     <galaxy name="Andromeda XX">
       <discoverySurvey value="Martin2006" reference="McConnachie, Huxor, Martin et al.; 2008; ApJ; 688; 1009" referenceURL="https://ui.adsabs.harvard.edu/abs/2008ApJ...688.1009M"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+35" arcminutes="07" arcseconds="37"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="0" minutes="07" seconds="30.6"/>
-      <distanceModulus value="24.69" uncertaintyLow="0.09" uncertaintyHigh="0.11" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="24.35" uncertainty="0.08" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="35.126944444444"/>
       <rightAscensionDecimal value="1.877500000000"/>
-      <massStellar value="40926.1" uncertaintyLow="15103.5" uncertaintyHigh="18230.1" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="31045.6" uncertaintyLow="9567.3" uncertaintyHigh="13828.9" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="5.4000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
       <massDynamicalHalfLightRadius value="3000000" uncertaintyLow="1700000" uncertaintyHigh="2800000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
-      <radiusHalfLight value="110.0e-6" uncertaintyLow="29.0e-6" uncertaintyHigh="39.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="8.600e-05" uncertaintyLow="2.200e-05" uncertaintyHigh="4.300e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.11" uncertaintyLow="0.11" uncertaintyHigh="0.41" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.059"/>
-      <magnitudeAbsoluteV value="-6.7" uncertaintyLow="0.4" uncertaintyHigh="0.5" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-6.4" uncertainty="0.4" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="0.4" uncertaintyLow="0.1" uncertaintyHigh="0.2" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-26.9"/>
       <longitudeGalactic value="112.9"/>
@@ -5704,10 +5711,10 @@
       <referencePrimary reference="McConnachie et al. (2008)"/>
       <alias value="And XX"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.866961875758" uncertaintyLow="0.035932562844" uncertaintyHigh="0.043917576809"/>
-      <positionHeliocentricCartesian value="0.70868944E+00   0.23231046E-01   0.49884114E+00" uncertaintyLow="0.29372720E-01   0.96284628E-03   0.20675235E-01" uncertaintyHigh="0.35899991E-01   0.11768121E-02   0.25269732E-01"/>
-      <distanceMilkyWay value="0.86987046E+00" uncertaintyLow="0.26762601E-01" uncertaintyHigh="0.32709832E-01"/>
-      <distanceM31 value="0.15711089E+00" uncertaintyLow="0.29010152E-01" uncertaintyHigh="0.33730808E-01"/>
+      <distanceHeliocentric value="0.7413" uncertaintyLow="0.0270" uncertaintyHigh="0.0280" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.60596838E+00   0.19863820E-01   0.42653656E+00" uncertaintyLow="0.22070884E-01   0.72348999E-03   0.15535528E-01" uncertaintyHigh="0.22888324E-01   0.75028591E-03   0.16110918E-01"/>
+      <distanceMilkyWay value="0.74421444E+00" uncertaintyLow="0.20105261E-01" uncertaintyHigh="0.20849897E-01"/>
+      <distanceM31 value="0.12968088E+00" uncertaintyLow="0.17043316E-01" uncertaintyHigh="0.17347073E-01"/>
     </galaxy>
     <galaxy name="IC 10">
       <discoverySurvey value="classical"/>
@@ -5829,17 +5836,17 @@
       <discoverySurvey value="PAndAS" reference="McConnachie, Irwin, Ibata et al.; 2009; Nature; 461; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2009Natur.461...66M" DOI="doi:10.1038/nature08327"/>
       <declinationSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" degrees="+46" arcminutes="22" arcseconds="13"/>
       <rightAscensionSexagesimal reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M" hours="1" minutes="18" seconds="32.7"/>
-      <distanceModulus value="24.30" uncertaintyLow="0.26" uncertaintyHigh="0.28" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <distanceModulus value="23.92" uncertainty="0.07" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="46.370277777778"/>
       <rightAscensionDecimal value="19.636250000000"/>
-      <massStellar value="123594.7" uncertaintyLow="38088.0" uncertaintyHigh="55054.1" technique="M/L = 1 Msun/Lsun"/>
+      <massStellar value="93756.2" uncertaintyLow="22634.8" uncertaintyHigh="29838.5" technique="M/L = 1 Msun/Lsun" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="4.0000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="579.0e-6" uncertaintyLow="146.0e-6" uncertaintyHigh="208.0e-6" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <radiusHalfLight value="4.600e-04" uncertaintyLow="9.000e-05" uncertaintyHigh="1.780e-04" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.1" uncertaintyLow="0.1" uncertaintyHigh="0.31" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <extinctionV value="0.083"/>
-      <magnitudeAbsoluteV value="-7.9" uncertainty="0.4" reference="Weisz, Dolphin, Martin et al.; 2019; MNRAS; 489; 763" referenceURL="https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..763W"/>
+      <magnitudeAbsoluteV value="-7.6" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <radiusHalfLightAngular value="2.6" uncertaintyLow="0.5" uncertaintyHigh="1" reference="Martin, Ibata, Lewis et al.; 2016; ApJ; 833; 167" referenceURL="https://ui.adsabs.harvard.edu/abs/2016ApJ...833..167M"/>
       <latitudeGalactic value="-16.3"/>
       <longitudeGalactic value="127.8"/>
@@ -5856,25 +5863,26 @@
       <referencePrimary reference="Richardson et al. (2011)"/>
       <alias value="And XXIV"/>
       <classification value="galaxy"/>
-      <distanceHeliocentric value="0.724435960075" uncertaintyLow="0.086739923010" uncertaintyHigh="0.093412224780"/>
-      <positionHeliocentricCartesian value="0.47078809E+00   0.16797580E+00   0.52435691E+00" uncertaintyLow="0.56369541E-01   0.20112486E-01   0.62783573E-01" uncertaintyHigh="0.60705660E-01   0.21659600E-01   0.67613078E-01"/>
-      <distanceMilkyWay value="0.72934281E+00" uncertaintyLow="0.58468882E-01" uncertaintyHigh="0.62966484E-01"/>
-      <distanceM31 value="0.12283774E+00" uncertaintyLow="0.53000701E-01" uncertaintyHigh="0.56705370E-01"/>
+      <distanceHeliocentric value="0.6081" uncertaintyLow="0.0190" uncertaintyHigh="0.0200" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <positionHeliocentricCartesian value="0.39518502E+00   0.14100085E+00   0.44015131E+00" uncertaintyLow="0.12347501E-01   0.44055519E-02   0.13752466E-01" uncertaintyHigh="0.12997369E-01   0.46374230E-02   0.14476280E-01"/>
+      <distanceMilkyWay value="0.61301268E+00" uncertaintyLow="0.12803768E-01" uncertaintyHigh="0.13477635E-01"/>
+      <distanceM31 value="0.20094033E+00" uncertaintyLow="0.21842787E-01" uncertaintyHigh="0.22221332E-01"/>
     </galaxy>
     <galaxy name="Andromeda VII">
       <discoverySurvey value="classical" reference="Karachentsev &amp; Karachentseva (1999)"/>
       <declinationSexagesimal degrees="50" arcminutes="40" arcseconds="33" reference="Kalirai et al. 2010"/>
       <rightAscensionSexagesimal hours="23" minutes="26" seconds="31.7" reference="Kalirai et al. 2010"/>
-      <distanceHeliocentric value="0.762" uncertainty="0.035"/>
-      <distanceModulus value="24.41" uncertaintyLow="0.10" uncertaintyHigh="0.10"/>
+      <distanceHeliocentric value="0.8241" uncertainty="0.0230" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <distanceModulus value="24.58" uncertainty="0.06" technique="RR Lyrae" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
+      <magnitudeAbsoluteV value="-13.3" uncertainty="0.3" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <declinationDecimal value="50.675833333333"/>
       <rightAscensionDecimal value="351.632083333333"/>
-      <massStellar value="9500000"/>
+      <massStellar value="11111520.5" comment="Scaled from 9.5e+06 by the square of the ratio of the distance of Savino et al. (2022) to the previous 0.762 Mpc."/>
       <massDynamicalHalfLightRadius value="76100000" uncertainty="9000000" reference="Collins, Chapman, Rich et al.; 2014; ApJ; 783; 7" referenceURL="https://ui.adsabs.harvard.edu/abs/2014ApJ...783....7C"/>
       <massNeutralHydrogen reference="Putman, Zheng, Price-Whelan et al.; 2021; ApJ; 913; 53" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...913...53P">
         <limit value="6.6000e+04" confidenceLevel="99.999971%" type="upper"/>
       </massNeutralHydrogen>
-      <radiusHalfLight value="0.776e-3" uncertainty="0.042e-3"/>
+      <radiusHalfLight value="8.150e-04" uncertainty="2.800e-05" reference="Savino, Weisz, Skillman et al.; 2022; ApJ; 938; 101" referenceURL="https://ui.adsabs.harvard.edu/abs/2022ApJ...938..101S"/>
       <ellipticityProjected value="0.13" uncertaintyLow="0.04" uncertaintyHigh="0.04"/>
       <extinctionV value="0.194"/>
       <radiusHalfLightAngular value="3.50" uncertaintyLow="0.10" uncertaintyHigh="0.10"/>
@@ -5899,9 +5907,9 @@
       <referencePrimary reference="Karachentsev &amp; Karachentseva (1999)"/>
       <alias value="Casseopia dSph"/>
       <classification value="galaxy"/>
-      <positionHeliocentricCartesian value="0.47774409E+00  -0.70273782E-01   0.58946262E+00" uncertainty="0.21943626E-01   0.32277984E-02   0.27075055E-01"/>
-      <distanceMilkyWay value="0.76476327E+00" uncertainty="0.25095899E-01"/>
-      <distanceM31 value="0.21822593E+00" uncertainty="0.17388905E-01"/>
+      <positionHeliocentricCartesian value="0.51667836E+00  -0.76000818E-01   0.63750150E+00" uncertainty="0.14420097E-01   0.21211246E-02   0.17792179E-01"/>
+      <distanceMilkyWay value="0.82686027E+00" uncertainty="0.16489969E-01"/>
+      <distanceM31 value="0.22959938E+00" uncertainty="0.14625668E-01"/>
     </galaxy>
     <galaxy name="Willman 1">
       <census value="DELVE-MW-I" classification="dwarf" reference="Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2509.12313" />
