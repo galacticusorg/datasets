@@ -2,6 +2,72 @@
 <localGroup>
   <compiledBy>Andrew Benson &lt;abenson@carnegiescience.edu&gt;</compiledBy>
   <galaxies>
+    <galaxy name="Ursa Minor II">
+      <alias value="Euclid UFSS DR1 1"/>
+      <discoverySurvey value="Euclid Wide Survey DR1" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <rightAscensionDecimal value="196.1542" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <declinationDecimal value="75.5724" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <distanceModulus value="16.5" uncertainty="0.3" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <distanceHeliocentric value="20.0e-3" uncertainty="3.0e-3" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <radiusHalfLightAngular value="2.25" uncertaintyLow="0.39" uncertaintyHigh="0.40" comment="Half-light radius along the major axis." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <radiusHalfLight value="13.0e-6" uncertainty="3.0e-6" comment="Half-light radius along the major axis." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <ellipticityProjected value="0.20" uncertaintyLow="0.14" uncertaintyHigh="0.17" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <positionAngle value="162.0" uncertaintyLow="42.0" uncertaintyHigh="48.0" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <magnitudeAbsoluteV value="+2.0" uncertaintyLow="1.1" uncertaintyHigh="0.5" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <massStellar value="42.0" uncertaintyLow="7.0" uncertaintyHigh="9.0" technique="CMD modelling" comment="Monte Carlo sampling of a synthetic PARSEC population (best-fit isochrone age and metallicity, Kroupa 2002 IMF) matched to the observed number of stars." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <comment value="Distance from a visual fit of an old (log10(t/yr) = 10.12) PARSEC isochrone to the Euclid colour-magnitude diagram; the metallicity was fixed at [Fe/H] = -2.2, so is assumed rather than measured. Mean V-band surface brightness within the half-light radius of about 31 mag/arcsec^2. Globular cluster and ultra-faint dwarf classifications cannot be distinguished from the photometry. Gemini-North spectroscopy is to be presented by Balbinot et al. (in prep.)." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <classification value="ambiguous" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <referencePrimary reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <declinationSexagesimal degrees="75.000000000000" arcminutes="34.000000000000" arcseconds="20.640000000007"/>
+      <rightAscensionSexagesimal hours="13.000000000000" minutes="4.000000000000" seconds="37.008000000001"/>
+      <positionHeliocentricCartesian value="-0.47863768E-02  -0.13864230E-02   0.19369265E-01" uncertainty="0.71795652E-03   0.20796345E-03   0.29053898E-02"/>
+      <distanceMilkyWay value="0.24489373E-01" uncertainty="0.27787005E-02"/>
+      <distanceM31 value="0.77415794E+00" uncertainty="0.17594308E-01"/>
+    </galaxy>
+    <galaxy name="Fornax 7">
+      <alias value="Euclid UFSS DR1 2"/>
+      <discoverySurvey value="Euclid Wide Survey DR1" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <rightAscensionDecimal value="38.8244" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <declinationDecimal value="-33.9567" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <distanceModulus value="20.8" uncertainty="0.3" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <distanceHeliocentric value="145.0e-3" uncertaintyLow="19.0e-3" uncertaintyHigh="21.0e-3" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <radiusHalfLightAngular value="0.11" uncertaintyLow="0.03" uncertaintyHigh="0.05" comment="Half-light radius along the major axis." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <radiusHalfLight value="5.0e-6" uncertaintyLow="1.0e-6" uncertaintyHigh="2.0e-6" comment="Half-light radius along the major axis." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <ellipticityProjected value="0.36" uncertaintyLow="0.24" uncertaintyHigh="0.26" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <positionAngle value="106.0" uncertaintyLow="39.0" uncertaintyHigh="30.0" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <magnitudeAbsoluteV value="+0.51" uncertaintyLow="0.94" uncertaintyHigh="0.79" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <massStellar value="117.0" uncertaintyLow="51.0" uncertaintyHigh="71.0" technique="CMD modelling" comment="Monte Carlo sampling of a synthetic PARSEC population (best-fit isochrone age and metallicity, Kroupa 2002 IMF) matched to the observed number of stars." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <comment value="Located 1.1 degrees (about 2.8 kpc projected) north-west of the centre of the Fornax dSph, at the edge of its tidal radius and at a similar distance, so possibly a satellite of Fornax rather than of the Milky Way. Distance from a visual fit of an old (log10(t/yr) = 10.12) PARSEC isochrone with [Fe/H] fixed at -2.2, so the metallicity is assumed rather than measured. Globular cluster and ultra-faint dwarf classifications cannot be distinguished from the photometry. An independent Euclid analysis (Saifollahi et al. 2026) finds consistent properties: M_V = +0.3 +/- 0.3, M* = 170 (+50/-62) Msun, r_h = 5.0 +/- 1.0 pc." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <classification value="ambiguous" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <referencePrimary reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <declinationSexagesimal degrees="-33.000000000000" arcminutes="57.000000000000" arcseconds="24.119999999993"/>
+      <rightAscensionSexagesimal hours="2.000000000000" minutes="35.000000000000" seconds="17.855999999999"/>
+      <positionHeliocentricCartesian value="0.93700192E-01   0.75402610E-01  -0.80992102E-01" uncertaintyLow="0.12277956E-01   0.98803419E-02   0.10612758E-01" uncertaintyHigh="0.13570373E-01   0.10920378E-01   0.11729891E-01"/>
+      <distanceMilkyWay value="0.14703015E+00" uncertaintyLow="0.11114302E-01" uncertaintyHigh="0.12284167E-01"/>
+      <distanceM31 value="0.77002728E+00" uncertaintyLow="0.20650898E-01" uncertaintyHigh="0.21325071E-01"/>
+    </galaxy>
+    <galaxy name="Eridanus V">
+      <alias value="Euclid UFSS DR1 3"/>
+      <discoverySurvey value="Euclid Wide Survey DR1" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <rightAscensionDecimal value="28.8623" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <declinationDecimal value="-47.7105" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <distanceModulus value="21.1" uncertainty="0.3" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <distanceHeliocentric value="166.0e-3" uncertaintyLow="21.0e-3" uncertaintyHigh="25.0e-3" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <radiusHalfLightAngular value="0.25" uncertaintyLow="0.05" uncertaintyHigh="0.06" comment="Half-light radius along the major axis." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <radiusHalfLight value="12.0e-6" uncertainty="3.0e-6" comment="Half-light radius along the major axis." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <ellipticityProjected value="0.20" uncertaintyLow="0.14" uncertaintyHigh="0.17" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <positionAngle value="45.0" uncertaintyLow="31.0" uncertaintyHigh="27.0" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <magnitudeAbsoluteV value="-1.45" uncertaintyLow="0.79" uncertaintyHigh="0.65" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <massStellar value="550.0" uncertaintyLow="180.0" uncertaintyHigh="260.0" technique="CMD modelling" comment="Monte Carlo sampling of a synthetic PARSEC population (best-fit isochrone age and metallicity, Kroupa 2002 IMF) matched to the observed number of stars." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <comment value="Distance from a visual fit of an old (log10(t/yr) = 10.12) PARSEC isochrone with [Fe/H] fixed at -2.2, constrained mainly by the main-sequence turn-off as very few evolved stars are present; the metallicity is therefore assumed rather than measured. Lies in the region of the size-luminosity plane shared by globular clusters and ultra-faint dwarfs (similar to DELVE 6 and Kim 2), so its nature requires spectroscopic follow-up." reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <classification value="ambiguous" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <referencePrimary reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
+      <declinationSexagesimal degrees="-47.000000000000" arcminutes="42.000000000000" arcseconds="37.800000000012"/>
+      <rightAscensionSexagesimal hours="1.000000000000" minutes="55.000000000000" seconds="26.952000000000"/>
+      <positionHeliocentricCartesian value="0.97822763E-01   0.53917116E-01  -0.12279923E+00" uncertaintyLow="0.12375169E-01   0.68208399E-02   0.15534843E-01" uncertaintyHigh="0.14732344E-01   0.81200475E-02   0.18493860E-01"/>
+      <distanceMilkyWay value="0.16585026E+00" uncertaintyLow="0.13560763E-01" uncertaintyHigh="0.16143700E-01"/>
+      <distanceM31 value="0.80160914E+00" uncertaintyLow="0.22454626E-01" uncertaintyHigh="0.24316589E-01"/>
+    </galaxy>
     <galaxy name="Aquarius IV">
       <alias value="Aqu IV"/>
       <alias value="Rubin J2201-0234"/>
