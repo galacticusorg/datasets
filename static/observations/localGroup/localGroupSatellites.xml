@@ -2,6 +2,29 @@
 <localGroup>
   <compiledBy>Andrew Benson &lt;abenson@carnegiescience.edu&gt;</compiledBy>
   <galaxies>
+    <galaxy name="HEC14">
+      <discoverySurvey value="PAndAS" reference="McConnachie, Irwin, Ibata et al.; 2009; Nature; 461; 66" referenceURL="https://ui.adsabs.harvard.edu/abs/2009Natur.461...66M" DOI="doi:10.1038/nature08327"/>
+      <rightAscensionSexagesimal hours="0" minutes="46" seconds="31.0" uncertaintySecondsLow="0.08" uncertaintySecondsHigh="0.12" reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <declinationSexagesimal degrees="45" arcminutes="6" arcseconds="42" uncertaintyArcsecondsLow="1.2" uncertaintyArcsecondsHigh="1.8" reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <distanceModulus value="24.8" uncertainty="0.2" reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <distanceHeliocentric value="0.912" uncertaintyLow="0.080" uncertaintyHigh="0.088" reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <radiusHalfLightAngular value="0.12" uncertaintyLow="0.03" uncertaintyHigh="0.05" comment="Half-light radius along the major axis." reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <radiusHalfLight value="31.0e-6" uncertaintyLow="9.0e-6" uncertaintyHigh="13.0e-6" comment="Half-light radius along the major axis." reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <ellipticityProjected comment="The posterior is non-Gaussian and consistent with zero; its median is 0.26 (+0.21/-0.17). The limit is the 84th percentile." reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685">
+        <limit value="0.44" confidenceLevel="84%" type="upper"/>
+      </ellipticityProjected>
+      <positionAngle value="165.0" uncertaintyLow="48.0" uncertaintyHigh="58.0" comment="Considered likely unconstrained by the authors, as the ellipticity is consistent with zero." reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <magnitudeAbsoluteV value="-5.00" uncertaintyLow="0.44" uncertaintyHigh="0.51" reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <massStellar value="9300.0" uncertaintyLow="3800.0" uncertaintyHigh="5200.0" technique="CMD modelling" comment="Monte Carlo sampling of a synthetic PARSEC population (12.5 Gyr, [Fe/H] = -2.5, Kroupa 2002 IMF) matched to the observed number of stars above the completeness limit, with the distance modulus varied within its uncertainty." reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <comment value="Discovered by Giuseppe Donatiello as a semi-resolved overdensity in a visual inspection of public PAndAS stacked images, and characterised with deeper OSIRIS+@GTC imaging. The colour-magnitude diagram shows a red giant branch and a blue horizontal branch, indicating an old (&gt;10 Gyr), metal-poor ([Fe/H] &lt; -2.0) population; the distance comes from a 12.5 Gyr, [Fe/H] = -2.5 PARSEC isochrone fitted to the horizontal branch, so that metallicity is assumed rather than measured. HEC14 lies about 136 kpc behind M31 along the line of sight. It falls in the size-luminosity gap between globular clusters and dwarf galaxies occupied by M31's halo extended clusters, and is named following the Huxor et al. (2011) halo extended cluster (HEC) nomenclature. The authors note that its size and luminosity are also consistent with the globular cluster-like dwarfs predicted by Taylor et al. (2025), and that star formation history or spectroscopy (no kinematic data yet exist) is needed to decide between an extended globular cluster and a compact dwarf galaxy. It does not appear to lie near major stellar substructure in the PAndAS metal-poor RGB map." reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <classification value="ambiguous" reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <referencePrimary reference="Sakowska, Martinez-Delgado, Gatto et al. (2026; arXiv:2611.24685)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.24685"/>
+      <declinationDecimal value="45.111666666667"/>
+      <rightAscensionDecimal value="11.629166666667"/>
+      <positionHeliocentricCartesian value="0.63041151E+00   0.12973937E+00   0.64613700E+00" uncertaintyLow="0.55299255E-01   0.11380646E-01   0.56678684E-01" uncertaintyHigh="0.60829181E-01   0.12518711E-01   0.62346553E-01"/>
+      <distanceMilkyWay value="0.91621353E+00" uncertaintyLow="0.55410698E-01" uncertaintyHigh="0.60951762E-01"/>
+      <distanceM31 value="0.14126031E+00" uncertaintyLow="0.58322353E-01" uncertaintyHigh="0.63701648E-01"/>
+    </galaxy>
     <galaxy name="Ursa Minor II">
       <alias value="Euclid UFSS DR1 1"/>
       <discoverySurvey value="Euclid Wide Survey DR1" reference="Euclid Collaboration, Gatto, Rusterucci et al. (2026; arXiv:2611.16025)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2611.16025"/>
