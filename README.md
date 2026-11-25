@@ -2,6 +2,8 @@
 
 Static and dynamically-generated data files used by [Galacticus](https://github.com/galacticusorg/galacticus).
 
+AI coding agents (and humans) should read [`AGENTS.md`](AGENTS.md) before changing data here.
+
 ## Layout
 
 | Path        | Purpose |
