@@ -36,7 +36,7 @@ import xml.etree.ElementTree as ET
 censusName = "DELVE-MW-I"
 
 reference = "Tan, Drlica-Wagner et al.; 2025; arXiv:2509.12313"
-referenceURL = "https://arxiv.org/abs/2509.12313"
+referenceURL = "https://ui.adsabs.harvard.edu/abs/arXiv:2509.12313"
 
 # Census classifications, and the corresponding names used in the database.
 classifications = {"D": "dwarf", "PD": "probableDwarf"}
