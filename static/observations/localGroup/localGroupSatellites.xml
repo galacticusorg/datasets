@@ -2,6 +2,40 @@
 <localGroup>
   <compiledBy>Andrew Benson &lt;abenson@carnegiescience.edu&gt;</compiledBy>
   <galaxies>
+    <galaxy name="DELVE 6">
+      <alias value="DELVE J0212-6603"/>
+      <discoverySurvey value="DELVE DR2" reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <rightAscensionDecimal value="33.070" uncertaintyLow="0.004" uncertaintyHigh="0.003" reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <declinationDecimal value="-66.056" uncertainty="0.002" reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <distanceModulus value="19.51" uncertaintyLow="0.12" uncertaintyHigh="0.04" uncertaintySystematic="0.1" reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <distanceHeliocentric value="0.080" uncertaintyLow="0.004" uncertaintyHigh="0.002" uncertaintySystematic="0.004" reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <radiusHalfLightAngular value="0.43" uncertaintyLow="0.12" uncertaintyHigh="0.18" comment="Azimuthally averaged." reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <radiusHalfLight value="10.0e-6" uncertaintyLow="3.0e-6" uncertaintyHigh="4.0e-6" comment="Azimuthally averaged; does not include the systematic uncertainty of the distance." reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <ellipticityProjected reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C">
+        <limit value="0.56" confidenceLevel="95%" type="upper"/>
+      </ellipticityProjected>
+      <positionAngle value="14.0" uncertaintyLow="63.0" uncertaintyHigh="40.0" reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <ageStellar comment="From the isochrone fit; the spectroscopic confirmation of a blue horizontal branch member by Cerny et al. (2026) favours an ancient (13.5 Gyr) age." reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C">
+        <limit value="9.8" confidenceLevel="95%" type="lower"/>
+      </ageStellar>
+      <metallicityStellar technique="Isochrones" comment="From the isochrone fit. Cerny et al. (2026) measure [Fe/H] = -1.49 +/- 0.51 for the brightest of three spectroscopic members, too uncertain to distinguish a dwarf galaxy from a globular cluster." reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C">
+        <limit value="-1.17" confidenceLevel="95%" type="upper"/>
+      </metallicityStellar>
+      <magnitudeAbsoluteV value="-1.5" uncertaintyLow="0.6" uncertaintyHigh="0.4" comment="The uncertainty does not include that of the distance." reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <massStellar value="770.0" uncertaintyLow="270.0" uncertaintyHigh="480.0" technique="M/L = 2 Msun/Lsun" reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <reddening value="0.036" comment="Mean over sources within the half-light radius, from the recalibrated Schlegel et al. (1998) map." reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <velocityRadialHeliocentric value="171.4" uncertaintyLow="6.2" uncertaintyHigh="6.6" comment="Mean of three low signal-to-noise Magellan/IMACS members (two RGB stars and one blue horizontal branch star); one RGB star is offset in velocity and may be a binary." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <properMotionRightAscension value="92.0" uncertainty="39.0" comment="Gaia DR3 mean of two spectroscopically confirmed members; the discovery paper gives (0.93, -1.28) +/- (0.39, 0.38) mas/yr from the same two stars." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <properMotionDeclination value="-128.0" uncertainty="38.0" comment="Gaia DR3 mean of two spectroscopically confirmed members; the discovery paper gives (0.93, -1.28) +/- (0.39, 0.38) mas/yr from the same two stars." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <comment value="About 20 kpc from the SMC and 35 kpc from the LMC, within recent estimates of the size of the LMC dark matter halo; the proper motion supports a possible association with the Magellanic Clouds, which would make it one of very few ancient star clusters of the SMC or LMC, though a distant Milky Way halo cluster cannot be ruled out. Classified as a star cluster at discovery from its small size; Cerny et al. (2026) find its classification unconstrained, with only three spectroscopic members." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <classification value="ambiguous" reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <referencePrimary reference="Cerny, Drlica-Wagner, Li et al.; 2023; ApJL; 953; L21" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953L..21C"/>
+      <declinationSexagesimal degrees="-66.000000000000" arcminutes="3.000000000000" arcseconds="21.599999999991"/>
+      <rightAscensionSexagesimal hours="2.000000000000" minutes="12.000000000000" seconds="16.800000000000"/>
+      <positionHeliocentricCartesian value="0.27207900E-01   0.17716314E-01   -0.73115405E-01" uncertaintyLow="0.13603950E-02   0.88581568E-03   0.36557702E-02" uncertaintyHigh="0.68019750E-03   0.44290784E-03   0.18278851E-02"/>
+      <distanceMilkyWay value="0.78499147E-01" uncertaintyLow="0.32666064E-02" uncertaintyHigh="0.16346432E-02"/>
+      <distanceM31 value="0.81220468E+00" uncertaintyLow="0.17558849E-01" uncertaintyHigh="0.17389221E-01"/>
+    </galaxy>
     <galaxy name="Leo Minor I">
       <alias value="DELVE J1057+2852"/>
       <discoverySurvey value="DELVE DR2" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
