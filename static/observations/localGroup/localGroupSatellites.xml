@@ -2,6 +2,171 @@
 <localGroup>
   <compiledBy>Andrew Benson &lt;abenson@carnegiescience.edu&gt;</compiledBy>
   <galaxies>
+    <galaxy name="Leo Minor I">
+      <alias value="DELVE J1057+2852"/>
+      <discoverySurvey value="DELVE DR2" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <rightAscensionDecimal value="164.261" uncertaintyLow="0.006" uncertaintyHigh="0.005" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <declinationDecimal value="28.875" uncertaintyLow="0.003" uncertaintyHigh="0.004" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <distanceModulus value="19.56" uncertaintyLow="0.19" uncertaintyHigh="0.11" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <distanceHeliocentric value="0.082" uncertaintyLow="0.007" uncertaintyHigh="0.004" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <radiusHalfLightAngular value="1.09" uncertaintyLow="0.35" uncertaintyHigh="0.37" comment="Azimuthally averaged, as the ellipticity is consistent with zero. The authors caution that the DECam data are shallow: other magnitude limits give 0.6 to 1.7 arcmin." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <radiusHalfLight value="26.0e-6" uncertainty="9.0e-6" comment="Azimuthally averaged, as the ellipticity is consistent with zero; poorly constrained by the shallow DECam data." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <ellipticityProjected reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C">
+        <limit value="0.4" confidenceLevel="84%" type="upper"/>
+      </ellipticityProjected>
+      <positionAngle value="74.0" uncertaintyLow="39.0" uncertaintyHigh="49.0" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <ageStellar reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C">
+        <limit value="11.4" confidenceLevel="unknown" type="lower"/>
+      </ageStellar>
+      <magnitudeAbsoluteV value="-2.4" uncertaintyLow="0.4" uncertaintyHigh="0.5" comment="The uncertainty does not include that of the distance." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <massStellar value="1480.0" uncertaintyLow="520.0" uncertaintyHigh="710.0" technique="M/L = 2 Msun/Lsun" reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <reddening value="0.018" comment="Mean over DELVE DR2 sources within 3 arcmin." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <metallicityStellar value="-2.15" uncertainty="0.27" technique="CaT calibration" comment="Mean of five RGB members (Navabi et al. 2026 calibration); the brightest member has [Fe/H] = -1.52 +/- 0.14." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <metallicityDispersionStellar value="0.57" uncertaintyLow="0.18" uncertaintyHigh="0.23" technique="CaT calibration" comment="0.48 (+0.28/-0.22) dex with the most metal-rich member excluded." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <velocityRadialHeliocentric value="4.1" uncertainty="1.7" comment="Seven members from two epochs of Keck/DEIMOS spectroscopy; four, excluding binaries, used for the kinematics." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <velocityDispersionStellar comment="Poorly constrained, from four kinematic members." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182">
+        <limit value="7.8" confidenceLevel="95%" type="upper"/>
+      </velocityDispersionStellar>
+      <massDynamicalHalfLightRadius comment="Wolf et al. (2010) estimator; poorly constrained, from four kinematic members." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182">
+        <limit value="1.48e6" confidenceLevel="95%" type="upper"/>
+      </massDynamicalHalfLightRadius>
+      <properMotionRightAscension value="1.0" uncertainty="37.0" comment="Gaia DR3 mean of three spectroscopically confirmed members." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182">
+        <uncertaintyCorrelation with="properMotionDeclination" coefficient="-0.4"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-129.0" uncertainty="35.0" comment="Gaia DR3 mean of three spectroscopically confirmed members." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182">
+        <uncertaintyCorrelation with="properMotionRightAscension" coefficient="-0.4"/>
+      </properMotionDeclination>
+      <distanceOrbitalPericenter value="79.0e-3" uncertaintyLow="28.0e-3" uncertaintyHigh="7.0e-3" comment="Closest in time, in a combined Milky Way and LMC potential; likely on first infall (bound in 59% of orbit realizations), so no apocenter or eccentricity is defined." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <comment value="Lies near the Sagittarius stream in projection, but its radial velocity disfavours an association. Confirmed as a dwarf galaxy from its metallicity spread by Cerny et al. (2026)." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <classification value="galaxy" reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <referencePrimary reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <declinationSexagesimal degrees="28.000000000000" arcminutes="52.000000000000" arcseconds="30.000000000000"/>
+      <rightAscensionSexagesimal hours="10.000000000000" minutes="57.000000000000" seconds="2.639999999999"/>
+      <positionHeliocentricCartesian value="-0.69113201E-01   0.19477615E-01   0.39597828E-01" uncertaintyLow="0.58999074E-02   0.16627232E-02   0.33803024E-02" uncertaintyHigh="0.33713756E-02   0.95012757E-03   0.19316014E-02"/>
+      <distanceMilkyWay value="0.85612626E-01" uncertaintyLow="0.50622268E-02" uncertaintyHigh="0.28930600E-02"/>
+      <distanceM31 value="0.80907297E+00" uncertaintyLow="0.18418001E-01" uncertaintyHigh="0.17930851E-01"/>
+    </galaxy>
+    <galaxy name="DELVE 2">
+      <alias value="DELVE J0155-6815"/>
+      <discoverySurvey value="DELVE DR1" reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <rightAscensionDecimal value="28.772" uncertaintyLow="0.005" uncertaintyHigh="0.006" reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <declinationDecimal value="-68.253" uncertainty="0.002" reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <distanceModulus value="19.26" uncertainty="0.03" uncertaintySystematic="0.1" reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <distanceHeliocentric value="0.071" uncertainty="0.004" reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <radiusHalfLightAngular value="1.04" uncertaintyLow="0.15" uncertaintyHigh="0.19" comment="Half-light radius along the major axis; azimuthally averaged, 1.02 (+0.18/-0.15) arcmin." reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <radiusHalfLight value="21.0e-6" uncertaintyLow="3.0e-6" uncertaintyHigh="4.0e-6" comment="Azimuthally averaged; the ellipticity is close to zero." reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <ellipticityProjected value="0.03" uncertaintyLow="0.03" uncertaintyHigh="0.15" reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <positionAngle value="74.0" uncertaintyLow="40.0" uncertaintyHigh="84.0" reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <ageStellar reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C">
+        <limit value="13.3" confidenceLevel="84%" type="lower"/>
+      </ageStellar>
+      <magnitudeAbsoluteV value="-2.1" uncertaintyLow="0.5" uncertaintyHigh="0.4" comment="The uncertainty does not include that of the distance." reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <massStellar value="1240.0" uncertaintyLow="400.0" uncertaintyHigh="680.0" technique="M/L = 2 Msun/Lsun" comment="Cerny et al. (2021) find 880 (+120/-150) Msun from isochrone modelling, excluding possible blue stragglers." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <surfaceBrightnessEffectiveV value="28.2" reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <reddening value="0.024" reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <metallicityStellar value="-2.85" uncertaintyLow="0.39" uncertaintyHigh="0.31" technique="CaT calibration" comment="Mean of three RGB members (Navabi et al. 2026 calibration); the brightest member has [Fe/H] = -2.49 +/- 0.09." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <metallicityDispersionStellar value="0.52" uncertaintyLow="0.25" uncertaintyHigh="0.29" technique="CaT calibration" comment="Modestly significant, from three stars." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <velocityRadialHeliocentric value="129.9" uncertaintyLow="1.2" uncertaintyHigh="1.1" comment="Seven members from five Magellan/IMACS epochs; six used for the kinematics." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <velocityDispersionStellar value="2.1" uncertaintyLow="0.9" uncertaintyHigh="1.5" comment="Tentatively resolved." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <massDynamicalHalfLightRadius value="0.9e5" uncertaintyLow="0.6e5" uncertaintyHigh="1.8e5" comment="Wolf et al. (2010) estimator; M_1/2/L_V,1/2 = 280 (+640/-190) Msun/Lsun." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <properMotionRightAscension value="97.0" uncertainty="12.0" comment="Gaia DR3 mean of six spectroscopically confirmed members." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182">
+        <uncertaintyCorrelation with="properMotionDeclination" coefficient="0.22"/>
+      </properMotionRightAscension>
+      <properMotionDeclination value="-95.0" uncertainty="9.0" comment="Gaia DR3 mean of six spectroscopically confirmed members." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182">
+        <uncertaintyCorrelation with="properMotionRightAscension" coefficient="0.22"/>
+      </properMotionDeclination>
+      <properMotionRightAscension value="102.0" uncertaintyLow="25.0" uncertaintyHigh="24.0" comment="Gaia DR2 photometric and astrometric members (discovery paper)." reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <properMotionDeclination value="-85.0" uncertaintyLow="19.0" uncertaintyHigh="18.0" comment="Gaia DR2 photometric and astrometric members (discovery paper)." reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <distanceOrbitalPericenter value="68.0e-3" uncertaintyLow="5.0e-3" uncertaintyHigh="4.0e-3" comment="Closest in time, in a combined Milky Way and LMC potential." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <comment value="A satellite of the LMC: Cerny et al. (2026) find it a long-term bound LMC satellite in a combined Milky Way and LMC potential. About 12 kpc from the SMC. The authors consider it most likely a dwarf galaxy, from its low metallicity, tentative velocity dispersion and modestly significant metallicity spread." reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <classification value="galaxy" reference="Cerny, Geha, Simon et al. (2026; arXiv:2610.07182)" referenceURL="https://ui.adsabs.harvard.edu/abs/arXiv:2610.07182"/>
+      <referencePrimary reference="Cerny, Pace, Drlica-Wagner et al.; 2021; ApJ; 910; 18" referenceURL="https://ui.adsabs.harvard.edu/abs/2021ApJ...910...18C"/>
+      <declinationSexagesimal degrees="-68.000000000000" arcminutes="15.000000000000" arcseconds="10.800000000000"/>
+      <rightAscensionSexagesimal hours="1.000000000000" minutes="55.000000000000" seconds="5.280000000000"/>
+      <positionHeliocentricCartesian value="0.23058424E-01   0.12661805E-01   -0.65946856E-01" uncertainty="0.12990661E-02   0.71334115E-03   0.37153158E-02"/>
+      <distanceMilkyWay value="0.69165505E-01" uncertainty="0.33630250E-02"/>
+      <distanceM31 value="0.81044140E+00" uncertainty="0.17566104E-01"/>
+    </galaxy>
+    <galaxy name="DELVE 4">
+      <alias value="DELVE J1523+2723"/>
+      <discoverySurvey value="DELVE DR2" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <rightAscensionDecimal value="230.775" uncertainty="0.001" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <declinationDecimal value="27.395" uncertainty="0.001" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <distanceModulus value="18.28" uncertainty="0.19" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <distanceHeliocentric value="0.045" uncertainty="0.004" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <radiusHalfLightAngular value="0.49" uncertaintyLow="0.12" uncertaintyHigh="0.16" comment="Half-light radius along the major axis; azimuthally averaged, 0.36 (+0.09/-0.07) arcmin." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <radiusHalfLight value="6.0e-6" uncertainty="2.0e-6" comment="Half-light radius along the major axis; azimuthally averaged, 5 +/- 1 pc." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <ellipticityProjected value="0.4" uncertainty="0.2" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <positionAngle value="152.0" uncertaintyLow="17.0" uncertaintyHigh="14.0" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <magnitudeAbsoluteV value="-0.2" uncertaintyLow="0.8" uncertaintyHigh="0.5" comment="The uncertainty does not include that of the distance." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <massStellar value="250.0" uncertaintyLow="110.0" uncertaintyHigh="230.0" technique="M/L = 2 Msun/Lsun" reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <reddening value="0.042" comment="Mean over DELVE DR2 sources within 3 arcmin." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <metallicityStellar value="-2.17" uncertainty="0.27" technique="CaT calibration" comment="Mean of six members; the brightest has [Fe/H] = -2.51 +/- 0.15. Subject to the membership caveats noted in the comment." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <metallicityDispersionStellar value="0.62" uncertaintyLow="0.19" uncertaintyHigh="0.22" technique="CaT calibration" comment="Highly significant and robust to the removal of any one star, if all the members are genuine; the range is 1.94 +/- 0.55 dex." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <velocityRadialHeliocentric value="-167.7" uncertainty="1.4" comment="Eight members from Keck/DEIMOS spectroscopy; seven, excluding a binary, used for the kinematics." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <velocityDispersionStellar value="2.5" uncertaintyLow="1.3" uncertaintyHigh="2.0" comment="Not significant (2 ln B = 0.6), and driven by one star: without it, the limit is &lt; 6.6 km/s." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <massDynamicalHalfLightRadius value="0.3e5" uncertaintyLow="0.2e5" uncertaintyHigh="0.6e5" comment="Wolf et al. (2010) estimator, from the poorly significant velocity dispersion; M_1/2/L_V,1/2 = 440 (+1220/-350) Msun/Lsun." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <properMotionRightAscension value="42.0" uncertainty="8.0" comment="Gaia DR3 mean of six spectroscopically confirmed members." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <properMotionDeclination value="-75.0" uncertainty="11.0" comment="Gaia DR3 mean of six spectroscopically confirmed members." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <properMotionRightAscension value="42.0" uncertaintyLow="9.0" uncertaintyHigh="8.0" comment="Gaia DR3 photometric and astrometric members (discovery paper)." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <properMotionDeclination value="-75.0" uncertainty="11.0" comment="Gaia DR3 photometric and astrometric members (discovery paper)." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <comment value="Classified as a likely star cluster at discovery (Cerny et al. 2023) from its small size; the large ellipticity and two distant candidate members may indicate tidal disruption. Cerny et al. (2026) find ten stars at similar velocities on an old, metal-poor isochrone, but with a large spread in CaT strength and three at large radii, so the membership is uncertain. If all members are genuine, the metallicity spread would indicate a dwarf galaxy, possibly a stripped remnant of a more massive dwarf; they classify it as ambiguous, leaning towards a galaxy. Age (13.5 Gyr) and metallicity ([Fe/H] = -1.9) were fixed in the Gemini/GMOS-N structural fit." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <classification value="ambiguous" reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <referencePrimary reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <declinationSexagesimal degrees="27.000000000000" arcminutes="23.000000000000" arcseconds="41.999999999998"/>
+      <rightAscensionSexagesimal hours="15.000000000000" minutes="23.000000000000" seconds="6.000000000001"/>
+      <positionHeliocentricCartesian value="-0.25265290E-01   -0.30950723E-01   0.20705504E-01" uncertainty="0.22458035E-02   0.27511754E-02   0.18404892E-02"/>
+      <distanceMilkyWay value="0.42303568E-01" uncertainty="0.22977100E-02"/>
+      <distanceM31 value="0.79353857E+00" uncertainty="0.17556642E-01"/>
+    </galaxy>
+    <galaxy name="DELVE 5">
+      <alias value="DELVE J1448+1728"/>
+      <discoverySurvey value="DELVE DR2" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <rightAscensionDecimal value="222.104" uncertainty="0.002" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <declinationDecimal value="17.468" uncertainty="0.001" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <distanceModulus value="17.97" uncertainty="0.17" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <distanceHeliocentric value="0.039" uncertainty="0.003" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <radiusHalfLightAngular value="0.68" uncertaintyLow="0.17" uncertaintyHigh="0.24" comment="Half-light radius along the major axis; azimuthally averaged, 0.45 (+0.12/-0.09) arcmin." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <radiusHalfLight value="8.0e-6" uncertaintyLow="2.0e-6" uncertaintyHigh="3.0e-6" comment="Half-light radius along the major axis; azimuthally averaged, 5 +/- 1 pc." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <ellipticityProjected value="0.6" uncertaintyLow="0.2" uncertaintyHigh="0.1" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <positionAngle value="77.0" uncertaintyLow="11.0" uncertaintyHigh="10.0" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <magnitudeAbsoluteV value="+0.4" uncertaintyLow="0.9" uncertaintyHigh="0.4" comment="The uncertainty does not include that of the distance." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <massStellar value="160.0" uncertaintyLow="70.0" uncertaintyHigh="160.0" technique="M/L = 2 Msun/Lsun" reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <reddening value="0.030" comment="Mean over DELVE DR2 sources within 3 arcmin." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <velocityRadialHeliocentric value="-233.5" uncertaintyLow="6.2" uncertaintyHigh="6.3" comment="Mean of three faint main-sequence turnoff members from Keck/DEIMOS spectroscopy." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <comment value="Classified as a likely star cluster at discovery (Cerny et al. 2023) from its small size; Cerny et al. (2026) find its classification unconstrained, with too few spectroscopic members for a velocity or metallicity dispersion. The discovery-paper Gaia proper motion (-1.82, -0.93 mas/yr) is not recorded: its highest-probability member, a candidate blue horizontal branch star, has a radial velocity that makes it a likely non-member, and Cerny et al. (2026) advise against using it. Likely contains no RGB stars. Age (10.0 Gyr) and metallicity ([Fe/H] = -2.2) were fixed in the Gemini/GMOS-N structural fit." reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <classification value="ambiguous" reference="Cerny, Li, Pace et al.; 2026; arXiv; arXiv:2602.17652" referenceURL="https://ui.adsabs.harvard.edu/abs/2026arXiv260217652C"/>
+      <referencePrimary reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <declinationSexagesimal degrees="17.000000000000" arcminutes="28.000000000000" arcseconds="4.800000000000"/>
+      <rightAscensionSexagesimal hours="14.000000000000" minutes="48.000000000000" seconds="24.960000000003"/>
+      <positionHeliocentricCartesian value="-0.27600877E-01   -0.24942806E-01   0.11706751E-01" uncertainty="0.21231444E-02   0.19186774E-02   0.90051929E-03"/>
+      <distanceMilkyWay value="0.36028521E-01" uncertainty="0.18997793E-02"/>
+      <distanceM31 value="0.79992804E+00" uncertainty="0.17528237E-01"/>
+    </galaxy>
+    <galaxy name="Virgo II">
+      <alias value="DELVE J1500+0554"/>
+      <discoverySurvey value="DELVE DR2" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <rightAscensionDecimal value="225.059" uncertainty="0.001" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <declinationDecimal value="5.909" uncertainty="0.001" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <distanceModulus value="19.30" uncertainty="0.22" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <distanceHeliocentric value="0.072" uncertaintyLow="0.007" uncertaintyHigh="0.008" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <radiusHalfLightAngular value="0.74" uncertaintyLow="0.11" uncertaintyHigh="0.13" comment="Azimuthally averaged, as the ellipticity is consistent with zero." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <radiusHalfLight value="16.0e-6" uncertainty="3.0e-6" comment="Azimuthally averaged, as the ellipticity is consistent with zero." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <ellipticityProjected reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C">
+        <limit value="0.3" confidenceLevel="84%" type="upper"/>
+      </ellipticityProjected>
+      <positionAngle value="131.0" uncertaintyLow="26.0" uncertaintyHigh="44.0" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <magnitudeAbsoluteV value="-1.6" uncertaintyLow="0.6" uncertaintyHigh="0.4" comment="The uncertainty does not include that of the distance." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <reddening value="0.039" comment="Mean over DELVE DR2 sources within 3 arcmin." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <comment value="Lies in the size-luminosity region where ultra-faint star clusters and dwarf galaxies overlap; its closest analogues are Draco II, Cetus II and Triangulum II. Considered consistent with an ultra-faint dwarf galaxy by the discoverers, but no spectroscopy yet exists and no Gaia proper motion signal was detected. Age (11.0 Gyr) and metallicity ([Fe/H] = -1.9) were fixed in the Gemini/GMOS-N structural fit." reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <classification value="galaxy candidate" reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <referencePrimary reference="Cerny, Martinez-Vazquez, Drlica-Wagner et al.; 2023; ApJ; 953; 1" referenceURL="https://ui.adsabs.harvard.edu/abs/2023ApJ...953....1C"/>
+      <declinationSexagesimal degrees="5.000000000000" arcminutes="54.000000000000" arcseconds="32.399999999999"/>
+      <rightAscensionSexagesimal hours="15.000000000000" minutes="0.000000000000" seconds="14.159999999999"/>
+      <positionHeliocentricCartesian value="-0.50589003E-01   -0.50693298E-01   0.74123124E-02" uncertaintyLow="0.49183753E-02   0.49285150E-02   0.72064148E-03" uncertaintyHigh="0.56210003E-02   0.56325886E-02   0.82359026E-03"/>
+      <distanceMilkyWay value="0.67331678E-01" uncertaintyLow="0.48536086E-02" uncertaintyHigh="0.55467789E-02"/>
+      <distanceM31 value="0.82473744E+00" uncertaintyLow="0.17817933E-01" uncertaintyHigh="0.17947827E-01"/>
+    </galaxy>
     <galaxy name="Bootes V">
       <alias value="Bo&#246;tes V"/>
       <alias value="DELVE J1415+3254"/>
